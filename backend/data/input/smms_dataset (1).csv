@@ -1,0 +1,181 @@
+asset_id,department,section_id,division,asset_type,defect_type,defect_severity,days_overdue,due_date,estimated_block_duration_hours,repeat_defect_count,sla_flag,asset_criticality_class,safety_risk_flag,priority_score
+SIG-SEC-01-0001,Signal & Telecom,SEC-01,Ambala,Axle Counter,Signal Aspect Failure,Major,9,2026-08-20,3.3,0,False,Trunk Route,True,54.0
+SIG-SEC-07-0002,Signal & Telecom,SEC-07,Firozpur,Signal,Point Machine Failure,Minor,2,2026-08-27,1.4,1,False,Branch Line,False,17.2
+SIG-SEC-02-0003,Signal & Telecom,SEC-02,Ambala,Cable,Cable Insulation Fault,Major,11,2026-08-18,1.3,0,False,Trunk Route,False,35.3
+SIG-SEC-03-0004,Signal & Telecom,SEC-03,Delhi,Interlocking,Cable Insulation Fault,Major,-4,2026-09-02,1.1,0,False,Trunk Route,True,48.0
+SIG-SEC-02-0005,Signal & Telecom,SEC-02,Ambala,Cable,Relay Failure,Major,13,2026-08-16,1.3,0,True,Trunk Route,False,46.7
+SIG-SEC-06-0006,Signal & Telecom,SEC-06,Moradabad,Signal,Cable Insulation Fault,Major,9,2026-08-20,3.0,2,False,Trunk Route,True,60.7
+SIG-SEC-06-0007,Signal & Telecom,SEC-06,Moradabad,Block Instrument,Level Crossing Gate Fault,Minor,-13,2026-09-11,1.5,1,False,Trunk Route,False,20.8
+SIG-SEC-07-0008,Signal & Telecom,SEC-07,Firozpur,Point Machine,Point Machine Failure,Critical,21,2026-08-08,5.9,1,True,Branch Line,True,82.3
+SIG-SEC-03-0009,Signal & Telecom,SEC-03,Delhi,Point Machine,Signal Aspect Failure,Minor,7,2026-08-22,1.0,0,False,Branch Line,False,17.2
+SIG-SEC-02-0010,Signal & Telecom,SEC-02,Ambala,Block Instrument,Level Crossing Gate Fault,Minor,-12,2026-09-10,2.0,1,False,Trunk Route,False,20.8
+SIG-SEC-02-0011,Signal & Telecom,SEC-02,Ambala,Axle Counter,Point Machine Failure,Minor,9,2026-08-20,1.2,0,False,Branch Line,False,18.5
+SIG-SEC-01-0012,Signal & Telecom,SEC-01,Ambala,Interlocking,Block Instrument Fault,Critical,23,2026-08-06,2.8,2,True,Branch Line,True,87.0
+SIG-SEC-06-0013,Signal & Telecom,SEC-06,Moradabad,Signal,Axle Counter Fault,Major,12,2026-08-17,1.2,0,False,Trunk Route,True,56.0
+SIG-SEC-05-0014,Signal & Telecom,SEC-05,Moradabad,Axle Counter,Signal Aspect Failure,Major,1,2026-08-28,1.6,0,False,Branch Line,False,23.7
+SIG-SEC-02-0015,Signal & Telecom,SEC-02,Ambala,Cable,Level Crossing Gate Fault,Critical,21,2026-08-08,4.2,2,True,Trunk Route,True,90.7
+SIG-SEC-05-0016,Signal & Telecom,SEC-05,Moradabad,Point Machine,Point Machine Failure,Major,7,2026-08-22,2.3,0,True,Trunk Route,True,62.7
+SIG-SEC-07-0017,Signal & Telecom,SEC-07,Firozpur,Interlocking,Interlocking Fault,Major,-5,2026-09-03,2.3,0,False,Trunk Route,True,48.0
+SIG-SEC-03-0018,Signal & Telecom,SEC-03,Delhi,Interlocking,Point Machine Failure,Minor,-14,2026-09-12,0.8,0,False,Branch Line,False,12.5
+SIG-SEC-08-0019,Signal & Telecom,SEC-08,Firozpur,Level Crossing Gate,Interlocking Fault,Minor,-8,2026-09-06,0.7,0,False,Trunk Route,True,37.5
+SIG-SEC-05-0020,Signal & Telecom,SEC-05,Moradabad,Block Instrument,Relay Failure,Minor,8,2026-08-21,1.2,2,False,Branch Line,False,24.5
+SIG-SEC-07-0021,Signal & Telecom,SEC-07,Firozpur,Signal,Point Machine Failure,Minor,3,2026-08-26,1.3,2,False,Trunk Route,False,26.2
+SIG-SEC-02-0022,Signal & Telecom,SEC-02,Ambala,Level Crossing Gate,Signal Aspect Failure,Minor,-8,2026-09-06,1.8,3,False,Trunk Route,False,27.5
+SIG-SEC-05-0023,Signal & Telecom,SEC-05,Moradabad,Axle Counter,Relay Failure,Critical,15,2026-08-14,6.0,0,True,Branch Line,True,75.0
+SIG-SEC-05-0024,Signal & Telecom,SEC-05,Moradabad,Axle Counter,Relay Failure,Major,5,2026-08-24,1.3,3,True,Branch Line,True,66.3
+SIG-SEC-06-0025,Signal & Telecom,SEC-06,Moradabad,Axle Counter,Axle Counter Fault,Major,2,2026-08-27,3.4,0,False,Trunk Route,False,29.3
+SIG-SEC-05-0026,Signal & Telecom,SEC-05,Moradabad,Point Machine,Interlocking Fault,Major,0,2026-08-29,1.1,1,False,Trunk Route,True,51.3
+SIG-SEC-03-0027,Signal & Telecom,SEC-03,Delhi,Axle Counter,Block Instrument Fault,Minor,1,2026-08-28,1.5,0,False,Trunk Route,False,18.2
+SIG-SEC-03-0028,Signal & Telecom,SEC-03,Delhi,Block Instrument,Block Instrument Fault,Minor,-12,2026-09-10,1.7,2,True,Branch Line,False,29.2
+SIG-SEC-05-0029,Signal & Telecom,SEC-05,Moradabad,Cable,Relay Failure,Major,-2,2026-08-31,4.0,0,True,Branch Line,True,53.0
+SIG-SEC-08-0030,Signal & Telecom,SEC-08,Firozpur,Signal,Cable Insulation Fault,Minor,-12,2026-09-10,1.3,0,False,Branch Line,True,32.5
+SIG-SEC-02-0031,Signal & Telecom,SEC-02,Ambala,Point Machine,Level Crossing Gate Fault,Minor,7,2026-08-22,0.8,0,False,Branch Line,False,17.2
+SIG-SEC-01-0032,Signal & Telecom,SEC-01,Ambala,Point Machine,Signal Aspect Failure,Critical,3,2026-08-26,3.3,1,True,Branch Line,True,70.3
+SIG-SEC-06-0033,Signal & Telecom,SEC-06,Moradabad,Signal,Axle Counter Fault,Major,8,2026-08-21,3.6,0,False,Trunk Route,False,33.3
+SIG-SEC-02-0034,Signal & Telecom,SEC-02,Ambala,Signal,Point Machine Failure,Minor,-8,2026-09-06,1.4,1,True,Branch Line,True,45.8
+SIG-SEC-05-0035,Signal & Telecom,SEC-05,Moradabad,Interlocking,Cable Insulation Fault,Critical,18,2026-08-11,4.5,3,True,Trunk Route,True,92.0
+SIG-SEC-07-0036,Signal & Telecom,SEC-07,Firozpur,Axle Counter,Block Instrument Fault,Minor,5,2026-08-24,1.7,2,False,Branch Line,False,22.5
+SIG-SEC-06-0037,Signal & Telecom,SEC-06,Moradabad,Cable,Interlocking Fault,Major,1,2026-08-28,2.8,2,False,Branch Line,False,30.3
+SIG-SEC-08-0038,Signal & Telecom,SEC-08,Firozpur,Axle Counter,Point Machine Failure,Critical,26,2026-08-03,4.3,1,True,Trunk Route,True,90.7
+SIG-SEC-08-0039,Signal & Telecom,SEC-08,Firozpur,Point Machine,Relay Failure,Critical,28,2026-08-01,2.1,0,True,Branch Line,True,83.7
+SIG-SEC-01-0040,Signal & Telecom,SEC-01,Ambala,Cable,Point Machine Failure,Major,7,2026-08-22,2.1,0,False,Trunk Route,True,52.7
+SIG-SEC-02-0041,Signal & Telecom,SEC-02,Ambala,Axle Counter,Signal Aspect Failure,Minor,-13,2026-09-11,0.6,3,False,Trunk Route,False,27.5
+SIG-SEC-06-0042,Signal & Telecom,SEC-06,Moradabad,Axle Counter,Point Machine Failure,Minor,-4,2026-09-02,1.4,0,False,Branch Line,False,12.5
+SIG-SEC-01-0043,Signal & Telecom,SEC-01,Ambala,Axle Counter,Cable Insulation Fault,Minor,-2,2026-08-31,0.6,2,True,Branch Line,False,29.2
+SIG-SEC-01-0044,Signal & Telecom,SEC-01,Ambala,Signal,Level Crossing Gate Fault,Critical,11,2026-08-18,4.6,1,True,Branch Line,True,75.7
+SIG-SEC-01-0045,Signal & Telecom,SEC-01,Ambala,Interlocking,Point Machine Failure,Minor,-12,2026-09-10,0.8,1,False,Branch Line,False,15.8
+SIG-SEC-08-0046,Signal & Telecom,SEC-08,Firozpur,Point Machine,Cable Insulation Fault,Major,-2,2026-08-31,3.9,0,False,Branch Line,False,23.0
+SIG-SEC-05-0047,Signal & Telecom,SEC-05,Moradabad,Cable,Relay Failure,Major,5,2026-08-24,2.2,2,False,Trunk Route,True,58.0
+SIG-SEC-08-0048,Signal & Telecom,SEC-08,Firozpur,Block Instrument,Signal Aspect Failure,Minor,6,2026-08-23,1.7,0,False,Branch Line,False,16.5
+SIG-SEC-01-0049,Signal & Telecom,SEC-01,Ambala,Level Crossing Gate,Level Crossing Gate Fault,Minor,-6,2026-09-04,0.5,0,False,Branch Line,False,12.5
+SIG-SEC-03-0050,Signal & Telecom,SEC-03,Delhi,Point Machine,Level Crossing Gate Fault,Major,8,2026-08-21,2.5,3,False,Branch Line,False,38.3
+SIG-SEC-05-0051,Signal & Telecom,SEC-05,Moradabad,Level Crossing Gate,Interlocking Fault,Minor,3,2026-08-26,1.6,1,True,Trunk Route,False,32.8
+SIG-SEC-02-0052,Signal & Telecom,SEC-02,Ambala,Block Instrument,Point Machine Failure,Major,3,2026-08-26,3.2,0,True,Trunk Route,True,60.0
+SIG-SEC-05-0053,Signal & Telecom,SEC-05,Moradabad,Interlocking,Interlocking Fault,Major,11,2026-08-18,2.7,1,True,Trunk Route,False,48.7
+SIG-SEC-06-0054,Signal & Telecom,SEC-06,Moradabad,Level Crossing Gate,Relay Failure,Minor,4,2026-08-25,0.6,0,False,Branch Line,False,15.2
+SIG-SEC-02-0055,Signal & Telecom,SEC-02,Ambala,Axle Counter,Interlocking Fault,Minor,0,2026-08-29,0.7,1,False,Branch Line,False,15.8
+SIG-SEC-08-0056,Signal & Telecom,SEC-08,Firozpur,Level Crossing Gate,Signal Aspect Failure,Minor,3,2026-08-26,1.5,0,False,Branch Line,False,14.5
+SIG-SEC-03-0057,Signal & Telecom,SEC-03,Delhi,Signal,Block Instrument Fault,Minor,5,2026-08-24,1.8,1,False,Branch Line,False,19.2
+SIG-SEC-06-0058,Signal & Telecom,SEC-06,Moradabad,Point Machine,Axle Counter Fault,Minor,-8,2026-09-06,1.3,1,False,Branch Line,False,15.8
+SIG-SEC-06-0059,Signal & Telecom,SEC-06,Moradabad,Level Crossing Gate,Level Crossing Gate Fault,Major,4,2026-08-25,3.7,1,False,Trunk Route,True,54.0
+SIG-SEC-02-0060,Signal & Telecom,SEC-02,Ambala,Block Instrument,Signal Aspect Failure,Major,5,2026-08-24,1.1,1,False,Trunk Route,True,54.7
+SIG-SEC-06-0061,Signal & Telecom,SEC-06,Moradabad,Point Machine,Signal Aspect Failure,Minor,0,2026-08-29,0.6,0,False,Trunk Route,False,17.5
+SIG-SEC-07-0062,Signal & Telecom,SEC-07,Firozpur,Axle Counter,Point Machine Failure,Minor,1,2026-08-28,0.6,0,False,Branch Line,False,13.2
+SIG-SEC-04-0063,Signal & Telecom,SEC-04,Delhi,Signal,Block Instrument Fault,Major,10,2026-08-19,3.7,2,False,Branch Line,False,36.3
+SIG-SEC-05-0064,Signal & Telecom,SEC-05,Moradabad,Level Crossing Gate,Signal Aspect Failure,Major,14,2026-08-15,3.7,0,False,Trunk Route,False,37.3
+SIG-SEC-04-0065,Signal & Telecom,SEC-04,Delhi,Level Crossing Gate,Point Machine Failure,Critical,15,2026-08-14,3.2,1,True,Trunk Route,True,83.3
+SIG-SEC-06-0066,Signal & Telecom,SEC-06,Moradabad,Axle Counter,Level Crossing Gate Fault,Minor,-1,2026-08-30,0.7,0,False,Trunk Route,False,17.5
+SIG-SEC-03-0067,Signal & Telecom,SEC-03,Delhi,Block Instrument,Signal Aspect Failure,Major,12,2026-08-17,1.5,0,False,Branch Line,True,51.0
+SIG-SEC-07-0068,Signal & Telecom,SEC-07,Firozpur,Interlocking,Interlocking Fault,Critical,11,2026-08-18,4.8,0,True,Branch Line,True,72.3
+SIG-SEC-06-0069,Signal & Telecom,SEC-06,Moradabad,Cable,Block Instrument Fault,Major,7,2026-08-22,3.6,0,False,Branch Line,False,27.7
+SIG-SEC-02-0070,Signal & Telecom,SEC-02,Ambala,Axle Counter,Relay Failure,Major,6,2026-08-23,3.7,0,False,Branch Line,False,27.0
+SIG-SEC-01-0071,Signal & Telecom,SEC-01,Ambala,Interlocking,Point Machine Failure,Minor,-15,2026-09-13,0.7,1,True,Trunk Route,False,30.8
+SIG-SEC-03-0072,Signal & Telecom,SEC-03,Delhi,Cable,Relay Failure,Major,1,2026-08-28,2.1,0,False,Trunk Route,True,48.7
+SIG-SEC-04-0073,Signal & Telecom,SEC-04,Delhi,Point Machine,Cable Insulation Fault,Critical,10,2026-08-19,3.0,1,True,Trunk Route,False,60.0
+SIG-SEC-05-0074,Signal & Telecom,SEC-05,Moradabad,Signal,Point Machine Failure,Minor,1,2026-08-28,1.2,1,True,Branch Line,True,46.5
+SIG-SEC-01-0075,Signal & Telecom,SEC-01,Ambala,Level Crossing Gate,Cable Insulation Fault,Minor,7,2026-08-22,1.5,1,False,Branch Line,False,20.5
+SIG-SEC-07-0076,Signal & Telecom,SEC-07,Firozpur,Cable,Relay Failure,Minor,-15,2026-09-13,2.0,0,False,Trunk Route,False,17.5
+SIG-SEC-04-0077,Signal & Telecom,SEC-04,Delhi,Point Machine,Level Crossing Gate Fault,Major,-4,2026-09-02,3.5,3,False,Branch Line,True,53.0
+SIG-SEC-04-0078,Signal & Telecom,SEC-04,Delhi,Interlocking,Block Instrument Fault,Major,14,2026-08-15,3.5,1,False,Branch Line,False,35.7
+SIG-SEC-02-0079,Signal & Telecom,SEC-02,Ambala,Point Machine,Block Instrument Fault,Minor,-1,2026-08-30,0.7,2,False,Trunk Route,False,24.2
+SIG-SEC-07-0080,Signal & Telecom,SEC-07,Firozpur,Point Machine,Signal Aspect Failure,Minor,8,2026-08-21,1.4,0,False,Branch Line,False,17.8
+SIG-SEC-04-0081,Signal & Telecom,SEC-04,Delhi,Cable,Signal Aspect Failure,Critical,14,2026-08-15,5.6,1,True,Trunk Route,True,82.7
+SIG-SEC-08-0082,Signal & Telecom,SEC-08,Firozpur,Point Machine,Cable Insulation Fault,Minor,10,2026-08-19,1.6,3,False,Trunk Route,False,34.2
+SIG-SEC-02-0083,Signal & Telecom,SEC-02,Ambala,Level Crossing Gate,Interlocking Fault,Major,7,2026-08-22,1.1,3,False,Trunk Route,False,42.7
+SIG-SEC-05-0084,Signal & Telecom,SEC-05,Moradabad,Signal,Level Crossing Gate Fault,Minor,-1,2026-08-30,0.9,0,False,Branch Line,True,32.5
+SIG-SEC-04-0085,Signal & Telecom,SEC-04,Delhi,Signal,Cable Insulation Fault,Minor,-1,2026-08-30,2.0,0,False,Trunk Route,False,17.5
+SIG-SEC-02-0086,Signal & Telecom,SEC-02,Ambala,Interlocking,Interlocking Fault,Major,4,2026-08-25,3.2,0,False,Trunk Route,False,30.7
+SIG-SEC-04-0087,Signal & Telecom,SEC-04,Delhi,Signal,Interlocking Fault,Minor,10,2026-08-19,1.0,0,False,Trunk Route,False,24.2
+SIG-SEC-08-0088,Signal & Telecom,SEC-08,Firozpur,Axle Counter,Cable Insulation Fault,Major,6,2026-08-23,2.5,1,False,Branch Line,False,30.3
+SIG-SEC-01-0089,Signal & Telecom,SEC-01,Ambala,Cable,Signal Aspect Failure,Major,-5,2026-09-03,3.5,0,False,Branch Line,False,23.0
+SIG-SEC-02-0090,Signal & Telecom,SEC-02,Ambala,Point Machine,Point Machine Failure,Critical,30,2026-07-30,3.2,1,True,Trunk Route,True,93.3
+SIG-SEC-06-0091,Signal & Telecom,SEC-06,Moradabad,Axle Counter,Level Crossing Gate Fault,Major,14,2026-08-15,1.2,2,False,Trunk Route,False,44.0
+SIG-SEC-07-0092,Signal & Telecom,SEC-07,Firozpur,Block Instrument,Signal Aspect Failure,Critical,23,2026-08-06,5.9,2,True,Branch Line,True,87.0
+SIG-SEC-01-0093,Signal & Telecom,SEC-01,Ambala,Block Instrument,Point Machine Failure,Critical,13,2026-08-16,2.6,3,True,Trunk Route,True,88.7
+SIG-SEC-05-0094,Signal & Telecom,SEC-05,Moradabad,Block Instrument,Block Instrument Fault,Minor,-10,2026-09-08,1.6,1,False,Trunk Route,False,20.8
+SIG-SEC-04-0095,Signal & Telecom,SEC-04,Delhi,Cable,Block Instrument Fault,Minor,-5,2026-09-03,0.9,0,False,Branch Line,False,12.5
+SIG-SEC-07-0096,Signal & Telecom,SEC-07,Firozpur,Point Machine,Point Machine Failure,Critical,30,2026-07-30,2.1,0,True,Branch Line,True,85.0
+SIG-SEC-02-0097,Signal & Telecom,SEC-02,Ambala,Cable,Relay Failure,Major,-3,2026-09-01,2.4,2,True,Trunk Route,False,44.7
+SIG-SEC-03-0098,Signal & Telecom,SEC-03,Delhi,Point Machine,Point Machine Failure,Critical,11,2026-08-18,4.6,0,True,Branch Line,True,72.3
+SIG-SEC-07-0099,Signal & Telecom,SEC-07,Firozpur,Level Crossing Gate,Axle Counter Fault,Minor,2,2026-08-27,1.8,0,False,Trunk Route,False,18.8
+SIG-SEC-07-0100,Signal & Telecom,SEC-07,Firozpur,Level Crossing Gate,Block Instrument Fault,Major,6,2026-08-23,4.0,1,False,Trunk Route,True,55.3
+SIG-SEC-07-0101,Signal & Telecom,SEC-07,Firozpur,Signal,Relay Failure,Minor,-12,2026-09-10,0.9,0,False,Branch Line,False,12.5
+SIG-SEC-05-0102,Signal & Telecom,SEC-05,Moradabad,Axle Counter,Level Crossing Gate Fault,Minor,-1,2026-08-30,1.8,0,False,Trunk Route,False,17.5
+SIG-SEC-01-0103,Signal & Telecom,SEC-01,Ambala,Cable,Signal Aspect Failure,Major,1,2026-08-28,3.6,0,False,Trunk Route,False,28.7
+SIG-SEC-06-0104,Signal & Telecom,SEC-06,Moradabad,Signal,Block Instrument Fault,Major,13,2026-08-16,1.9,0,False,Trunk Route,True,56.7
+SIG-SEC-06-0105,Signal & Telecom,SEC-06,Moradabad,Signal,Signal Aspect Failure,Major,7,2026-08-22,3.0,1,True,Trunk Route,True,66.0
+SIG-SEC-01-0106,Signal & Telecom,SEC-01,Ambala,Point Machine,Signal Aspect Failure,Minor,-10,2026-09-08,1.3,1,False,Branch Line,False,15.8
+SIG-SEC-05-0107,Signal & Telecom,SEC-05,Moradabad,Signal,Relay Failure,Minor,-5,2026-09-03,0.6,3,False,Trunk Route,False,27.5
+SIG-SEC-05-0108,Signal & Telecom,SEC-05,Moradabad,Interlocking,Level Crossing Gate Fault,Major,-3,2026-09-01,1.9,1,False,Branch Line,True,46.3
+SIG-SEC-06-0109,Signal & Telecom,SEC-06,Moradabad,Signal,Cable Insulation Fault,Major,10,2026-08-19,1.4,0,False,Branch Line,False,29.7
+SIG-SEC-03-0110,Signal & Telecom,SEC-03,Delhi,Cable,Interlocking Fault,Major,4,2026-08-25,3.2,2,False,Trunk Route,True,57.3
+SIG-SEC-03-0111,Signal & Telecom,SEC-03,Delhi,Signal,Cable Insulation Fault,Minor,1,2026-08-28,1.8,1,True,Branch Line,False,26.5
+SIG-SEC-08-0112,Signal & Telecom,SEC-08,Firozpur,Level Crossing Gate,Level Crossing Gate Fault,Minor,8,2026-08-21,0.9,2,True,Branch Line,False,34.5
+SIG-SEC-01-0113,Signal & Telecom,SEC-01,Ambala,Axle Counter,Block Instrument Fault,Major,-1,2026-08-30,2.3,3,False,Trunk Route,True,58.0
+SIG-SEC-08-0114,Signal & Telecom,SEC-08,Firozpur,Signal,Signal Aspect Failure,Major,5,2026-08-24,1.8,2,True,Branch Line,True,63.0
+SIG-SEC-05-0115,Signal & Telecom,SEC-05,Moradabad,Block Instrument,Relay Failure,Major,-2,2026-08-31,1.3,0,False,Trunk Route,False,28.0
+SIG-SEC-05-0116,Signal & Telecom,SEC-05,Moradabad,Axle Counter,Level Crossing Gate Fault,Minor,8,2026-08-21,1.5,1,False,Branch Line,False,21.2
+SIG-SEC-08-0117,Signal & Telecom,SEC-08,Firozpur,Interlocking,Axle Counter Fault,Minor,-13,2026-09-11,1.7,0,False,Branch Line,False,12.5
+SIG-SEC-05-0118,Signal & Telecom,SEC-05,Moradabad,Cable,Signal Aspect Failure,Critical,4,2026-08-25,2.3,1,True,Trunk Route,True,76.0
+SIG-SEC-08-0119,Signal & Telecom,SEC-08,Firozpur,Level Crossing Gate,Cable Insulation Fault,Minor,-3,2026-09-01,1.8,0,False,Trunk Route,True,37.5
+SIG-SEC-03-0120,Signal & Telecom,SEC-03,Delhi,Level Crossing Gate,Block Instrument Fault,Minor,-6,2026-09-04,0.7,0,False,Trunk Route,False,17.5
+SIG-SEC-04-0121,Signal & Telecom,SEC-04,Delhi,Level Crossing Gate,Block Instrument Fault,Critical,22,2026-08-07,4.2,1,True,Branch Line,True,83.0
+SIG-SEC-06-0122,Signal & Telecom,SEC-06,Moradabad,Block Instrument,Axle Counter Fault,Minor,-15,2026-09-13,0.5,0,False,Branch Line,False,12.5
+SIG-SEC-02-0123,Signal & Telecom,SEC-02,Ambala,Cable,Cable Insulation Fault,Critical,15,2026-08-14,3.0,1,True,Branch Line,True,78.3
+SIG-SEC-06-0124,Signal & Telecom,SEC-06,Moradabad,Axle Counter,Signal Aspect Failure,Minor,2,2026-08-27,1.7,0,False,Trunk Route,False,18.8
+SIG-SEC-01-0125,Signal & Telecom,SEC-01,Ambala,Axle Counter,Level Crossing Gate Fault,Minor,2,2026-08-27,1.9,0,False,Branch Line,False,13.8
+SIG-SEC-06-0126,Signal & Telecom,SEC-06,Moradabad,Block Instrument,Relay Failure,Major,-5,2026-09-03,3.7,0,False,Trunk Route,False,28.0
+SIG-SEC-01-0127,Signal & Telecom,SEC-01,Ambala,Axle Counter,Level Crossing Gate Fault,Minor,-14,2026-09-12,1.1,3,False,Branch Line,False,22.5
+SIG-SEC-03-0128,Signal & Telecom,SEC-03,Delhi,Level Crossing Gate,Interlocking Fault,Major,13,2026-08-16,1.7,1,False,Branch Line,False,35.0
+SIG-SEC-05-0129,Signal & Telecom,SEC-05,Moradabad,Point Machine,Relay Failure,Minor,9,2026-08-20,1.4,0,False,Trunk Route,False,23.5
+SIG-SEC-04-0130,Signal & Telecom,SEC-04,Delhi,Block Instrument,Level Crossing Gate Fault,Minor,10,2026-08-19,0.8,0,False,Trunk Route,False,24.2
+SIG-SEC-06-0131,Signal & Telecom,SEC-06,Moradabad,Cable,Cable Insulation Fault,Major,1,2026-08-28,2.2,0,False,Trunk Route,False,28.7
+SIG-SEC-07-0132,Signal & Telecom,SEC-07,Firozpur,Cable,Level Crossing Gate Fault,Major,13,2026-08-16,2.6,1,False,Trunk Route,False,40.0
+SIG-SEC-06-0133,Signal & Telecom,SEC-06,Moradabad,Level Crossing Gate,Axle Counter Fault,Critical,4,2026-08-25,2.6,2,True,Branch Line,True,74.3
+SIG-SEC-06-0134,Signal & Telecom,SEC-06,Moradabad,Signal,Axle Counter Fault,Major,13,2026-08-16,1.3,0,False,Trunk Route,False,36.7
+SIG-SEC-06-0135,Signal & Telecom,SEC-06,Moradabad,Point Machine,Cable Insulation Fault,Minor,-13,2026-09-11,1.4,1,False,Branch Line,False,15.8
+SIG-SEC-08-0136,Signal & Telecom,SEC-08,Firozpur,Block Instrument,Cable Insulation Fault,Minor,9,2026-08-20,0.9,1,False,Trunk Route,False,26.8
+SIG-SEC-01-0137,Signal & Telecom,SEC-01,Ambala,Cable,Relay Failure,Minor,3,2026-08-26,1.1,0,False,Trunk Route,False,19.5
+SIG-SEC-03-0138,Signal & Telecom,SEC-03,Delhi,Axle Counter,Point Machine Failure,Minor,7,2026-08-22,0.7,1,True,Trunk Route,False,35.5
+SIG-SEC-05-0139,Signal & Telecom,SEC-05,Moradabad,Block Instrument,Level Crossing Gate Fault,Minor,-15,2026-09-13,2.0,2,False,Trunk Route,False,24.2
+SIG-SEC-08-0140,Signal & Telecom,SEC-08,Firozpur,Axle Counter,Axle Counter Fault,Major,12,2026-08-17,3.4,1,False,Trunk Route,True,59.3
+SIG-SEC-02-0141,Signal & Telecom,SEC-02,Ambala,Level Crossing Gate,Interlocking Fault,Major,11,2026-08-18,2.3,0,False,Branch Line,False,30.3
+SIG-SEC-02-0142,Signal & Telecom,SEC-02,Ambala,Point Machine,Axle Counter Fault,Critical,19,2026-08-10,2.2,0,True,Trunk Route,False,62.7
+SIG-SEC-01-0143,Signal & Telecom,SEC-01,Ambala,Point Machine,Point Machine Failure,Critical,5,2026-08-24,2.1,0,True,Trunk Route,True,73.3
+SIG-SEC-04-0144,Signal & Telecom,SEC-04,Delhi,Signal,Axle Counter Fault,Major,7,2026-08-22,3.6,0,False,Branch Line,True,47.7
+SIG-SEC-07-0145,Signal & Telecom,SEC-07,Firozpur,Level Crossing Gate,Axle Counter Fault,Minor,1,2026-08-28,0.7,0,False,Branch Line,False,13.2
+SIG-SEC-07-0146,Signal & Telecom,SEC-07,Firozpur,Block Instrument,Signal Aspect Failure,Minor,-5,2026-09-03,0.7,0,False,Branch Line,False,12.5
+SIG-SEC-01-0147,Signal & Telecom,SEC-01,Ambala,Axle Counter,Block Instrument Fault,Minor,5,2026-08-24,1.9,1,False,Trunk Route,False,24.2
+SIG-SEC-06-0148,Signal & Telecom,SEC-06,Moradabad,Axle Counter,Relay Failure,Minor,9,2026-08-20,1.6,0,False,Branch Line,False,18.5
+SIG-SEC-02-0149,Signal & Telecom,SEC-02,Ambala,Block Instrument,Cable Insulation Fault,Minor,4,2026-08-25,1.8,0,False,Branch Line,False,15.2
+SIG-SEC-08-0150,Signal & Telecom,SEC-08,Firozpur,Cable,Axle Counter Fault,Minor,-7,2026-09-05,0.7,0,False,Branch Line,False,12.5
+SIG-SEC-05-0151,Signal & Telecom,SEC-05,Moradabad,Point Machine,Block Instrument Fault,Major,-2,2026-08-31,2.8,2,True,Trunk Route,True,64.7
+SIG-SEC-03-0152,Signal & Telecom,SEC-03,Delhi,Interlocking,Point Machine Failure,Major,5,2026-08-24,3.5,0,False,Trunk Route,False,31.3
+SIG-SEC-05-0153,Signal & Telecom,SEC-05,Moradabad,Block Instrument,Block Instrument Fault,Critical,11,2026-08-18,3.1,2,True,Branch Line,True,79.0
+SIG-SEC-03-0154,Signal & Telecom,SEC-03,Delhi,Axle Counter,Cable Insulation Fault,Minor,-13,2026-09-11,1.1,0,False,Trunk Route,False,17.5
+SIG-SEC-04-0155,Signal & Telecom,SEC-04,Delhi,Cable,Relay Failure,Major,0,2026-08-29,1.9,0,False,Branch Line,False,23.0
+SIG-SEC-06-0156,Signal & Telecom,SEC-06,Moradabad,Cable,Axle Counter Fault,Critical,19,2026-08-10,4.3,3,True,Trunk Route,True,92.7
+SIG-SEC-07-0157,Signal & Telecom,SEC-07,Firozpur,Interlocking,Block Instrument Fault,Major,10,2026-08-19,3.5,1,False,Branch Line,False,33.0
+SIG-SEC-03-0158,Signal & Telecom,SEC-03,Delhi,Cable,Relay Failure,Minor,-3,2026-09-01,0.9,3,False,Trunk Route,False,27.5
+SIG-SEC-06-0159,Signal & Telecom,SEC-06,Moradabad,Interlocking,Axle Counter Fault,Minor,3,2026-08-26,1.5,0,False,Trunk Route,False,19.5
+SIG-SEC-02-0160,Signal & Telecom,SEC-02,Ambala,Axle Counter,Relay Failure,Minor,-15,2026-09-13,0.8,0,False,Branch Line,False,12.5
+SIG-SEC-04-0161,Signal & Telecom,SEC-04,Delhi,Cable,Point Machine Failure,Major,15,2026-08-14,1.4,3,False,Branch Line,False,43.0
+SIG-SEC-02-0162,Signal & Telecom,SEC-02,Ambala,Interlocking,Signal Aspect Failure,Critical,14,2026-08-15,4.7,0,True,Branch Line,True,74.3
+SIG-SEC-02-0163,Signal & Telecom,SEC-02,Ambala,Axle Counter,Block Instrument Fault,Critical,4,2026-08-25,2.3,0,True,Branch Line,False,47.7
+SIG-SEC-05-0164,Signal & Telecom,SEC-05,Moradabad,Signal,Level Crossing Gate Fault,Major,13,2026-08-16,3.8,3,True,Trunk Route,True,76.7
+SIG-SEC-06-0165,Signal & Telecom,SEC-06,Moradabad,Level Crossing Gate,Interlocking Fault,Critical,17,2026-08-12,5.8,0,True,Branch Line,True,76.3
+SIG-SEC-05-0166,Signal & Telecom,SEC-05,Moradabad,Block Instrument,Relay Failure,Minor,-10,2026-09-08,1.2,0,False,Branch Line,False,12.5
+SIG-SEC-01-0167,Signal & Telecom,SEC-01,Ambala,Block Instrument,Signal Aspect Failure,Minor,-1,2026-08-30,1.7,2,False,Trunk Route,False,24.2
+SIG-SEC-05-0168,Signal & Telecom,SEC-05,Moradabad,Signal,Relay Failure,Minor,7,2026-08-22,1.5,0,False,Branch Line,False,17.2
+SIG-SEC-05-0169,Signal & Telecom,SEC-05,Moradabad,Level Crossing Gate,Axle Counter Fault,Minor,-11,2026-09-09,2.0,3,False,Branch Line,False,22.5
+SIG-SEC-06-0170,Signal & Telecom,SEC-06,Moradabad,Block Instrument,Block Instrument Fault,Minor,-15,2026-09-13,0.6,3,False,Trunk Route,False,27.5
+SIG-SEC-06-0171,Signal & Telecom,SEC-06,Moradabad,Cable,Point Machine Failure,Minor,-14,2026-09-12,1.9,0,False,Trunk Route,False,17.5
+SIG-SEC-08-0172,Signal & Telecom,SEC-08,Firozpur,Level Crossing Gate,Level Crossing Gate Fault,Critical,23,2026-08-06,5.3,0,True,Trunk Route,True,85.3
+SIG-SEC-07-0173,Signal & Telecom,SEC-07,Firozpur,Interlocking,Interlocking Fault,Minor,9,2026-08-20,0.9,3,False,Trunk Route,False,33.5
+SIG-SEC-01-0174,Signal & Telecom,SEC-01,Ambala,Block Instrument,Point Machine Failure,Critical,14,2026-08-15,2.8,3,True,Trunk Route,True,89.3
+SIG-SEC-04-0175,Signal & Telecom,SEC-04,Delhi,Level Crossing Gate,Axle Counter Fault,Minor,0,2026-08-29,0.5,0,False,Trunk Route,False,17.5
+SIG-SEC-06-0176,Signal & Telecom,SEC-06,Moradabad,Axle Counter,Interlocking Fault,Critical,23,2026-08-06,5.4,0,True,Branch Line,False,60.3
+SIG-SEC-03-0177,Signal & Telecom,SEC-03,Delhi,Cable,Signal Aspect Failure,Minor,1,2026-08-28,2.0,0,False,Branch Line,False,13.2
+SIG-SEC-02-0178,Signal & Telecom,SEC-02,Ambala,Axle Counter,Block Instrument Fault,Critical,16,2026-08-13,4.4,1,True,Branch Line,True,79.0
+SIG-SEC-06-0179,Signal & Telecom,SEC-06,Moradabad,Level Crossing Gate,Block Instrument Fault,Major,11,2026-08-18,2.2,1,False,Branch Line,True,53.7
+SIG-SEC-03-0180,Signal & Telecom,SEC-03,Delhi,Point Machine,Axle Counter Fault,Minor,-3,2026-09-01,1.0,1,False,Branch Line,True,35.8

@@ -1,0 +1,161 @@
+asset_id,department,section_id,division,asset_type,defect_type,defect_severity,days_overdue,due_date,estimated_block_duration_hours,repeat_defect_count,sla_flag,asset_criticality_class,safety_risk_flag,priority_score
+OHE-SEC-07-0001,Traction Distribution,SEC-07,Firozpur,Insulator,OHE Wire Wear,Major,-2,2026-08-31,2.8,2,False,Trunk Route,True,54.7
+OHE-SEC-01-0002,Traction Distribution,SEC-01,Ambala,Traction Substation,Dropper Defect,Critical,23,2026-08-06,4.3,0,True,Branch Line,False,60.3
+OHE-SEC-06-0003,Traction Distribution,SEC-06,Moradabad,Traction Substation,OHE Wire Wear,Major,4,2026-08-25,1.8,1,False,Trunk Route,False,34.0
+OHE-SEC-05-0004,Traction Distribution,SEC-05,Moradabad,Dropper,OHE Wire Wear,Minor,5,2026-08-24,0.7,0,True,Branch Line,False,25.8
+OHE-SEC-08-0005,Traction Distribution,SEC-08,Firozpur,OHE Wire,Traction Substation Fault,Major,-1,2026-08-30,1.5,0,False,Trunk Route,True,48.0
+OHE-SEC-07-0006,Traction Distribution,SEC-07,Firozpur,Dropper,Traction Substation Fault,Minor,7,2026-08-22,1.6,1,False,Branch Line,False,20.5
+OHE-SEC-08-0007,Traction Distribution,SEC-08,Firozpur,Earthing System,Traction Substation Fault,Minor,-8,2026-09-06,1.3,0,False,Branch Line,False,12.5
+OHE-SEC-01-0008,Traction Distribution,SEC-01,Ambala,Feeder,Tension Length Deviation,Major,-5,2026-09-03,1.0,0,False,Branch Line,False,23.0
+OHE-SEC-04-0009,Traction Distribution,SEC-04,Delhi,Earthing System,OHE Wire Wear,Major,-2,2026-08-31,1.9,0,False,Trunk Route,False,28.0
+OHE-SEC-08-0010,Traction Distribution,SEC-08,Firozpur,Traction Substation,Traction Substation Fault,Critical,21,2026-08-08,2.5,1,True,Trunk Route,True,87.3
+OHE-SEC-05-0011,Traction Distribution,SEC-05,Moradabad,Traction Substation,Traction Substation Fault,Minor,-13,2026-09-11,0.6,3,False,Branch Line,True,42.5
+OHE-SEC-04-0012,Traction Distribution,SEC-04,Delhi,Traction Substation,Earthing Fault,Minor,-14,2026-09-12,2.0,0,False,Branch Line,False,12.5
+OHE-SEC-06-0013,Traction Distribution,SEC-06,Moradabad,Traction Substation,Dropper Defect,Major,4,2026-08-25,2.2,0,False,Branch Line,False,25.7
+OHE-SEC-02-0014,Traction Distribution,SEC-02,Ambala,Dropper,Traction Substation Fault,Major,-1,2026-08-30,1.3,0,False,Trunk Route,False,28.0
+OHE-SEC-06-0015,Traction Distribution,SEC-06,Moradabad,Traction Substation,Earthing Fault,Minor,3,2026-08-26,0.6,0,False,Branch Line,False,14.5
+OHE-SEC-06-0016,Traction Distribution,SEC-06,Moradabad,Switching Post,Insulator Damage,Major,12,2026-08-17,2.8,3,False,Branch Line,False,41.0
+OHE-SEC-08-0017,Traction Distribution,SEC-08,Firozpur,Feeder,Dropper Defect,Major,14,2026-08-15,1.6,3,False,Trunk Route,True,67.3
+OHE-SEC-03-0018,Traction Distribution,SEC-03,Delhi,Switching Post,Traction Substation Fault,Minor,-3,2026-09-01,0.6,2,False,Branch Line,False,19.2
+OHE-SEC-08-0019,Traction Distribution,SEC-08,Firozpur,OHE Wire,Tension Length Deviation,Major,-1,2026-08-30,1.4,1,False,Trunk Route,False,31.3
+OHE-SEC-04-0020,Traction Distribution,SEC-04,Delhi,Traction Substation,Tension Length Deviation,Minor,2,2026-08-27,0.7,0,True,Trunk Route,True,48.8
+OHE-SEC-01-0021,Traction Distribution,SEC-01,Ambala,Switching Post,OHE Wire Wear,Minor,-11,2026-09-09,1.0,1,False,Trunk Route,False,20.8
+OHE-SEC-06-0022,Traction Distribution,SEC-06,Moradabad,Earthing System,Insulator Damage,Major,15,2026-08-14,3.3,0,True,Branch Line,False,43.0
+OHE-SEC-02-0023,Traction Distribution,SEC-02,Ambala,Dropper,Traction Substation Fault,Critical,6,2026-08-23,2.5,0,True,Trunk Route,True,74.0
+OHE-SEC-05-0024,Traction Distribution,SEC-05,Moradabad,Earthing System,Dropper Defect,Minor,-8,2026-09-06,1.7,2,False,Trunk Route,False,24.2
+OHE-SEC-03-0025,Traction Distribution,SEC-03,Delhi,Earthing System,Feeder Fault,Minor,-10,2026-09-08,0.8,0,False,Branch Line,False,12.5
+OHE-SEC-08-0026,Traction Distribution,SEC-08,Firozpur,Feeder,Earthing Fault,Major,9,2026-08-20,1.9,1,False,Branch Line,True,52.3
+OHE-SEC-04-0027,Traction Distribution,SEC-04,Delhi,Dropper,Feeder Fault,Major,0,2026-08-29,2.6,2,False,Branch Line,True,49.7
+OHE-SEC-01-0028,Traction Distribution,SEC-01,Ambala,Traction Substation,Feeder Fault,Minor,7,2026-08-22,1.3,0,False,Trunk Route,False,22.2
+OHE-SEC-01-0029,Traction Distribution,SEC-01,Ambala,Dropper,Dropper Defect,Critical,22,2026-08-07,3.9,1,True,Branch Line,True,83.0
+OHE-SEC-01-0030,Traction Distribution,SEC-01,Ambala,OHE Wire,Feeder Fault,Minor,-10,2026-09-08,0.6,0,False,Branch Line,False,12.5
+OHE-SEC-03-0031,Traction Distribution,SEC-03,Delhi,Feeder,Dropper Defect,Critical,2,2026-08-27,4.0,0,True,Trunk Route,True,71.3
+OHE-SEC-02-0032,Traction Distribution,SEC-02,Ambala,OHE Wire,Earthing Fault,Critical,8,2026-08-21,2.8,0,True,Branch Line,True,70.3
+OHE-SEC-01-0033,Traction Distribution,SEC-01,Ambala,OHE Wire,Tension Length Deviation,Critical,23,2026-08-06,3.7,0,True,Branch Line,True,80.3
+OHE-SEC-06-0034,Traction Distribution,SEC-06,Moradabad,OHE Wire,Earthing Fault,Major,12,2026-08-17,3.2,0,True,Trunk Route,False,46.0
+OHE-SEC-02-0035,Traction Distribution,SEC-02,Ambala,Traction Substation,Traction Substation Fault,Critical,25,2026-08-04,4.4,1,True,Branch Line,True,85.0
+OHE-SEC-01-0036,Traction Distribution,SEC-01,Ambala,Traction Substation,Dropper Defect,Major,13,2026-08-16,3.3,3,False,Trunk Route,False,46.7
+OHE-SEC-02-0037,Traction Distribution,SEC-02,Ambala,Feeder,Insulator Damage,Minor,-11,2026-09-09,1.7,2,False,Branch Line,False,19.2
+OHE-SEC-06-0038,Traction Distribution,SEC-06,Moradabad,Insulator,Dropper Defect,Critical,23,2026-08-06,3.5,0,True,Branch Line,True,80.3
+OHE-SEC-01-0039,Traction Distribution,SEC-01,Ambala,Earthing System,Tension Length Deviation,Minor,-11,2026-09-09,1.2,0,False,Trunk Route,True,37.5
+OHE-SEC-06-0040,Traction Distribution,SEC-06,Moradabad,Switching Post,Tension Length Deviation,Major,5,2026-08-24,2.1,0,False,Branch Line,False,26.3
+OHE-SEC-05-0041,Traction Distribution,SEC-05,Moradabad,Switching Post,OHE Wire Wear,Minor,-14,2026-09-12,0.7,1,False,Branch Line,False,15.8
+OHE-SEC-05-0042,Traction Distribution,SEC-05,Moradabad,Traction Substation,OHE Wire Wear,Major,4,2026-08-25,2.8,0,False,Trunk Route,False,30.7
+OHE-SEC-04-0043,Traction Distribution,SEC-04,Delhi,Traction Substation,OHE Wire Wear,Major,2,2026-08-27,1.6,2,True,Branch Line,True,61.0
+OHE-SEC-07-0044,Traction Distribution,SEC-07,Firozpur,Earthing System,Insulator Damage,Minor,9,2026-08-20,1.3,1,False,Trunk Route,False,26.8
+OHE-SEC-08-0045,Traction Distribution,SEC-08,Firozpur,Earthing System,Tension Length Deviation,Minor,-5,2026-09-03,1.0,2,False,Branch Line,False,19.2
+OHE-SEC-07-0046,Traction Distribution,SEC-07,Firozpur,Traction Substation,Feeder Fault,Major,3,2026-08-26,1.1,1,False,Trunk Route,True,53.3
+OHE-SEC-01-0047,Traction Distribution,SEC-01,Ambala,Insulator,OHE Wire Wear,Minor,5,2026-08-24,1.3,1,False,Branch Line,False,19.2
+OHE-SEC-03-0048,Traction Distribution,SEC-03,Delhi,OHE Wire,Feeder Fault,Major,8,2026-08-21,2.8,3,False,Branch Line,True,58.3
+OHE-SEC-07-0049,Traction Distribution,SEC-07,Firozpur,Feeder,Insulator Damage,Minor,-15,2026-09-13,1.6,2,False,Branch Line,False,19.2
+OHE-SEC-05-0050,Traction Distribution,SEC-05,Moradabad,Feeder,Dropper Defect,Critical,12,2026-08-17,4.4,0,True,Branch Line,True,73.0
+OHE-SEC-02-0051,Traction Distribution,SEC-02,Ambala,Earthing System,Tension Length Deviation,Minor,9,2026-08-20,0.5,0,False,Branch Line,False,18.5
+OHE-SEC-04-0052,Traction Distribution,SEC-04,Delhi,Insulator,Feeder Fault,Critical,12,2026-08-17,4.1,0,True,Trunk Route,True,78.0
+OHE-SEC-08-0053,Traction Distribution,SEC-08,Firozpur,Switching Post,Tension Length Deviation,Major,13,2026-08-16,2.0,0,False,Branch Line,False,31.7
+OHE-SEC-07-0054,Traction Distribution,SEC-07,Firozpur,Switching Post,Feeder Fault,Critical,6,2026-08-23,4.6,0,True,Trunk Route,True,74.0
+OHE-SEC-02-0055,Traction Distribution,SEC-02,Ambala,OHE Wire,Insulator Damage,Major,-1,2026-08-30,3.4,3,False,Trunk Route,False,38.0
+OHE-SEC-03-0056,Traction Distribution,SEC-03,Delhi,Switching Post,Insulator Damage,Critical,13,2026-08-16,3.9,0,True,Trunk Route,True,78.7
+OHE-SEC-01-0057,Traction Distribution,SEC-01,Ambala,Dropper,Feeder Fault,Minor,-2,2026-08-31,1.3,2,False,Trunk Route,False,24.2
+OHE-SEC-08-0058,Traction Distribution,SEC-08,Firozpur,Switching Post,Earthing Fault,Minor,8,2026-08-21,1.9,0,False,Branch Line,False,17.8
+OHE-SEC-02-0059,Traction Distribution,SEC-02,Ambala,Switching Post,Earthing Fault,Major,2,2026-08-27,1.1,0,False,Branch Line,False,24.3
+OHE-SEC-08-0060,Traction Distribution,SEC-08,Firozpur,Insulator,Feeder Fault,Minor,-15,2026-09-13,1.3,0,False,Trunk Route,False,17.5
+OHE-SEC-03-0061,Traction Distribution,SEC-03,Delhi,Dropper,Feeder Fault,Major,-4,2026-09-02,1.7,0,False,Trunk Route,True,48.0
+OHE-SEC-07-0062,Traction Distribution,SEC-07,Firozpur,Earthing System,Traction Substation Fault,Minor,-3,2026-09-01,2.0,0,False,Trunk Route,False,17.5
+OHE-SEC-04-0063,Traction Distribution,SEC-04,Delhi,OHE Wire,Tension Length Deviation,Minor,8,2026-08-21,0.6,0,False,Trunk Route,False,22.8
+OHE-SEC-01-0064,Traction Distribution,SEC-01,Ambala,Feeder,Insulator Damage,Major,15,2026-08-14,2.6,1,False,Branch Line,False,36.3
+OHE-SEC-03-0065,Traction Distribution,SEC-03,Delhi,OHE Wire,Traction Substation Fault,Critical,20,2026-08-09,4.1,0,True,Trunk Route,True,83.3
+OHE-SEC-05-0066,Traction Distribution,SEC-05,Moradabad,Traction Substation,Earthing Fault,Major,-3,2026-09-01,2.8,1,False,Trunk Route,False,31.3
+OHE-SEC-07-0067,Traction Distribution,SEC-07,Firozpur,Switching Post,Traction Substation Fault,Minor,8,2026-08-21,1.1,0,False,Trunk Route,False,22.8
+OHE-SEC-04-0068,Traction Distribution,SEC-04,Delhi,Earthing System,Insulator Damage,Critical,23,2026-08-06,2.9,2,True,Branch Line,True,87.0
+OHE-SEC-04-0069,Traction Distribution,SEC-04,Delhi,Dropper,Insulator Damage,Minor,9,2026-08-20,1.0,2,False,Branch Line,False,25.2
+OHE-SEC-08-0070,Traction Distribution,SEC-08,Firozpur,OHE Wire,Feeder Fault,Minor,-11,2026-09-09,1.4,0,True,Trunk Route,False,27.5
+OHE-SEC-06-0071,Traction Distribution,SEC-06,Moradabad,Dropper,Tension Length Deviation,Critical,14,2026-08-15,3.3,2,True,Branch Line,True,81.0
+OHE-SEC-07-0072,Traction Distribution,SEC-07,Firozpur,Dropper,Dropper Defect,Major,11,2026-08-18,3.3,1,True,Branch Line,True,63.7
+OHE-SEC-08-0073,Traction Distribution,SEC-08,Firozpur,Dropper,Traction Substation Fault,Minor,-2,2026-08-31,1.7,0,False,Trunk Route,False,17.5
+OHE-SEC-03-0074,Traction Distribution,SEC-03,Delhi,Traction Substation,Tension Length Deviation,Minor,-12,2026-09-10,1.7,0,False,Trunk Route,False,17.5
+OHE-SEC-08-0075,Traction Distribution,SEC-08,Firozpur,Earthing System,Dropper Defect,Minor,0,2026-08-29,1.5,1,False,Branch Line,False,15.8
+OHE-SEC-01-0076,Traction Distribution,SEC-01,Ambala,Earthing System,Dropper Defect,Minor,-13,2026-09-11,1.3,1,False,Trunk Route,False,20.8
+OHE-SEC-03-0077,Traction Distribution,SEC-03,Delhi,OHE Wire,Insulator Damage,Minor,-10,2026-09-08,1.0,1,True,Trunk Route,False,30.8
+OHE-SEC-05-0078,Traction Distribution,SEC-05,Moradabad,Insulator,OHE Wire Wear,Major,7,2026-08-22,3.3,1,False,Branch Line,False,31.0
+OHE-SEC-06-0079,Traction Distribution,SEC-06,Moradabad,Dropper,Earthing Fault,Major,6,2026-08-23,2.0,3,False,Trunk Route,False,42.0
+OHE-SEC-03-0080,Traction Distribution,SEC-03,Delhi,Dropper,OHE Wire Wear,Major,1,2026-08-28,1.4,1,False,Branch Line,False,27.0
+OHE-SEC-04-0081,Traction Distribution,SEC-04,Delhi,Traction Substation,Feeder Fault,Major,15,2026-08-14,1.1,1,False,Trunk Route,False,41.3
+OHE-SEC-03-0082,Traction Distribution,SEC-03,Delhi,Dropper,OHE Wire Wear,Minor,-2,2026-08-31,0.8,0,False,Trunk Route,False,17.5
+OHE-SEC-05-0083,Traction Distribution,SEC-05,Moradabad,Earthing System,OHE Wire Wear,Major,8,2026-08-21,2.0,0,False,Trunk Route,False,33.3
+OHE-SEC-06-0084,Traction Distribution,SEC-06,Moradabad,Insulator,Insulator Damage,Major,12,2026-08-17,2.6,2,False,Trunk Route,True,62.7
+OHE-SEC-02-0085,Traction Distribution,SEC-02,Ambala,Feeder,OHE Wire Wear,Minor,6,2026-08-23,0.9,0,False,Branch Line,False,16.5
+OHE-SEC-01-0086,Traction Distribution,SEC-01,Ambala,Traction Substation,Feeder Fault,Critical,5,2026-08-24,3.4,0,True,Branch Line,True,68.3
+OHE-SEC-03-0087,Traction Distribution,SEC-03,Delhi,Feeder,Insulator Damage,Minor,-9,2026-09-07,1.4,0,True,Branch Line,True,42.5
+OHE-SEC-05-0088,Traction Distribution,SEC-05,Moradabad,OHE Wire,Dropper Defect,Critical,17,2026-08-12,4.3,2,True,Trunk Route,True,88.0
+OHE-SEC-06-0089,Traction Distribution,SEC-06,Moradabad,Dropper,Dropper Defect,Critical,25,2026-08-04,2.8,0,True,Trunk Route,True,86.7
+OHE-SEC-03-0090,Traction Distribution,SEC-03,Delhi,Traction Substation,Feeder Fault,Major,9,2026-08-20,1.5,0,False,Trunk Route,False,34.0
+OHE-SEC-05-0091,Traction Distribution,SEC-05,Moradabad,OHE Wire,Dropper Defect,Major,7,2026-08-22,3.2,0,False,Trunk Route,True,52.7
+OHE-SEC-01-0092,Traction Distribution,SEC-01,Ambala,Traction Substation,Insulator Damage,Major,15,2026-08-14,2.0,1,False,Branch Line,True,56.3
+OHE-SEC-07-0093,Traction Distribution,SEC-07,Firozpur,Switching Post,OHE Wire Wear,Major,4,2026-08-25,1.4,0,False,Trunk Route,False,30.7
+OHE-SEC-02-0094,Traction Distribution,SEC-02,Ambala,OHE Wire,Insulator Damage,Minor,-10,2026-09-08,1.5,3,False,Branch Line,False,22.5
+OHE-SEC-08-0095,Traction Distribution,SEC-08,Firozpur,OHE Wire,Earthing Fault,Critical,19,2026-08-10,4.9,0,True,Trunk Route,True,82.7
+OHE-SEC-03-0096,Traction Distribution,SEC-03,Delhi,OHE Wire,Traction Substation Fault,Minor,2,2026-08-27,1.4,1,False,Trunk Route,False,22.2
+OHE-SEC-03-0097,Traction Distribution,SEC-03,Delhi,Switching Post,Insulator Damage,Critical,19,2026-08-10,5.0,0,True,Branch Line,True,77.7
+OHE-SEC-06-0098,Traction Distribution,SEC-06,Moradabad,Feeder,Dropper Defect,Major,6,2026-08-23,2.5,1,False,Trunk Route,False,35.3
+OHE-SEC-06-0099,Traction Distribution,SEC-06,Moradabad,Feeder,OHE Wire Wear,Minor,9,2026-08-20,0.6,1,False,Trunk Route,False,26.8
+OHE-SEC-02-0100,Traction Distribution,SEC-02,Ambala,Dropper,Feeder Fault,Major,10,2026-08-19,2.4,1,False,Branch Line,False,33.0
+OHE-SEC-02-0101,Traction Distribution,SEC-02,Ambala,Feeder,Insulator Damage,Major,1,2026-08-28,1.1,0,False,Trunk Route,True,48.7
+OHE-SEC-06-0102,Traction Distribution,SEC-06,Moradabad,Feeder,Traction Substation Fault,Minor,-1,2026-08-30,1.0,0,True,Trunk Route,False,27.5
+OHE-SEC-03-0103,Traction Distribution,SEC-03,Delhi,Switching Post,Insulator Damage,Minor,-14,2026-09-12,1.0,1,False,Branch Line,False,15.8
+OHE-SEC-07-0104,Traction Distribution,SEC-07,Firozpur,Earthing System,Feeder Fault,Major,-2,2026-08-31,1.2,0,False,Branch Line,True,43.0
+OHE-SEC-07-0105,Traction Distribution,SEC-07,Firozpur,OHE Wire,Feeder Fault,Critical,15,2026-08-14,4.1,0,True,Trunk Route,True,80.0
+OHE-SEC-03-0106,Traction Distribution,SEC-03,Delhi,OHE Wire,Tension Length Deviation,Critical,20,2026-08-09,4.4,0,True,Branch Line,True,78.3
+OHE-SEC-07-0107,Traction Distribution,SEC-07,Firozpur,Insulator,Feeder Fault,Minor,-12,2026-09-10,0.7,1,False,Branch Line,False,15.8
+OHE-SEC-04-0108,Traction Distribution,SEC-04,Delhi,Traction Substation,Insulator Damage,Minor,6,2026-08-23,1.7,0,False,Trunk Route,False,21.5
+OHE-SEC-02-0109,Traction Distribution,SEC-02,Ambala,Dropper,Earthing Fault,Minor,-9,2026-09-07,1.8,0,False,Trunk Route,False,17.5
+OHE-SEC-02-0110,Traction Distribution,SEC-02,Ambala,Switching Post,Feeder Fault,Minor,-5,2026-09-03,1.3,0,False,Trunk Route,False,17.5
+OHE-SEC-04-0111,Traction Distribution,SEC-04,Delhi,Dropper,Earthing Fault,Critical,16,2026-08-13,4.8,0,True,Branch Line,True,75.7
+OHE-SEC-04-0112,Traction Distribution,SEC-04,Delhi,OHE Wire,Earthing Fault,Minor,-10,2026-09-08,0.9,0,True,Trunk Route,False,27.5
+OHE-SEC-04-0113,Traction Distribution,SEC-04,Delhi,Switching Post,Feeder Fault,Major,0,2026-08-29,1.4,0,False,Branch Line,True,43.0
+OHE-SEC-06-0114,Traction Distribution,SEC-06,Moradabad,OHE Wire,Traction Substation Fault,Critical,21,2026-08-08,2.9,1,True,Trunk Route,False,67.3
+OHE-SEC-05-0115,Traction Distribution,SEC-05,Moradabad,Insulator,Insulator Damage,Minor,-15,2026-09-13,0.5,0,False,Trunk Route,False,17.5
+OHE-SEC-04-0116,Traction Distribution,SEC-04,Delhi,Switching Post,Feeder Fault,Critical,11,2026-08-18,3.8,2,True,Branch Line,True,79.0
+OHE-SEC-02-0117,Traction Distribution,SEC-02,Ambala,Switching Post,Tension Length Deviation,Major,-3,2026-09-01,1.2,0,False,Trunk Route,False,28.0
+OHE-SEC-06-0118,Traction Distribution,SEC-06,Moradabad,Feeder,Earthing Fault,Critical,5,2026-08-24,4.9,1,True,Branch Line,True,71.7
+OHE-SEC-03-0119,Traction Distribution,SEC-03,Delhi,Traction Substation,Dropper Defect,Minor,6,2026-08-23,1.1,1,True,Branch Line,False,29.8
+OHE-SEC-01-0120,Traction Distribution,SEC-01,Ambala,Traction Substation,Earthing Fault,Major,1,2026-08-28,3.0,0,False,Branch Line,True,43.7
+OHE-SEC-06-0121,Traction Distribution,SEC-06,Moradabad,Dropper,Traction Substation Fault,Major,14,2026-08-15,3.1,0,False,Branch Line,False,32.3
+OHE-SEC-01-0122,Traction Distribution,SEC-01,Ambala,Switching Post,Dropper Defect,Major,-2,2026-08-31,3.2,0,False,Branch Line,False,23.0
+OHE-SEC-05-0123,Traction Distribution,SEC-05,Moradabad,OHE Wire,Insulator Damage,Critical,22,2026-08-07,4.9,2,True,Branch Line,True,86.3
+OHE-SEC-01-0124,Traction Distribution,SEC-01,Ambala,Switching Post,Earthing Fault,Major,10,2026-08-19,1.7,0,False,Trunk Route,True,54.7
+OHE-SEC-05-0125,Traction Distribution,SEC-05,Moradabad,Feeder,Dropper Defect,Minor,4,2026-08-25,1.0,0,False,Trunk Route,False,20.2
+OHE-SEC-08-0126,Traction Distribution,SEC-08,Firozpur,Switching Post,OHE Wire Wear,Critical,18,2026-08-11,2.7,0,True,Trunk Route,False,62.0
+OHE-SEC-06-0127,Traction Distribution,SEC-06,Moradabad,Feeder,OHE Wire Wear,Minor,-3,2026-09-01,1.0,1,False,Trunk Route,False,20.8
+OHE-SEC-01-0128,Traction Distribution,SEC-01,Ambala,OHE Wire,Feeder Fault,Critical,12,2026-08-17,2.8,0,True,Branch Line,True,73.0
+OHE-SEC-08-0129,Traction Distribution,SEC-08,Firozpur,OHE Wire,Dropper Defect,Minor,-7,2026-09-05,1.7,0,False,Trunk Route,False,17.5
+OHE-SEC-06-0130,Traction Distribution,SEC-06,Moradabad,OHE Wire,OHE Wire Wear,Critical,11,2026-08-18,4.5,0,True,Branch Line,True,72.3
+OHE-SEC-05-0131,Traction Distribution,SEC-05,Moradabad,Earthing System,Earthing Fault,Major,11,2026-08-18,1.8,3,False,Trunk Route,True,65.3
+OHE-SEC-02-0132,Traction Distribution,SEC-02,Ambala,Feeder,Dropper Defect,Major,-5,2026-09-03,1.4,0,True,Branch Line,True,53.0
+OHE-SEC-04-0133,Traction Distribution,SEC-04,Delhi,Dropper,Earthing Fault,Minor,-1,2026-08-30,1.8,2,False,Trunk Route,False,24.2
+OHE-SEC-04-0134,Traction Distribution,SEC-04,Delhi,Insulator,Tension Length Deviation,Major,13,2026-08-16,2.6,1,False,Trunk Route,True,60.0
+OHE-SEC-08-0135,Traction Distribution,SEC-08,Firozpur,Feeder,Tension Length Deviation,Major,9,2026-08-20,2.5,0,False,Trunk Route,True,54.0
+OHE-SEC-07-0136,Traction Distribution,SEC-07,Firozpur,Earthing System,OHE Wire Wear,Minor,6,2026-08-23,1.3,0,False,Trunk Route,True,41.5
+OHE-SEC-06-0137,Traction Distribution,SEC-06,Moradabad,Feeder,Earthing Fault,Major,6,2026-08-23,2.8,0,False,Trunk Route,False,32.0
+OHE-SEC-08-0138,Traction Distribution,SEC-08,Firozpur,Traction Substation,Dropper Defect,Major,15,2026-08-14,2.9,1,True,Trunk Route,False,51.3
+OHE-SEC-07-0139,Traction Distribution,SEC-07,Firozpur,Feeder,Tension Length Deviation,Major,14,2026-08-15,3.4,0,False,Branch Line,True,52.3
+OHE-SEC-07-0140,Traction Distribution,SEC-07,Firozpur,Switching Post,Feeder Fault,Major,-5,2026-09-03,1.0,2,False,Trunk Route,False,34.7
+OHE-SEC-04-0141,Traction Distribution,SEC-04,Delhi,Traction Substation,Dropper Defect,Minor,5,2026-08-24,1.7,0,False,Trunk Route,False,20.8
+OHE-SEC-03-0142,Traction Distribution,SEC-03,Delhi,Dropper,Dropper Defect,Major,6,2026-08-23,1.8,3,False,Branch Line,True,57.0
+OHE-SEC-08-0143,Traction Distribution,SEC-08,Firozpur,Dropper,Insulator Damage,Major,2,2026-08-27,2.2,2,False,Branch Line,True,51.0
+OHE-SEC-05-0144,Traction Distribution,SEC-05,Moradabad,Insulator,Tension Length Deviation,Minor,-10,2026-09-08,1.4,0,False,Trunk Route,False,17.5
+OHE-SEC-04-0145,Traction Distribution,SEC-04,Delhi,Feeder,Insulator Damage,Major,7,2026-08-22,3.3,0,False,Trunk Route,False,32.7
+OHE-SEC-03-0146,Traction Distribution,SEC-03,Delhi,Dropper,Traction Substation Fault,Critical,23,2026-08-06,3.1,0,True,Branch Line,True,80.3
+OHE-SEC-05-0147,Traction Distribution,SEC-05,Moradabad,Traction Substation,Traction Substation Fault,Major,-4,2026-09-02,2.6,3,False,Trunk Route,True,58.0
+OHE-SEC-05-0148,Traction Distribution,SEC-05,Moradabad,Insulator,OHE Wire Wear,Minor,5,2026-08-24,1.6,0,True,Trunk Route,False,30.8
+OHE-SEC-07-0149,Traction Distribution,SEC-07,Firozpur,Switching Post,Tension Length Deviation,Major,10,2026-08-19,1.4,0,False,Trunk Route,False,34.7
+OHE-SEC-04-0150,Traction Distribution,SEC-04,Delhi,Dropper,OHE Wire Wear,Critical,7,2026-08-22,2.7,0,True,Branch Line,True,69.7
+OHE-SEC-07-0151,Traction Distribution,SEC-07,Firozpur,Earthing System,Feeder Fault,Minor,-10,2026-09-08,1.1,0,True,Trunk Route,False,27.5
+OHE-SEC-02-0152,Traction Distribution,SEC-02,Ambala,Feeder,Dropper Defect,Critical,17,2026-08-12,4.6,1,True,Trunk Route,True,84.7
+OHE-SEC-01-0153,Traction Distribution,SEC-01,Ambala,Earthing System,Insulator Damage,Major,9,2026-08-20,1.6,1,False,Branch Line,False,32.3
+OHE-SEC-03-0154,Traction Distribution,SEC-03,Delhi,Feeder,Earthing Fault,Major,8,2026-08-21,2.4,2,False,Branch Line,True,55.0
+OHE-SEC-02-0155,Traction Distribution,SEC-02,Ambala,Traction Substation,OHE Wire Wear,Minor,-2,2026-08-31,1.7,1,False,Branch Line,True,35.8
+OHE-SEC-04-0156,Traction Distribution,SEC-04,Delhi,Insulator,OHE Wire Wear,Minor,3,2026-08-26,1.0,0,False,Branch Line,False,14.5
+OHE-SEC-01-0157,Traction Distribution,SEC-01,Ambala,Switching Post,Earthing Fault,Major,8,2026-08-21,2.8,0,False,Branch Line,False,28.3
+OHE-SEC-01-0158,Traction Distribution,SEC-01,Ambala,Earthing System,Tension Length Deviation,Minor,-12,2026-09-10,1.9,1,False,Trunk Route,False,20.8
+OHE-SEC-01-0159,Traction Distribution,SEC-01,Ambala,Dropper,Feeder Fault,Major,15,2026-08-14,1.6,1,False,Trunk Route,True,61.3
+OHE-SEC-08-0160,Traction Distribution,SEC-08,Firozpur,Insulator,Traction Substation Fault,Minor,-4,2026-09-02,0.7,0,False,Branch Line,False,12.5
