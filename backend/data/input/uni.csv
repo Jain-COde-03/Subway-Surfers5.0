@@ -1,458 +1,458 @@
 asset_id,department,section_id,division,asset_type,defect_type,defect_severity,days_overdue,due_date,estimated_block_duration_hours,repeat_defect_count,sla_flag,asset_criticality_class,safety_risk_flag,priority_score,source_system
-SIG-SEC-02-0090,Signal & Telecom,SEC-02,Ambala,Point Machine,Point Machine Failure,Critical,30,2026-07-30,3.2,1,True,Trunk Route,True,93.3,SMMS
-TRK-SEC-01-0200,Engineering,SEC-01,Ambala,Rail,Rail Wear,Critical,35,2026-07-25,6.0,1,True,Trunk Route,True,93.3,TMS
-TRK-SEC-07-0002,Engineering,SEC-07,Firozpur,Track Geometry,Track Geometry - Twist,Critical,19,2026-08-10,4.4,3,True,Trunk Route,True,92.7,TMS
-SIG-SEC-06-0156,Signal & Telecom,SEC-06,Moradabad,Cable,Axle Counter Fault,Critical,19,2026-08-10,4.3,3,True,Trunk Route,True,92.7,SMMS
-SIG-SEC-05-0035,Signal & Telecom,SEC-05,Moradabad,Interlocking,Cable Insulation Fault,Critical,18,2026-08-11,4.5,3,True,Trunk Route,True,92.0,SMMS
-TRK-SEC-02-0187,Engineering,SEC-02,Ambala,Track Geometry,Weld Defect,Critical,35,2026-07-25,5.6,2,True,Branch Line,True,91.7,TMS
-SIG-SEC-02-0015,Signal & Telecom,SEC-02,Ambala,Cable,Level Crossing Gate Fault,Critical,21,2026-08-08,4.2,2,True,Trunk Route,True,90.7,SMMS
-SIG-SEC-08-0038,Signal & Telecom,SEC-08,Firozpur,Axle Counter,Point Machine Failure,Critical,26,2026-08-03,4.3,1,True,Trunk Route,True,90.7,SMMS
-TRK-SEC-03-0165,Engineering,SEC-03,Delhi,Formation,Formation/Subgrade Defect,Critical,35,2026-07-25,5.1,0,True,Trunk Route,True,90.0,TMS
-TRK-SEC-07-0196,Engineering,SEC-07,Firozpur,Formation,Weld Defect,Critical,40,2026-07-20,5.5,0,True,Trunk Route,True,90.0,TMS
-TRK-SEC-06-0169,Engineering,SEC-06,Moradabad,Formation,Formation/Subgrade Defect,Critical,37,2026-07-23,6.1,0,True,Trunk Route,True,90.0,TMS
-SIG-SEC-01-0174,Signal & Telecom,SEC-01,Ambala,Block Instrument,Point Machine Failure,Critical,14,2026-08-15,2.8,3,True,Trunk Route,True,89.3,SMMS
-TRK-SEC-01-0204,Engineering,SEC-01,Ambala,Weld,Track Geometry - Unevenness,Critical,26,2026-08-03,4.5,2,True,Branch Line,True,89.0,TMS
-TRK-SEC-01-0180,Engineering,SEC-01,Ambala,Track Geometry,Track Geometry - Unevenness,Critical,28,2026-08-01,4.9,0,True,Trunk Route,True,88.7,TMS
-SIG-SEC-01-0093,Signal & Telecom,SEC-01,Ambala,Block Instrument,Point Machine Failure,Critical,13,2026-08-16,2.6,3,True,Trunk Route,True,88.7,SMMS
-TRK-SEC-05-0076,Engineering,SEC-05,Moradabad,Formation,Weld Defect,Critical,23,2026-08-06,4.2,1,True,Trunk Route,True,88.7,TMS
-TRK-SEC-08-0010,Engineering,SEC-08,Firozpur,Track Geometry,Rail Wear,Critical,40,2026-07-20,4.6,1,True,Branch Line,True,88.3,TMS
-OHE-SEC-05-0088,Traction Distribution,SEC-05,Moradabad,OHE Wire,Dropper Defect,Critical,17,2026-08-12,4.3,2,True,Trunk Route,True,88.0,TDMS
-OHE-SEC-08-0010,Traction Distribution,SEC-08,Firozpur,Traction Substation,Traction Substation Fault,Critical,21,2026-08-08,2.5,1,True,Trunk Route,True,87.3,TDMS
-SIG-SEC-07-0092,Signal & Telecom,SEC-07,Firozpur,Block Instrument,Signal Aspect Failure,Critical,23,2026-08-06,5.9,2,True,Branch Line,True,87.0,SMMS
-OHE-SEC-04-0068,Traction Distribution,SEC-04,Delhi,Earthing System,Insulator Damage,Critical,23,2026-08-06,2.9,2,True,Branch Line,True,87.0,TDMS
-SIG-SEC-01-0012,Signal & Telecom,SEC-01,Ambala,Interlocking,Block Instrument Fault,Critical,23,2026-08-06,2.8,2,True,Branch Line,True,87.0,SMMS
-OHE-SEC-06-0089,Traction Distribution,SEC-06,Moradabad,Dropper,Dropper Defect,Critical,25,2026-08-04,2.8,0,True,Trunk Route,True,86.7,TDMS
-OHE-SEC-05-0123,Traction Distribution,SEC-05,Moradabad,OHE Wire,Insulator Damage,Critical,22,2026-08-07,4.9,2,True,Branch Line,True,86.3,TDMS
-TRK-SEC-04-0021,Engineering,SEC-04,Delhi,Rail,Weld Defect,Critical,27,2026-08-02,6.6,1,True,Branch Line,True,86.3,TMS
-SIG-SEC-08-0172,Signal & Telecom,SEC-08,Firozpur,Level Crossing Gate,Level Crossing Gate Fault,Critical,23,2026-08-06,5.3,0,True,Trunk Route,True,85.3,SMMS
+TRK-SEC-01-0200,Engineering,SEC-01,Ambala,Rail,Rail Wear,Critical,35,2026-07-25,6.0,1,True,Trunk Route,True,92.8,TMS
+SIG-SEC-02-0090,Signal & Telecom,SEC-02,Ambala,Point Machine,Point Machine Failure,Critical,30,2026-07-30,3.2,1,True,Trunk Route,True,91.8,SMMS
+TRK-SEC-07-0002,Engineering,SEC-07,Firozpur,Track Geometry,Track Geometry - Twist,Critical,19,2026-08-10,4.4,3,True,Trunk Route,True,91.5,TMS
+SIG-SEC-06-0156,Signal & Telecom,SEC-06,Moradabad,Cable,Axle Counter Fault,Critical,19,2026-08-10,4.3,3,True,Trunk Route,True,91.5,SMMS
+SIG-SEC-05-0035,Signal & Telecom,SEC-05,Moradabad,Interlocking,Cable Insulation Fault,Critical,18,2026-08-11,4.5,3,True,Trunk Route,True,91.0,SMMS
+TRK-SEC-02-0187,Engineering,SEC-02,Ambala,Track Geometry,Weld Defect,Critical,35,2026-07-25,5.6,2,True,Branch Line,True,90.5,TMS
+SIG-SEC-08-0038,Signal & Telecom,SEC-08,Firozpur,Axle Counter,Point Machine Failure,Critical,26,2026-08-03,4.3,1,True,Trunk Route,True,90.1,SMMS
+TRK-SEC-03-0165,Engineering,SEC-03,Delhi,Formation,Formation/Subgrade Defect,Critical,35,2026-07-25,5.1,0,True,Trunk Route,True,89.5,TMS
+TRK-SEC-06-0169,Engineering,SEC-06,Moradabad,Formation,Formation/Subgrade Defect,Critical,37,2026-07-23,6.1,0,True,Trunk Route,True,89.5,TMS
+TRK-SEC-07-0196,Engineering,SEC-07,Firozpur,Formation,Weld Defect,Critical,40,2026-07-20,5.5,0,True,Trunk Route,True,89.4,TMS
+TRK-SEC-08-0010,Engineering,SEC-08,Firozpur,Track Geometry,Rail Wear,Critical,40,2026-07-20,4.6,1,True,Branch Line,True,88.4,TMS
+SIG-SEC-01-0174,Signal & Telecom,SEC-01,Ambala,Block Instrument,Point Machine Failure,Critical,14,2026-08-15,2.8,3,True,Trunk Route,True,88.4,SMMS
+SIG-SEC-02-0015,Signal & Telecom,SEC-02,Ambala,Cable,Level Crossing Gate Fault,Critical,21,2026-08-08,4.2,2,True,Trunk Route,True,88.2,SMMS
+TRK-SEC-01-0180,Engineering,SEC-01,Ambala,Track Geometry,Track Geometry - Unevenness,Critical,28,2026-08-01,4.9,0,True,Trunk Route,True,88.0,TMS
+TRK-SEC-01-0204,Engineering,SEC-01,Ambala,Weld,Track Geometry - Unevenness,Critical,26,2026-08-03,4.5,2,True,Branch Line,True,88.0,TMS
+SIG-SEC-01-0093,Signal & Telecom,SEC-01,Ambala,Block Instrument,Point Machine Failure,Critical,13,2026-08-16,2.6,3,True,Trunk Route,True,87.6,SMMS
+TRK-SEC-05-0076,Engineering,SEC-05,Moradabad,Formation,Weld Defect,Critical,23,2026-08-06,4.2,1,True,Trunk Route,True,87.3,TMS
+OHE-SEC-08-0010,Traction Distribution,SEC-08,Firozpur,Traction Substation,Traction Substation Fault,Critical,21,2026-08-08,2.5,1,True,Trunk Route,True,87.1,TDMS
+SIG-SEC-01-0012,Signal & Telecom,SEC-01,Ambala,Interlocking,Block Instrument Fault,Critical,23,2026-08-06,2.8,2,True,Branch Line,True,86.9,SMMS
+OHE-SEC-04-0068,Traction Distribution,SEC-04,Delhi,Earthing System,Insulator Damage,Critical,23,2026-08-06,2.9,2,True,Branch Line,True,86.9,TDMS
+SIG-SEC-07-0092,Signal & Telecom,SEC-07,Firozpur,Block Instrument,Signal Aspect Failure,Critical,23,2026-08-06,5.9,2,True,Branch Line,True,86.9,SMMS
+OHE-SEC-05-0088,Traction Distribution,SEC-05,Moradabad,OHE Wire,Dropper Defect,Critical,17,2026-08-12,4.3,2,True,Trunk Route,True,86.7,TDMS
+OHE-SEC-06-0089,Traction Distribution,SEC-06,Moradabad,Dropper,Dropper Defect,Critical,25,2026-08-04,2.8,0,True,Trunk Route,True,86.4,TDMS
+TRK-SEC-04-0021,Engineering,SEC-04,Delhi,Rail,Weld Defect,Critical,27,2026-08-02,6.6,1,True,Branch Line,True,86.4,TMS
+OHE-SEC-05-0123,Traction Distribution,SEC-05,Moradabad,OHE Wire,Insulator Damage,Critical,22,2026-08-07,4.9,2,True,Branch Line,True,86.0,TDMS
+TRK-SEC-05-0167,Engineering,SEC-05,Moradabad,Track Geometry,Rail Fracture,Critical,34,2026-07-26,5.0,0,True,Branch Line,True,85.7,TMS
+OHE-SEC-02-0035,Traction Distribution,SEC-02,Ambala,Traction Substation,Traction Substation Fault,Critical,25,2026-08-04,4.4,1,True,Branch Line,True,85.4,TDMS
 SIG-SEC-07-0096,Signal & Telecom,SEC-07,Firozpur,Point Machine,Point Machine Failure,Critical,30,2026-07-30,2.1,0,True,Branch Line,True,85.0,SMMS
 TRK-SEC-08-0058,Engineering,SEC-08,Firozpur,Weld,Rail Fracture,Critical,30,2026-07-30,5.3,0,True,Branch Line,True,85.0,TMS
-OHE-SEC-02-0035,Traction Distribution,SEC-02,Ambala,Traction Substation,Traction Substation Fault,Critical,25,2026-08-04,4.4,1,True,Branch Line,True,85.0,TDMS
-TRK-SEC-05-0167,Engineering,SEC-05,Moradabad,Track Geometry,Rail Fracture,Critical,34,2026-07-26,5.0,0,True,Branch Line,True,85.0,TMS
-OHE-SEC-02-0152,Traction Distribution,SEC-02,Ambala,Feeder,Dropper Defect,Critical,17,2026-08-12,4.6,1,True,Trunk Route,True,84.7,TDMS
-TRK-SEC-02-0135,Engineering,SEC-02,Ambala,Formation,Rail Wear,Critical,6,2026-08-23,6.5,3,True,Trunk Route,True,84.0,TMS
-SIG-SEC-08-0039,Signal & Telecom,SEC-08,Firozpur,Point Machine,Relay Failure,Critical,28,2026-08-01,2.1,0,True,Branch Line,True,83.7,SMMS
-OHE-SEC-03-0065,Traction Distribution,SEC-03,Delhi,OHE Wire,Traction Substation Fault,Critical,20,2026-08-09,4.1,0,True,Trunk Route,True,83.3,TDMS
-SIG-SEC-04-0065,Signal & Telecom,SEC-04,Delhi,Level Crossing Gate,Point Machine Failure,Critical,15,2026-08-14,3.2,1,True,Trunk Route,True,83.3,SMMS
-TRK-SEC-08-0051,Engineering,SEC-08,Firozpur,Track Geometry,Ballast Deficiency,Critical,12,2026-08-17,5.0,3,True,Branch Line,True,83.0,TMS
-SIG-SEC-04-0121,Signal & Telecom,SEC-04,Delhi,Level Crossing Gate,Block Instrument Fault,Critical,22,2026-08-07,4.2,1,True,Branch Line,True,83.0,SMMS
-TRK-SEC-08-0178,Engineering,SEC-08,Firozpur,Ballast,Rail Fracture,Critical,27,2026-08-02,7.5,0,True,Branch Line,True,83.0,TMS
-OHE-SEC-01-0029,Traction Distribution,SEC-01,Ambala,Dropper,Dropper Defect,Critical,22,2026-08-07,3.9,1,True,Branch Line,True,83.0,TDMS
-SIG-SEC-04-0081,Signal & Telecom,SEC-04,Delhi,Cable,Signal Aspect Failure,Critical,14,2026-08-15,5.6,1,True,Trunk Route,True,82.7,SMMS
+SIG-SEC-08-0172,Signal & Telecom,SEC-08,Firozpur,Level Crossing Gate,Level Crossing Gate Fault,Critical,23,2026-08-06,5.3,0,True,Trunk Route,True,84.8,SMMS
+OHE-SEC-02-0152,Traction Distribution,SEC-02,Ambala,Feeder,Dropper Defect,Critical,17,2026-08-12,4.6,1,True,Trunk Route,True,84.5,TDMS
+SIG-SEC-08-0039,Signal & Telecom,SEC-08,Firozpur,Point Machine,Relay Failure,Critical,28,2026-08-01,2.1,0,True,Branch Line,True,83.9,SMMS
+TRK-SEC-08-0178,Engineering,SEC-08,Firozpur,Ballast,Rail Fracture,Critical,27,2026-08-02,7.5,0,True,Branch Line,True,83.6,TMS
+TRK-SEC-02-0135,Engineering,SEC-02,Ambala,Formation,Rail Wear,Critical,6,2026-08-23,6.5,3,True,Trunk Route,True,83.5,TMS
+OHE-SEC-01-0029,Traction Distribution,SEC-01,Ambala,Dropper,Dropper Defect,Critical,22,2026-08-07,3.9,1,True,Branch Line,True,83.3,TDMS
+SIG-SEC-04-0121,Signal & Telecom,SEC-04,Delhi,Level Crossing Gate,Block Instrument Fault,Critical,22,2026-08-07,4.2,1,True,Branch Line,True,83.3,SMMS
+TRK-SEC-08-0051,Engineering,SEC-08,Firozpur,Track Geometry,Ballast Deficiency,Critical,12,2026-08-17,5.0,3,True,Branch Line,True,83.1,TMS
+SIG-SEC-04-0065,Signal & Telecom,SEC-04,Delhi,Level Crossing Gate,Point Machine Failure,Critical,15,2026-08-14,3.2,1,True,Trunk Route,True,82.8,SMMS
+TRK-SEC-06-0133,Engineering,SEC-06,Moradabad,Track Geometry,Gauge Widening,Critical,19,2026-08-10,5.1,0,True,Trunk Route,True,82.7,TMS
 TRK-SEC-02-0001,Engineering,SEC-02,Ambala,Track Geometry,Weld Defect,Critical,19,2026-08-10,5.1,0,True,Trunk Route,True,82.7,TMS
 OHE-SEC-08-0095,Traction Distribution,SEC-08,Firozpur,OHE Wire,Earthing Fault,Critical,19,2026-08-10,4.9,0,True,Trunk Route,True,82.7,TDMS
-TRK-SEC-06-0133,Engineering,SEC-06,Moradabad,Track Geometry,Gauge Widening,Critical,19,2026-08-10,5.1,0,True,Trunk Route,True,82.7,TMS
-SIG-SEC-07-0008,Signal & Telecom,SEC-07,Firozpur,Point Machine,Point Machine Failure,Critical,21,2026-08-08,5.9,1,True,Branch Line,True,82.3,SMMS
-OHE-SEC-06-0071,Traction Distribution,SEC-06,Moradabad,Dropper,Tension Length Deviation,Critical,14,2026-08-15,3.3,2,True,Branch Line,True,81.0,TDMS
-OHE-SEC-06-0038,Traction Distribution,SEC-06,Moradabad,Insulator,Dropper Defect,Critical,23,2026-08-06,3.5,0,True,Branch Line,True,80.3,TDMS
-OHE-SEC-03-0146,Traction Distribution,SEC-03,Delhi,Dropper,Traction Substation Fault,Critical,23,2026-08-06,3.1,0,True,Branch Line,True,80.3,TDMS
-OHE-SEC-01-0033,Traction Distribution,SEC-01,Ambala,OHE Wire,Tension Length Deviation,Critical,23,2026-08-06,3.7,0,True,Branch Line,True,80.3,TDMS
+OHE-SEC-03-0065,Traction Distribution,SEC-03,Delhi,OHE Wire,Traction Substation Fault,Critical,20,2026-08-09,4.1,0,True,Trunk Route,True,82.5,TDMS
+SIG-SEC-07-0008,Signal & Telecom,SEC-07,Firozpur,Point Machine,Point Machine Failure,Critical,21,2026-08-08,5.9,1,True,Branch Line,True,82.4,SMMS
+SIG-SEC-04-0081,Signal & Telecom,SEC-04,Delhi,Cable,Signal Aspect Failure,Critical,14,2026-08-15,5.6,1,True,Trunk Route,True,82.1,SMMS
+OHE-SEC-06-0071,Traction Distribution,SEC-06,Moradabad,Dropper,Tension Length Deviation,Critical,14,2026-08-15,3.3,2,True,Branch Line,True,81.2,TDMS
+OHE-SEC-01-0033,Traction Distribution,SEC-01,Ambala,OHE Wire,Tension Length Deviation,Critical,23,2026-08-06,3.7,0,True,Branch Line,True,80.4,TDMS
+OHE-SEC-06-0038,Traction Distribution,SEC-06,Moradabad,Insulator,Dropper Defect,Critical,23,2026-08-06,3.5,0,True,Branch Line,True,80.4,TDMS
+OHE-SEC-03-0146,Traction Distribution,SEC-03,Delhi,Dropper,Traction Substation Fault,Critical,23,2026-08-06,3.1,0,True,Branch Line,True,80.4,TDMS
 OHE-SEC-07-0105,Traction Distribution,SEC-07,Firozpur,OHE Wire,Feeder Fault,Critical,15,2026-08-14,4.1,0,True,Trunk Route,True,80.0,TDMS
 TRK-SEC-06-0132,Engineering,SEC-06,Moradabad,Rail,Ballast Deficiency,Critical,14,2026-08-15,6.0,0,True,Trunk Route,True,79.3,TMS
-OHE-SEC-04-0116,Traction Distribution,SEC-04,Delhi,Switching Post,Feeder Fault,Critical,11,2026-08-18,3.8,2,True,Branch Line,True,79.0,TDMS
-SIG-SEC-02-0178,Signal & Telecom,SEC-02,Ambala,Axle Counter,Block Instrument Fault,Critical,16,2026-08-13,4.4,1,True,Branch Line,True,79.0,SMMS
-SIG-SEC-05-0153,Signal & Telecom,SEC-05,Moradabad,Block Instrument,Block Instrument Fault,Critical,11,2026-08-18,3.1,2,True,Branch Line,True,79.0,SMMS
-OHE-SEC-03-0056,Traction Distribution,SEC-03,Delhi,Switching Post,Insulator Damage,Critical,13,2026-08-16,3.9,0,True,Trunk Route,True,78.7,TDMS
-OHE-SEC-03-0106,Traction Distribution,SEC-03,Delhi,OHE Wire,Tension Length Deviation,Critical,20,2026-08-09,4.4,0,True,Branch Line,True,78.3,TDMS
-SIG-SEC-02-0123,Signal & Telecom,SEC-02,Ambala,Cable,Cable Insulation Fault,Critical,15,2026-08-14,3.0,1,True,Branch Line,True,78.3,SMMS
+SIG-SEC-02-0178,Signal & Telecom,SEC-02,Ambala,Axle Counter,Block Instrument Fault,Critical,16,2026-08-13,4.4,1,True,Branch Line,True,79.1,SMMS
+SIG-SEC-02-0123,Signal & Telecom,SEC-02,Ambala,Cable,Cable Insulation Fault,Critical,15,2026-08-14,3.0,1,True,Branch Line,True,78.9,SMMS
+OHE-SEC-04-0116,Traction Distribution,SEC-04,Delhi,Switching Post,Feeder Fault,Critical,11,2026-08-18,3.8,2,True,Branch Line,True,78.7,TDMS
+SIG-SEC-05-0153,Signal & Telecom,SEC-05,Moradabad,Block Instrument,Block Instrument Fault,Critical,11,2026-08-18,3.1,2,True,Branch Line,True,78.7,SMMS
+OHE-SEC-03-0056,Traction Distribution,SEC-03,Delhi,Switching Post,Insulator Damage,Critical,13,2026-08-16,3.9,0,True,Trunk Route,True,78.6,TDMS
 TRK-SEC-06-0143,Engineering,SEC-06,Moradabad,Track Geometry,Weld Defect,Critical,20,2026-08-09,7.4,0,True,Branch Line,True,78.3,TMS
+OHE-SEC-03-0106,Traction Distribution,SEC-03,Delhi,OHE Wire,Tension Length Deviation,Critical,20,2026-08-09,4.4,0,True,Branch Line,True,78.3,TDMS
 TRK-SEC-01-0072,Engineering,SEC-01,Ambala,Formation,Ballast Deficiency,Critical,20,2026-08-09,4.9,0,True,Branch Line,True,78.3,TMS
-OHE-SEC-04-0052,Traction Distribution,SEC-04,Delhi,Insulator,Feeder Fault,Critical,12,2026-08-17,4.1,0,True,Trunk Route,True,78.0,TDMS
-TRK-SEC-04-0065,Engineering,SEC-04,Delhi,Ballast,Rail Wear,Critical,12,2026-08-17,7.1,0,True,Trunk Route,True,78.0,TMS
-OHE-SEC-03-0097,Traction Distribution,SEC-03,Delhi,Switching Post,Insulator Damage,Critical,19,2026-08-10,5.0,0,True,Branch Line,True,77.7,TDMS
-SIG-SEC-05-0164,Signal & Telecom,SEC-05,Moradabad,Signal,Level Crossing Gate Fault,Major,13,2026-08-16,3.8,3,True,Trunk Route,True,76.7,SMMS
-SIG-SEC-06-0165,Signal & Telecom,SEC-06,Moradabad,Level Crossing Gate,Interlocking Fault,Critical,17,2026-08-12,5.8,0,True,Branch Line,True,76.3,SMMS
-SIG-SEC-05-0118,Signal & Telecom,SEC-05,Moradabad,Cable,Signal Aspect Failure,Critical,4,2026-08-25,2.3,1,True,Trunk Route,True,76.0,SMMS
-TRK-SEC-06-0114,Engineering,SEC-06,Moradabad,Track Geometry,Track Geometry - Twist,Critical,6,2026-08-23,4.9,2,True,Branch Line,True,75.7,TMS
-OHE-SEC-04-0111,Traction Distribution,SEC-04,Delhi,Dropper,Earthing Fault,Critical,16,2026-08-13,4.8,0,True,Branch Line,True,75.7,TDMS
-SIG-SEC-01-0044,Signal & Telecom,SEC-01,Ambala,Signal,Level Crossing Gate Fault,Critical,11,2026-08-18,4.6,1,True,Branch Line,True,75.7,SMMS
-TRK-SEC-04-0019,Engineering,SEC-04,Delhi,Ballast,Weld Defect,Critical,8,2026-08-21,6.8,0,True,Trunk Route,True,75.3,TMS
-SIG-SEC-05-0023,Signal & Telecom,SEC-05,Moradabad,Axle Counter,Relay Failure,Critical,15,2026-08-14,6.0,0,True,Branch Line,True,75.0,SMMS
-SIG-SEC-02-0162,Signal & Telecom,SEC-02,Ambala,Interlocking,Signal Aspect Failure,Critical,14,2026-08-15,4.7,0,True,Branch Line,True,74.3,SMMS
-SIG-SEC-06-0133,Signal & Telecom,SEC-06,Moradabad,Level Crossing Gate,Axle Counter Fault,Critical,4,2026-08-25,2.6,2,True,Branch Line,True,74.3,SMMS
-TRK-SEC-08-0099,Engineering,SEC-08,Firozpur,Ballast,Rail Wear,Critical,14,2026-08-15,4.6,0,True,Branch Line,True,74.3,TMS
-OHE-SEC-07-0054,Traction Distribution,SEC-07,Firozpur,Switching Post,Feeder Fault,Critical,6,2026-08-23,4.6,0,True,Trunk Route,True,74.0,TDMS
-OHE-SEC-02-0023,Traction Distribution,SEC-02,Ambala,Dropper,Traction Substation Fault,Critical,6,2026-08-23,2.5,0,True,Trunk Route,True,74.0,TDMS
-TRK-SEC-07-0130,Engineering,SEC-07,Firozpur,Rail,Rail Wear,Critical,13,2026-08-16,7.0,0,True,Branch Line,True,73.7,TMS
-TRK-SEC-07-0163,Engineering,SEC-07,Firozpur,Formation,Rail Fracture,Critical,33,2026-07-27,7.6,1,True,Trunk Route,False,73.3,TMS
-SIG-SEC-01-0143,Signal & Telecom,SEC-01,Ambala,Point Machine,Point Machine Failure,Critical,5,2026-08-24,2.1,0,True,Trunk Route,True,73.3,SMMS
-OHE-SEC-01-0128,Traction Distribution,SEC-01,Ambala,OHE Wire,Feeder Fault,Critical,12,2026-08-17,2.8,0,True,Branch Line,True,73.0,TDMS
-OHE-SEC-05-0050,Traction Distribution,SEC-05,Moradabad,Feeder,Dropper Defect,Critical,12,2026-08-17,4.4,0,True,Branch Line,True,73.0,TDMS
-OHE-SEC-06-0130,Traction Distribution,SEC-06,Moradabad,OHE Wire,OHE Wire Wear,Critical,11,2026-08-18,4.5,0,True,Branch Line,True,72.3,TDMS
-SIG-SEC-07-0068,Signal & Telecom,SEC-07,Firozpur,Interlocking,Interlocking Fault,Critical,11,2026-08-18,4.8,0,True,Branch Line,True,72.3,SMMS
-SIG-SEC-03-0098,Signal & Telecom,SEC-03,Delhi,Point Machine,Point Machine Failure,Critical,11,2026-08-18,4.6,0,True,Branch Line,True,72.3,SMMS
-OHE-SEC-06-0118,Traction Distribution,SEC-06,Moradabad,Feeder,Earthing Fault,Critical,5,2026-08-24,4.9,1,True,Branch Line,True,71.7,TDMS
-OHE-SEC-03-0031,Traction Distribution,SEC-03,Delhi,Feeder,Dropper Defect,Critical,2,2026-08-27,4.0,0,True,Trunk Route,True,71.3,TDMS
-SIG-SEC-01-0032,Signal & Telecom,SEC-01,Ambala,Point Machine,Signal Aspect Failure,Critical,3,2026-08-26,3.3,1,True,Branch Line,True,70.3,SMMS
-OHE-SEC-02-0032,Traction Distribution,SEC-02,Ambala,OHE Wire,Earthing Fault,Critical,8,2026-08-21,2.8,0,True,Branch Line,True,70.3,TDMS
-OHE-SEC-04-0150,Traction Distribution,SEC-04,Delhi,Dropper,OHE Wire Wear,Critical,7,2026-08-22,2.7,0,True,Branch Line,True,69.7,TDMS
-TRK-SEC-06-0066,Engineering,SEC-06,Moradabad,Rail,Rail Wear,Critical,5,2026-08-24,6.6,0,True,Branch Line,True,68.3,TMS
-OHE-SEC-01-0086,Traction Distribution,SEC-01,Ambala,Traction Substation,Feeder Fault,Critical,5,2026-08-24,3.4,0,True,Branch Line,True,68.3,TDMS
-TRK-SEC-08-0082,Engineering,SEC-08,Firozpur,Weld,Gauge Widening,Major,17,2026-08-12,2.7,1,True,Branch Line,True,67.7,TMS
-OHE-SEC-06-0114,Traction Distribution,SEC-06,Moradabad,OHE Wire,Traction Substation Fault,Critical,21,2026-08-08,2.9,1,True,Trunk Route,False,67.3,TDMS
-OHE-SEC-08-0017,Traction Distribution,SEC-08,Firozpur,Feeder,Dropper Defect,Major,14,2026-08-15,1.6,3,False,Trunk Route,True,67.3,TDMS
-SIG-SEC-05-0024,Signal & Telecom,SEC-05,Moradabad,Axle Counter,Relay Failure,Major,5,2026-08-24,1.3,3,True,Branch Line,True,66.3,SMMS
-SIG-SEC-06-0105,Signal & Telecom,SEC-06,Moradabad,Signal,Signal Aspect Failure,Major,7,2026-08-22,3.0,1,True,Trunk Route,True,66.0,SMMS
-OHE-SEC-05-0131,Traction Distribution,SEC-05,Moradabad,Earthing System,Earthing Fault,Major,11,2026-08-18,1.8,3,False,Trunk Route,True,65.3,TDMS
-SIG-SEC-05-0151,Signal & Telecom,SEC-05,Moradabad,Point Machine,Block Instrument Fault,Major,-2,2026-08-31,2.8,2,True,Trunk Route,True,64.7,SMMS
-OHE-SEC-07-0072,Traction Distribution,SEC-07,Firozpur,Dropper,Dropper Defect,Major,11,2026-08-18,3.3,1,True,Branch Line,True,63.7,TDMS
-SIG-SEC-08-0114,Signal & Telecom,SEC-08,Firozpur,Signal,Signal Aspect Failure,Major,5,2026-08-24,1.8,2,True,Branch Line,True,63.0,SMMS
-OHE-SEC-06-0084,Traction Distribution,SEC-06,Moradabad,Insulator,Insulator Damage,Major,12,2026-08-17,2.6,2,False,Trunk Route,True,62.7,TDMS
-SIG-SEC-05-0016,Signal & Telecom,SEC-05,Moradabad,Point Machine,Point Machine Failure,Major,7,2026-08-22,2.3,0,True,Trunk Route,True,62.7,SMMS
-SIG-SEC-02-0142,Signal & Telecom,SEC-02,Ambala,Point Machine,Axle Counter Fault,Critical,19,2026-08-10,2.2,0,True,Trunk Route,False,62.7,SMMS
-TRK-SEC-08-0088,Engineering,SEC-08,Firozpur,Formation,Gauge Widening,Major,16,2026-08-13,3.0,1,False,Trunk Route,True,62.0,TMS
-OHE-SEC-08-0126,Traction Distribution,SEC-08,Firozpur,Switching Post,OHE Wire Wear,Critical,18,2026-08-11,2.7,0,True,Trunk Route,False,62.0,TDMS
-TRK-SEC-07-0036,Engineering,SEC-07,Firozpur,Weld,Weld Defect,Critical,7,2026-08-22,5.2,2,True,Trunk Route,False,61.3,TMS
-OHE-SEC-01-0159,Traction Distribution,SEC-01,Ambala,Dropper,Feeder Fault,Major,15,2026-08-14,1.6,1,False,Trunk Route,True,61.3,TDMS
-OHE-SEC-04-0043,Traction Distribution,SEC-04,Delhi,Traction Substation,OHE Wire Wear,Major,2,2026-08-27,1.6,2,True,Branch Line,True,61.0,TDMS
-TRK-SEC-07-0119,Engineering,SEC-07,Firozpur,Track Geometry,Rail Fracture,Major,9,2026-08-20,4.9,2,False,Trunk Route,True,60.7,TMS
-SIG-SEC-06-0006,Signal & Telecom,SEC-06,Moradabad,Signal,Cable Insulation Fault,Major,9,2026-08-20,3.0,2,False,Trunk Route,True,60.7,SMMS
-OHE-SEC-01-0002,Traction Distribution,SEC-01,Ambala,Traction Substation,Dropper Defect,Critical,23,2026-08-06,4.3,0,True,Branch Line,False,60.3,TDMS
-SIG-SEC-06-0176,Signal & Telecom,SEC-06,Moradabad,Axle Counter,Interlocking Fault,Critical,23,2026-08-06,5.4,0,True,Branch Line,False,60.3,SMMS
-SIG-SEC-04-0073,Signal & Telecom,SEC-04,Delhi,Point Machine,Cable Insulation Fault,Critical,10,2026-08-19,3.0,1,True,Trunk Route,False,60.0,SMMS
-TRK-SEC-08-0136,Engineering,SEC-08,Firozpur,Weld,Track Geometry - Unevenness,Major,18,2026-08-11,3.1,0,False,Trunk Route,True,60.0,TMS
+OHE-SEC-03-0097,Traction Distribution,SEC-03,Delhi,Switching Post,Insulator Damage,Critical,19,2026-08-10,5.0,0,True,Branch Line,True,78.2,TDMS
+OHE-SEC-04-0052,Traction Distribution,SEC-04,Delhi,Insulator,Feeder Fault,Critical,12,2026-08-17,4.1,0,True,Trunk Route,True,78.1,TDMS
+TRK-SEC-04-0065,Engineering,SEC-04,Delhi,Ballast,Rail Wear,Critical,12,2026-08-17,7.1,0,True,Trunk Route,True,78.1,TMS
+SIG-SEC-06-0165,Signal & Telecom,SEC-06,Moradabad,Level Crossing Gate,Interlocking Fault,Critical,17,2026-08-12,5.8,0,True,Branch Line,True,76.8,SMMS
+SIG-SEC-01-0044,Signal & Telecom,SEC-01,Ambala,Signal,Level Crossing Gate Fault,Critical,11,2026-08-18,4.6,1,True,Branch Line,True,76.3,SMMS
+OHE-SEC-04-0111,Traction Distribution,SEC-04,Delhi,Dropper,Earthing Fault,Critical,16,2026-08-13,4.8,0,True,Branch Line,True,75.9,TDMS
+TRK-SEC-06-0114,Engineering,SEC-06,Moradabad,Track Geometry,Track Geometry - Twist,Critical,6,2026-08-23,4.9,2,True,Branch Line,True,75.4,TMS
+SIG-SEC-05-0023,Signal & Telecom,SEC-05,Moradabad,Axle Counter,Relay Failure,Critical,15,2026-08-14,6.0,0,True,Branch Line,True,75.1,SMMS
+TRK-SEC-04-0019,Engineering,SEC-04,Delhi,Ballast,Weld Defect,Critical,8,2026-08-21,6.8,0,True,Trunk Route,True,75.1,TMS
+SIG-SEC-02-0162,Signal & Telecom,SEC-02,Ambala,Interlocking,Signal Aspect Failure,Critical,14,2026-08-15,4.7,0,True,Branch Line,True,74.8,SMMS
+TRK-SEC-08-0099,Engineering,SEC-08,Firozpur,Ballast,Rail Wear,Critical,14,2026-08-15,4.6,0,True,Branch Line,True,74.8,TMS
+OHE-SEC-07-0054,Traction Distribution,SEC-07,Firozpur,Switching Post,Feeder Fault,Critical,6,2026-08-23,4.6,0,True,Trunk Route,True,74.6,TDMS
+SIG-SEC-05-0118,Signal & Telecom,SEC-05,Moradabad,Cable,Signal Aspect Failure,Critical,4,2026-08-25,2.3,1,True,Trunk Route,True,74.6,SMMS
+OHE-SEC-02-0023,Traction Distribution,SEC-02,Ambala,Dropper,Traction Substation Fault,Critical,6,2026-08-23,2.5,0,True,Trunk Route,True,74.6,TDMS
+TRK-SEC-07-0130,Engineering,SEC-07,Firozpur,Rail,Rail Wear,Critical,13,2026-08-16,7.0,0,True,Branch Line,True,74.1,TMS
+OHE-SEC-05-0050,Traction Distribution,SEC-05,Moradabad,Feeder,Dropper Defect,Critical,12,2026-08-17,4.4,0,True,Branch Line,True,73.6,TDMS
+OHE-SEC-01-0128,Traction Distribution,SEC-01,Ambala,OHE Wire,Feeder Fault,Critical,12,2026-08-17,2.8,0,True,Branch Line,True,73.6,TDMS
+SIG-SEC-06-0133,Signal & Telecom,SEC-06,Moradabad,Level Crossing Gate,Axle Counter Fault,Critical,4,2026-08-25,2.6,2,True,Branch Line,True,73.5,SMMS
+SIG-SEC-07-0068,Signal & Telecom,SEC-07,Firozpur,Interlocking,Interlocking Fault,Critical,11,2026-08-18,4.8,0,True,Branch Line,True,73.1,SMMS
+OHE-SEC-06-0130,Traction Distribution,SEC-06,Moradabad,OHE Wire,OHE Wire Wear,Critical,11,2026-08-18,4.5,0,True,Branch Line,True,73.1,TDMS
+SIG-SEC-03-0098,Signal & Telecom,SEC-03,Delhi,Point Machine,Point Machine Failure,Critical,11,2026-08-18,4.6,0,True,Branch Line,True,73.1,SMMS
+OHE-SEC-03-0031,Traction Distribution,SEC-03,Delhi,Feeder,Dropper Defect,Critical,2,2026-08-27,4.0,0,True,Trunk Route,True,72.8,TDMS
+SIG-SEC-01-0143,Signal & Telecom,SEC-01,Ambala,Point Machine,Point Machine Failure,Critical,5,2026-08-24,2.1,0,True,Trunk Route,True,72.8,SMMS
+SIG-SEC-05-0164,Signal & Telecom,SEC-05,Moradabad,Signal,Level Crossing Gate Fault,Major,13,2026-08-16,3.8,3,True,Trunk Route,True,72.6,SMMS
+OHE-SEC-06-0118,Traction Distribution,SEC-06,Moradabad,Feeder,Earthing Fault,Critical,5,2026-08-24,4.9,1,True,Branch Line,True,71.9,TDMS
+SIG-SEC-01-0032,Signal & Telecom,SEC-01,Ambala,Point Machine,Signal Aspect Failure,Critical,3,2026-08-26,3.3,1,True,Branch Line,True,71.9,SMMS
+OHE-SEC-04-0150,Traction Distribution,SEC-04,Delhi,Dropper,OHE Wire Wear,Critical,7,2026-08-22,2.7,0,True,Branch Line,True,71.3,TDMS
+OHE-SEC-02-0032,Traction Distribution,SEC-02,Ambala,OHE Wire,Earthing Fault,Critical,8,2026-08-21,2.8,0,True,Branch Line,True,71.1,TDMS
+TRK-SEC-06-0066,Engineering,SEC-06,Moradabad,Rail,Rail Wear,Critical,5,2026-08-24,6.6,0,True,Branch Line,True,69.5,TMS
+OHE-SEC-01-0086,Traction Distribution,SEC-01,Ambala,Traction Substation,Feeder Fault,Critical,5,2026-08-24,3.4,0,True,Branch Line,True,69.5,TDMS
+TRK-SEC-08-0082,Engineering,SEC-08,Firozpur,Weld,Gauge Widening,Major,17,2026-08-12,2.7,1,True,Branch Line,True,68.3,TMS
+SIG-SEC-05-0024,Signal & Telecom,SEC-05,Moradabad,Axle Counter,Relay Failure,Major,5,2026-08-24,1.3,3,True,Branch Line,True,66.9,SMMS
+OHE-SEC-08-0017,Traction Distribution,SEC-08,Firozpur,Feeder,Dropper Defect,Major,14,2026-08-15,1.6,3,False,Trunk Route,True,65.9,TDMS
+OHE-SEC-07-0072,Traction Distribution,SEC-07,Firozpur,Dropper,Dropper Defect,Major,11,2026-08-18,3.3,1,True,Branch Line,True,65.3,TDMS
+SIG-SEC-06-0105,Signal & Telecom,SEC-06,Moradabad,Signal,Signal Aspect Failure,Major,7,2026-08-22,3.0,1,True,Trunk Route,True,65.1,SMMS
+OHE-SEC-05-0131,Traction Distribution,SEC-05,Moradabad,Earthing System,Earthing Fault,Major,11,2026-08-18,1.8,3,False,Trunk Route,True,64.3,TDMS
+SIG-SEC-08-0114,Signal & Telecom,SEC-08,Firozpur,Signal,Signal Aspect Failure,Major,5,2026-08-24,1.8,2,True,Branch Line,True,63.4,SMMS
+SIG-SEC-05-0016,Signal & Telecom,SEC-05,Moradabad,Point Machine,Point Machine Failure,Major,7,2026-08-22,2.3,0,True,Trunk Route,True,63.1,SMMS
+OHE-SEC-06-0084,Traction Distribution,SEC-06,Moradabad,Insulator,Insulator Damage,Major,12,2026-08-17,2.6,2,False,Trunk Route,True,62.1,TDMS
+SIG-SEC-02-0142,Signal & Telecom,SEC-02,Ambala,Point Machine,Axle Counter Fault,Critical,19,2026-08-10,2.2,0,True,Trunk Route,False,61.8,SMMS
+OHE-SEC-04-0043,Traction Distribution,SEC-04,Delhi,Traction Substation,OHE Wire Wear,Major,2,2026-08-27,1.6,2,True,Branch Line,True,61.6,TDMS
+OHE-SEC-08-0126,Traction Distribution,SEC-08,Firozpur,Switching Post,OHE Wire Wear,Critical,18,2026-08-11,2.7,0,True,Trunk Route,False,61.5,TDMS
+OHE-SEC-06-0114,Traction Distribution,SEC-06,Moradabad,OHE Wire,Traction Substation Fault,Critical,21,2026-08-08,2.9,1,True,Trunk Route,False,61.1,TDMS
+SIG-SEC-05-0151,Signal & Telecom,SEC-05,Moradabad,Point Machine,Block Instrument Fault,Major,-2,2026-08-31,2.8,2,True,Trunk Route,True,61.0,SMMS
+TRK-SEC-07-0163,Engineering,SEC-07,Firozpur,Formation,Rail Fracture,Critical,33,2026-07-27,7.6,1,True,Trunk Route,False,60.9,TMS
+TRK-SEC-07-0119,Engineering,SEC-07,Firozpur,Track Geometry,Rail Fracture,Major,9,2026-08-20,4.9,2,False,Trunk Route,True,60.5,TMS
+SIG-SEC-06-0006,Signal & Telecom,SEC-06,Moradabad,Signal,Cable Insulation Fault,Major,9,2026-08-20,3.0,2,False,Trunk Route,True,60.5,SMMS
 SIG-SEC-02-0052,Signal & Telecom,SEC-02,Ambala,Block Instrument,Point Machine Failure,Major,3,2026-08-26,3.2,0,True,Trunk Route,True,60.0,SMMS
-OHE-SEC-04-0134,Traction Distribution,SEC-04,Delhi,Insulator,Tension Length Deviation,Major,13,2026-08-16,2.6,1,False,Trunk Route,True,60.0,TDMS
-SIG-SEC-08-0140,Signal & Telecom,SEC-08,Firozpur,Axle Counter,Axle Counter Fault,Major,12,2026-08-17,3.4,1,False,Trunk Route,True,59.3,SMMS
+TRK-SEC-08-0088,Engineering,SEC-08,Firozpur,Formation,Gauge Widening,Major,16,2026-08-13,3.0,1,False,Trunk Route,True,59.7,TMS
+OHE-SEC-01-0159,Traction Distribution,SEC-01,Ambala,Dropper,Feeder Fault,Major,15,2026-08-14,1.6,1,False,Trunk Route,True,59.4,TDMS
+TRK-SEC-02-0043,Engineering,SEC-02,Ambala,Track Geometry,Track Geometry - Twist,Major,3,2026-08-26,3.7,0,True,Branch Line,True,59.2,TMS
+OHE-SEC-04-0134,Traction Distribution,SEC-04,Delhi,Insulator,Tension Length Deviation,Major,13,2026-08-16,2.6,1,False,Trunk Route,True,59.2,TDMS
+SIG-SEC-06-0176,Signal & Telecom,SEC-06,Moradabad,Axle Counter,Interlocking Fault,Critical,23,2026-08-06,5.4,0,True,Branch Line,False,58.8,SMMS
+OHE-SEC-01-0002,Traction Distribution,SEC-01,Ambala,Traction Substation,Dropper Defect,Critical,23,2026-08-06,4.3,0,True,Branch Line,False,58.8,TDMS
+SIG-SEC-08-0140,Signal & Telecom,SEC-08,Firozpur,Axle Counter,Axle Counter Fault,Major,12,2026-08-17,3.4,1,False,Trunk Route,True,58.7,SMMS
+TRK-SEC-08-0136,Engineering,SEC-08,Firozpur,Weld,Track Geometry - Unevenness,Major,18,2026-08-11,3.1,0,False,Trunk Route,True,58.7,TMS
+SIG-SEC-04-0073,Signal & Telecom,SEC-04,Delhi,Point Machine,Cable Insulation Fault,Critical,10,2026-08-19,3.0,1,True,Trunk Route,False,58.4,SMMS
 OHE-SEC-03-0048,Traction Distribution,SEC-03,Delhi,OHE Wire,Feeder Fault,Major,8,2026-08-21,2.8,3,False,Branch Line,True,58.3,TDMS
-OHE-SEC-05-0147,Traction Distribution,SEC-05,Moradabad,Traction Substation,Traction Substation Fault,Major,-4,2026-09-02,2.6,3,False,Trunk Route,True,58.0,TDMS
-SIG-SEC-01-0113,Signal & Telecom,SEC-01,Ambala,Axle Counter,Block Instrument Fault,Major,-1,2026-08-30,2.3,3,False,Trunk Route,True,58.0,SMMS
-SIG-SEC-05-0047,Signal & Telecom,SEC-05,Moradabad,Cable,Relay Failure,Major,5,2026-08-24,2.2,2,False,Trunk Route,True,58.0,SMMS
-SIG-SEC-03-0110,Signal & Telecom,SEC-03,Delhi,Cable,Interlocking Fault,Major,4,2026-08-25,3.2,2,False,Trunk Route,True,57.3,SMMS
-OHE-SEC-03-0142,Traction Distribution,SEC-03,Delhi,Dropper,Dropper Defect,Major,6,2026-08-23,1.8,3,False,Branch Line,True,57.0,TDMS
+TRK-SEC-07-0036,Engineering,SEC-07,Firozpur,Weld,Weld Defect,Critical,7,2026-08-22,5.2,2,True,Trunk Route,False,57.4,TMS
+SIG-SEC-03-0110,Signal & Telecom,SEC-03,Delhi,Cable,Interlocking Fault,Major,4,2026-08-25,3.2,2,False,Trunk Route,True,56.9,SMMS
+SIG-SEC-05-0047,Signal & Telecom,SEC-05,Moradabad,Cable,Relay Failure,Major,5,2026-08-24,2.2,2,False,Trunk Route,True,56.8,SMMS
 TRK-SEC-04-0028,Engineering,SEC-04,Delhi,Formation,Ballast Deficiency,Major,13,2026-08-16,4.8,0,False,Trunk Route,True,56.7,TMS
 SIG-SEC-06-0104,Signal & Telecom,SEC-06,Moradabad,Signal,Block Instrument Fault,Major,13,2026-08-16,1.9,0,False,Trunk Route,True,56.7,SMMS
-TRK-SEC-08-0068,Engineering,SEC-08,Firozpur,Rail,Gauge Widening,Major,3,2026-08-26,4.2,2,False,Trunk Route,True,56.7,TMS
-TRK-SEC-03-0092,Engineering,SEC-03,Delhi,Rail,Track Geometry - Unevenness,Major,8,2026-08-21,2.0,1,False,Trunk Route,True,56.7,TMS
-OHE-SEC-01-0092,Traction Distribution,SEC-01,Ambala,Traction Substation,Insulator Damage,Major,15,2026-08-14,2.0,1,False,Branch Line,True,56.3,TDMS
-TRK-SEC-08-0070,Engineering,SEC-08,Firozpur,Track Geometry,Track Geometry - Twist,Major,5,2026-08-24,4.4,3,False,Branch Line,True,56.3,TMS
-TRK-SEC-04-0081,Engineering,SEC-04,Delhi,Formation,Formation/Subgrade Defect,Major,2,2026-08-27,2.2,2,False,Trunk Route,True,56.0,TMS
-SIG-SEC-06-0013,Signal & Telecom,SEC-06,Moradabad,Signal,Axle Counter Fault,Major,12,2026-08-17,1.2,0,False,Trunk Route,True,56.0,SMMS
-TRK-SEC-01-0139,Engineering,SEC-01,Ambala,Rail,Rail Fracture,Major,19,2026-08-10,4.8,0,False,Branch Line,True,55.7,TMS
-SIG-SEC-07-0100,Signal & Telecom,SEC-07,Firozpur,Level Crossing Gate,Block Instrument Fault,Major,6,2026-08-23,4.0,1,False,Trunk Route,True,55.3,SMMS
-OHE-SEC-03-0154,Traction Distribution,SEC-03,Delhi,Feeder,Earthing Fault,Major,8,2026-08-21,2.4,2,False,Branch Line,True,55.0,TDMS
-TRK-SEC-02-0043,Engineering,SEC-02,Ambala,Track Geometry,Track Geometry - Twist,Major,3,2026-08-26,3.7,0,True,Branch Line,True,55.0,TMS
-TRK-SEC-05-0182,Engineering,SEC-05,Moradabad,Rail,Gauge Widening,Major,18,2026-08-11,2.3,0,False,Branch Line,True,55.0,TMS
-SIG-SEC-02-0060,Signal & Telecom,SEC-02,Ambala,Block Instrument,Signal Aspect Failure,Major,5,2026-08-24,1.1,1,False,Trunk Route,True,54.7,SMMS
-OHE-SEC-07-0001,Traction Distribution,SEC-07,Firozpur,Insulator,OHE Wire Wear,Major,-2,2026-08-31,2.8,2,False,Trunk Route,True,54.7,TDMS
-OHE-SEC-01-0124,Traction Distribution,SEC-01,Ambala,Switching Post,Earthing Fault,Major,10,2026-08-19,1.7,0,False,Trunk Route,True,54.7,TDMS
-OHE-SEC-08-0135,Traction Distribution,SEC-08,Firozpur,Feeder,Tension Length Deviation,Major,9,2026-08-20,2.5,0,False,Trunk Route,True,54.0,TDMS
+TRK-SEC-08-0068,Engineering,SEC-08,Firozpur,Rail,Gauge Widening,Major,3,2026-08-26,4.2,2,False,Trunk Route,True,56.3,TMS
+OHE-SEC-05-0147,Traction Distribution,SEC-05,Moradabad,Traction Substation,Traction Substation Fault,Major,-4,2026-09-02,2.6,3,False,Trunk Route,True,56.3,TDMS
+OHE-SEC-03-0142,Traction Distribution,SEC-03,Delhi,Dropper,Dropper Defect,Major,6,2026-08-23,1.8,3,False,Branch Line,True,56.2,TDMS
+SIG-SEC-06-0013,Signal & Telecom,SEC-06,Moradabad,Signal,Axle Counter Fault,Major,12,2026-08-17,1.2,0,False,Trunk Route,True,56.2,SMMS
+TRK-SEC-03-0092,Engineering,SEC-03,Delhi,Rail,Track Geometry - Unevenness,Major,8,2026-08-21,2.0,1,False,Trunk Route,True,56.1,TMS
+TRK-SEC-08-0070,Engineering,SEC-08,Firozpur,Track Geometry,Track Geometry - Twist,Major,5,2026-08-24,4.4,3,False,Branch Line,True,55.8,TMS
+TRK-SEC-04-0081,Engineering,SEC-04,Delhi,Formation,Formation/Subgrade Defect,Major,2,2026-08-27,2.2,2,False,Trunk Route,True,55.7,TMS
+SIG-SEC-01-0113,Signal & Telecom,SEC-01,Ambala,Axle Counter,Block Instrument Fault,Major,-1,2026-08-30,2.3,3,False,Trunk Route,True,55.6,SMMS
+OHE-SEC-01-0092,Traction Distribution,SEC-01,Ambala,Traction Substation,Insulator Damage,Major,15,2026-08-14,2.0,1,False,Branch Line,True,55.4,TDMS
+TRK-SEC-01-0139,Engineering,SEC-01,Ambala,Rail,Rail Fracture,Major,19,2026-08-10,4.8,0,False,Branch Line,True,55.1,TMS
+SIG-SEC-07-0100,Signal & Telecom,SEC-07,Firozpur,Level Crossing Gate,Block Instrument Fault,Major,6,2026-08-23,4.0,1,False,Trunk Route,True,55.1,SMMS
+TRK-SEC-05-0182,Engineering,SEC-05,Moradabad,Rail,Gauge Widening,Major,18,2026-08-11,2.3,0,False,Branch Line,True,54.9,TMS
+TRK-SEC-01-0086,Engineering,SEC-01,Ambala,Track Geometry,Rail Fracture,Critical,6,2026-08-23,7.8,0,True,Branch Line,False,54.5,TMS
+SIG-SEC-02-0060,Signal & Telecom,SEC-02,Ambala,Block Instrument,Signal Aspect Failure,Major,5,2026-08-24,1.1,1,False,Trunk Route,True,54.5,SMMS
+OHE-SEC-01-0124,Traction Distribution,SEC-01,Ambala,Switching Post,Earthing Fault,Major,10,2026-08-19,1.7,0,False,Trunk Route,True,54.5,TDMS
+OHE-SEC-07-0001,Traction Distribution,SEC-07,Firozpur,Insulator,OHE Wire Wear,Major,-2,2026-08-31,2.8,2,False,Trunk Route,True,54.2,TDMS
+OHE-SEC-03-0154,Traction Distribution,SEC-03,Delhi,Feeder,Earthing Fault,Major,8,2026-08-21,2.4,2,False,Branch Line,True,54.1,TDMS
 SIG-SEC-01-0001,Signal & Telecom,SEC-01,Ambala,Axle Counter,Signal Aspect Failure,Major,9,2026-08-20,3.3,0,False,Trunk Route,True,54.0,SMMS
+OHE-SEC-08-0135,Traction Distribution,SEC-08,Firozpur,Feeder,Tension Length Deviation,Major,9,2026-08-20,2.5,0,False,Trunk Route,True,54.0,TDMS
 SIG-SEC-06-0059,Signal & Telecom,SEC-06,Moradabad,Level Crossing Gate,Level Crossing Gate Fault,Major,4,2026-08-25,3.7,1,False,Trunk Route,True,54.0,SMMS
 TRK-SEC-08-0218,Engineering,SEC-08,Firozpur,Rail,Track Geometry - Twist,Major,4,2026-08-25,2.6,1,False,Trunk Route,True,54.0,TMS
-SIG-SEC-06-0179,Signal & Telecom,SEC-06,Moradabad,Level Crossing Gate,Block Instrument Fault,Major,11,2026-08-18,2.2,1,False,Branch Line,True,53.7,SMMS
-TRK-SEC-02-0209,Engineering,SEC-02,Ambala,Track Geometry,Formation/Subgrade Defect,Major,8,2026-08-21,3.3,0,False,Trunk Route,True,53.3,TMS
+SIG-SEC-06-0179,Signal & Telecom,SEC-06,Moradabad,Level Crossing Gate,Block Instrument Fault,Major,11,2026-08-18,2.2,1,False,Branch Line,True,53.6,SMMS
+TRK-SEC-04-0083,Engineering,SEC-04,Delhi,Rail,Rail Fracture,Major,15,2026-08-14,3.6,0,False,Branch Line,True,53.4,TMS
 TRK-SEC-08-0080,Engineering,SEC-08,Firozpur,Rail,Track Geometry - Twist,Major,8,2026-08-21,3.8,0,False,Trunk Route,True,53.3,TMS
-OHE-SEC-07-0046,Traction Distribution,SEC-07,Firozpur,Traction Substation,Feeder Fault,Major,3,2026-08-26,1.1,1,False,Trunk Route,True,53.3,TDMS
-OHE-SEC-02-0132,Traction Distribution,SEC-02,Ambala,Feeder,Dropper Defect,Major,-5,2026-09-03,1.4,0,True,Branch Line,True,53.0,TDMS
-TRK-SEC-04-0083,Engineering,SEC-04,Delhi,Rail,Rail Fracture,Major,15,2026-08-14,3.6,0,False,Branch Line,True,53.0,TMS
+TRK-SEC-02-0209,Engineering,SEC-02,Ambala,Track Geometry,Formation/Subgrade Defect,Major,8,2026-08-21,3.3,0,False,Trunk Route,True,53.3,TMS
+OHE-SEC-07-0046,Traction Distribution,SEC-07,Firozpur,Traction Substation,Feeder Fault,Major,3,2026-08-26,1.1,1,False,Trunk Route,True,53.2,TDMS
 SIG-SEC-04-0077,Signal & Telecom,SEC-04,Delhi,Point Machine,Level Crossing Gate Fault,Major,-4,2026-09-02,3.5,3,False,Branch Line,True,53.0,SMMS
-SIG-SEC-05-0029,Signal & Telecom,SEC-05,Moradabad,Cable,Relay Failure,Major,-2,2026-08-31,4.0,0,True,Branch Line,True,53.0,SMMS
-TRK-SEC-05-0029,Engineering,SEC-05,Moradabad,Ballast,Formation/Subgrade Defect,Major,2,2026-08-27,4.1,1,False,Trunk Route,True,52.7,TMS
-SIG-SEC-01-0040,Signal & Telecom,SEC-01,Ambala,Cable,Point Machine Failure,Major,7,2026-08-22,2.1,0,False,Trunk Route,True,52.7,SMMS
-OHE-SEC-05-0091,Traction Distribution,SEC-05,Moradabad,OHE Wire,Dropper Defect,Major,7,2026-08-22,3.2,0,False,Trunk Route,True,52.7,TDMS
-OHE-SEC-07-0139,Traction Distribution,SEC-07,Firozpur,Feeder,Tension Length Deviation,Major,14,2026-08-15,3.4,0,False,Branch Line,True,52.3,TDMS
-OHE-SEC-08-0026,Traction Distribution,SEC-08,Firozpur,Feeder,Earthing Fault,Major,9,2026-08-20,1.9,1,False,Branch Line,True,52.3,TDMS
-OHE-SEC-08-0138,Traction Distribution,SEC-08,Firozpur,Traction Substation,Dropper Defect,Major,15,2026-08-14,2.9,1,True,Trunk Route,False,51.3,TDMS
-TRK-SEC-08-0102,Engineering,SEC-08,Firozpur,Ballast,Rail Wear,Major,-5,2026-09-03,2.9,1,False,Trunk Route,True,51.3,TMS
-TRK-SEC-03-0004,Engineering,SEC-03,Delhi,Ballast,Gauge Widening,Major,-2,2026-08-31,4.3,1,False,Trunk Route,True,51.3,TMS
-SIG-SEC-05-0026,Signal & Telecom,SEC-05,Moradabad,Point Machine,Interlocking Fault,Major,0,2026-08-29,1.1,1,False,Trunk Route,True,51.3,SMMS
-TRK-SEC-07-0045,Engineering,SEC-07,Firozpur,Formation,Track Geometry - Unevenness,Major,12,2026-08-17,4.1,0,False,Branch Line,True,51.0,TMS
-TRK-SEC-04-0020,Engineering,SEC-04,Delhi,Formation,Rail Wear,Major,12,2026-08-17,3.5,0,False,Branch Line,True,51.0,TMS
-SIG-SEC-03-0067,Signal & Telecom,SEC-03,Delhi,Block Instrument,Signal Aspect Failure,Major,12,2026-08-17,1.5,0,False,Branch Line,True,51.0,SMMS
+TRK-SEC-05-0029,Engineering,SEC-05,Moradabad,Ballast,Formation/Subgrade Defect,Major,2,2026-08-27,4.1,1,False,Trunk Route,True,52.9,TMS
+OHE-SEC-08-0026,Traction Distribution,SEC-08,Firozpur,Feeder,Earthing Fault,Major,9,2026-08-20,1.9,1,False,Branch Line,True,52.9,TDMS
+OHE-SEC-05-0091,Traction Distribution,SEC-05,Moradabad,OHE Wire,Dropper Defect,Major,7,2026-08-22,3.2,0,False,Trunk Route,True,52.8,TDMS
+OHE-SEC-07-0139,Traction Distribution,SEC-07,Firozpur,Feeder,Tension Length Deviation,Major,14,2026-08-15,3.4,0,False,Branch Line,True,52.8,TDMS
+SIG-SEC-01-0040,Signal & Telecom,SEC-01,Ambala,Cable,Point Machine Failure,Major,7,2026-08-22,2.1,0,False,Trunk Route,True,52.8,SMMS
+OHE-SEC-02-0132,Traction Distribution,SEC-02,Ambala,Feeder,Dropper Defect,Major,-5,2026-09-03,1.4,0,True,Branch Line,True,52.2,TDMS
+SIG-SEC-05-0029,Signal & Telecom,SEC-05,Moradabad,Cable,Relay Failure,Major,-2,2026-08-31,4.0,0,True,Branch Line,True,52.1,SMMS
+SIG-SEC-03-0067,Signal & Telecom,SEC-03,Delhi,Block Instrument,Signal Aspect Failure,Major,12,2026-08-17,1.5,0,False,Branch Line,True,51.2,SMMS
+TRK-SEC-04-0020,Engineering,SEC-04,Delhi,Formation,Rail Wear,Major,12,2026-08-17,3.5,0,False,Branch Line,True,51.2,TMS
+TRK-SEC-07-0045,Engineering,SEC-07,Firozpur,Formation,Track Geometry - Unevenness,Major,12,2026-08-17,4.1,0,False,Branch Line,True,51.2,TMS
+TRK-SEC-08-0102,Engineering,SEC-08,Firozpur,Ballast,Rail Wear,Major,-5,2026-09-03,2.9,1,False,Trunk Route,True,51.1,TMS
+TRK-SEC-03-0004,Engineering,SEC-03,Delhi,Ballast,Gauge Widening,Major,-2,2026-08-31,4.3,1,False,Trunk Route,True,51.1,TMS
+SIG-SEC-05-0026,Signal & Telecom,SEC-05,Moradabad,Point Machine,Interlocking Fault,Major,0,2026-08-29,1.1,1,False,Trunk Route,True,51.0,SMMS
 OHE-SEC-08-0143,Traction Distribution,SEC-08,Firozpur,Dropper,Insulator Damage,Major,2,2026-08-27,2.2,2,False,Branch Line,True,51.0,TDMS
-OHE-SEC-04-0027,Traction Distribution,SEC-04,Delhi,Dropper,Feeder Fault,Major,0,2026-08-29,2.6,2,False,Branch Line,True,49.7,TDMS
-TRK-SEC-01-0086,Engineering,SEC-01,Ambala,Track Geometry,Rail Fracture,Critical,6,2026-08-23,7.8,0,True,Branch Line,False,49.0,TMS
-TRK-SEC-05-0046,Engineering,SEC-05,Moradabad,Track Geometry,Ballast Deficiency,Major,4,2026-08-25,4.5,1,False,Branch Line,True,49.0,TMS
-OHE-SEC-04-0020,Traction Distribution,SEC-04,Delhi,Traction Substation,Tension Length Deviation,Minor,2,2026-08-27,0.7,0,True,Trunk Route,True,48.8,TDMS
-OHE-SEC-02-0101,Traction Distribution,SEC-02,Ambala,Feeder,Insulator Damage,Major,1,2026-08-28,1.1,0,False,Trunk Route,True,48.7,TDMS
-SIG-SEC-03-0072,Signal & Telecom,SEC-03,Delhi,Cable,Relay Failure,Major,1,2026-08-28,2.1,0,False,Trunk Route,True,48.7,SMMS
-TRK-SEC-03-0195,Engineering,SEC-03,Delhi,Ballast,Ballast Deficiency,Major,1,2026-08-28,3.5,0,False,Trunk Route,True,48.7,TMS
-SIG-SEC-05-0053,Signal & Telecom,SEC-05,Moradabad,Interlocking,Interlocking Fault,Major,11,2026-08-18,2.7,1,True,Trunk Route,False,48.7,SMMS
-TRK-SEC-03-0087,Engineering,SEC-03,Delhi,Formation,Weld Defect,Major,3,2026-08-26,4.0,1,False,Branch Line,True,48.3,TMS
-TRK-SEC-01-0022,Engineering,SEC-01,Ambala,Weld,Rail Wear,Major,-2,2026-08-31,3.0,0,False,Trunk Route,True,48.0,TMS
-OHE-SEC-03-0061,Traction Distribution,SEC-03,Delhi,Dropper,Feeder Fault,Major,-4,2026-09-02,1.7,0,False,Trunk Route,True,48.0,TDMS
-SIG-SEC-03-0004,Signal & Telecom,SEC-03,Delhi,Interlocking,Cable Insulation Fault,Major,-4,2026-09-02,1.1,0,False,Trunk Route,True,48.0,SMMS
+SIG-SEC-02-0163,Signal & Telecom,SEC-02,Ambala,Axle Counter,Block Instrument Fault,Critical,4,2026-08-25,2.3,0,True,Branch Line,False,50.8,SMMS
+OHE-SEC-04-0027,Traction Distribution,SEC-04,Delhi,Dropper,Feeder Fault,Major,0,2026-08-29,2.6,2,False,Branch Line,True,50.2,TDMS
+OHE-SEC-04-0020,Traction Distribution,SEC-04,Delhi,Traction Substation,Tension Length Deviation,Minor,2,2026-08-27,0.7,0,True,Trunk Route,True,49.8,TDMS
+OHE-SEC-08-0138,Traction Distribution,SEC-08,Firozpur,Traction Substation,Dropper Defect,Major,15,2026-08-14,2.9,1,True,Trunk Route,False,49.1,TDMS
+TRK-SEC-05-0046,Engineering,SEC-05,Moradabad,Track Geometry,Ballast Deficiency,Major,4,2026-08-25,4.5,1,False,Branch Line,True,48.9,TMS
+TRK-SEC-03-0087,Engineering,SEC-03,Delhi,Formation,Weld Defect,Major,3,2026-08-26,4.0,1,False,Branch Line,True,48.6,TMS
+SIG-SEC-03-0072,Signal & Telecom,SEC-03,Delhi,Cable,Relay Failure,Major,1,2026-08-28,2.1,0,False,Trunk Route,True,48.5,SMMS
+TRK-SEC-03-0195,Engineering,SEC-03,Delhi,Ballast,Ballast Deficiency,Major,1,2026-08-28,3.5,0,False,Trunk Route,True,48.5,TMS
+OHE-SEC-02-0101,Traction Distribution,SEC-02,Ambala,Feeder,Insulator Damage,Major,1,2026-08-28,1.1,0,False,Trunk Route,True,48.5,TDMS
+SIG-SEC-04-0144,Signal & Telecom,SEC-04,Delhi,Signal,Axle Counter Fault,Major,7,2026-08-22,3.6,0,False,Branch Line,True,48.3,SMMS
+SIG-SEC-07-0017,Signal & Telecom,SEC-07,Firozpur,Interlocking,Interlocking Fault,Major,-5,2026-09-03,2.3,0,False,Trunk Route,True,48.1,SMMS
+SIG-SEC-03-0004,Signal & Telecom,SEC-03,Delhi,Interlocking,Cable Insulation Fault,Major,-4,2026-09-02,1.1,0,False,Trunk Route,True,48.1,SMMS
+OHE-SEC-03-0061,Traction Distribution,SEC-03,Delhi,Dropper,Feeder Fault,Major,-4,2026-09-02,1.7,0,False,Trunk Route,True,48.1,TDMS
 OHE-SEC-08-0005,Traction Distribution,SEC-08,Firozpur,OHE Wire,Traction Substation Fault,Major,-1,2026-08-30,1.5,0,False,Trunk Route,True,48.0,TDMS
-SIG-SEC-07-0017,Signal & Telecom,SEC-07,Firozpur,Interlocking,Interlocking Fault,Major,-5,2026-09-03,2.3,0,False,Trunk Route,True,48.0,SMMS
-SIG-SEC-02-0163,Signal & Telecom,SEC-02,Ambala,Axle Counter,Block Instrument Fault,Critical,4,2026-08-25,2.3,0,True,Branch Line,False,47.7,SMMS
-SIG-SEC-04-0144,Signal & Telecom,SEC-04,Delhi,Signal,Axle Counter Fault,Major,7,2026-08-22,3.6,0,False,Branch Line,True,47.7,SMMS
-TRK-SEC-02-0034,Engineering,SEC-02,Ambala,Ballast,Track Geometry - Unevenness,Minor,-14,2026-09-12,2.7,3,False,Trunk Route,True,47.5,TMS
-TRK-SEC-04-0074,Engineering,SEC-04,Delhi,Formation,Gauge Widening,Major,19,2026-08-10,4.2,2,False,Trunk Route,False,47.3,TMS
-TRK-SEC-08-0118,Engineering,SEC-08,Firozpur,Ballast,Rail Fracture,Major,6,2026-08-23,2.7,0,False,Branch Line,True,47.0,TMS
-TRK-SEC-06-0138,Engineering,SEC-06,Moradabad,Formation,Rail Fracture,Major,16,2026-08-13,2.8,1,True,Branch Line,False,47.0,TMS
-SIG-SEC-02-0005,Signal & Telecom,SEC-02,Ambala,Cable,Relay Failure,Major,13,2026-08-16,1.3,0,True,Trunk Route,False,46.7,SMMS
-TRK-SEC-01-0109,Engineering,SEC-01,Ambala,Ballast,Ballast Deficiency,Major,13,2026-08-16,3.3,0,True,Trunk Route,False,46.7,TMS
-OHE-SEC-01-0036,Traction Distribution,SEC-01,Ambala,Traction Substation,Dropper Defect,Major,13,2026-08-16,3.3,3,False,Trunk Route,False,46.7,TDMS
-SIG-SEC-05-0074,Signal & Telecom,SEC-05,Moradabad,Signal,Point Machine Failure,Minor,1,2026-08-28,1.2,1,True,Branch Line,True,46.5,SMMS
-TRK-SEC-05-0060,Engineering,SEC-05,Moradabad,Formation,Gauge Widening,Major,5,2026-08-24,2.6,0,False,Branch Line,True,46.3,TMS
-TRK-SEC-05-0033,Engineering,SEC-05,Moradabad,Ballast,Rail Fracture,Major,5,2026-08-24,2.6,0,False,Branch Line,True,46.3,TMS
-TRK-SEC-05-0197,Engineering,SEC-05,Moradabad,Formation,Track Geometry - Twist,Major,-4,2026-09-02,2.4,1,False,Branch Line,True,46.3,TMS
-SIG-SEC-05-0108,Signal & Telecom,SEC-05,Moradabad,Interlocking,Level Crossing Gate Fault,Major,-3,2026-09-01,1.9,1,False,Branch Line,True,46.3,SMMS
-OHE-SEC-06-0034,Traction Distribution,SEC-06,Moradabad,OHE Wire,Earthing Fault,Major,12,2026-08-17,3.2,0,True,Trunk Route,False,46.0,TDMS
-SIG-SEC-02-0034,Signal & Telecom,SEC-02,Ambala,Signal,Point Machine Failure,Minor,-8,2026-09-06,1.4,1,True,Branch Line,True,45.8,SMMS
-TRK-SEC-07-0003,Engineering,SEC-07,Firozpur,Ballast,Gauge Widening,Major,20,2026-08-09,3.8,1,False,Trunk Route,False,44.7,TMS
-TRK-SEC-04-0008,Engineering,SEC-04,Delhi,Rail,Track Geometry - Twist,Major,15,2026-08-14,3.1,2,False,Trunk Route,False,44.7,TMS
-SIG-SEC-02-0097,Signal & Telecom,SEC-02,Ambala,Cable,Relay Failure,Major,-3,2026-09-01,2.4,2,True,Trunk Route,False,44.7,SMMS
-SIG-SEC-06-0091,Signal & Telecom,SEC-06,Moradabad,Axle Counter,Level Crossing Gate Fault,Major,14,2026-08-15,1.2,2,False,Trunk Route,False,44.0,SMMS
-TRK-SEC-07-0056,Engineering,SEC-07,Firozpur,Ballast,Gauge Widening,Minor,7,2026-08-22,2.2,2,False,Branch Line,True,43.8,TMS
-OHE-SEC-01-0120,Traction Distribution,SEC-01,Ambala,Traction Substation,Earthing Fault,Major,1,2026-08-28,3.0,0,False,Branch Line,True,43.7,TDMS
-TRK-SEC-01-0156,Engineering,SEC-01,Ambala,Weld,Track Geometry - Unevenness,Major,1,2026-08-28,2.5,0,False,Branch Line,True,43.7,TMS
-OHE-SEC-06-0022,Traction Distribution,SEC-06,Moradabad,Earthing System,Insulator Damage,Major,15,2026-08-14,3.3,0,True,Branch Line,False,43.0,TDMS
-OHE-SEC-07-0104,Traction Distribution,SEC-07,Firozpur,Earthing System,Feeder Fault,Major,-2,2026-08-31,1.2,0,False,Branch Line,True,43.0,TDMS
-OHE-SEC-04-0113,Traction Distribution,SEC-04,Delhi,Switching Post,Feeder Fault,Major,0,2026-08-29,1.4,0,False,Branch Line,True,43.0,TDMS
-SIG-SEC-04-0161,Signal & Telecom,SEC-04,Delhi,Cable,Point Machine Failure,Major,15,2026-08-14,1.4,3,False,Branch Line,False,43.0,SMMS
-SIG-SEC-02-0083,Signal & Telecom,SEC-02,Ambala,Level Crossing Gate,Interlocking Fault,Major,7,2026-08-22,1.1,3,False,Trunk Route,False,42.7,SMMS
-TRK-SEC-07-0158,Engineering,SEC-07,Firozpur,Rail,Rail Wear,Major,17,2026-08-12,2.5,1,False,Trunk Route,False,42.7,TMS
-OHE-SEC-03-0087,Traction Distribution,SEC-03,Delhi,Feeder,Insulator Damage,Minor,-9,2026-09-07,1.4,0,True,Branch Line,True,42.5,TDMS
-OHE-SEC-05-0011,Traction Distribution,SEC-05,Moradabad,Traction Substation,Traction Substation Fault,Minor,-13,2026-09-11,0.6,3,False,Branch Line,True,42.5,TDMS
-TRK-SEC-05-0153,Engineering,SEC-05,Moradabad,Weld,Ballast Deficiency,Major,14,2026-08-15,4.6,0,True,Branch Line,False,42.3,TMS
-TRK-SEC-08-0069,Engineering,SEC-08,Firozpur,Ballast,Track Geometry - Unevenness,Major,14,2026-08-15,3.4,0,True,Branch Line,False,42.3,TMS
-OHE-SEC-06-0079,Traction Distribution,SEC-06,Moradabad,Dropper,Earthing Fault,Major,6,2026-08-23,2.0,3,False,Trunk Route,False,42.0,TDMS
-OHE-SEC-07-0136,Traction Distribution,SEC-07,Firozpur,Earthing System,OHE Wire Wear,Minor,6,2026-08-23,1.3,0,False,Trunk Route,True,41.5,TDMS
-OHE-SEC-04-0081,Traction Distribution,SEC-04,Delhi,Traction Substation,Feeder Fault,Major,15,2026-08-14,1.1,1,False,Trunk Route,False,41.3,TDMS
-OHE-SEC-06-0016,Traction Distribution,SEC-06,Moradabad,Switching Post,Insulator Damage,Major,12,2026-08-17,2.8,3,False,Branch Line,False,41.0,TDMS
-TRK-SEC-01-0151,Engineering,SEC-01,Ambala,Ballast,Rail Wear,Major,9,2026-08-20,3.3,2,False,Trunk Route,False,40.7,TMS
-SIG-SEC-07-0132,Signal & Telecom,SEC-07,Firozpur,Cable,Level Crossing Gate Fault,Major,13,2026-08-16,2.6,1,False,Trunk Route,False,40.0,SMMS
-TRK-SEC-01-0123,Engineering,SEC-01,Ambala,Formation,Formation/Subgrade Defect,Major,18,2026-08-11,2.2,0,False,Trunk Route,False,40.0,TMS
-TRK-SEC-08-0213,Engineering,SEC-08,Firozpur,Track Geometry,Rail Wear,Major,20,2026-08-09,4.8,1,False,Branch Line,False,39.7,TMS
-TRK-SEC-07-0217,Engineering,SEC-07,Firozpur,Weld,Rail Wear,Major,16,2026-08-13,3.4,0,False,Trunk Route,False,38.7,TMS
-TRK-SEC-03-0094,Engineering,SEC-03,Delhi,Ballast,Rail Wear,Major,11,2026-08-18,4.8,1,False,Trunk Route,False,38.7,TMS
-TRK-SEC-03-0103,Engineering,SEC-03,Delhi,Track Geometry,Rail Wear,Major,16,2026-08-13,3.2,0,False,Trunk Route,False,38.7,TMS
-TRK-SEC-02-0157,Engineering,SEC-02,Ambala,Track Geometry,Track Geometry - Unevenness,Major,11,2026-08-18,4.4,1,False,Trunk Route,False,38.7,TMS
-SIG-SEC-03-0050,Signal & Telecom,SEC-03,Delhi,Point Machine,Level Crossing Gate Fault,Major,8,2026-08-21,2.5,3,False,Branch Line,False,38.3,SMMS
-TRK-SEC-06-0044,Engineering,SEC-06,Moradabad,Ballast,Gauge Widening,Major,5,2026-08-24,4.8,2,False,Trunk Route,False,38.0,TMS
-TRK-SEC-02-0078,Engineering,SEC-02,Ambala,Track Geometry,Gauge Widening,Major,15,2026-08-14,2.2,0,False,Trunk Route,False,38.0,TMS
+TRK-SEC-01-0022,Engineering,SEC-01,Ambala,Weld,Rail Wear,Major,-2,2026-08-31,3.0,0,False,Trunk Route,True,48.0,TMS
+TRK-SEC-05-0197,Engineering,SEC-05,Moradabad,Formation,Track Geometry - Twist,Major,-4,2026-09-02,2.4,1,False,Branch Line,True,47.6,TMS
+TRK-SEC-08-0118,Engineering,SEC-08,Firozpur,Ballast,Rail Fracture,Major,6,2026-08-23,2.7,0,False,Branch Line,True,47.5,TMS
+SIG-SEC-05-0108,Signal & Telecom,SEC-05,Moradabad,Interlocking,Level Crossing Gate Fault,Major,-3,2026-09-01,1.9,1,False,Branch Line,True,47.3,SMMS
+SIG-SEC-05-0053,Signal & Telecom,SEC-05,Moradabad,Interlocking,Interlocking Fault,Major,11,2026-08-18,2.7,1,True,Trunk Route,False,46.9,SMMS
+TRK-SEC-05-0033,Engineering,SEC-05,Moradabad,Ballast,Rail Fracture,Major,5,2026-08-24,2.6,0,False,Branch Line,True,46.6,TMS
+TRK-SEC-05-0060,Engineering,SEC-05,Moradabad,Formation,Gauge Widening,Major,5,2026-08-24,2.6,0,False,Branch Line,True,46.6,TMS
+TRK-SEC-06-0138,Engineering,SEC-06,Moradabad,Formation,Rail Fracture,Major,16,2026-08-13,2.8,1,True,Branch Line,False,46.5,TMS
+SIG-SEC-02-0005,Signal & Telecom,SEC-02,Ambala,Cable,Relay Failure,Major,13,2026-08-16,1.3,0,True,Trunk Route,False,46.3,SMMS
+TRK-SEC-01-0109,Engineering,SEC-01,Ambala,Ballast,Ballast Deficiency,Major,13,2026-08-16,3.3,0,True,Trunk Route,False,46.3,TMS
+TRK-SEC-04-0074,Engineering,SEC-04,Delhi,Formation,Gauge Widening,Major,19,2026-08-10,4.2,2,False,Trunk Route,False,46.2,TMS
+SIG-SEC-02-0034,Signal & Telecom,SEC-02,Ambala,Signal,Point Machine Failure,Minor,-8,2026-09-06,1.4,1,True,Branch Line,True,46.0,SMMS
+TRK-SEC-02-0034,Engineering,SEC-02,Ambala,Ballast,Track Geometry - Unevenness,Minor,-14,2026-09-12,2.7,3,False,Trunk Route,True,45.8,TMS
+OHE-SEC-06-0034,Traction Distribution,SEC-06,Moradabad,OHE Wire,Earthing Fault,Major,12,2026-08-17,3.2,0,True,Trunk Route,False,45.6,TDMS
+TRK-SEC-07-0056,Engineering,SEC-07,Firozpur,Ballast,Gauge Widening,Minor,7,2026-08-22,2.2,2,False,Branch Line,True,44.9,TMS
+OHE-SEC-01-0036,Traction Distribution,SEC-01,Ambala,Traction Substation,Dropper Defect,Major,13,2026-08-16,3.3,3,False,Trunk Route,False,44.7,TDMS
+OHE-SEC-07-0136,Traction Distribution,SEC-07,Firozpur,Earthing System,OHE Wire Wear,Minor,6,2026-08-23,1.3,0,False,Trunk Route,True,44.7,TDMS
+TRK-SEC-04-0008,Engineering,SEC-04,Delhi,Rail,Track Geometry - Twist,Major,15,2026-08-14,3.1,2,False,Trunk Route,False,44.6,TMS
+SIG-SEC-06-0091,Signal & Telecom,SEC-06,Moradabad,Axle Counter,Level Crossing Gate Fault,Major,14,2026-08-15,1.2,2,False,Trunk Route,False,44.3,SMMS
+TRK-SEC-01-0156,Engineering,SEC-01,Ambala,Weld,Track Geometry - Unevenness,Major,1,2026-08-28,2.5,0,False,Branch Line,True,43.8,TMS
+OHE-SEC-01-0120,Traction Distribution,SEC-01,Ambala,Traction Substation,Earthing Fault,Major,1,2026-08-28,3.0,0,False,Branch Line,True,43.8,TDMS
+OHE-SEC-07-0104,Traction Distribution,SEC-07,Firozpur,Earthing System,Feeder Fault,Major,-2,2026-08-31,1.2,0,False,Branch Line,True,43.6,TDMS
+OHE-SEC-06-0022,Traction Distribution,SEC-06,Moradabad,Earthing System,Insulator Damage,Major,15,2026-08-14,3.3,0,True,Branch Line,False,43.6,TDMS
+SIG-SEC-04-0161,Signal & Telecom,SEC-04,Delhi,Cable,Point Machine Failure,Major,15,2026-08-14,1.4,3,False,Branch Line,False,43.4,SMMS
+OHE-SEC-04-0113,Traction Distribution,SEC-04,Delhi,Switching Post,Feeder Fault,Major,0,2026-08-29,1.4,0,False,Branch Line,True,43.4,TDMS
+SIG-SEC-05-0074,Signal & Telecom,SEC-05,Moradabad,Signal,Point Machine Failure,Minor,1,2026-08-28,1.2,1,True,Branch Line,True,43.4,SMMS
+OHE-SEC-03-0087,Traction Distribution,SEC-03,Delhi,Feeder,Insulator Damage,Minor,-9,2026-09-07,1.4,0,True,Branch Line,True,43.2,TDMS
+OHE-SEC-05-0011,Traction Distribution,SEC-05,Moradabad,Traction Substation,Traction Substation Fault,Minor,-13,2026-09-11,0.6,3,False,Branch Line,True,43.1,TDMS
+TRK-SEC-08-0069,Engineering,SEC-08,Firozpur,Ballast,Track Geometry - Unevenness,Major,14,2026-08-15,3.4,0,True,Branch Line,False,42.6,TMS
+TRK-SEC-05-0153,Engineering,SEC-05,Moradabad,Weld,Ballast Deficiency,Major,14,2026-08-15,4.6,0,True,Branch Line,False,42.6,TMS
+SIG-SEC-02-0097,Signal & Telecom,SEC-02,Ambala,Cable,Relay Failure,Major,-3,2026-09-01,2.4,2,True,Trunk Route,False,41.3,SMMS
+OHE-SEC-06-0016,Traction Distribution,SEC-06,Moradabad,Switching Post,Insulator Damage,Major,12,2026-08-17,2.8,3,False,Branch Line,False,41.1,TDMS
+SIG-SEC-02-0083,Signal & Telecom,SEC-02,Ambala,Level Crossing Gate,Interlocking Fault,Major,7,2026-08-22,1.1,3,False,Trunk Route,False,40.9,SMMS
+TRK-SEC-07-0003,Engineering,SEC-07,Firozpur,Ballast,Gauge Widening,Major,20,2026-08-09,3.8,1,False,Trunk Route,False,40.6,TMS
+TRK-SEC-07-0158,Engineering,SEC-07,Firozpur,Rail,Rail Wear,Major,17,2026-08-12,2.5,1,False,Trunk Route,False,40.6,TMS
+OHE-SEC-04-0081,Traction Distribution,SEC-04,Delhi,Traction Substation,Feeder Fault,Major,15,2026-08-14,1.1,1,False,Trunk Route,False,40.5,TDMS
+OHE-SEC-01-0039,Traction Distribution,SEC-01,Ambala,Earthing System,Tension Length Deviation,Minor,-11,2026-09-09,1.2,0,False,Trunk Route,True,40.3,TDMS
+TRK-SEC-01-0151,Engineering,SEC-01,Ambala,Ballast,Rail Wear,Major,9,2026-08-20,3.3,2,False,Trunk Route,False,40.1,TMS
+TRK-SEC-01-0123,Engineering,SEC-01,Ambala,Formation,Formation/Subgrade Defect,Major,18,2026-08-11,2.2,0,False,Trunk Route,False,39.4,TMS
+SIG-SEC-07-0132,Signal & Telecom,SEC-07,Firozpur,Cable,Level Crossing Gate Fault,Major,13,2026-08-16,2.6,1,False,Trunk Route,False,39.4,SMMS
+SIG-SEC-08-0019,Signal & Telecom,SEC-08,Firozpur,Level Crossing Gate,Interlocking Fault,Minor,-8,2026-09-06,0.7,0,False,Trunk Route,True,39.3,SMMS
+TRK-SEC-05-0040,Engineering,SEC-05,Moradabad,Ballast,Weld Defect,Minor,-8,2026-09-06,2.7,0,False,Trunk Route,True,39.3,TMS
+SIG-SEC-08-0030,Signal & Telecom,SEC-08,Firozpur,Signal,Cable Insulation Fault,Minor,-12,2026-09-10,1.3,0,False,Branch Line,True,39.1,SMMS
+SIG-SEC-03-0180,Signal & Telecom,SEC-03,Delhi,Point Machine,Axle Counter Fault,Minor,-3,2026-09-01,1.0,1,False,Branch Line,True,38.8,SMMS
+OHE-SEC-06-0079,Traction Distribution,SEC-06,Moradabad,Dropper,Earthing Fault,Major,6,2026-08-23,2.0,3,False,Trunk Route,False,38.7,TDMS
+TRK-SEC-07-0217,Engineering,SEC-07,Firozpur,Weld,Rail Wear,Major,16,2026-08-13,3.4,0,False,Trunk Route,False,38.6,TMS
+TRK-SEC-03-0103,Engineering,SEC-03,Delhi,Track Geometry,Rail Wear,Major,16,2026-08-13,3.2,0,False,Trunk Route,False,38.6,TMS
+OHE-SEC-02-0155,Traction Distribution,SEC-02,Ambala,Traction Substation,OHE Wire Wear,Minor,-2,2026-08-31,1.7,1,False,Branch Line,True,38.6,TDMS
+TRK-SEC-08-0213,Engineering,SEC-08,Firozpur,Track Geometry,Rail Wear,Major,20,2026-08-09,4.8,1,False,Branch Line,False,38.4,TMS
+SIG-SEC-08-0119,Signal & Telecom,SEC-08,Firozpur,Level Crossing Gate,Cable Insulation Fault,Minor,-3,2026-09-01,1.8,0,False,Trunk Route,True,38.2,SMMS
+TRK-SEC-03-0094,Engineering,SEC-03,Delhi,Ballast,Rail Wear,Major,11,2026-08-18,4.8,1,False,Trunk Route,False,38.2,TMS
+TRK-SEC-02-0157,Engineering,SEC-02,Ambala,Track Geometry,Track Geometry - Unevenness,Major,11,2026-08-18,4.4,1,False,Trunk Route,False,38.2,TMS
 TRK-SEC-06-0145,Engineering,SEC-06,Moradabad,Ballast,Track Geometry - Twist,Major,15,2026-08-14,4.9,0,False,Trunk Route,False,38.0,TMS
-OHE-SEC-02-0055,Traction Distribution,SEC-02,Ambala,OHE Wire,Insulator Damage,Major,-1,2026-08-30,3.4,3,False,Trunk Route,False,38.0,TDMS
-TRK-SEC-03-0023,Engineering,SEC-03,Delhi,Track Geometry,Rail Fracture,Major,-3,2026-09-01,2.7,0,True,Trunk Route,False,38.0,TMS
-OHE-SEC-01-0039,Traction Distribution,SEC-01,Ambala,Earthing System,Tension Length Deviation,Minor,-11,2026-09-09,1.2,0,False,Trunk Route,True,37.5,TDMS
-SIG-SEC-08-0019,Signal & Telecom,SEC-08,Firozpur,Level Crossing Gate,Interlocking Fault,Minor,-8,2026-09-06,0.7,0,False,Trunk Route,True,37.5,SMMS
-SIG-SEC-08-0119,Signal & Telecom,SEC-08,Firozpur,Level Crossing Gate,Cable Insulation Fault,Minor,-3,2026-09-01,1.8,0,False,Trunk Route,True,37.5,SMMS
-TRK-SEC-05-0040,Engineering,SEC-05,Moradabad,Ballast,Weld Defect,Minor,-8,2026-09-06,2.7,0,False,Trunk Route,True,37.5,TMS
-SIG-SEC-05-0064,Signal & Telecom,SEC-05,Moradabad,Level Crossing Gate,Signal Aspect Failure,Major,14,2026-08-15,3.7,0,False,Trunk Route,False,37.3,SMMS
-SIG-SEC-06-0134,Signal & Telecom,SEC-06,Moradabad,Signal,Axle Counter Fault,Major,13,2026-08-16,1.3,0,False,Trunk Route,False,36.7,SMMS
+TRK-SEC-02-0078,Engineering,SEC-02,Ambala,Track Geometry,Gauge Widening,Major,15,2026-08-14,2.2,0,False,Trunk Route,False,38.0,TMS
+SIG-SEC-03-0050,Signal & Telecom,SEC-03,Delhi,Point Machine,Level Crossing Gate Fault,Major,8,2026-08-21,2.5,3,False,Branch Line,False,37.6,SMMS
+SIG-SEC-04-0063,Signal & Telecom,SEC-04,Delhi,Signal,Block Instrument Fault,Major,10,2026-08-19,3.7,2,False,Branch Line,False,37.4,SMMS
+TRK-SEC-06-0044,Engineering,SEC-06,Moradabad,Ballast,Gauge Widening,Major,5,2026-08-24,4.8,2,False,Trunk Route,False,37.3,TMS
+SIG-SEC-05-0064,Signal & Telecom,SEC-05,Moradabad,Level Crossing Gate,Signal Aspect Failure,Major,14,2026-08-15,3.7,0,False,Trunk Route,False,37.2,SMMS
+OHE-SEC-02-0055,Traction Distribution,SEC-02,Ambala,OHE Wire,Insulator Damage,Major,-1,2026-08-30,3.4,3,False,Trunk Route,False,37.1,TDMS
+TRK-SEC-03-0023,Engineering,SEC-03,Delhi,Track Geometry,Rail Fracture,Major,-3,2026-09-01,2.7,0,True,Trunk Route,False,37.1,TMS
+SIG-SEC-06-0134,Signal & Telecom,SEC-06,Moradabad,Signal,Axle Counter Fault,Major,13,2026-08-16,1.3,0,False,Trunk Route,False,36.9,SMMS
 OHE-SEC-01-0064,Traction Distribution,SEC-01,Ambala,Feeder,Insulator Damage,Major,15,2026-08-14,2.6,1,False,Branch Line,False,36.3,TDMS
-SIG-SEC-04-0063,Signal & Telecom,SEC-04,Delhi,Signal,Block Instrument Fault,Major,10,2026-08-19,3.7,2,False,Branch Line,False,36.3,SMMS
-SIG-SEC-03-0180,Signal & Telecom,SEC-03,Delhi,Point Machine,Axle Counter Fault,Minor,-3,2026-09-01,1.0,1,False,Branch Line,True,35.8,SMMS
-OHE-SEC-02-0155,Traction Distribution,SEC-02,Ambala,Traction Substation,OHE Wire Wear,Minor,-2,2026-08-31,1.7,1,False,Branch Line,True,35.8,TDMS
-SIG-SEC-04-0078,Signal & Telecom,SEC-04,Delhi,Interlocking,Block Instrument Fault,Major,14,2026-08-15,3.5,1,False,Branch Line,False,35.7,SMMS
-TRK-SEC-01-0134,Engineering,SEC-01,Ambala,Weld,Rail Wear,Major,4,2026-08-25,4.1,0,True,Branch Line,False,35.7,TMS
-SIG-SEC-03-0138,Signal & Telecom,SEC-03,Delhi,Axle Counter,Point Machine Failure,Minor,7,2026-08-22,0.7,1,True,Trunk Route,False,35.5,SMMS
-OHE-SEC-06-0098,Traction Distribution,SEC-06,Moradabad,Feeder,Dropper Defect,Major,6,2026-08-23,2.5,1,False,Trunk Route,False,35.3,TDMS
-TRK-SEC-08-0047,Engineering,SEC-08,Firozpur,Ballast,Ballast Deficiency,Major,11,2026-08-18,4.0,0,False,Trunk Route,False,35.3,TMS
-SIG-SEC-02-0003,Signal & Telecom,SEC-02,Ambala,Cable,Cable Insulation Fault,Major,11,2026-08-18,1.3,0,False,Trunk Route,False,35.3,SMMS
-TRK-SEC-06-0011,Engineering,SEC-06,Moradabad,Weld,Track Geometry - Unevenness,Major,11,2026-08-18,5.0,0,False,Trunk Route,False,35.3,TMS
-SIG-SEC-03-0128,Signal & Telecom,SEC-03,Delhi,Level Crossing Gate,Interlocking Fault,Major,13,2026-08-16,1.7,1,False,Branch Line,False,35.0,SMMS
+SIG-SEC-04-0078,Signal & Telecom,SEC-04,Delhi,Interlocking,Block Instrument Fault,Major,14,2026-08-15,3.5,1,False,Branch Line,False,35.6,SMMS
+TRK-SEC-01-0134,Engineering,SEC-01,Ambala,Weld,Rail Wear,Major,4,2026-08-25,4.1,0,True,Branch Line,False,35.4,TMS
+TRK-SEC-08-0047,Engineering,SEC-08,Firozpur,Ballast,Ballast Deficiency,Major,11,2026-08-18,4.0,0,False,Trunk Route,False,35.4,TMS
+SIG-SEC-02-0003,Signal & Telecom,SEC-02,Ambala,Cable,Cable Insulation Fault,Major,11,2026-08-18,1.3,0,False,Trunk Route,False,35.4,SMMS
+TRK-SEC-06-0011,Engineering,SEC-06,Moradabad,Weld,Track Geometry - Unevenness,Major,11,2026-08-18,5.0,0,False,Trunk Route,False,35.4,TMS
 OHE-SEC-07-0140,Traction Distribution,SEC-07,Firozpur,Switching Post,Feeder Fault,Major,-5,2026-09-03,1.0,2,False,Trunk Route,False,34.7,TDMS
-OHE-SEC-07-0149,Traction Distribution,SEC-07,Firozpur,Switching Post,Tension Length Deviation,Major,10,2026-08-19,1.4,0,False,Trunk Route,False,34.7,TDMS
-SIG-SEC-08-0112,Signal & Telecom,SEC-08,Firozpur,Level Crossing Gate,Level Crossing Gate Fault,Minor,8,2026-08-21,0.9,2,True,Branch Line,False,34.5,SMMS
+OHE-SEC-06-0098,Traction Distribution,SEC-06,Moradabad,Feeder,Dropper Defect,Major,6,2026-08-23,2.5,1,False,Trunk Route,False,34.7,TDMS
+SIG-SEC-03-0128,Signal & Telecom,SEC-03,Delhi,Level Crossing Gate,Interlocking Fault,Major,13,2026-08-16,1.7,1,False,Branch Line,False,34.7,SMMS
+SIG-SEC-05-0084,Signal & Telecom,SEC-05,Moradabad,Signal,Level Crossing Gate Fault,Minor,-1,2026-08-30,0.9,0,False,Branch Line,True,34.6,SMMS
+OHE-SEC-07-0149,Traction Distribution,SEC-07,Firozpur,Switching Post,Tension Length Deviation,Major,10,2026-08-19,1.4,0,False,Trunk Route,False,34.4,TDMS
 TRK-SEC-02-0071,Engineering,SEC-02,Ambala,Formation,Formation/Subgrade Defect,Major,12,2026-08-17,3.2,1,False,Branch Line,False,34.3,TMS
-SIG-SEC-08-0082,Signal & Telecom,SEC-08,Firozpur,Point Machine,Cable Insulation Fault,Minor,10,2026-08-19,1.6,3,False,Trunk Route,False,34.2,SMMS
-OHE-SEC-03-0090,Traction Distribution,SEC-03,Delhi,Traction Substation,Feeder Fault,Major,9,2026-08-20,1.5,0,False,Trunk Route,False,34.0,TDMS
-TRK-SEC-01-0148,Engineering,SEC-01,Ambala,Ballast,Weld Defect,Major,9,2026-08-20,2.2,0,False,Trunk Route,False,34.0,TMS
-OHE-SEC-06-0003,Traction Distribution,SEC-06,Moradabad,Traction Substation,OHE Wire Wear,Major,4,2026-08-25,1.8,1,False,Trunk Route,False,34.0,TDMS
-TRK-SEC-05-0041,Engineering,SEC-05,Moradabad,Rail,Gauge Widening,Major,16,2026-08-13,3.5,0,False,Branch Line,False,33.7,TMS
-SIG-SEC-07-0173,Signal & Telecom,SEC-07,Firozpur,Interlocking,Interlocking Fault,Minor,9,2026-08-20,0.9,3,False,Trunk Route,False,33.5,SMMS
+SIG-SEC-03-0138,Signal & Telecom,SEC-03,Delhi,Axle Counter,Point Machine Failure,Minor,7,2026-08-22,0.7,1,True,Trunk Route,False,34.1,SMMS
+TRK-SEC-07-0129,Engineering,SEC-07,Firozpur,Rail,Weld Defect,Major,-1,2026-08-30,2.8,0,True,Branch Line,False,34.1,TMS
+TRK-SEC-05-0041,Engineering,SEC-05,Moradabad,Rail,Gauge Widening,Major,16,2026-08-13,3.5,0,False,Branch Line,False,34.1,TMS
+OHE-SEC-06-0003,Traction Distribution,SEC-06,Moradabad,Traction Substation,OHE Wire Wear,Major,4,2026-08-25,1.8,1,False,Trunk Route,False,33.9,TDMS
+TRK-SEC-01-0148,Engineering,SEC-01,Ambala,Ballast,Weld Defect,Major,9,2026-08-20,2.2,0,False,Trunk Route,False,33.9,TMS
+OHE-SEC-03-0090,Traction Distribution,SEC-03,Delhi,Traction Substation,Feeder Fault,Major,9,2026-08-20,1.5,0,False,Trunk Route,False,33.9,TDMS
 SIG-SEC-06-0033,Signal & Telecom,SEC-06,Moradabad,Signal,Axle Counter Fault,Major,8,2026-08-21,3.6,0,False,Trunk Route,False,33.3,SMMS
 OHE-SEC-05-0083,Traction Distribution,SEC-05,Moradabad,Earthing System,OHE Wire Wear,Major,8,2026-08-21,2.0,0,False,Trunk Route,False,33.3,TDMS
-SIG-SEC-07-0157,Signal & Telecom,SEC-07,Firozpur,Interlocking,Block Instrument Fault,Major,10,2026-08-19,3.5,1,False,Branch Line,False,33.0,SMMS
-OHE-SEC-02-0100,Traction Distribution,SEC-02,Ambala,Dropper,Feeder Fault,Major,10,2026-08-19,2.4,1,False,Branch Line,False,33.0,TDMS
-TRK-SEC-07-0128,Engineering,SEC-07,Firozpur,Rail,Ballast Deficiency,Major,5,2026-08-24,2.7,2,False,Branch Line,False,33.0,TMS
-TRK-SEC-07-0129,Engineering,SEC-07,Firozpur,Rail,Weld Defect,Major,-1,2026-08-30,2.8,0,True,Branch Line,False,33.0,TMS
-SIG-SEC-05-0051,Signal & Telecom,SEC-05,Moradabad,Level Crossing Gate,Interlocking Fault,Minor,3,2026-08-26,1.6,1,True,Trunk Route,False,32.8,SMMS
-TRK-SEC-03-0155,Engineering,SEC-03,Delhi,Formation,Ballast Deficiency,Minor,8,2026-08-21,2.7,3,False,Trunk Route,False,32.8,TMS
-OHE-SEC-04-0145,Traction Distribution,SEC-04,Delhi,Feeder,Insulator Damage,Major,7,2026-08-22,3.3,0,False,Trunk Route,False,32.7,TDMS
-SIG-SEC-08-0030,Signal & Telecom,SEC-08,Firozpur,Signal,Cable Insulation Fault,Minor,-12,2026-09-10,1.3,0,False,Branch Line,True,32.5,SMMS
-SIG-SEC-05-0084,Signal & Telecom,SEC-05,Moradabad,Signal,Level Crossing Gate Fault,Minor,-1,2026-08-30,0.9,0,False,Branch Line,True,32.5,SMMS
-TRK-SEC-02-0177,Engineering,SEC-02,Ambala,Formation,Ballast Deficiency,Major,9,2026-08-20,2.9,1,False,Branch Line,False,32.3,TMS
-OHE-SEC-01-0153,Traction Distribution,SEC-01,Ambala,Earthing System,Insulator Damage,Major,9,2026-08-20,1.6,1,False,Branch Line,False,32.3,TDMS
-OHE-SEC-06-0121,Traction Distribution,SEC-06,Moradabad,Dropper,Traction Substation Fault,Major,14,2026-08-15,3.1,0,False,Branch Line,False,32.3,TDMS
-OHE-SEC-06-0137,Traction Distribution,SEC-06,Moradabad,Feeder,Earthing Fault,Major,6,2026-08-23,2.8,0,False,Trunk Route,False,32.0,TDMS
-OHE-SEC-08-0053,Traction Distribution,SEC-08,Firozpur,Switching Post,Tension Length Deviation,Major,13,2026-08-16,2.0,0,False,Branch Line,False,31.7,TDMS
-OHE-SEC-05-0066,Traction Distribution,SEC-05,Moradabad,Traction Substation,Earthing Fault,Major,-3,2026-09-01,2.8,1,False,Trunk Route,False,31.3,TDMS
-OHE-SEC-08-0019,Traction Distribution,SEC-08,Firozpur,OHE Wire,Tension Length Deviation,Major,-1,2026-08-30,1.4,1,False,Trunk Route,False,31.3,TDMS
-SIG-SEC-03-0152,Signal & Telecom,SEC-03,Delhi,Interlocking,Point Machine Failure,Major,5,2026-08-24,3.5,0,False,Trunk Route,False,31.3,SMMS
-TRK-SEC-03-0026,Engineering,SEC-03,Delhi,Rail,Rail Fracture,Major,-4,2026-09-02,2.7,1,False,Trunk Route,False,31.3,TMS
-TRK-SEC-07-0110,Engineering,SEC-07,Firozpur,Ballast,Track Geometry - Unevenness,Major,12,2026-08-17,2.4,0,False,Branch Line,False,31.0,TMS
+SIG-SEC-08-0112,Signal & Telecom,SEC-08,Firozpur,Level Crossing Gate,Level Crossing Gate Fault,Minor,8,2026-08-21,0.9,2,True,Branch Line,False,33.2,SMMS
+SIG-SEC-07-0157,Signal & Telecom,SEC-07,Firozpur,Interlocking,Block Instrument Fault,Major,10,2026-08-19,3.5,1,False,Branch Line,False,32.9,SMMS
+OHE-SEC-02-0100,Traction Distribution,SEC-02,Ambala,Dropper,Feeder Fault,Major,10,2026-08-19,2.4,1,False,Branch Line,False,32.9,TDMS
+OHE-SEC-06-0121,Traction Distribution,SEC-06,Moradabad,Dropper,Traction Substation Fault,Major,14,2026-08-15,3.1,0,False,Branch Line,False,32.7,TDMS
+SIG-SEC-08-0082,Signal & Telecom,SEC-08,Firozpur,Point Machine,Cable Insulation Fault,Minor,10,2026-08-19,1.6,3,False,Trunk Route,False,32.6,SMMS
+OHE-SEC-04-0145,Traction Distribution,SEC-04,Delhi,Feeder,Insulator Damage,Major,7,2026-08-22,3.3,0,False,Trunk Route,False,32.6,TDMS
+SIG-SEC-07-0173,Signal & Telecom,SEC-07,Firozpur,Interlocking,Interlocking Fault,Minor,9,2026-08-20,0.9,3,False,Trunk Route,False,32.6,SMMS
+TRK-SEC-07-0128,Engineering,SEC-07,Firozpur,Rail,Ballast Deficiency,Major,5,2026-08-24,2.7,2,False,Branch Line,False,32.5,TMS
+TRK-SEC-02-0177,Engineering,SEC-02,Ambala,Formation,Ballast Deficiency,Major,9,2026-08-20,2.9,1,False,Branch Line,False,32.4,TMS
+OHE-SEC-01-0153,Traction Distribution,SEC-01,Ambala,Earthing System,Insulator Damage,Major,9,2026-08-20,1.6,1,False,Branch Line,False,32.4,TDMS
+TRK-SEC-03-0155,Engineering,SEC-03,Delhi,Formation,Ballast Deficiency,Minor,8,2026-08-21,2.7,3,False,Trunk Route,False,32.1,TMS
+OHE-SEC-08-0053,Traction Distribution,SEC-08,Firozpur,Switching Post,Tension Length Deviation,Major,13,2026-08-16,2.0,0,False,Branch Line,False,32.1,TDMS
+OHE-SEC-06-0137,Traction Distribution,SEC-06,Moradabad,Feeder,Earthing Fault,Major,6,2026-08-23,2.8,0,False,Trunk Route,False,31.9,TDMS
+OHE-SEC-08-0019,Traction Distribution,SEC-08,Firozpur,OHE Wire,Tension Length Deviation,Major,-1,2026-08-30,1.4,1,False,Trunk Route,False,31.7,TDMS
+TRK-SEC-03-0026,Engineering,SEC-03,Delhi,Rail,Rail Fracture,Major,-4,2026-09-02,2.7,1,False,Trunk Route,False,31.7,TMS
+SIG-SEC-05-0051,Signal & Telecom,SEC-05,Moradabad,Level Crossing Gate,Interlocking Fault,Minor,3,2026-08-26,1.6,1,True,Trunk Route,False,31.7,SMMS
+OHE-SEC-05-0066,Traction Distribution,SEC-05,Moradabad,Traction Substation,Earthing Fault,Major,-3,2026-09-01,2.8,1,False,Trunk Route,False,31.5,TDMS
+TRK-SEC-07-0110,Engineering,SEC-07,Firozpur,Ballast,Track Geometry - Unevenness,Major,12,2026-08-17,2.4,0,False,Branch Line,False,31.3,TMS
+SIG-SEC-03-0152,Signal & Telecom,SEC-03,Delhi,Interlocking,Point Machine Failure,Major,5,2026-08-24,3.5,0,False,Trunk Route,False,31.1,SMMS
 OHE-SEC-05-0078,Traction Distribution,SEC-05,Moradabad,Insulator,OHE Wire Wear,Major,7,2026-08-22,3.3,1,False,Branch Line,False,31.0,TDMS
-OHE-SEC-05-0148,Traction Distribution,SEC-05,Moradabad,Insulator,OHE Wire Wear,Minor,5,2026-08-24,1.6,0,True,Trunk Route,False,30.8,TDMS
-OHE-SEC-03-0077,Traction Distribution,SEC-03,Delhi,OHE Wire,Insulator Damage,Minor,-10,2026-09-08,1.0,1,True,Trunk Route,False,30.8,TDMS
-SIG-SEC-01-0071,Signal & Telecom,SEC-01,Ambala,Interlocking,Point Machine Failure,Minor,-15,2026-09-13,0.7,1,True,Trunk Route,False,30.8,SMMS
-SIG-SEC-02-0086,Signal & Telecom,SEC-02,Ambala,Interlocking,Interlocking Fault,Major,4,2026-08-25,3.2,0,False,Trunk Route,False,30.7,SMMS
+SIG-SEC-06-0037,Signal & Telecom,SEC-06,Moradabad,Cable,Interlocking Fault,Major,1,2026-08-28,2.8,2,False,Branch Line,False,30.9,SMMS
 OHE-SEC-05-0042,Traction Distribution,SEC-05,Moradabad,Traction Substation,OHE Wire Wear,Major,4,2026-08-25,2.8,0,False,Trunk Route,False,30.7,TDMS
-OHE-SEC-07-0093,Traction Distribution,SEC-07,Firozpur,Switching Post,OHE Wire Wear,Major,4,2026-08-25,1.4,0,False,Trunk Route,False,30.7,TDMS
 TRK-SEC-02-0101,Engineering,SEC-02,Ambala,Rail,Weld Defect,Major,4,2026-08-25,4.1,0,False,Trunk Route,False,30.7,TMS
-TRK-SEC-03-0098,Engineering,SEC-03,Delhi,Formation,Weld Defect,Major,11,2026-08-18,2.1,0,False,Branch Line,False,30.3,TMS
+OHE-SEC-07-0093,Traction Distribution,SEC-07,Firozpur,Switching Post,OHE Wire Wear,Major,4,2026-08-25,1.4,0,False,Trunk Route,False,30.7,TDMS
+SIG-SEC-02-0086,Signal & Telecom,SEC-02,Ambala,Interlocking,Interlocking Fault,Major,4,2026-08-25,3.2,0,False,Trunk Route,False,30.7,SMMS
+SIG-SEC-02-0141,Signal & Telecom,SEC-02,Ambala,Level Crossing Gate,Interlocking Fault,Major,11,2026-08-18,2.3,0,False,Branch Line,False,30.6,SMMS
+TRK-SEC-03-0098,Engineering,SEC-03,Delhi,Formation,Weld Defect,Major,11,2026-08-18,2.1,0,False,Branch Line,False,30.6,TMS
 SIG-SEC-08-0088,Signal & Telecom,SEC-08,Firozpur,Axle Counter,Cable Insulation Fault,Major,6,2026-08-23,2.5,1,False,Branch Line,False,30.3,SMMS
 TRK-SEC-03-0186,Engineering,SEC-03,Delhi,Track Geometry,Track Geometry - Unevenness,Major,6,2026-08-23,3.5,1,False,Branch Line,False,30.3,TMS
-SIG-SEC-06-0037,Signal & Telecom,SEC-06,Moradabad,Cable,Interlocking Fault,Major,1,2026-08-28,2.8,2,False,Branch Line,False,30.3,SMMS
-SIG-SEC-02-0141,Signal & Telecom,SEC-02,Ambala,Level Crossing Gate,Interlocking Fault,Major,11,2026-08-18,2.3,0,False,Branch Line,False,30.3,SMMS
-TRK-SEC-04-0121,Engineering,SEC-04,Delhi,Weld,Track Geometry - Unevenness,Minor,9,2026-08-20,1.5,2,False,Trunk Route,False,30.2,TMS
-OHE-SEC-03-0119,Traction Distribution,SEC-03,Delhi,Traction Substation,Dropper Defect,Minor,6,2026-08-23,1.1,1,True,Branch Line,False,29.8,TDMS
-TRK-SEC-08-0184,Engineering,SEC-08,Firozpur,Rail,Gauge Widening,Major,-3,2026-09-01,4.1,2,False,Branch Line,False,29.7,TMS
-SIG-SEC-06-0109,Signal & Telecom,SEC-06,Moradabad,Signal,Cable Insulation Fault,Major,10,2026-08-19,1.4,0,False,Branch Line,False,29.7,SMMS
-TRK-SEC-03-0198,Engineering,SEC-03,Delhi,Track Geometry,Formation/Subgrade Defect,Minor,8,2026-08-21,2.9,2,False,Trunk Route,False,29.5,TMS
-SIG-SEC-06-0025,Signal & Telecom,SEC-06,Moradabad,Axle Counter,Axle Counter Fault,Major,2,2026-08-27,3.4,0,False,Trunk Route,False,29.3,SMMS
-SIG-SEC-03-0028,Signal & Telecom,SEC-03,Delhi,Block Instrument,Block Instrument Fault,Minor,-12,2026-09-10,1.7,2,True,Branch Line,False,29.2,SMMS
-TRK-SEC-07-0127,Engineering,SEC-07,Firozpur,Rail,Track Geometry - Twist,Minor,-1,2026-08-30,2.1,2,True,Branch Line,False,29.2,TMS
+TRK-SEC-08-0184,Engineering,SEC-08,Firozpur,Rail,Gauge Widening,Major,-3,2026-09-01,4.1,2,False,Branch Line,False,30.2,TMS
+SIG-SEC-06-0109,Signal & Telecom,SEC-06,Moradabad,Signal,Cable Insulation Fault,Major,10,2026-08-19,1.4,0,False,Branch Line,False,30.1,SMMS
+OHE-SEC-03-0077,Traction Distribution,SEC-03,Delhi,OHE Wire,Insulator Damage,Minor,-10,2026-09-08,1.0,1,True,Trunk Route,False,29.8,TDMS
+SIG-SEC-01-0071,Signal & Telecom,SEC-01,Ambala,Interlocking,Point Machine Failure,Minor,-15,2026-09-13,0.7,1,True,Trunk Route,False,29.7,SMMS
+OHE-SEC-03-0119,Traction Distribution,SEC-03,Delhi,Traction Substation,Dropper Defect,Minor,6,2026-08-23,1.1,1,True,Branch Line,False,29.6,TDMS
+OHE-SEC-05-0148,Traction Distribution,SEC-05,Moradabad,Insulator,OHE Wire Wear,Minor,5,2026-08-24,1.6,0,True,Trunk Route,False,29.4,TDMS
 TRK-SEC-07-0161,Engineering,SEC-07,Firozpur,Formation,Ballast Deficiency,Minor,10,2026-08-19,2.6,0,True,Branch Line,False,29.2,TMS
+TRK-SEC-07-0127,Engineering,SEC-07,Firozpur,Rail,Track Geometry - Twist,Minor,-1,2026-08-30,2.1,2,True,Branch Line,False,29.2,TMS
 TRK-SEC-03-0117,Engineering,SEC-03,Delhi,Ballast,Track Geometry - Twist,Minor,0,2026-08-29,2.3,2,True,Branch Line,False,29.2,TMS
+TRK-SEC-03-0198,Engineering,SEC-03,Delhi,Track Geometry,Formation/Subgrade Defect,Minor,8,2026-08-21,2.9,2,False,Trunk Route,False,29.2,TMS
 TRK-SEC-05-0013,Engineering,SEC-05,Moradabad,Ballast,Track Geometry - Unevenness,Minor,-6,2026-09-04,1.7,2,True,Branch Line,False,29.2,TMS
-SIG-SEC-01-0043,Signal & Telecom,SEC-01,Ambala,Axle Counter,Cable Insulation Fault,Minor,-2,2026-08-31,0.6,2,True,Branch Line,False,29.2,SMMS
-SIG-SEC-06-0131,Signal & Telecom,SEC-06,Moradabad,Cable,Cable Insulation Fault,Major,1,2026-08-28,2.2,0,False,Trunk Route,False,28.7,SMMS
-SIG-SEC-01-0103,Signal & Telecom,SEC-01,Ambala,Cable,Signal Aspect Failure,Major,1,2026-08-28,3.6,0,False,Trunk Route,False,28.7,SMMS
-OHE-SEC-01-0157,Traction Distribution,SEC-01,Ambala,Switching Post,Earthing Fault,Major,8,2026-08-21,2.8,0,False,Branch Line,False,28.3,TDMS
-TRK-SEC-02-0179,Engineering,SEC-02,Ambala,Weld,Formation/Subgrade Defect,Minor,1,2026-08-28,1.8,3,False,Trunk Route,False,28.2,TMS
+SIG-SEC-06-0025,Signal & Telecom,SEC-06,Moradabad,Axle Counter,Axle Counter Fault,Major,2,2026-08-27,3.4,0,False,Trunk Route,False,29.1,SMMS
+SIG-SEC-01-0043,Signal & Telecom,SEC-01,Ambala,Axle Counter,Cable Insulation Fault,Minor,-2,2026-08-31,0.6,2,True,Branch Line,False,29.1,SMMS
+TRK-SEC-04-0121,Engineering,SEC-04,Delhi,Weld,Track Geometry - Unevenness,Minor,9,2026-08-20,1.5,2,False,Trunk Route,False,29.1,TMS
+OHE-SEC-01-0157,Traction Distribution,SEC-01,Ambala,Switching Post,Earthing Fault,Major,8,2026-08-21,2.8,0,False,Branch Line,False,28.7,TDMS
+SIG-SEC-01-0103,Signal & Telecom,SEC-01,Ambala,Cable,Signal Aspect Failure,Major,1,2026-08-28,3.6,0,False,Trunk Route,False,28.6,SMMS
+SIG-SEC-03-0028,Signal & Telecom,SEC-03,Delhi,Block Instrument,Block Instrument Fault,Minor,-12,2026-09-10,1.7,2,True,Branch Line,False,28.6,SMMS
+SIG-SEC-06-0131,Signal & Telecom,SEC-06,Moradabad,Cable,Cable Insulation Fault,Major,1,2026-08-28,2.2,0,False,Trunk Route,False,28.6,SMMS
+SIG-SEC-06-0069,Signal & Telecom,SEC-06,Moradabad,Cable,Block Instrument Fault,Major,7,2026-08-22,3.6,0,False,Branch Line,False,28.1,SMMS
+OHE-SEC-06-0102,Traction Distribution,SEC-06,Moradabad,Feeder,Traction Substation Fault,Minor,-1,2026-08-30,1.0,0,True,Trunk Route,False,28.0,TDMS
 OHE-SEC-02-0117,Traction Distribution,SEC-02,Ambala,Switching Post,Tension Length Deviation,Major,-3,2026-09-01,1.2,0,False,Trunk Route,False,28.0,TDMS
-SIG-SEC-05-0115,Signal & Telecom,SEC-05,Moradabad,Block Instrument,Relay Failure,Major,-2,2026-08-31,1.3,0,False,Trunk Route,False,28.0,SMMS
-TRK-SEC-05-0007,Engineering,SEC-05,Moradabad,Rail,Track Geometry - Unevenness,Major,0,2026-08-29,4.5,0,False,Trunk Route,False,28.0,TMS
-TRK-SEC-03-0189,Engineering,SEC-03,Delhi,Weld,Ballast Deficiency,Major,-4,2026-09-02,4.7,0,False,Trunk Route,False,28.0,TMS
 OHE-SEC-02-0014,Traction Distribution,SEC-02,Ambala,Dropper,Traction Substation Fault,Major,-1,2026-08-30,1.3,0,False,Trunk Route,False,28.0,TDMS
-SIG-SEC-06-0126,Signal & Telecom,SEC-06,Moradabad,Block Instrument,Relay Failure,Major,-5,2026-09-03,3.7,0,False,Trunk Route,False,28.0,SMMS
+TRK-SEC-05-0007,Engineering,SEC-05,Moradabad,Rail,Track Geometry - Unevenness,Major,0,2026-08-29,4.5,0,False,Trunk Route,False,28.0,TMS
+SIG-SEC-05-0115,Signal & Telecom,SEC-05,Moradabad,Block Instrument,Relay Failure,Major,-2,2026-08-31,1.3,0,False,Trunk Route,False,28.0,SMMS
 OHE-SEC-04-0009,Traction Distribution,SEC-04,Delhi,Earthing System,OHE Wire Wear,Major,-2,2026-08-31,1.9,0,False,Trunk Route,False,28.0,TDMS
 TRK-SEC-07-0050,Engineering,SEC-07,Firozpur,Weld,Track Geometry - Unevenness,Major,-5,2026-09-03,4.0,0,False,Trunk Route,False,28.0,TMS
-SIG-SEC-06-0069,Signal & Telecom,SEC-06,Moradabad,Cable,Block Instrument Fault,Major,7,2026-08-22,3.6,0,False,Branch Line,False,27.7,SMMS
+TRK-SEC-03-0189,Engineering,SEC-03,Delhi,Weld,Ballast Deficiency,Major,-4,2026-09-02,4.7,0,False,Trunk Route,False,28.0,TMS
+SIG-SEC-06-0126,Signal & Telecom,SEC-06,Moradabad,Block Instrument,Relay Failure,Major,-5,2026-09-03,3.7,0,False,Trunk Route,False,28.0,SMMS
+OHE-SEC-03-0080,Traction Distribution,SEC-03,Delhi,Dropper,OHE Wire Wear,Major,1,2026-08-28,1.4,1,False,Branch Line,False,27.8,TDMS
 SIG-SEC-06-0170,Signal & Telecom,SEC-06,Moradabad,Block Instrument,Block Instrument Fault,Minor,-15,2026-09-13,0.6,3,False,Trunk Route,False,27.5,SMMS
-TRK-SEC-05-0108,Engineering,SEC-05,Moradabad,Weld,Weld Defect,Minor,10,2026-08-19,1.5,1,False,Trunk Route,False,27.5,TMS
-TRK-SEC-08-0035,Engineering,SEC-08,Firozpur,Ballast,Track Geometry - Unevenness,Minor,-15,2026-09-13,1.9,3,False,Trunk Route,False,27.5,TMS
-TRK-SEC-07-0141,Engineering,SEC-07,Firozpur,Track Geometry,Rail Wear,Minor,-15,2026-09-13,1.1,3,False,Trunk Route,False,27.5,TMS
-SIG-SEC-05-0107,Signal & Telecom,SEC-05,Moradabad,Signal,Relay Failure,Minor,-5,2026-09-03,0.6,3,False,Trunk Route,False,27.5,SMMS
-TRK-SEC-08-0140,Engineering,SEC-08,Firozpur,Ballast,Weld Defect,Minor,-3,2026-09-01,1.4,3,False,Trunk Route,False,27.5,TMS
-TRK-SEC-07-0144,Engineering,SEC-07,Firozpur,Rail,Track Geometry - Twist,Minor,-8,2026-09-06,2.5,0,True,Trunk Route,False,27.5,TMS
-SIG-SEC-02-0022,Signal & Telecom,SEC-02,Ambala,Level Crossing Gate,Signal Aspect Failure,Minor,-8,2026-09-06,1.8,3,False,Trunk Route,False,27.5,SMMS
-OHE-SEC-08-0070,Traction Distribution,SEC-08,Firozpur,OHE Wire,Feeder Fault,Minor,-11,2026-09-09,1.4,0,True,Trunk Route,False,27.5,TDMS
 OHE-SEC-04-0112,Traction Distribution,SEC-04,Delhi,OHE Wire,Earthing Fault,Minor,-10,2026-09-08,0.9,0,True,Trunk Route,False,27.5,TDMS
-TRK-SEC-06-0030,Engineering,SEC-06,Moradabad,Weld,Gauge Widening,Minor,-15,2026-09-13,2.9,0,True,Trunk Route,False,27.5,TMS
-TRK-SEC-01-0120,Engineering,SEC-01,Ambala,Track Geometry,Track Geometry - Twist,Minor,-11,2026-09-09,1.5,0,True,Trunk Route,False,27.5,TMS
-OHE-SEC-06-0102,Traction Distribution,SEC-06,Moradabad,Feeder,Traction Substation Fault,Minor,-1,2026-08-30,1.0,0,True,Trunk Route,False,27.5,TDMS
-OHE-SEC-07-0151,Traction Distribution,SEC-07,Firozpur,Earthing System,Feeder Fault,Minor,-10,2026-09-08,1.1,0,True,Trunk Route,False,27.5,TDMS
+OHE-SEC-08-0070,Traction Distribution,SEC-08,Firozpur,OHE Wire,Feeder Fault,Minor,-11,2026-09-09,1.4,0,True,Trunk Route,False,27.5,TDMS
 SIG-SEC-02-0041,Signal & Telecom,SEC-02,Ambala,Axle Counter,Signal Aspect Failure,Minor,-13,2026-09-11,0.6,3,False,Trunk Route,False,27.5,SMMS
+TRK-SEC-02-0179,Engineering,SEC-02,Ambala,Weld,Formation/Subgrade Defect,Minor,1,2026-08-28,1.8,3,False,Trunk Route,False,27.5,TMS
+SIG-SEC-05-0107,Signal & Telecom,SEC-05,Moradabad,Signal,Relay Failure,Minor,-5,2026-09-03,0.6,3,False,Trunk Route,False,27.5,SMMS
+TRK-SEC-07-0144,Engineering,SEC-07,Firozpur,Rail,Track Geometry - Twist,Minor,-8,2026-09-06,2.5,0,True,Trunk Route,False,27.5,TMS
+TRK-SEC-08-0140,Engineering,SEC-08,Firozpur,Ballast,Weld Defect,Minor,-3,2026-09-01,1.4,3,False,Trunk Route,False,27.5,TMS
+TRK-SEC-07-0141,Engineering,SEC-07,Firozpur,Track Geometry,Rail Wear,Minor,-15,2026-09-13,1.1,3,False,Trunk Route,False,27.5,TMS
+TRK-SEC-08-0035,Engineering,SEC-08,Firozpur,Ballast,Track Geometry - Unevenness,Minor,-15,2026-09-13,1.9,3,False,Trunk Route,False,27.5,TMS
+OHE-SEC-07-0151,Traction Distribution,SEC-07,Firozpur,Earthing System,Feeder Fault,Minor,-10,2026-09-08,1.1,0,True,Trunk Route,False,27.5,TDMS
+TRK-SEC-01-0120,Engineering,SEC-01,Ambala,Track Geometry,Track Geometry - Twist,Minor,-11,2026-09-09,1.5,0,True,Trunk Route,False,27.5,TMS
 SIG-SEC-03-0158,Signal & Telecom,SEC-03,Delhi,Cable,Relay Failure,Minor,-3,2026-09-01,0.9,3,False,Trunk Route,False,27.5,SMMS
-SIG-SEC-02-0070,Signal & Telecom,SEC-02,Ambala,Axle Counter,Relay Failure,Major,6,2026-08-23,3.7,0,False,Branch Line,False,27.0,SMMS
-TRK-SEC-06-0015,Engineering,SEC-06,Moradabad,Weld,Weld Defect,Major,6,2026-08-23,2.3,0,False,Branch Line,False,27.0,TMS
-TRK-SEC-08-0090,Engineering,SEC-08,Firozpur,Rail,Track Geometry - Twist,Major,6,2026-08-23,2.6,0,False,Branch Line,False,27.0,TMS
-OHE-SEC-03-0080,Traction Distribution,SEC-03,Delhi,Dropper,OHE Wire Wear,Major,1,2026-08-28,1.4,1,False,Branch Line,False,27.0,TDMS
-TRK-SEC-03-0192,Engineering,SEC-03,Delhi,Rail,Weld Defect,Minor,4,2026-08-25,2.4,2,False,Trunk Route,False,26.8,TMS
-OHE-SEC-07-0044,Traction Distribution,SEC-07,Firozpur,Earthing System,Insulator Damage,Minor,9,2026-08-20,1.3,1,False,Trunk Route,False,26.8,TDMS
-OHE-SEC-06-0099,Traction Distribution,SEC-06,Moradabad,Feeder,OHE Wire Wear,Minor,9,2026-08-20,0.6,1,False,Trunk Route,False,26.8,TDMS
-TRK-SEC-03-0201,Engineering,SEC-03,Delhi,Track Geometry,Track Geometry - Twist,Minor,9,2026-08-20,2.5,1,False,Trunk Route,False,26.8,TMS
-TRK-SEC-03-0208,Engineering,SEC-03,Delhi,Weld,Rail Fracture,Minor,9,2026-08-20,2.4,1,False,Trunk Route,False,26.8,TMS
-SIG-SEC-08-0136,Signal & Telecom,SEC-08,Firozpur,Block Instrument,Cable Insulation Fault,Minor,9,2026-08-20,0.9,1,False,Trunk Route,False,26.8,SMMS
-SIG-SEC-03-0111,Signal & Telecom,SEC-03,Delhi,Signal,Cable Insulation Fault,Minor,1,2026-08-28,1.8,1,True,Branch Line,False,26.5,SMMS
-TRK-SEC-03-0096,Engineering,SEC-03,Delhi,Ballast,Track Geometry - Twist,Major,5,2026-08-24,3.5,0,False,Branch Line,False,26.3,TMS
-OHE-SEC-06-0040,Traction Distribution,SEC-06,Moradabad,Switching Post,Tension Length Deviation,Major,5,2026-08-24,2.1,0,False,Branch Line,False,26.3,TDMS
-TRK-SEC-05-0206,Engineering,SEC-05,Moradabad,Rail,Formation/Subgrade Defect,Major,5,2026-08-24,2.0,0,False,Branch Line,False,26.3,TMS
-SIG-SEC-07-0021,Signal & Telecom,SEC-07,Firozpur,Signal,Point Machine Failure,Minor,3,2026-08-26,1.3,2,False,Trunk Route,False,26.2,SMMS
-OHE-SEC-05-0004,Traction Distribution,SEC-05,Moradabad,Dropper,OHE Wire Wear,Minor,5,2026-08-24,0.7,0,True,Branch Line,False,25.8,TDMS
-OHE-SEC-06-0013,Traction Distribution,SEC-06,Moradabad,Traction Substation,Dropper Defect,Major,4,2026-08-25,2.2,0,False,Branch Line,False,25.7,TDMS
-TRK-SEC-04-0190,Engineering,SEC-04,Delhi,Track Geometry,Gauge Widening,Major,4,2026-08-25,4.8,0,False,Branch Line,False,25.7,TMS
-OHE-SEC-04-0069,Traction Distribution,SEC-04,Delhi,Dropper,Insulator Damage,Minor,9,2026-08-20,1.0,2,False,Branch Line,False,25.2,TDMS
-TRK-SEC-07-0012,Engineering,SEC-07,Firozpur,Rail,Weld Defect,Minor,4,2026-08-25,1.8,3,False,Branch Line,False,25.2,TMS
-TRK-SEC-03-0025,Engineering,SEC-03,Delhi,Track Geometry,Formation/Subgrade Defect,Major,3,2026-08-26,5.0,0,False,Branch Line,False,25.0,TMS
-SIG-SEC-05-0020,Signal & Telecom,SEC-05,Moradabad,Block Instrument,Relay Failure,Minor,8,2026-08-21,1.2,2,False,Branch Line,False,24.5,SMMS
-OHE-SEC-02-0059,Traction Distribution,SEC-02,Ambala,Switching Post,Earthing Fault,Major,2,2026-08-27,1.1,0,False,Branch Line,False,24.3,TDMS
-TRK-SEC-04-0104,Engineering,SEC-04,Delhi,Rail,Formation/Subgrade Defect,Major,2,2026-08-27,3.7,0,False,Branch Line,False,24.3,TMS
+SIG-SEC-02-0022,Signal & Telecom,SEC-02,Ambala,Level Crossing Gate,Signal Aspect Failure,Minor,-8,2026-09-06,1.8,3,False,Trunk Route,False,27.4,SMMS
+TRK-SEC-05-0108,Engineering,SEC-05,Moradabad,Weld,Weld Defect,Minor,10,2026-08-19,1.5,1,False,Trunk Route,False,27.3,TMS
+TRK-SEC-08-0090,Engineering,SEC-08,Firozpur,Rail,Track Geometry - Twist,Major,6,2026-08-23,2.6,0,False,Branch Line,False,27.1,TMS
+TRK-SEC-06-0015,Engineering,SEC-06,Moradabad,Weld,Weld Defect,Major,6,2026-08-23,2.3,0,False,Branch Line,False,27.1,TMS
+SIG-SEC-03-0111,Signal & Telecom,SEC-03,Delhi,Signal,Cable Insulation Fault,Minor,1,2026-08-28,1.8,1,True,Branch Line,False,27.1,SMMS
+SIG-SEC-02-0070,Signal & Telecom,SEC-02,Ambala,Axle Counter,Relay Failure,Major,6,2026-08-23,3.7,0,False,Branch Line,False,27.1,SMMS
+TRK-SEC-06-0030,Engineering,SEC-06,Moradabad,Weld,Gauge Widening,Minor,-15,2026-09-13,2.9,0,True,Trunk Route,False,27.0,TMS
+OHE-SEC-05-0004,Traction Distribution,SEC-05,Moradabad,Dropper,OHE Wire Wear,Minor,5,2026-08-24,0.7,0,True,Branch Line,False,26.8,TDMS
+SIG-SEC-08-0136,Signal & Telecom,SEC-08,Firozpur,Block Instrument,Cable Insulation Fault,Minor,9,2026-08-20,0.9,1,False,Trunk Route,False,26.7,SMMS
+TRK-SEC-03-0208,Engineering,SEC-03,Delhi,Weld,Rail Fracture,Minor,9,2026-08-20,2.4,1,False,Trunk Route,False,26.7,TMS
+OHE-SEC-06-0099,Traction Distribution,SEC-06,Moradabad,Feeder,OHE Wire Wear,Minor,9,2026-08-20,0.6,1,False,Trunk Route,False,26.7,TDMS
+OHE-SEC-07-0044,Traction Distribution,SEC-07,Firozpur,Earthing System,Insulator Damage,Minor,9,2026-08-20,1.3,1,False,Trunk Route,False,26.7,TDMS
+TRK-SEC-03-0201,Engineering,SEC-03,Delhi,Track Geometry,Track Geometry - Twist,Minor,9,2026-08-20,2.5,1,False,Trunk Route,False,26.7,TMS
+TRK-SEC-03-0192,Engineering,SEC-03,Delhi,Rail,Weld Defect,Minor,4,2026-08-25,2.4,2,False,Trunk Route,False,26.6,TMS
+TRK-SEC-03-0096,Engineering,SEC-03,Delhi,Ballast,Track Geometry - Twist,Major,5,2026-08-24,3.5,0,False,Branch Line,False,26.4,TMS
+OHE-SEC-06-0040,Traction Distribution,SEC-06,Moradabad,Switching Post,Tension Length Deviation,Major,5,2026-08-24,2.1,0,False,Branch Line,False,26.4,TDMS
+TRK-SEC-05-0206,Engineering,SEC-05,Moradabad,Rail,Formation/Subgrade Defect,Major,5,2026-08-24,2.0,0,False,Branch Line,False,26.4,TMS
+SIG-SEC-07-0021,Signal & Telecom,SEC-07,Firozpur,Signal,Point Machine Failure,Minor,3,2026-08-26,1.3,2,False,Trunk Route,False,26.1,SMMS
+OHE-SEC-06-0013,Traction Distribution,SEC-06,Moradabad,Traction Substation,Dropper Defect,Major,4,2026-08-25,2.2,0,False,Branch Line,False,25.8,TDMS
+TRK-SEC-04-0190,Engineering,SEC-04,Delhi,Track Geometry,Gauge Widening,Major,4,2026-08-25,4.8,0,False,Branch Line,False,25.8,TMS
+TRK-SEC-03-0025,Engineering,SEC-03,Delhi,Track Geometry,Formation/Subgrade Defect,Major,3,2026-08-26,5.0,0,False,Branch Line,False,24.9,TMS
+TRK-SEC-08-0018,Engineering,SEC-08,Firozpur,Track Geometry,Track Geometry - Twist,Minor,-8,2026-09-06,1.9,0,True,Branch Line,False,24.9,TMS
+OHE-SEC-04-0069,Traction Distribution,SEC-04,Delhi,Dropper,Insulator Damage,Minor,9,2026-08-20,1.0,2,False,Branch Line,False,24.7,TDMS
+TRK-SEC-04-0104,Engineering,SEC-04,Delhi,Rail,Formation/Subgrade Defect,Major,2,2026-08-27,3.7,0,False,Branch Line,False,24.7,TMS
+OHE-SEC-02-0059,Traction Distribution,SEC-02,Ambala,Switching Post,Earthing Fault,Major,2,2026-08-27,1.1,0,False,Branch Line,False,24.7,TDMS
+SIG-SEC-05-0014,Signal & Telecom,SEC-05,Moradabad,Axle Counter,Signal Aspect Failure,Major,1,2026-08-28,1.6,0,False,Branch Line,False,24.4,SMMS
+SIG-SEC-05-0020,Signal & Telecom,SEC-05,Moradabad,Block Instrument,Relay Failure,Minor,8,2026-08-21,1.2,2,False,Branch Line,False,24.3,SMMS
+SIG-SEC-05-0139,Signal & Telecom,SEC-05,Moradabad,Block Instrument,Level Crossing Gate Fault,Minor,-15,2026-09-13,2.0,2,False,Trunk Route,False,24.3,SMMS
 SIG-SEC-01-0167,Signal & Telecom,SEC-01,Ambala,Block Instrument,Signal Aspect Failure,Minor,-1,2026-08-30,1.7,2,False,Trunk Route,False,24.2,SMMS
-TRK-SEC-05-0116,Engineering,SEC-05,Moradabad,Ballast,Rail Wear,Minor,-8,2026-09-06,1.2,2,False,Trunk Route,False,24.2,TMS
-OHE-SEC-01-0057,Traction Distribution,SEC-01,Ambala,Dropper,Feeder Fault,Minor,-2,2026-08-31,1.3,2,False,Trunk Route,False,24.2,TDMS
 TRK-SEC-03-0220,Engineering,SEC-03,Delhi,Track Geometry,Weld Defect,Minor,-6,2026-09-04,2.9,2,False,Trunk Route,False,24.2,TMS
+OHE-SEC-01-0057,Traction Distribution,SEC-01,Ambala,Dropper,Feeder Fault,Minor,-2,2026-08-31,1.3,2,False,Trunk Route,False,24.2,TDMS
+OHE-SEC-05-0024,Traction Distribution,SEC-05,Moradabad,Earthing System,Dropper Defect,Minor,-8,2026-09-06,1.7,2,False,Trunk Route,False,24.2,TDMS
+TRK-SEC-05-0116,Engineering,SEC-05,Moradabad,Ballast,Rail Wear,Minor,-8,2026-09-06,1.2,2,False,Trunk Route,False,24.2,TMS
 TRK-SEC-07-0214,Engineering,SEC-07,Firozpur,Rail,Ballast Deficiency,Minor,10,2026-08-19,2.9,0,False,Trunk Route,False,24.2,TMS
-SIG-SEC-02-0079,Signal & Telecom,SEC-02,Ambala,Point Machine,Block Instrument Fault,Minor,-1,2026-08-30,0.7,2,False,Trunk Route,False,24.2,SMMS
-TRK-SEC-02-0054,Engineering,SEC-02,Ambala,Weld,Rail Wear,Minor,-5,2026-09-03,1.5,2,False,Trunk Route,False,24.2,TMS
+SIG-SEC-04-0130,Signal & Telecom,SEC-04,Delhi,Block Instrument,Level Crossing Gate Fault,Minor,10,2026-08-19,0.8,0,False,Trunk Route,False,24.2,SMMS
+TRK-SEC-08-0063,Engineering,SEC-08,Firozpur,Weld,Gauge Widening,Minor,-10,2026-09-08,2.5,2,False,Trunk Route,False,24.2,TMS
 SIG-SEC-04-0087,Signal & Telecom,SEC-04,Delhi,Signal,Interlocking Fault,Minor,10,2026-08-19,1.0,0,False,Trunk Route,False,24.2,SMMS
 OHE-SEC-04-0133,Traction Distribution,SEC-04,Delhi,Dropper,Earthing Fault,Minor,-1,2026-08-30,1.8,2,False,Trunk Route,False,24.2,TDMS
-TRK-SEC-08-0063,Engineering,SEC-08,Firozpur,Weld,Gauge Widening,Minor,-10,2026-09-08,2.5,2,False,Trunk Route,False,24.2,TMS
-SIG-SEC-01-0147,Signal & Telecom,SEC-01,Ambala,Axle Counter,Block Instrument Fault,Minor,5,2026-08-24,1.9,1,False,Trunk Route,False,24.2,SMMS
-SIG-SEC-05-0139,Signal & Telecom,SEC-05,Moradabad,Block Instrument,Level Crossing Gate Fault,Minor,-15,2026-09-13,2.0,2,False,Trunk Route,False,24.2,SMMS
-SIG-SEC-04-0130,Signal & Telecom,SEC-04,Delhi,Block Instrument,Level Crossing Gate Fault,Minor,10,2026-08-19,0.8,0,False,Trunk Route,False,24.2,SMMS
-OHE-SEC-05-0024,Traction Distribution,SEC-05,Moradabad,Earthing System,Dropper Defect,Minor,-8,2026-09-06,1.7,2,False,Trunk Route,False,24.2,TDMS
-SIG-SEC-05-0014,Signal & Telecom,SEC-05,Moradabad,Axle Counter,Signal Aspect Failure,Major,1,2026-08-28,1.6,0,False,Branch Line,False,23.7,SMMS
+TRK-SEC-02-0054,Engineering,SEC-02,Ambala,Weld,Rail Wear,Minor,-5,2026-09-03,1.5,2,False,Trunk Route,False,24.2,TMS
+SIG-SEC-02-0079,Signal & Telecom,SEC-02,Ambala,Point Machine,Block Instrument Fault,Minor,-1,2026-08-30,0.7,2,False,Trunk Route,False,24.2,SMMS
+TRK-SEC-07-0012,Engineering,SEC-07,Firozpur,Rail,Weld Defect,Minor,4,2026-08-25,1.8,3,False,Branch Line,False,24.1,TMS
+SIG-SEC-01-0147,Signal & Telecom,SEC-01,Ambala,Axle Counter,Block Instrument Fault,Minor,5,2026-08-24,1.9,1,False,Trunk Route,False,23.9,SMMS
+SIG-SEC-04-0155,Signal & Telecom,SEC-04,Delhi,Cable,Relay Failure,Major,0,2026-08-29,1.9,0,False,Branch Line,False,23.7,SMMS
 TRK-SEC-08-0181,Engineering,SEC-08,Firozpur,Formation,Ballast Deficiency,Minor,9,2026-08-20,1.7,0,False,Trunk Route,False,23.5,TMS
-TRK-SEC-05-0207,Engineering,SEC-05,Moradabad,Track Geometry,Formation/Subgrade Defect,Minor,9,2026-08-20,2.6,0,False,Trunk Route,False,23.5,TMS
 TRK-SEC-02-0079,Engineering,SEC-02,Ambala,Formation,Formation/Subgrade Defect,Minor,9,2026-08-20,1.2,0,False,Trunk Route,False,23.5,TMS
-TRK-SEC-02-0016,Engineering,SEC-02,Ambala,Formation,Track Geometry - Unevenness,Minor,9,2026-08-20,2.6,0,False,Trunk Route,False,23.5,TMS
 SIG-SEC-05-0129,Signal & Telecom,SEC-05,Moradabad,Point Machine,Relay Failure,Minor,9,2026-08-20,1.4,0,False,Trunk Route,False,23.5,SMMS
-OHE-SEC-01-0122,Traction Distribution,SEC-01,Ambala,Switching Post,Dropper Defect,Major,-2,2026-08-31,3.2,0,False,Branch Line,False,23.0,TDMS
-OHE-SEC-01-0008,Traction Distribution,SEC-01,Ambala,Feeder,Tension Length Deviation,Major,-5,2026-09-03,1.0,0,False,Branch Line,False,23.0,TDMS
-SIG-SEC-08-0046,Signal & Telecom,SEC-08,Firozpur,Point Machine,Cable Insulation Fault,Major,-2,2026-08-31,3.9,0,False,Branch Line,False,23.0,SMMS
-TRK-SEC-02-0061,Engineering,SEC-02,Ambala,Rail,Rail Fracture,Major,-4,2026-09-02,4.2,0,False,Branch Line,False,23.0,TMS
-SIG-SEC-01-0089,Signal & Telecom,SEC-01,Ambala,Cable,Signal Aspect Failure,Major,-5,2026-09-03,3.5,0,False,Branch Line,False,23.0,SMMS
-SIG-SEC-04-0155,Signal & Telecom,SEC-04,Delhi,Cable,Relay Failure,Major,0,2026-08-29,1.9,0,False,Branch Line,False,23.0,SMMS
-OHE-SEC-07-0067,Traction Distribution,SEC-07,Firozpur,Switching Post,Traction Substation Fault,Minor,8,2026-08-21,1.1,0,False,Trunk Route,False,22.8,TDMS
-OHE-SEC-04-0063,Traction Distribution,SEC-04,Delhi,OHE Wire,Tension Length Deviation,Minor,8,2026-08-21,0.6,0,False,Trunk Route,False,22.8,TDMS
-TRK-SEC-05-0053,Engineering,SEC-05,Moradabad,Ballast,Formation/Subgrade Defect,Minor,-7,2026-09-05,2.7,3,False,Branch Line,False,22.5,TMS
-SIG-SEC-07-0036,Signal & Telecom,SEC-07,Firozpur,Axle Counter,Block Instrument Fault,Minor,5,2026-08-24,1.7,2,False,Branch Line,False,22.5,SMMS
-TRK-SEC-08-0018,Engineering,SEC-08,Firozpur,Track Geometry,Track Geometry - Twist,Minor,-8,2026-09-06,1.9,0,True,Branch Line,False,22.5,TMS
-TRK-SEC-07-0152,Engineering,SEC-07,Firozpur,Rail,Rail Wear,Minor,-14,2026-09-12,2.4,0,True,Branch Line,False,22.5,TMS
-SIG-SEC-05-0169,Signal & Telecom,SEC-05,Moradabad,Level Crossing Gate,Axle Counter Fault,Minor,-11,2026-09-09,2.0,3,False,Branch Line,False,22.5,SMMS
-TRK-SEC-08-0172,Engineering,SEC-08,Firozpur,Weld,Rail Fracture,Minor,-13,2026-09-11,2.6,0,True,Branch Line,False,22.5,TMS
-SIG-SEC-01-0127,Signal & Telecom,SEC-01,Ambala,Axle Counter,Level Crossing Gate Fault,Minor,-14,2026-09-12,1.1,3,False,Branch Line,False,22.5,SMMS
+TRK-SEC-05-0207,Engineering,SEC-05,Moradabad,Track Geometry,Formation/Subgrade Defect,Minor,9,2026-08-20,2.6,0,False,Trunk Route,False,23.5,TMS
+TRK-SEC-02-0016,Engineering,SEC-02,Ambala,Formation,Track Geometry - Unevenness,Minor,9,2026-08-20,2.6,0,False,Trunk Route,False,23.5,TMS
+TRK-SEC-07-0152,Engineering,SEC-07,Firozpur,Rail,Rail Wear,Minor,-14,2026-09-12,2.4,0,True,Branch Line,False,23.2,TMS
+OHE-SEC-01-0122,Traction Distribution,SEC-01,Ambala,Switching Post,Dropper Defect,Major,-2,2026-08-31,3.2,0,False,Branch Line,False,23.2,TDMS
+SIG-SEC-08-0046,Signal & Telecom,SEC-08,Firozpur,Point Machine,Cable Insulation Fault,Major,-2,2026-08-31,3.9,0,False,Branch Line,False,23.2,SMMS
+TRK-SEC-02-0061,Engineering,SEC-02,Ambala,Rail,Rail Fracture,Major,-4,2026-09-02,4.2,0,False,Branch Line,False,23.1,TMS
+SIG-SEC-01-0089,Signal & Telecom,SEC-01,Ambala,Cable,Signal Aspect Failure,Major,-5,2026-09-03,3.5,0,False,Branch Line,False,23.1,SMMS
+TRK-SEC-08-0172,Engineering,SEC-08,Firozpur,Weld,Rail Fracture,Minor,-13,2026-09-11,2.6,0,True,Branch Line,False,23.1,TMS
+OHE-SEC-01-0008,Traction Distribution,SEC-01,Ambala,Feeder,Tension Length Deviation,Major,-5,2026-09-03,1.0,0,False,Branch Line,False,23.1,TDMS
+OHE-SEC-04-0063,Traction Distribution,SEC-04,Delhi,OHE Wire,Tension Length Deviation,Minor,8,2026-08-21,0.6,0,False,Trunk Route,False,22.7,TDMS
+OHE-SEC-07-0067,Traction Distribution,SEC-07,Firozpur,Switching Post,Traction Substation Fault,Minor,8,2026-08-21,1.1,0,False,Trunk Route,False,22.7,TDMS
 OHE-SEC-02-0094,Traction Distribution,SEC-02,Ambala,OHE Wire,Insulator Damage,Minor,-10,2026-09-08,1.5,3,False,Branch Line,False,22.5,TDMS
-TRK-SEC-06-0067,Engineering,SEC-06,Moradabad,Ballast,Formation/Subgrade Defect,Minor,7,2026-08-22,2.7,0,False,Trunk Route,False,22.2,TMS
-OHE-SEC-03-0096,Traction Distribution,SEC-03,Delhi,OHE Wire,Traction Substation Fault,Minor,2,2026-08-27,1.4,1,False,Trunk Route,False,22.2,TDMS
-OHE-SEC-01-0028,Traction Distribution,SEC-01,Ambala,Traction Substation,Feeder Fault,Minor,7,2026-08-22,1.3,0,False,Trunk Route,False,22.2,TDMS
-TRK-SEC-05-0183,Engineering,SEC-05,Moradabad,Weld,Weld Defect,Minor,4,2026-08-25,1.4,2,False,Branch Line,False,21.8,TMS
-TRK-SEC-01-0032,Engineering,SEC-01,Ambala,Rail,Track Geometry - Unevenness,Minor,6,2026-08-23,2.1,0,False,Trunk Route,False,21.5,TMS
-TRK-SEC-02-0048,Engineering,SEC-02,Ambala,Rail,Track Geometry - Twist,Minor,6,2026-08-23,2.5,0,False,Trunk Route,False,21.5,TMS
-TRK-SEC-05-0107,Engineering,SEC-05,Moradabad,Rail,Formation/Subgrade Defect,Minor,6,2026-08-23,1.6,0,False,Trunk Route,False,21.5,TMS
-OHE-SEC-04-0108,Traction Distribution,SEC-04,Delhi,Traction Substation,Insulator Damage,Minor,6,2026-08-23,1.7,0,False,Trunk Route,False,21.5,TDMS
-SIG-SEC-05-0116,Signal & Telecom,SEC-05,Moradabad,Axle Counter,Level Crossing Gate Fault,Minor,8,2026-08-21,1.5,1,False,Branch Line,False,21.2,SMMS
-OHE-SEC-01-0158,Traction Distribution,SEC-01,Ambala,Earthing System,Tension Length Deviation,Minor,-12,2026-09-10,1.9,1,False,Trunk Route,False,20.8,TDMS
-TRK-SEC-05-0075,Engineering,SEC-05,Moradabad,Track Geometry,Track Geometry - Unevenness,Minor,-6,2026-09-04,2.7,1,False,Trunk Route,False,20.8,TMS
-TRK-SEC-01-0077,Engineering,SEC-01,Ambala,Formation,Weld Defect,Minor,-1,2026-08-30,1.9,1,False,Trunk Route,False,20.8,TMS
-TRK-SEC-06-0174,Engineering,SEC-06,Moradabad,Formation,Rail Wear,Minor,5,2026-08-24,1.1,0,False,Trunk Route,False,20.8,TMS
-TRK-SEC-05-0212,Engineering,SEC-05,Moradabad,Formation,Ballast Deficiency,Minor,-6,2026-09-04,1.4,1,False,Trunk Route,False,20.8,TMS
-SIG-SEC-02-0010,Signal & Telecom,SEC-02,Ambala,Block Instrument,Level Crossing Gate Fault,Minor,-12,2026-09-10,2.0,1,False,Trunk Route,False,20.8,SMMS
-SIG-SEC-06-0007,Signal & Telecom,SEC-06,Moradabad,Block Instrument,Level Crossing Gate Fault,Minor,-13,2026-09-11,1.5,1,False,Trunk Route,False,20.8,SMMS
-TRK-SEC-01-0219,Engineering,SEC-01,Ambala,Formation,Formation/Subgrade Defect,Minor,-10,2026-09-08,1.4,1,False,Trunk Route,False,20.8,TMS
-OHE-SEC-01-0076,Traction Distribution,SEC-01,Ambala,Earthing System,Dropper Defect,Minor,-13,2026-09-11,1.3,1,False,Trunk Route,False,20.8,TDMS
-TRK-SEC-02-0162,Engineering,SEC-02,Ambala,Track Geometry,Track Geometry - Unevenness,Minor,-12,2026-09-10,2.0,1,False,Trunk Route,False,20.8,TMS
-SIG-SEC-05-0094,Signal & Telecom,SEC-05,Moradabad,Block Instrument,Block Instrument Fault,Minor,-10,2026-09-08,1.6,1,False,Trunk Route,False,20.8,SMMS
+SIG-SEC-01-0127,Signal & Telecom,SEC-01,Ambala,Axle Counter,Level Crossing Gate Fault,Minor,-14,2026-09-12,1.1,3,False,Branch Line,False,22.5,SMMS
+TRK-SEC-05-0053,Engineering,SEC-05,Moradabad,Ballast,Formation/Subgrade Defect,Minor,-7,2026-09-05,2.7,3,False,Branch Line,False,22.5,TMS
+SIG-SEC-05-0169,Signal & Telecom,SEC-05,Moradabad,Level Crossing Gate,Axle Counter Fault,Minor,-11,2026-09-09,2.0,3,False,Branch Line,False,22.5,SMMS
+OHE-SEC-03-0096,Traction Distribution,SEC-03,Delhi,OHE Wire,Traction Substation Fault,Minor,2,2026-08-27,1.4,1,False,Trunk Route,False,22.4,TDMS
+SIG-SEC-07-0036,Signal & Telecom,SEC-07,Firozpur,Axle Counter,Block Instrument Fault,Minor,5,2026-08-24,1.7,2,False,Branch Line,False,22.3,SMMS
+TRK-SEC-05-0183,Engineering,SEC-05,Moradabad,Weld,Weld Defect,Minor,4,2026-08-25,1.4,2,False,Branch Line,False,22.2,TMS
+OHE-SEC-01-0028,Traction Distribution,SEC-01,Ambala,Traction Substation,Feeder Fault,Minor,7,2026-08-22,1.3,0,False,Trunk Route,False,22.1,TDMS
+TRK-SEC-06-0067,Engineering,SEC-06,Moradabad,Ballast,Formation/Subgrade Defect,Minor,7,2026-08-22,2.7,0,False,Trunk Route,False,22.1,TMS
+TRK-SEC-01-0032,Engineering,SEC-01,Ambala,Rail,Track Geometry - Unevenness,Minor,6,2026-08-23,2.1,0,False,Trunk Route,False,21.4,TMS
+TRK-SEC-05-0107,Engineering,SEC-05,Moradabad,Rail,Formation/Subgrade Defect,Minor,6,2026-08-23,1.6,0,False,Trunk Route,False,21.4,TMS
+OHE-SEC-04-0108,Traction Distribution,SEC-04,Delhi,Traction Substation,Insulator Damage,Minor,6,2026-08-23,1.7,0,False,Trunk Route,False,21.4,TDMS
+TRK-SEC-02-0048,Engineering,SEC-02,Ambala,Rail,Track Geometry - Twist,Minor,6,2026-08-23,2.5,0,False,Trunk Route,False,21.4,TMS
+TRK-SEC-02-0113,Engineering,SEC-02,Ambala,Ballast,Rail Wear,Minor,2,2026-08-27,1.0,2,False,Branch Line,False,21.0,TMS
+TRK-SEC-01-0077,Engineering,SEC-01,Ambala,Formation,Weld Defect,Minor,-1,2026-08-30,1.9,1,False,Trunk Route,False,20.9,TMS
+OHE-SEC-06-0127,Traction Distribution,SEC-06,Moradabad,Feeder,OHE Wire Wear,Minor,-3,2026-09-01,1.0,1,False,Trunk Route,False,20.9,TDMS
+TRK-SEC-03-0039,Engineering,SEC-03,Delhi,Formation,Ballast Deficiency,Minor,-14,2026-09-12,1.2,1,False,Trunk Route,False,20.9,TMS
 OHE-SEC-01-0021,Traction Distribution,SEC-01,Ambala,Switching Post,OHE Wire Wear,Minor,-11,2026-09-09,1.0,1,False,Trunk Route,False,20.8,TDMS
 OHE-SEC-04-0141,Traction Distribution,SEC-04,Delhi,Traction Substation,Dropper Defect,Minor,5,2026-08-24,1.7,0,False,Trunk Route,False,20.8,TDMS
-TRK-SEC-03-0039,Engineering,SEC-03,Delhi,Formation,Ballast Deficiency,Minor,-14,2026-09-12,1.2,1,False,Trunk Route,False,20.8,TMS
-OHE-SEC-06-0127,Traction Distribution,SEC-06,Moradabad,Feeder,OHE Wire Wear,Minor,-3,2026-09-01,1.0,1,False,Trunk Route,False,20.8,TDMS
+TRK-SEC-05-0212,Engineering,SEC-05,Moradabad,Formation,Ballast Deficiency,Minor,-6,2026-09-04,1.4,1,False,Trunk Route,False,20.8,TMS
 TRK-SEC-03-0031,Engineering,SEC-03,Delhi,Track Geometry,Gauge Widening,Minor,-8,2026-09-06,2.8,1,False,Trunk Route,False,20.8,TMS
+TRK-SEC-01-0219,Engineering,SEC-01,Ambala,Formation,Formation/Subgrade Defect,Minor,-10,2026-09-08,1.4,1,False,Trunk Route,False,20.8,TMS
+OHE-SEC-01-0076,Traction Distribution,SEC-01,Ambala,Earthing System,Dropper Defect,Minor,-13,2026-09-11,1.3,1,False,Trunk Route,False,20.8,TDMS
+TRK-SEC-05-0075,Engineering,SEC-05,Moradabad,Track Geometry,Track Geometry - Unevenness,Minor,-6,2026-09-04,2.7,1,False,Trunk Route,False,20.8,TMS
+TRK-SEC-06-0174,Engineering,SEC-06,Moradabad,Formation,Rail Wear,Minor,5,2026-08-24,1.1,0,False,Trunk Route,False,20.8,TMS
+SIG-SEC-06-0007,Signal & Telecom,SEC-06,Moradabad,Block Instrument,Level Crossing Gate Fault,Minor,-13,2026-09-11,1.5,1,False,Trunk Route,False,20.8,SMMS
+SIG-SEC-02-0010,Signal & Telecom,SEC-02,Ambala,Block Instrument,Level Crossing Gate Fault,Minor,-12,2026-09-10,2.0,1,False,Trunk Route,False,20.8,SMMS
+SIG-SEC-05-0094,Signal & Telecom,SEC-05,Moradabad,Block Instrument,Block Instrument Fault,Minor,-10,2026-09-08,1.6,1,False,Trunk Route,False,20.8,SMMS
+TRK-SEC-02-0162,Engineering,SEC-02,Ambala,Track Geometry,Track Geometry - Unevenness,Minor,-12,2026-09-10,2.0,1,False,Trunk Route,False,20.8,TMS
+OHE-SEC-01-0158,Traction Distribution,SEC-01,Ambala,Earthing System,Tension Length Deviation,Minor,-12,2026-09-10,1.9,1,False,Trunk Route,False,20.8,TDMS
 TRK-SEC-02-0014,Engineering,SEC-02,Ambala,Weld,Rail Fracture,Minor,5,2026-08-24,1.6,0,False,Trunk Route,False,20.8,TMS
+SIG-SEC-05-0116,Signal & Telecom,SEC-05,Moradabad,Axle Counter,Level Crossing Gate Fault,Minor,8,2026-08-21,1.5,1,False,Branch Line,False,20.6,SMMS
+TRK-SEC-08-0093,Engineering,SEC-08,Firozpur,Weld,Formation/Subgrade Defect,Minor,7,2026-08-22,1.6,1,False,Branch Line,False,20.5,TMS
 SIG-SEC-01-0075,Signal & Telecom,SEC-01,Ambala,Level Crossing Gate,Cable Insulation Fault,Minor,7,2026-08-22,1.5,1,False,Branch Line,False,20.5,SMMS
 OHE-SEC-07-0006,Traction Distribution,SEC-07,Firozpur,Dropper,Traction Substation Fault,Minor,7,2026-08-22,1.6,1,False,Branch Line,False,20.5,TDMS
-TRK-SEC-02-0113,Engineering,SEC-02,Ambala,Ballast,Rail Wear,Minor,2,2026-08-27,1.0,2,False,Branch Line,False,20.5,TMS
-TRK-SEC-08-0093,Engineering,SEC-08,Firozpur,Weld,Formation/Subgrade Defect,Minor,7,2026-08-22,1.6,1,False,Branch Line,False,20.5,TMS
 TRK-SEC-02-0115,Engineering,SEC-02,Ambala,Rail,Rail Fracture,Minor,7,2026-08-22,1.9,1,False,Branch Line,False,20.5,TMS
-OHE-SEC-05-0125,Traction Distribution,SEC-05,Moradabad,Feeder,Dropper Defect,Minor,4,2026-08-25,1.0,0,False,Trunk Route,False,20.2,TDMS
-TRK-SEC-02-0176,Engineering,SEC-02,Ambala,Ballast,Weld Defect,Minor,4,2026-08-25,1.2,0,False,Trunk Route,False,20.2,TMS
-TRK-SEC-08-0160,Engineering,SEC-08,Firozpur,Ballast,Rail Wear,Minor,6,2026-08-23,1.4,1,False,Branch Line,False,19.8,TMS
-SIG-SEC-06-0159,Signal & Telecom,SEC-06,Moradabad,Interlocking,Axle Counter Fault,Minor,3,2026-08-26,1.5,0,False,Trunk Route,False,19.5,SMMS
-SIG-SEC-01-0137,Signal & Telecom,SEC-01,Ambala,Cable,Relay Failure,Minor,3,2026-08-26,1.1,0,False,Trunk Route,False,19.5,SMMS
+OHE-SEC-05-0125,Traction Distribution,SEC-05,Moradabad,Feeder,Dropper Defect,Minor,4,2026-08-25,1.0,0,False,Trunk Route,False,20.0,TDMS
+TRK-SEC-02-0176,Engineering,SEC-02,Ambala,Ballast,Weld Defect,Minor,4,2026-08-25,1.2,0,False,Trunk Route,False,20.0,TMS
+TRK-SEC-08-0160,Engineering,SEC-08,Firozpur,Ballast,Rail Wear,Minor,6,2026-08-23,1.4,1,False,Branch Line,False,19.6,TMS
+SIG-SEC-01-0137,Signal & Telecom,SEC-01,Ambala,Cable,Relay Failure,Minor,3,2026-08-26,1.1,0,False,Trunk Route,False,19.4,SMMS
+SIG-SEC-06-0159,Signal & Telecom,SEC-06,Moradabad,Interlocking,Axle Counter Fault,Minor,3,2026-08-26,1.5,0,False,Trunk Route,False,19.4,SMMS
+TRK-SEC-07-0089,Engineering,SEC-07,Firozpur,Formation,Rail Fracture,Minor,-1,2026-08-30,2.1,2,False,Branch Line,False,19.3,TMS
+TRK-SEC-05-0105,Engineering,SEC-05,Moradabad,Formation,Gauge Widening,Minor,-1,2026-08-30,1.3,2,False,Branch Line,False,19.3,TMS
 OHE-SEC-03-0018,Traction Distribution,SEC-03,Delhi,Switching Post,Traction Substation Fault,Minor,-3,2026-09-01,0.6,2,False,Branch Line,False,19.2,TDMS
-TRK-SEC-05-0111,Engineering,SEC-05,Moradabad,Formation,Weld Defect,Minor,10,2026-08-19,2.9,0,False,Branch Line,False,19.2,TMS
+TRK-SEC-08-0199,Engineering,SEC-08,Firozpur,Weld,Ballast Deficiency,Minor,-13,2026-09-11,2.0,2,False,Branch Line,False,19.2,TMS
 OHE-SEC-02-0037,Traction Distribution,SEC-02,Ambala,Feeder,Insulator Damage,Minor,-11,2026-09-09,1.7,2,False,Branch Line,False,19.2,TDMS
 TRK-SEC-05-0122,Engineering,SEC-05,Moradabad,Weld,Ballast Deficiency,Minor,-15,2026-09-13,1.2,2,False,Branch Line,False,19.2,TMS
-TRK-SEC-08-0199,Engineering,SEC-08,Firozpur,Weld,Ballast Deficiency,Minor,-13,2026-09-11,2.0,2,False,Branch Line,False,19.2,TMS
-TRK-SEC-05-0105,Engineering,SEC-05,Moradabad,Formation,Gauge Widening,Minor,-1,2026-08-30,1.3,2,False,Branch Line,False,19.2,TMS
-SIG-SEC-03-0057,Signal & Telecom,SEC-03,Delhi,Signal,Block Instrument Fault,Minor,5,2026-08-24,1.8,1,False,Branch Line,False,19.2,SMMS
-TRK-SEC-07-0089,Engineering,SEC-07,Firozpur,Formation,Rail Fracture,Minor,-1,2026-08-30,2.1,2,False,Branch Line,False,19.2,TMS
+TRK-SEC-01-0166,Engineering,SEC-01,Ambala,Ballast,Track Geometry - Twist,Minor,-9,2026-09-07,1.0,2,False,Branch Line,False,19.2,TMS
 OHE-SEC-08-0045,Traction Distribution,SEC-08,Firozpur,Earthing System,Tension Length Deviation,Minor,-5,2026-09-03,1.0,2,False,Branch Line,False,19.2,TDMS
 OHE-SEC-07-0049,Traction Distribution,SEC-07,Firozpur,Feeder,Insulator Damage,Minor,-15,2026-09-13,1.6,2,False,Branch Line,False,19.2,TDMS
-OHE-SEC-01-0047,Traction Distribution,SEC-01,Ambala,Insulator,OHE Wire Wear,Minor,5,2026-08-24,1.3,1,False,Branch Line,False,19.2,TDMS
 TRK-SEC-01-0193,Engineering,SEC-01,Ambala,Rail,Formation/Subgrade Defect,Minor,-7,2026-09-05,2.5,2,False,Branch Line,False,19.2,TMS
-TRK-SEC-03-0203,Engineering,SEC-03,Delhi,Weld,Rail Wear,Minor,10,2026-08-19,1.8,0,False,Branch Line,False,19.2,TMS
-TRK-SEC-01-0166,Engineering,SEC-01,Ambala,Ballast,Track Geometry - Twist,Minor,-9,2026-09-07,1.0,2,False,Branch Line,False,19.2,TMS
-SIG-SEC-07-0099,Signal & Telecom,SEC-07,Firozpur,Level Crossing Gate,Axle Counter Fault,Minor,2,2026-08-27,1.8,0,False,Trunk Route,False,18.8,SMMS
-SIG-SEC-06-0124,Signal & Telecom,SEC-06,Moradabad,Axle Counter,Signal Aspect Failure,Minor,2,2026-08-27,1.7,0,False,Trunk Route,False,18.8,SMMS
-OHE-SEC-02-0051,Traction Distribution,SEC-02,Ambala,Earthing System,Tension Length Deviation,Minor,9,2026-08-20,0.5,0,False,Branch Line,False,18.5,TDMS
-TRK-SEC-04-0097,Engineering,SEC-04,Delhi,Formation,Rail Wear,Minor,9,2026-08-20,1.5,0,False,Branch Line,False,18.5,TMS
-SIG-SEC-06-0148,Signal & Telecom,SEC-06,Moradabad,Axle Counter,Relay Failure,Minor,9,2026-08-20,1.6,0,False,Branch Line,False,18.5,SMMS
-SIG-SEC-02-0011,Signal & Telecom,SEC-02,Ambala,Axle Counter,Point Machine Failure,Minor,9,2026-08-20,1.2,0,False,Branch Line,False,18.5,SMMS
-SIG-SEC-03-0027,Signal & Telecom,SEC-03,Delhi,Axle Counter,Block Instrument Fault,Minor,1,2026-08-28,1.5,0,False,Trunk Route,False,18.2,SMMS
-TRK-SEC-06-0124,Engineering,SEC-06,Moradabad,Track Geometry,Gauge Widening,Minor,1,2026-08-28,1.2,0,False,Trunk Route,False,18.2,TMS
+OHE-SEC-01-0047,Traction Distribution,SEC-01,Ambala,Insulator,OHE Wire Wear,Minor,5,2026-08-24,1.3,1,False,Branch Line,False,19.1,TDMS
+SIG-SEC-03-0057,Signal & Telecom,SEC-03,Delhi,Signal,Block Instrument Fault,Minor,5,2026-08-24,1.8,1,False,Branch Line,False,19.1,SMMS
+TRK-SEC-05-0111,Engineering,SEC-05,Moradabad,Formation,Weld Defect,Minor,10,2026-08-19,2.9,0,False,Branch Line,False,19.0,TMS
+TRK-SEC-03-0203,Engineering,SEC-03,Delhi,Weld,Rail Wear,Minor,10,2026-08-19,1.8,0,False,Branch Line,False,19.0,TMS
+SIG-SEC-07-0099,Signal & Telecom,SEC-07,Firozpur,Level Crossing Gate,Axle Counter Fault,Minor,2,2026-08-27,1.8,0,False,Trunk Route,False,18.7,SMMS
+SIG-SEC-06-0124,Signal & Telecom,SEC-06,Moradabad,Axle Counter,Signal Aspect Failure,Minor,2,2026-08-27,1.7,0,False,Trunk Route,False,18.7,SMMS
+OHE-SEC-02-0051,Traction Distribution,SEC-02,Ambala,Earthing System,Tension Length Deviation,Minor,9,2026-08-20,0.5,0,False,Branch Line,False,18.4,TDMS
+TRK-SEC-04-0097,Engineering,SEC-04,Delhi,Formation,Rail Wear,Minor,9,2026-08-20,1.5,0,False,Branch Line,False,18.4,TMS
+SIG-SEC-06-0148,Signal & Telecom,SEC-06,Moradabad,Axle Counter,Relay Failure,Minor,9,2026-08-20,1.6,0,False,Branch Line,False,18.4,SMMS
+SIG-SEC-02-0011,Signal & Telecom,SEC-02,Ambala,Axle Counter,Point Machine Failure,Minor,9,2026-08-20,1.2,0,False,Branch Line,False,18.4,SMMS
+SIG-SEC-03-0027,Signal & Telecom,SEC-03,Delhi,Axle Counter,Block Instrument Fault,Minor,1,2026-08-28,1.5,0,False,Trunk Route,False,18.1,SMMS
+TRK-SEC-06-0124,Engineering,SEC-06,Moradabad,Track Geometry,Gauge Widening,Minor,1,2026-08-28,1.2,0,False,Trunk Route,False,18.1,TMS
 OHE-SEC-08-0058,Traction Distribution,SEC-08,Firozpur,Switching Post,Earthing Fault,Minor,8,2026-08-21,1.9,0,False,Branch Line,False,17.8,TDMS
 SIG-SEC-07-0080,Signal & Telecom,SEC-07,Firozpur,Point Machine,Signal Aspect Failure,Minor,8,2026-08-21,1.4,0,False,Branch Line,False,17.8,SMMS
 TRK-SEC-03-0038,Engineering,SEC-03,Delhi,Weld,Gauge Widening,Minor,8,2026-08-21,1.0,0,False,Branch Line,False,17.8,TMS
-TRK-SEC-07-0164,Engineering,SEC-07,Firozpur,Rail,Ballast Deficiency,Minor,-13,2026-09-11,1.5,0,False,Trunk Route,False,17.5,TMS
-OHE-SEC-02-0110,Traction Distribution,SEC-02,Ambala,Switching Post,Feeder Fault,Minor,-5,2026-09-03,1.3,0,False,Trunk Route,False,17.5,TDMS
-TRK-SEC-01-0062,Engineering,SEC-01,Ambala,Rail,Track Geometry - Twist,Minor,-15,2026-09-13,1.4,0,False,Trunk Route,False,17.5,TMS
+TRK-SEC-05-0154,Engineering,SEC-05,Moradabad,Formation,Ballast Deficiency,Minor,-3,2026-09-01,2.4,0,False,Trunk Route,False,17.5,TMS
+SIG-SEC-06-0171,Signal & Telecom,SEC-06,Moradabad,Cable,Point Machine Failure,Minor,-14,2026-09-12,1.9,0,False,Trunk Route,False,17.5,SMMS
+SIG-SEC-04-0175,Signal & Telecom,SEC-04,Delhi,Level Crossing Gate,Axle Counter Fault,Minor,0,2026-08-29,0.5,0,False,Trunk Route,False,17.5,SMMS
 SIG-SEC-03-0120,Signal & Telecom,SEC-03,Delhi,Level Crossing Gate,Block Instrument Fault,Minor,-6,2026-09-04,0.7,0,False,Trunk Route,False,17.5,SMMS
 SIG-SEC-04-0085,Signal & Telecom,SEC-04,Delhi,Signal,Cable Insulation Fault,Minor,-1,2026-08-30,2.0,0,False,Trunk Route,False,17.5,SMMS
 TRK-SEC-07-0057,Engineering,SEC-07,Firozpur,Ballast,Rail Wear,Minor,-2,2026-08-31,2.9,0,False,Trunk Route,False,17.5,TMS
@@ -482,54 +482,70 @@ TRK-SEC-04-0168,Engineering,SEC-04,Delhi,Weld,Weld Defect,Minor,-15,2026-09-13,1
 OHE-SEC-05-0115,Traction Distribution,SEC-05,Moradabad,Insulator,Insulator Damage,Minor,-15,2026-09-13,0.5,0,False,Trunk Route,False,17.5,TDMS
 TRK-SEC-04-0006,Engineering,SEC-04,Delhi,Rail,Rail Wear,Minor,-8,2026-09-06,1.1,0,False,Trunk Route,False,17.5,TMS
 TRK-SEC-06-0131,Engineering,SEC-06,Moradabad,Track Geometry,Gauge Widening,Minor,-2,2026-08-31,2.9,0,False,Trunk Route,False,17.5,TMS
-TRK-SEC-05-0154,Engineering,SEC-05,Moradabad,Formation,Ballast Deficiency,Minor,-3,2026-09-01,2.4,0,False,Trunk Route,False,17.5,TMS
-SIG-SEC-06-0171,Signal & Telecom,SEC-06,Moradabad,Cable,Point Machine Failure,Minor,-14,2026-09-12,1.9,0,False,Trunk Route,False,17.5,SMMS
-SIG-SEC-04-0175,Signal & Telecom,SEC-04,Delhi,Level Crossing Gate,Axle Counter Fault,Minor,0,2026-08-29,0.5,0,False,Trunk Route,False,17.5,SMMS
-SIG-SEC-03-0009,Signal & Telecom,SEC-03,Delhi,Point Machine,Signal Aspect Failure,Minor,7,2026-08-22,1.0,0,False,Branch Line,False,17.2,SMMS
-SIG-SEC-02-0031,Signal & Telecom,SEC-02,Ambala,Point Machine,Level Crossing Gate Fault,Minor,7,2026-08-22,0.8,0,False,Branch Line,False,17.2,SMMS
-TRK-SEC-05-0185,Engineering,SEC-05,Moradabad,Rail,Track Geometry - Twist,Minor,7,2026-08-22,2.4,0,False,Branch Line,False,17.2,TMS
-SIG-SEC-05-0168,Signal & Telecom,SEC-05,Moradabad,Signal,Relay Failure,Minor,7,2026-08-22,1.5,0,False,Branch Line,False,17.2,SMMS
-SIG-SEC-07-0002,Signal & Telecom,SEC-07,Firozpur,Signal,Point Machine Failure,Minor,2,2026-08-27,1.4,1,False,Branch Line,False,17.2,SMMS
+TRK-SEC-07-0164,Engineering,SEC-07,Firozpur,Rail,Ballast Deficiency,Minor,-13,2026-09-11,1.5,0,False,Trunk Route,False,17.5,TMS
+OHE-SEC-02-0110,Traction Distribution,SEC-02,Ambala,Switching Post,Feeder Fault,Minor,-5,2026-09-03,1.3,0,False,Trunk Route,False,17.5,TDMS
+TRK-SEC-01-0062,Engineering,SEC-01,Ambala,Rail,Track Geometry - Twist,Minor,-15,2026-09-13,1.4,0,False,Trunk Route,False,17.5,TMS
+SIG-SEC-03-0009,Signal & Telecom,SEC-03,Delhi,Point Machine,Signal Aspect Failure,Minor,7,2026-08-22,1.0,0,False,Branch Line,False,17.0,SMMS
+SIG-SEC-02-0031,Signal & Telecom,SEC-02,Ambala,Point Machine,Level Crossing Gate Fault,Minor,7,2026-08-22,0.8,0,False,Branch Line,False,17.0,SMMS
+TRK-SEC-05-0185,Engineering,SEC-05,Moradabad,Rail,Track Geometry - Twist,Minor,7,2026-08-22,2.4,0,False,Branch Line,False,17.0,TMS
+SIG-SEC-05-0168,Signal & Telecom,SEC-05,Moradabad,Signal,Relay Failure,Minor,7,2026-08-22,1.5,0,False,Branch Line,False,17.0,SMMS
+SIG-SEC-07-0002,Signal & Telecom,SEC-07,Firozpur,Signal,Point Machine Failure,Minor,2,2026-08-27,1.4,1,False,Branch Line,False,17.0,SMMS
 TRK-SEC-01-0137,Engineering,SEC-01,Ambala,Weld,Weld Defect,Minor,6,2026-08-23,1.5,0,False,Branch Line,False,16.5,TMS
 TRK-SEC-03-0112,Engineering,SEC-03,Delhi,Track Geometry,Ballast Deficiency,Minor,6,2026-08-23,1.5,0,False,Branch Line,False,16.5,TMS
 OHE-SEC-02-0085,Traction Distribution,SEC-02,Ambala,Feeder,OHE Wire Wear,Minor,6,2026-08-23,0.9,0,False,Branch Line,False,16.5,TDMS
-TRK-SEC-08-0052,Engineering,SEC-08,Firozpur,Formation,Formation/Subgrade Defect,Minor,1,2026-08-28,2.4,1,False,Branch Line,False,16.5,TMS
 SIG-SEC-08-0048,Signal & Telecom,SEC-08,Firozpur,Block Instrument,Signal Aspect Failure,Minor,6,2026-08-23,1.7,0,False,Branch Line,False,16.5,SMMS
-SIG-SEC-06-0135,Signal & Telecom,SEC-06,Moradabad,Point Machine,Cable Insulation Fault,Minor,-13,2026-09-11,1.4,1,False,Branch Line,False,15.8,SMMS
-SIG-SEC-01-0106,Signal & Telecom,SEC-01,Ambala,Point Machine,Signal Aspect Failure,Minor,-10,2026-09-08,1.3,1,False,Branch Line,False,15.8,SMMS
-OHE-SEC-07-0107,Traction Distribution,SEC-07,Firozpur,Insulator,Feeder Fault,Minor,-12,2026-09-10,0.7,1,False,Branch Line,False,15.8,TDMS
+TRK-SEC-08-0052,Engineering,SEC-08,Firozpur,Formation,Formation/Subgrade Defect,Minor,1,2026-08-28,2.4,1,False,Branch Line,False,16.3,TMS
+TRK-SEC-03-0146,Engineering,SEC-03,Delhi,Track Geometry,Formation/Subgrade Defect,Minor,5,2026-08-24,2.5,0,False,Branch Line,False,16.0,TMS
+TRK-SEC-03-0188,Engineering,SEC-03,Delhi,Track Geometry,Track Geometry - Unevenness,Minor,-1,2026-08-30,2.3,1,False,Branch Line,False,15.9,TMS
+TRK-SEC-03-0055,Engineering,SEC-03,Delhi,Weld,Rail Wear,Minor,-2,2026-08-31,1.1,1,False,Branch Line,False,15.9,TMS
+OHE-SEC-08-0075,Traction Distribution,SEC-08,Firozpur,Earthing System,Dropper Defect,Minor,0,2026-08-29,1.5,1,False,Branch Line,False,15.9,TDMS
+SIG-SEC-02-0055,Signal & Telecom,SEC-02,Ambala,Axle Counter,Interlocking Fault,Minor,0,2026-08-29,0.7,1,False,Branch Line,False,15.9,SMMS
 OHE-SEC-03-0103,Traction Distribution,SEC-03,Delhi,Switching Post,Insulator Damage,Minor,-14,2026-09-12,1.0,1,False,Branch Line,False,15.8,TDMS
 TRK-SEC-06-0205,Engineering,SEC-06,Moradabad,Track Geometry,Formation/Subgrade Defect,Minor,-3,2026-09-01,1.6,1,False,Branch Line,False,15.8,TMS
-OHE-SEC-08-0075,Traction Distribution,SEC-08,Firozpur,Earthing System,Dropper Defect,Minor,0,2026-08-29,1.5,1,False,Branch Line,False,15.8,TDMS
+OHE-SEC-07-0107,Traction Distribution,SEC-07,Firozpur,Insulator,Feeder Fault,Minor,-12,2026-09-10,0.7,1,False,Branch Line,False,15.8,TDMS
 TRK-SEC-01-0009,Engineering,SEC-01,Ambala,Formation,Rail Wear,Minor,-13,2026-09-11,1.8,1,False,Branch Line,False,15.8,TMS
-TRK-SEC-03-0188,Engineering,SEC-03,Delhi,Track Geometry,Track Geometry - Unevenness,Minor,-1,2026-08-30,2.3,1,False,Branch Line,False,15.8,TMS
 OHE-SEC-05-0041,Traction Distribution,SEC-05,Moradabad,Switching Post,OHE Wire Wear,Minor,-14,2026-09-12,0.7,1,False,Branch Line,False,15.8,TDMS
-TRK-SEC-02-0171,Engineering,SEC-02,Ambala,Weld,Formation/Subgrade Defect,Minor,-5,2026-09-03,2.5,1,False,Branch Line,False,15.8,TMS
 TRK-SEC-01-0170,Engineering,SEC-01,Ambala,Ballast,Track Geometry - Twist,Minor,-7,2026-09-05,3.0,1,False,Branch Line,False,15.8,TMS
+TRK-SEC-02-0171,Engineering,SEC-02,Ambala,Weld,Formation/Subgrade Defect,Minor,-5,2026-09-03,2.5,1,False,Branch Line,False,15.8,TMS
 SIG-SEC-06-0058,Signal & Telecom,SEC-06,Moradabad,Point Machine,Axle Counter Fault,Minor,-8,2026-09-06,1.3,1,False,Branch Line,False,15.8,SMMS
 TRK-SEC-06-0095,Engineering,SEC-06,Moradabad,Track Geometry,Formation/Subgrade Defect,Minor,-15,2026-09-13,2.0,1,False,Branch Line,False,15.8,TMS
 TRK-SEC-08-0175,Engineering,SEC-08,Firozpur,Track Geometry,Gauge Widening,Minor,-10,2026-09-08,1.8,1,False,Branch Line,False,15.8,TMS
+SIG-SEC-06-0135,Signal & Telecom,SEC-06,Moradabad,Point Machine,Cable Insulation Fault,Minor,-13,2026-09-11,1.4,1,False,Branch Line,False,15.8,SMMS
 TRK-SEC-05-0194,Engineering,SEC-05,Moradabad,Rail,Rail Fracture,Minor,-8,2026-09-06,1.6,1,False,Branch Line,False,15.8,TMS
-TRK-SEC-03-0055,Engineering,SEC-03,Delhi,Weld,Rail Wear,Minor,-2,2026-08-31,1.1,1,False,Branch Line,False,15.8,TMS
-SIG-SEC-02-0055,Signal & Telecom,SEC-02,Ambala,Axle Counter,Interlocking Fault,Minor,0,2026-08-29,0.7,1,False,Branch Line,False,15.8,SMMS
 TRK-SEC-06-0147,Engineering,SEC-06,Moradabad,Ballast,Gauge Widening,Minor,-11,2026-09-09,2.3,1,False,Branch Line,False,15.8,TMS
-TRK-SEC-03-0146,Engineering,SEC-03,Delhi,Track Geometry,Formation/Subgrade Defect,Minor,5,2026-08-24,2.5,0,False,Branch Line,False,15.8,TMS
 SIG-SEC-01-0045,Signal & Telecom,SEC-01,Ambala,Interlocking,Point Machine Failure,Minor,-12,2026-09-10,0.8,1,False,Branch Line,False,15.8,SMMS
+SIG-SEC-01-0106,Signal & Telecom,SEC-01,Ambala,Point Machine,Signal Aspect Failure,Minor,-10,2026-09-08,1.3,1,False,Branch Line,False,15.8,SMMS
 TRK-SEC-08-0215,Engineering,SEC-08,Firozpur,Ballast,Track Geometry - Unevenness,Minor,-9,2026-09-07,2.5,1,False,Branch Line,False,15.8,TMS
-SIG-SEC-06-0054,Signal & Telecom,SEC-06,Moradabad,Level Crossing Gate,Relay Failure,Minor,4,2026-08-25,0.6,0,False,Branch Line,False,15.2,SMMS
-SIG-SEC-02-0149,Signal & Telecom,SEC-02,Ambala,Block Instrument,Cable Insulation Fault,Minor,4,2026-08-25,1.8,0,False,Branch Line,False,15.2,SMMS
+SIG-SEC-06-0054,Signal & Telecom,SEC-06,Moradabad,Level Crossing Gate,Relay Failure,Minor,4,2026-08-25,0.6,0,False,Branch Line,False,14.7,SMMS
+SIG-SEC-02-0149,Signal & Telecom,SEC-02,Ambala,Block Instrument,Cable Insulation Fault,Minor,4,2026-08-25,1.8,0,False,Branch Line,False,14.7,SMMS
 TRK-SEC-02-0064,Engineering,SEC-02,Ambala,Weld,Weld Defect,Minor,3,2026-08-26,2.9,0,False,Branch Line,False,14.5,TMS
-OHE-SEC-06-0015,Traction Distribution,SEC-06,Moradabad,Traction Substation,Earthing Fault,Minor,3,2026-08-26,0.6,0,False,Branch Line,False,14.5,TDMS
 TRK-SEC-03-0084,Engineering,SEC-03,Delhi,Ballast,Rail Wear,Minor,3,2026-08-26,2.2,0,False,Branch Line,False,14.5,TMS
+OHE-SEC-06-0015,Traction Distribution,SEC-06,Moradabad,Traction Substation,Earthing Fault,Minor,3,2026-08-26,0.6,0,False,Branch Line,False,14.5,TDMS
 OHE-SEC-04-0156,Traction Distribution,SEC-04,Delhi,Insulator,OHE Wire Wear,Minor,3,2026-08-26,1.0,0,False,Branch Line,False,14.5,TDMS
 SIG-SEC-08-0056,Signal & Telecom,SEC-08,Firozpur,Level Crossing Gate,Signal Aspect Failure,Minor,3,2026-08-26,1.5,0,False,Branch Line,False,14.5,SMMS
-TRK-SEC-01-0210,Engineering,SEC-01,Ambala,Ballast,Track Geometry - Unevenness,Minor,2,2026-08-27,2.0,0,False,Branch Line,False,13.8,TMS
-SIG-SEC-01-0125,Signal & Telecom,SEC-01,Ambala,Axle Counter,Level Crossing Gate Fault,Minor,2,2026-08-27,1.9,0,False,Branch Line,False,13.8,SMMS
-TRK-SEC-02-0100,Engineering,SEC-02,Ambala,Formation,Rail Fracture,Minor,2,2026-08-27,2.7,0,False,Branch Line,False,13.8,TMS
+SIG-SEC-01-0125,Signal & Telecom,SEC-01,Ambala,Axle Counter,Level Crossing Gate Fault,Minor,2,2026-08-27,1.9,0,False,Branch Line,False,13.7,SMMS
+TRK-SEC-01-0210,Engineering,SEC-01,Ambala,Ballast,Track Geometry - Unevenness,Minor,2,2026-08-27,2.0,0,False,Branch Line,False,13.7,TMS
+TRK-SEC-02-0100,Engineering,SEC-02,Ambala,Formation,Rail Fracture,Minor,2,2026-08-27,2.7,0,False,Branch Line,False,13.7,TMS
 SIG-SEC-07-0062,Signal & Telecom,SEC-07,Firozpur,Axle Counter,Point Machine Failure,Minor,1,2026-08-28,0.6,0,False,Branch Line,False,13.2,SMMS
-SIG-SEC-07-0145,Signal & Telecom,SEC-07,Firozpur,Level Crossing Gate,Axle Counter Fault,Minor,1,2026-08-28,0.7,0,False,Branch Line,False,13.2,SMMS
 TRK-SEC-06-0202,Engineering,SEC-06,Moradabad,Track Geometry,Weld Defect,Minor,1,2026-08-28,1.1,0,False,Branch Line,False,13.2,TMS
+SIG-SEC-07-0145,Signal & Telecom,SEC-07,Firozpur,Level Crossing Gate,Axle Counter Fault,Minor,1,2026-08-28,0.7,0,False,Branch Line,False,13.2,SMMS
 SIG-SEC-03-0177,Signal & Telecom,SEC-03,Delhi,Cable,Signal Aspect Failure,Minor,1,2026-08-28,2.0,0,False,Branch Line,False,13.2,SMMS
+TRK-SEC-07-0073,Engineering,SEC-07,Firozpur,Weld,Weld Defect,Minor,-4,2026-09-02,2.1,0,False,Branch Line,False,12.5,TMS
+TRK-SEC-05-0091,Engineering,SEC-05,Moradabad,Track Geometry,Track Geometry - Twist,Minor,-1,2026-08-30,2.9,0,False,Branch Line,False,12.5,TMS
+TRK-SEC-06-0150,Engineering,SEC-06,Moradabad,Rail,Track Geometry - Unevenness,Minor,-14,2026-09-12,2.0,0,False,Branch Line,False,12.5,TMS
+OHE-SEC-08-0007,Traction Distribution,SEC-08,Firozpur,Earthing System,Traction Substation Fault,Minor,-8,2026-09-06,1.3,0,False,Branch Line,False,12.5,TDMS
+OHE-SEC-03-0025,Traction Distribution,SEC-03,Delhi,Earthing System,Feeder Fault,Minor,-10,2026-09-08,0.8,0,False,Branch Line,False,12.5,TDMS
+OHE-SEC-04-0012,Traction Distribution,SEC-04,Delhi,Traction Substation,Earthing Fault,Minor,-14,2026-09-12,2.0,0,False,Branch Line,False,12.5,TDMS
+SIG-SEC-02-0160,Signal & Telecom,SEC-02,Ambala,Axle Counter,Relay Failure,Minor,-15,2026-09-13,0.8,0,False,Branch Line,False,12.5,SMMS
+SIG-SEC-05-0166,Signal & Telecom,SEC-05,Moradabad,Block Instrument,Relay Failure,Minor,-10,2026-09-08,1.2,0,False,Branch Line,False,12.5,SMMS
+OHE-SEC-08-0160,Traction Distribution,SEC-08,Firozpur,Insulator,Traction Substation Fault,Minor,-4,2026-09-02,0.7,0,False,Branch Line,False,12.5,TDMS
+TRK-SEC-04-0173,Engineering,SEC-04,Delhi,Weld,Gauge Widening,Minor,-6,2026-09-04,1.6,0,False,Branch Line,False,12.5,TMS
+SIG-SEC-03-0018,Signal & Telecom,SEC-03,Delhi,Interlocking,Point Machine Failure,Minor,-14,2026-09-12,0.8,0,False,Branch Line,False,12.5,SMMS
+TRK-SEC-03-0042,Engineering,SEC-03,Delhi,Ballast,Rail Wear,Minor,-14,2026-09-12,3.0,0,False,Branch Line,False,12.5,TMS
+TRK-SEC-01-0005,Engineering,SEC-01,Ambala,Track Geometry,Ballast Deficiency,Minor,-3,2026-09-01,2.1,0,False,Branch Line,False,12.5,TMS
+TRK-SEC-08-0211,Engineering,SEC-08,Firozpur,Weld,Track Geometry - Twist,Minor,-4,2026-09-02,1.7,0,False,Branch Line,False,12.5,TMS
+TRK-SEC-05-0085,Engineering,SEC-05,Moradabad,Track Geometry,Gauge Widening,Minor,-13,2026-09-11,2.0,0,False,Branch Line,False,12.5,TMS
+SIG-SEC-06-0042,Signal & Telecom,SEC-06,Moradabad,Axle Counter,Point Machine Failure,Minor,-4,2026-09-02,1.4,0,False,Branch Line,False,12.5,SMMS
 TRK-SEC-02-0024,Engineering,SEC-02,Ambala,Formation,Rail Fracture,Minor,-10,2026-09-08,2.7,0,False,Branch Line,False,12.5,TMS
 SIG-SEC-01-0049,Signal & Telecom,SEC-01,Ambala,Level Crossing Gate,Level Crossing Gate Fault,Minor,-6,2026-09-04,0.5,0,False,Branch Line,False,12.5,SMMS
 OHE-SEC-01-0030,Traction Distribution,SEC-01,Ambala,OHE Wire,Feeder Fault,Minor,-10,2026-09-08,0.6,0,False,Branch Line,False,12.5,TDMS
@@ -543,19 +559,3 @@ SIG-SEC-06-0122,Signal & Telecom,SEC-06,Moradabad,Block Instrument,Axle Counter 
 SIG-SEC-08-0117,Signal & Telecom,SEC-08,Firozpur,Interlocking,Axle Counter Fault,Minor,-13,2026-09-11,1.7,0,False,Branch Line,False,12.5,SMMS
 TRK-SEC-08-0125,Engineering,SEC-08,Firozpur,Formation,Formation/Subgrade Defect,Minor,0,2026-08-29,1.1,0,False,Branch Line,False,12.5,TMS
 SIG-SEC-07-0146,Signal & Telecom,SEC-07,Firozpur,Block Instrument,Signal Aspect Failure,Minor,-5,2026-09-03,0.7,0,False,Branch Line,False,12.5,SMMS
-SIG-SEC-05-0166,Signal & Telecom,SEC-05,Moradabad,Block Instrument,Relay Failure,Minor,-10,2026-09-08,1.2,0,False,Branch Line,False,12.5,SMMS
-SIG-SEC-02-0160,Signal & Telecom,SEC-02,Ambala,Axle Counter,Relay Failure,Minor,-15,2026-09-13,0.8,0,False,Branch Line,False,12.5,SMMS
-OHE-SEC-04-0012,Traction Distribution,SEC-04,Delhi,Traction Substation,Earthing Fault,Minor,-14,2026-09-12,2.0,0,False,Branch Line,False,12.5,TDMS
-OHE-SEC-03-0025,Traction Distribution,SEC-03,Delhi,Earthing System,Feeder Fault,Minor,-10,2026-09-08,0.8,0,False,Branch Line,False,12.5,TDMS
-OHE-SEC-08-0007,Traction Distribution,SEC-08,Firozpur,Earthing System,Traction Substation Fault,Minor,-8,2026-09-06,1.3,0,False,Branch Line,False,12.5,TDMS
-TRK-SEC-06-0150,Engineering,SEC-06,Moradabad,Rail,Track Geometry - Unevenness,Minor,-14,2026-09-12,2.0,0,False,Branch Line,False,12.5,TMS
-TRK-SEC-05-0091,Engineering,SEC-05,Moradabad,Track Geometry,Track Geometry - Twist,Minor,-1,2026-08-30,2.9,0,False,Branch Line,False,12.5,TMS
-TRK-SEC-07-0073,Engineering,SEC-07,Firozpur,Weld,Weld Defect,Minor,-4,2026-09-02,2.1,0,False,Branch Line,False,12.5,TMS
-SIG-SEC-06-0042,Signal & Telecom,SEC-06,Moradabad,Axle Counter,Point Machine Failure,Minor,-4,2026-09-02,1.4,0,False,Branch Line,False,12.5,SMMS
-TRK-SEC-05-0085,Engineering,SEC-05,Moradabad,Track Geometry,Gauge Widening,Minor,-13,2026-09-11,2.0,0,False,Branch Line,False,12.5,TMS
-TRK-SEC-08-0211,Engineering,SEC-08,Firozpur,Weld,Track Geometry - Twist,Minor,-4,2026-09-02,1.7,0,False,Branch Line,False,12.5,TMS
-TRK-SEC-04-0173,Engineering,SEC-04,Delhi,Weld,Gauge Widening,Minor,-6,2026-09-04,1.6,0,False,Branch Line,False,12.5,TMS
-SIG-SEC-03-0018,Signal & Telecom,SEC-03,Delhi,Interlocking,Point Machine Failure,Minor,-14,2026-09-12,0.8,0,False,Branch Line,False,12.5,SMMS
-TRK-SEC-03-0042,Engineering,SEC-03,Delhi,Ballast,Rail Wear,Minor,-14,2026-09-12,3.0,0,False,Branch Line,False,12.5,TMS
-TRK-SEC-01-0005,Engineering,SEC-01,Ambala,Track Geometry,Ballast Deficiency,Minor,-3,2026-09-01,2.1,0,False,Branch Line,False,12.5,TMS
-OHE-SEC-08-0160,Traction Distribution,SEC-08,Firozpur,Insulator,Traction Substation Fault,Minor,-4,2026-09-02,0.7,0,False,Branch Line,False,12.5,TDMS

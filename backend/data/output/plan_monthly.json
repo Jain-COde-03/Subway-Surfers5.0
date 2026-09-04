@@ -6,7 +6,7 @@
         "department":"Signal & Telecom",
         "asset_id":"SIG-SEC-02-0090",
         "duration":3.2,
-        "priority":93.3,
+        "priority":91.8,
         "is_bundled":false
     },
     {
@@ -16,7 +16,7 @@
         "department":"Signal & Telecom",
         "asset_id":"SIG-SEC-06-0156",
         "duration":4.3,
-        "priority":92.7,
+        "priority":91.5,
         "is_bundled":false
     },
     {
@@ -26,27 +26,7 @@
         "department":"Signal & Telecom",
         "asset_id":"SIG-SEC-08-0038",
         "duration":4.3,
-        "priority":90.7,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-01",
-        "date":"2026-09-13",
-        "start_hour":22,
-        "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-01-0174",
-        "duration":2.8,
-        "priority":89.3,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-01",
-        "date":"2026-09-02",
-        "start_hour":23,
-        "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-01-0093",
-        "duration":2.6,
-        "priority":88.7,
+        "priority":90.1,
         "is_bundled":false
     },
     {
@@ -56,7 +36,27 @@
         "department":"Engineering",
         "asset_id":"TRK-SEC-08-0010",
         "duration":4.6,
-        "priority":88.3,
+        "priority":88.4,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-01",
+        "date":"2026-09-13",
+        "start_hour":22,
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-01-0174",
+        "duration":2.8,
+        "priority":88.4,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-01",
+        "date":"2026-09-02",
+        "start_hour":23,
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-01-0093",
+        "duration":2.6,
+        "priority":87.6,
         "is_bundled":false
     },
     {
@@ -66,17 +66,7 @@
         "department":"Traction Distribution",
         "asset_id":"OHE-SEC-08-0010",
         "duration":2.5,
-        "priority":87.3,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-04",
-        "date":"2026-09-07",
-        "start_hour":22,
-        "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-04-0068",
-        "duration":2.9,
-        "priority":87.0,
+        "priority":87.1,
         "is_bundled":false
     },
     {
@@ -86,7 +76,17 @@
         "department":"Signal & Telecom",
         "asset_id":"SIG-SEC-01-0012",
         "duration":2.8,
-        "priority":87.0,
+        "priority":86.9,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-04",
+        "date":"2026-09-07",
+        "start_hour":22,
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-04-0068",
+        "duration":2.9,
+        "priority":86.9,
         "is_bundled":false
     },
     {
@@ -96,17 +96,7 @@
         "department":"Traction Distribution",
         "asset_id":"OHE-SEC-06-0089",
         "duration":2.8,
-        "priority":86.7,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-08",
-        "date":"2026-09-15",
-        "start_hour":22,
-        "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-08-0172",
-        "duration":5.3,
-        "priority":85.3,
+        "priority":86.4,
         "is_bundled":false
     },
     {
@@ -121,12 +111,22 @@
     },
     {
         "section_id":"SEC-08",
-        "date":"2026-08-31",
-        "start_hour":21,
+        "date":"2026-09-15",
+        "start_hour":22,
         "department":"Engineering",
         "asset_id":"TRK-SEC-08-0058",
         "duration":5.3,
         "priority":85.0,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-08",
+        "date":"2026-08-31",
+        "start_hour":21,
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-08-0172",
+        "duration":5.3,
+        "priority":84.8,
         "is_bundled":false
     },
     {
@@ -136,16 +136,16 @@
         "department":"Signal & Telecom",
         "asset_id":"SIG-SEC-08-0039",
         "duration":2.1,
-        "priority":83.7,
+        "priority":83.9,
         "is_bundled":false
     },
     {
         "section_id":"SEC-04",
-        "date":"2026-09-16",
-        "start_hour":1,
+        "date":"2026-09-18",
+        "start_hour":2,
         "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-04-0065",
-        "duration":3.2,
+        "asset_id":"SIG-SEC-04-0121",
+        "duration":4.2,
         "priority":83.3,
         "is_bundled":false
     },
@@ -156,26 +156,26 @@
         "department":"Engineering",
         "asset_id":"TRK-SEC-08-0051",
         "duration":5.0,
-        "priority":83.0,
+        "priority":83.1,
         "is_bundled":false
     },
     {
         "section_id":"SEC-04",
-        "date":"2026-09-18",
-        "start_hour":2,
+        "date":"2026-09-16",
+        "start_hour":1,
         "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-04-0121",
-        "duration":4.2,
-        "priority":83.0,
+        "asset_id":"SIG-SEC-04-0065",
+        "duration":3.2,
+        "priority":82.8,
         "is_bundled":false
     },
     {
-        "section_id":"SEC-04",
-        "date":"2026-08-29",
+        "section_id":"SEC-06",
+        "date":"2026-09-17",
         "start_hour":0,
-        "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-04-0081",
-        "duration":5.6,
+        "department":"Engineering",
+        "asset_id":"TRK-SEC-06-0133",
+        "duration":5.1,
         "priority":82.7,
         "is_bundled":false
     },
@@ -190,13 +190,13 @@
         "is_bundled":false
     },
     {
-        "section_id":"SEC-06",
-        "date":"2026-09-17",
+        "section_id":"SEC-04",
+        "date":"2026-08-29",
         "start_hour":0,
-        "department":"Engineering",
-        "asset_id":"TRK-SEC-06-0133",
-        "duration":5.1,
-        "priority":82.7,
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-04-0081",
+        "duration":5.6,
+        "priority":82.1,
         "is_bundled":false
     },
     {
@@ -206,7 +206,7 @@
         "department":"Traction Distribution",
         "asset_id":"OHE-SEC-06-0071",
         "duration":3.3,
-        "priority":81.0,
+        "priority":81.2,
         "is_bundled":false
     },
     {
@@ -216,7 +216,7 @@
         "department":"Traction Distribution",
         "asset_id":"OHE-SEC-06-0038",
         "duration":3.5,
-        "priority":80.3,
+        "priority":80.4,
         "is_bundled":false
     },
     {
@@ -226,27 +226,7 @@
         "department":"Traction Distribution",
         "asset_id":"OHE-SEC-03-0146",
         "duration":3.1,
-        "priority":80.3,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-04",
-        "date":"2026-09-06",
-        "start_hour":21,
-        "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-04-0116",
-        "duration":3.8,
-        "priority":79.0,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-05",
-        "date":"2026-09-15",
-        "start_hour":22,
-        "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-05-0153",
-        "duration":3.1,
-        "priority":79.0,
+        "priority":80.4,
         "is_bundled":false
     },
     {
@@ -256,7 +236,27 @@
         "department":"Signal & Telecom",
         "asset_id":"SIG-SEC-02-0123",
         "duration":3.0,
-        "priority":78.3,
+        "priority":78.9,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-04",
+        "date":"2026-09-06",
+        "start_hour":21,
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-04-0116",
+        "duration":3.8,
+        "priority":78.7,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-05",
+        "date":"2026-09-15",
+        "start_hour":22,
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-05-0153",
+        "duration":3.1,
+        "priority":78.7,
         "is_bundled":false
     },
     {
@@ -266,7 +266,7 @@
         "department":"Traction Distribution",
         "asset_id":"OHE-SEC-04-0052",
         "duration":4.1,
-        "priority":78.0,
+        "priority":78.1,
         "is_bundled":false
     },
     {
@@ -276,27 +276,7 @@
         "department":"Signal & Telecom",
         "asset_id":"SIG-SEC-06-0165",
         "duration":5.8,
-        "priority":76.3,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-05",
-        "date":"2026-09-23",
-        "start_hour":23,
-        "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-05-0118",
-        "duration":2.3,
-        "priority":76.0,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-06",
-        "date":"2026-09-18",
-        "start_hour":0,
-        "department":"Engineering",
-        "asset_id":"TRK-SEC-06-0114",
-        "duration":4.9,
-        "priority":75.7,
+        "priority":76.8,
         "is_bundled":false
     },
     {
@@ -306,17 +286,17 @@
         "department":"Traction Distribution",
         "asset_id":"OHE-SEC-04-0111",
         "duration":4.8,
-        "priority":75.7,
+        "priority":75.9,
         "is_bundled":false
     },
     {
         "section_id":"SEC-06",
-        "date":"2026-09-16",
-        "start_hour":22,
-        "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-06-0133",
-        "duration":2.6,
-        "priority":74.3,
+        "date":"2026-09-18",
+        "start_hour":0,
+        "department":"Engineering",
+        "asset_id":"TRK-SEC-06-0114",
+        "duration":4.9,
+        "priority":75.4,
         "is_bundled":false
     },
     {
@@ -326,7 +306,17 @@
         "department":"Engineering",
         "asset_id":"TRK-SEC-08-0099",
         "duration":4.6,
-        "priority":74.3,
+        "priority":74.8,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-05",
+        "date":"2026-09-23",
+        "start_hour":23,
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-05-0118",
+        "duration":2.3,
+        "priority":74.6,
         "is_bundled":false
     },
     {
@@ -336,17 +326,7 @@
         "department":"Traction Distribution",
         "asset_id":"OHE-SEC-02-0023",
         "duration":2.5,
-        "priority":74.0,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-01",
-        "date":"2026-09-18",
-        "start_hour":0,
-        "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-01-0143",
-        "duration":2.1,
-        "priority":73.3,
+        "priority":74.6,
         "is_bundled":false
     },
     {
@@ -356,7 +336,17 @@
         "department":"Traction Distribution",
         "asset_id":"OHE-SEC-01-0128",
         "duration":2.8,
-        "priority":73.0,
+        "priority":73.6,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-06",
+        "date":"2026-09-16",
+        "start_hour":22,
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-06-0133",
+        "duration":2.6,
+        "priority":73.5,
         "is_bundled":false
     },
     {
@@ -366,7 +356,17 @@
         "department":"Traction Distribution",
         "asset_id":"OHE-SEC-06-0130",
         "duration":4.5,
-        "priority":72.3,
+        "priority":73.1,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-01",
+        "date":"2026-09-18",
+        "start_hour":0,
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-01-0143",
+        "duration":2.1,
+        "priority":72.8,
         "is_bundled":false
     },
     {
@@ -376,7 +376,7 @@
         "department":"Traction Distribution",
         "asset_id":"OHE-SEC-06-0118",
         "duration":4.9,
-        "priority":71.7,
+        "priority":71.9,
         "is_bundled":false
     },
     {
@@ -386,17 +386,7 @@
         "department":"Signal & Telecom",
         "asset_id":"SIG-SEC-01-0032",
         "duration":3.3,
-        "priority":70.3,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-02",
-        "date":"2026-09-23",
-        "start_hour":22,
-        "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-02-0032",
-        "duration":2.8,
-        "priority":70.3,
+        "priority":71.9,
         "is_bundled":false
     },
     {
@@ -406,7 +396,17 @@
         "department":"Traction Distribution",
         "asset_id":"OHE-SEC-04-0150",
         "duration":2.7,
-        "priority":69.7,
+        "priority":71.3,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-02",
+        "date":"2026-09-23",
+        "start_hour":22,
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-02-0032",
+        "duration":2.8,
+        "priority":71.1,
         "is_bundled":false
     },
     {
@@ -416,7 +416,7 @@
         "department":"Traction Distribution",
         "asset_id":"OHE-SEC-01-0086",
         "duration":3.4,
-        "priority":68.3,
+        "priority":69.5,
         "is_bundled":false
     },
     {
@@ -426,27 +426,7 @@
         "department":"Engineering",
         "asset_id":"TRK-SEC-08-0082",
         "duration":2.7,
-        "priority":67.7,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-06",
-        "date":"2026-09-11",
-        "start_hour":0,
-        "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-06-0114",
-        "duration":2.9,
-        "priority":67.3,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-08",
-        "date":"2026-09-16",
-        "start_hour":21,
-        "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-08-0017",
-        "duration":1.6,
-        "priority":67.3,
+        "priority":68.3,
         "is_bundled":false
     },
     {
@@ -456,37 +436,17 @@
         "department":"Signal & Telecom",
         "asset_id":"SIG-SEC-05-0024",
         "duration":1.3,
-        "priority":66.3,
+        "priority":66.9,
         "is_bundled":false
     },
     {
-        "section_id":"SEC-06",
-        "date":"2026-09-08",
+        "section_id":"SEC-08",
+        "date":"2026-09-16",
         "start_hour":21,
-        "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-06-0105",
-        "duration":3.0,
-        "priority":66.0,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-05",
-        "date":"2026-09-05",
-        "start_hour":0,
         "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-05-0131",
-        "duration":1.8,
-        "priority":65.3,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-05",
-        "date":"2026-09-01",
-        "start_hour":23,
-        "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-05-0151",
-        "duration":2.8,
-        "priority":64.7,
+        "asset_id":"OHE-SEC-08-0017",
+        "duration":1.6,
+        "priority":65.9,
         "is_bundled":false
     },
     {
@@ -496,7 +456,27 @@
         "department":"Traction Distribution",
         "asset_id":"OHE-SEC-07-0072",
         "duration":3.3,
-        "priority":63.7,
+        "priority":65.3,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-06",
+        "date":"2026-09-11",
+        "start_hour":0,
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-06-0105",
+        "duration":3.0,
+        "priority":65.1,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-05",
+        "date":"2026-09-05",
+        "start_hour":0,
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-05-0131",
+        "duration":1.8,
+        "priority":64.3,
         "is_bundled":false
     },
     {
@@ -506,17 +486,7 @@
         "department":"Signal & Telecom",
         "asset_id":"SIG-SEC-08-0114",
         "duration":1.8,
-        "priority":63.0,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-06",
-        "date":"2026-09-24",
-        "start_hour":22,
-        "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-06-0084",
-        "duration":2.6,
-        "priority":62.7,
+        "priority":63.4,
         "is_bundled":false
     },
     {
@@ -526,7 +496,17 @@
         "department":"Signal & Telecom",
         "asset_id":"SIG-SEC-05-0016",
         "duration":2.3,
-        "priority":62.7,
+        "priority":63.1,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-06",
+        "date":"2026-09-08",
+        "start_hour":21,
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-06-0084",
+        "duration":2.6,
+        "priority":62.1,
         "is_bundled":false
     },
     {
@@ -536,37 +516,7 @@
         "department":"Signal & Telecom",
         "asset_id":"SIG-SEC-02-0142",
         "duration":2.2,
-        "priority":62.7,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-08",
-        "date":"2026-09-05",
-        "start_hour":2,
-        "department":"Engineering",
-        "asset_id":"TRK-SEC-08-0088",
-        "duration":3.0,
-        "priority":62.0,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-08",
-        "date":"2026-09-04",
-        "start_hour":23,
-        "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-08-0126",
-        "duration":2.7,
-        "priority":62.0,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-01",
-        "date":"2026-09-01",
-        "start_hour":0,
-        "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-01-0159",
-        "duration":1.6,
-        "priority":61.3,
+        "priority":61.8,
         "is_bundled":false
     },
     {
@@ -576,6 +526,36 @@
         "department":"Traction Distribution",
         "asset_id":"OHE-SEC-04-0043",
         "duration":1.6,
+        "priority":61.6,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-08",
+        "date":"2026-09-05",
+        "start_hour":2,
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-08-0126",
+        "duration":2.7,
+        "priority":61.5,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-06",
+        "date":"2026-09-24",
+        "start_hour":22,
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-06-0114",
+        "duration":2.9,
+        "priority":61.1,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-05",
+        "date":"2026-09-01",
+        "start_hour":23,
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-05-0151",
+        "duration":2.8,
         "priority":61.0,
         "is_bundled":false
     },
@@ -586,37 +566,7 @@
         "department":"Signal & Telecom",
         "asset_id":"SIG-SEC-06-0006",
         "duration":3.0,
-        "priority":60.7,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-06",
-        "date":"2026-09-11",
-        "start_hour":21,
-        "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-06-0176",
-        "duration":5.4,
-        "priority":60.3,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-04",
-        "date":"2026-09-02",
-        "start_hour":23,
-        "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-04-0073",
-        "duration":3.0,
-        "priority":60.0,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-08",
-        "date":"2026-09-17",
-        "start_hour":21,
-        "department":"Engineering",
-        "asset_id":"TRK-SEC-08-0136",
-        "duration":3.1,
-        "priority":60.0,
+        "priority":60.5,
         "is_bundled":false
     },
     {
@@ -630,13 +580,43 @@
         "is_bundled":false
     },
     {
+        "section_id":"SEC-08",
+        "date":"2026-09-04",
+        "start_hour":23,
+        "department":"Engineering",
+        "asset_id":"TRK-SEC-08-0088",
+        "duration":3.0,
+        "priority":59.7,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-01",
+        "date":"2026-09-01",
+        "start_hour":0,
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-01-0159",
+        "duration":1.6,
+        "priority":59.4,
+        "is_bundled":false
+    },
+    {
         "section_id":"SEC-04",
         "date":"2026-09-08",
         "start_hour":23,
         "department":"Traction Distribution",
         "asset_id":"OHE-SEC-04-0134",
         "duration":2.6,
-        "priority":60.0,
+        "priority":59.2,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-06",
+        "date":"2026-09-11",
+        "start_hour":21,
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-06-0176",
+        "duration":5.4,
+        "priority":58.8,
         "is_bundled":false
     },
     {
@@ -646,7 +626,27 @@
         "department":"Signal & Telecom",
         "asset_id":"SIG-SEC-08-0140",
         "duration":3.4,
-        "priority":59.3,
+        "priority":58.7,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-08",
+        "date":"2026-09-17",
+        "start_hour":21,
+        "department":"Engineering",
+        "asset_id":"TRK-SEC-08-0136",
+        "duration":3.1,
+        "priority":58.7,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-04",
+        "date":"2026-09-02",
+        "start_hour":23,
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-04-0073",
+        "duration":3.0,
+        "priority":58.4,
         "is_bundled":false
     },
     {
@@ -660,23 +660,13 @@
         "is_bundled":false
     },
     {
-        "section_id":"SEC-05",
-        "date":"2026-08-30",
-        "start_hour":23,
-        "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-05-0147",
-        "duration":2.6,
-        "priority":58.0,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-01",
-        "date":"2026-09-09",
-        "start_hour":23,
+        "section_id":"SEC-03",
+        "date":"2026-09-05",
+        "start_hour":1,
         "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-01-0113",
-        "duration":2.3,
-        "priority":58.0,
+        "asset_id":"SIG-SEC-03-0110",
+        "duration":3.2,
+        "priority":56.9,
         "is_bundled":false
     },
     {
@@ -686,27 +676,7 @@
         "department":"Signal & Telecom",
         "asset_id":"SIG-SEC-05-0047",
         "duration":2.2,
-        "priority":58.0,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-03",
-        "date":"2026-09-05",
-        "start_hour":1,
-        "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-03-0110",
-        "duration":3.2,
-        "priority":57.3,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-03",
-        "date":"2026-09-26",
-        "start_hour":23,
-        "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-03-0142",
-        "duration":1.8,
-        "priority":57.0,
+        "priority":56.8,
         "is_bundled":false
     },
     {
@@ -736,47 +706,27 @@
         "department":"Engineering",
         "asset_id":"TRK-SEC-08-0068",
         "duration":4.2,
-        "priority":56.7,
+        "priority":56.3,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-05",
+        "date":"2026-08-30",
+        "start_hour":23,
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-05-0147",
+        "duration":2.6,
+        "priority":56.3,
         "is_bundled":false
     },
     {
         "section_id":"SEC-03",
-        "date":"2026-08-29",
-        "start_hour":0,
-        "department":"Engineering",
-        "asset_id":"TRK-SEC-03-0092",
-        "duration":2.0,
-        "priority":56.7,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-01",
-        "date":"2026-08-29",
+        "date":"2026-09-26",
         "start_hour":23,
         "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-01-0092",
-        "duration":2.0,
-        "priority":56.3,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-08",
-        "date":"2026-09-08",
-        "start_hour":21,
-        "department":"Engineering",
-        "asset_id":"TRK-SEC-08-0070",
-        "duration":4.4,
-        "priority":56.3,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-04",
-        "date":"2026-09-03",
-        "start_hour":21,
-        "department":"Engineering",
-        "asset_id":"TRK-SEC-04-0081",
-        "duration":2.2,
-        "priority":56.0,
+        "asset_id":"OHE-SEC-03-0142",
+        "duration":1.8,
+        "priority":56.2,
         "is_bundled":false
     },
     {
@@ -786,17 +736,57 @@
         "department":"Signal & Telecom",
         "asset_id":"SIG-SEC-06-0013",
         "duration":1.2,
-        "priority":56.0,
+        "priority":56.2,
         "is_bundled":false
     },
     {
         "section_id":"SEC-03",
-        "date":"2026-09-11",
+        "date":"2026-08-29",
         "start_hour":0,
+        "department":"Engineering",
+        "asset_id":"TRK-SEC-03-0092",
+        "duration":2.0,
+        "priority":56.1,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-08",
+        "date":"2026-09-08",
+        "start_hour":21,
+        "department":"Engineering",
+        "asset_id":"TRK-SEC-08-0070",
+        "duration":4.4,
+        "priority":55.8,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-04",
+        "date":"2026-09-03",
+        "start_hour":21,
+        "department":"Engineering",
+        "asset_id":"TRK-SEC-04-0081",
+        "duration":2.2,
+        "priority":55.7,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-01",
+        "date":"2026-09-09",
+        "start_hour":23,
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-01-0113",
+        "duration":2.3,
+        "priority":55.6,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-01",
+        "date":"2026-08-29",
+        "start_hour":23,
         "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-03-0154",
-        "duration":2.4,
-        "priority":55.0,
+        "asset_id":"OHE-SEC-01-0092",
+        "duration":2.0,
+        "priority":55.4,
         "is_bundled":false
     },
     {
@@ -806,7 +796,7 @@
         "department":"Engineering",
         "asset_id":"TRK-SEC-05-0182",
         "duration":2.3,
-        "priority":55.0,
+        "priority":54.9,
         "is_bundled":false
     },
     {
@@ -816,17 +806,7 @@
         "department":"Signal & Telecom",
         "asset_id":"SIG-SEC-02-0060",
         "duration":1.1,
-        "priority":54.7,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-07",
-        "date":"2026-09-12",
-        "start_hour":23,
-        "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-07-0001",
-        "duration":2.8,
-        "priority":54.7,
+        "priority":54.5,
         "is_bundled":false
     },
     {
@@ -836,17 +816,27 @@
         "department":"Traction Distribution",
         "asset_id":"OHE-SEC-01-0124",
         "duration":1.7,
-        "priority":54.7,
+        "priority":54.5,
         "is_bundled":false
     },
     {
-        "section_id":"SEC-08",
+        "section_id":"SEC-07",
         "date":"2026-09-12",
-        "start_hour":22,
+        "start_hour":23,
         "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-08-0135",
-        "duration":2.5,
-        "priority":54.0,
+        "asset_id":"OHE-SEC-07-0001",
+        "duration":2.8,
+        "priority":54.2,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-03",
+        "date":"2026-09-11",
+        "start_hour":0,
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-03-0154",
+        "duration":2.4,
+        "priority":54.1,
         "is_bundled":false
     },
     {
@@ -856,6 +846,16 @@
         "department":"Signal & Telecom",
         "asset_id":"SIG-SEC-01-0001",
         "duration":3.3,
+        "priority":54.0,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-08",
+        "date":"2026-09-12",
+        "start_hour":22,
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-08-0135",
+        "duration":2.5,
         "priority":54.0,
         "is_bundled":false
     },
@@ -886,17 +886,17 @@
         "department":"Signal & Telecom",
         "asset_id":"SIG-SEC-06-0179",
         "duration":2.2,
-        "priority":53.7,
+        "priority":53.6,
         "is_bundled":false
     },
     {
-        "section_id":"SEC-02",
-        "date":"2026-09-14",
+        "section_id":"SEC-04",
+        "date":"2026-09-28",
         "start_hour":1,
         "department":"Engineering",
-        "asset_id":"TRK-SEC-02-0209",
-        "duration":3.3,
-        "priority":53.3,
+        "asset_id":"TRK-SEC-04-0083",
+        "duration":3.6,
+        "priority":53.4,
         "is_bundled":false
     },
     {
@@ -910,33 +910,23 @@
         "is_bundled":false
     },
     {
+        "section_id":"SEC-02",
+        "date":"2026-09-14",
+        "start_hour":1,
+        "department":"Engineering",
+        "asset_id":"TRK-SEC-02-0209",
+        "duration":3.3,
+        "priority":53.3,
+        "is_bundled":false
+    },
+    {
         "section_id":"SEC-07",
         "date":"2026-09-20",
         "start_hour":23,
         "department":"Traction Distribution",
         "asset_id":"OHE-SEC-07-0046",
         "duration":1.1,
-        "priority":53.3,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-02",
-        "date":"2026-09-02",
-        "start_hour":0,
-        "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-02-0132",
-        "duration":1.4,
-        "priority":53.0,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-04",
-        "date":"2026-09-28",
-        "start_hour":1,
-        "department":"Engineering",
-        "asset_id":"TRK-SEC-04-0083",
-        "duration":3.6,
-        "priority":53.0,
+        "priority":53.2,
         "is_bundled":false
     },
     {
@@ -950,13 +940,13 @@
         "is_bundled":false
     },
     {
-        "section_id":"SEC-01",
-        "date":"2026-09-07",
+        "section_id":"SEC-08",
+        "date":"2026-09-17",
         "start_hour":22,
-        "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-01-0040",
-        "duration":2.1,
-        "priority":52.7,
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-08-0026",
+        "duration":1.9,
+        "priority":52.9,
         "is_bundled":false
     },
     {
@@ -966,57 +956,27 @@
         "department":"Traction Distribution",
         "asset_id":"OHE-SEC-05-0091",
         "duration":3.2,
-        "priority":52.7,
+        "priority":52.8,
         "is_bundled":false
     },
     {
-        "section_id":"SEC-08",
-        "date":"2026-09-17",
+        "section_id":"SEC-01",
+        "date":"2026-09-07",
         "start_hour":22,
-        "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-08-0026",
-        "duration":1.9,
-        "priority":52.3,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-08",
-        "date":"2026-09-22",
-        "start_hour":21,
-        "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-08-0138",
-        "duration":2.9,
-        "priority":51.3,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-08",
-        "date":"2026-09-24",
-        "start_hour":21,
-        "department":"Engineering",
-        "asset_id":"TRK-SEC-08-0102",
-        "duration":2.9,
-        "priority":51.3,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-05",
-        "date":"2026-08-29",
-        "start_hour":23,
         "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-05-0026",
-        "duration":1.1,
-        "priority":51.3,
+        "asset_id":"SIG-SEC-01-0040",
+        "duration":2.1,
+        "priority":52.8,
         "is_bundled":false
     },
     {
-        "section_id":"SEC-04",
-        "date":"2026-09-14",
-        "start_hour":21,
-        "department":"Engineering",
-        "asset_id":"TRK-SEC-04-0020",
-        "duration":3.5,
-        "priority":51.0,
+        "section_id":"SEC-02",
+        "date":"2026-09-02",
+        "start_hour":0,
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-02-0132",
+        "duration":1.4,
+        "priority":52.2,
         "is_bundled":false
     },
     {
@@ -1026,6 +986,36 @@
         "department":"Signal & Telecom",
         "asset_id":"SIG-SEC-03-0067",
         "duration":1.5,
+        "priority":51.2,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-04",
+        "date":"2026-09-14",
+        "start_hour":21,
+        "department":"Engineering",
+        "asset_id":"TRK-SEC-04-0020",
+        "duration":3.5,
+        "priority":51.2,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-08",
+        "date":"2026-09-22",
+        "start_hour":21,
+        "department":"Engineering",
+        "asset_id":"TRK-SEC-08-0102",
+        "duration":2.9,
+        "priority":51.1,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-05",
+        "date":"2026-08-29",
+        "start_hour":23,
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-05-0026",
+        "duration":1.1,
         "priority":51.0,
         "is_bundled":false
     },
@@ -1040,13 +1030,23 @@
         "is_bundled":false
     },
     {
+        "section_id":"SEC-02",
+        "date":"2026-09-28",
+        "start_hour":1,
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-02-0163",
+        "duration":2.3,
+        "priority":50.8,
+        "is_bundled":false
+    },
+    {
         "section_id":"SEC-04",
         "date":"2026-09-23",
         "start_hour":21,
         "department":"Traction Distribution",
         "asset_id":"OHE-SEC-04-0027",
         "duration":2.6,
-        "priority":49.7,
+        "priority":50.2,
         "is_bundled":false
     },
     {
@@ -1056,17 +1056,17 @@
         "department":"Traction Distribution",
         "asset_id":"OHE-SEC-04-0020",
         "duration":0.7,
-        "priority":48.8,
+        "priority":49.8,
         "is_bundled":false
     },
     {
-        "section_id":"SEC-02",
-        "date":"2026-09-07",
-        "start_hour":22,
+        "section_id":"SEC-08",
+        "date":"2026-09-24",
+        "start_hour":21,
         "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-02-0101",
-        "duration":1.1,
-        "priority":48.7,
+        "asset_id":"OHE-SEC-08-0138",
+        "duration":2.9,
+        "priority":49.1,
         "is_bundled":false
     },
     {
@@ -1076,47 +1076,57 @@
         "department":"Signal & Telecom",
         "asset_id":"SIG-SEC-03-0072",
         "duration":2.1,
-        "priority":48.7,
+        "priority":48.5,
         "is_bundled":false
     },
     {
-        "section_id":"SEC-05",
-        "date":"2026-09-04",
+        "section_id":"SEC-02",
+        "date":"2026-09-07",
         "start_hour":22,
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-02-0101",
+        "duration":1.1,
+        "priority":48.5,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-04",
+        "date":"2026-09-13",
+        "start_hour":23,
         "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-05-0053",
-        "duration":2.7,
-        "priority":48.7,
+        "asset_id":"SIG-SEC-04-0144",
+        "duration":3.6,
+        "priority":48.3,
         "is_bundled":false
     },
     {
-        "section_id":"SEC-01",
-        "date":"2026-09-25",
-        "start_hour":22,
-        "department":"Engineering",
-        "asset_id":"TRK-SEC-01-0022",
-        "duration":3.0,
-        "priority":48.0,
+        "section_id":"SEC-07",
+        "date":"2026-09-23",
+        "start_hour":1,
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-07-0017",
+        "duration":2.3,
+        "priority":48.1,
         "is_bundled":false
     },
     {
         "section_id":"SEC-03",
         "date":"2026-09-17",
         "start_hour":1,
-        "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-03-0061",
-        "duration":1.7,
-        "priority":48.0,
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-03-0004",
+        "duration":1.1,
+        "priority":48.1,
         "is_bundled":false
     },
     {
         "section_id":"SEC-03",
         "date":"2026-09-19",
         "start_hour":22,
-        "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-03-0004",
-        "duration":1.1,
-        "priority":48.0,
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-03-0061",
+        "duration":1.7,
+        "priority":48.1,
         "is_bundled":false
     },
     {
@@ -1130,53 +1140,23 @@
         "is_bundled":false
     },
     {
-        "section_id":"SEC-07",
-        "date":"2026-09-23",
-        "start_hour":1,
-        "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-07-0017",
-        "duration":2.3,
+        "section_id":"SEC-01",
+        "date":"2026-09-25",
+        "start_hour":22,
+        "department":"Engineering",
+        "asset_id":"TRK-SEC-01-0022",
+        "duration":3.0,
         "priority":48.0,
         "is_bundled":false
     },
     {
-        "section_id":"SEC-02",
-        "date":"2026-09-28",
-        "start_hour":1,
-        "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-02-0163",
-        "duration":2.3,
-        "priority":47.7,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-04",
-        "date":"2026-09-13",
-        "start_hour":23,
-        "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-04-0144",
-        "duration":3.6,
-        "priority":47.7,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-02",
-        "date":"2026-08-31",
+        "section_id":"SEC-05",
+        "date":"2026-09-04",
         "start_hour":22,
         "department":"Engineering",
-        "asset_id":"TRK-SEC-02-0034",
-        "duration":2.7,
-        "priority":47.5,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-04",
-        "date":"2026-09-19",
-        "start_hour":21,
-        "department":"Engineering",
-        "asset_id":"TRK-SEC-04-0074",
-        "duration":4.2,
-        "priority":47.3,
+        "asset_id":"TRK-SEC-05-0197",
+        "duration":2.4,
+        "priority":47.6,
         "is_bundled":false
     },
     {
@@ -1186,47 +1166,7 @@
         "department":"Engineering",
         "asset_id":"TRK-SEC-08-0118",
         "duration":2.7,
-        "priority":47.0,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-06",
-        "date":"2026-09-14",
-        "start_hour":0,
-        "department":"Engineering",
-        "asset_id":"TRK-SEC-06-0138",
-        "duration":2.8,
-        "priority":47.0,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-02",
-        "date":"2026-09-17",
-        "start_hour":22,
-        "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-02-0005",
-        "duration":1.3,
-        "priority":46.7,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-01",
-        "date":"2026-09-06",
-        "start_hour":0,
-        "department":"Engineering",
-        "asset_id":"TRK-SEC-01-0109",
-        "duration":3.3,
-        "priority":46.7,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-01",
-        "date":"2026-09-17",
-        "start_hour":0,
-        "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-01-0036",
-        "duration":3.3,
-        "priority":46.7,
+        "priority":47.5,
         "is_bundled":false
     },
     {
@@ -1234,19 +1174,19 @@
         "date":"2026-09-21",
         "start_hour":1,
         "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-05-0074",
-        "duration":1.2,
-        "priority":46.5,
+        "asset_id":"SIG-SEC-05-0108",
+        "duration":1.9,
+        "priority":47.3,
         "is_bundled":false
     },
     {
         "section_id":"SEC-05",
         "date":"2026-09-18",
         "start_hour":22,
-        "department":"Engineering",
-        "asset_id":"TRK-SEC-05-0060",
-        "duration":2.6,
-        "priority":46.3,
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-05-0053",
+        "duration":2.7,
+        "priority":46.9,
         "is_bundled":false
     },
     {
@@ -1256,7 +1196,7 @@
         "department":"Engineering",
         "asset_id":"TRK-SEC-05-0033",
         "duration":2.6,
-        "priority":46.3,
+        "priority":46.6,
         "is_bundled":false
     },
     {
@@ -1264,29 +1204,49 @@
         "date":"2026-09-28",
         "start_hour":22,
         "department":"Engineering",
-        "asset_id":"TRK-SEC-05-0197",
-        "duration":2.4,
-        "priority":46.3,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-05",
-        "date":"2026-09-08",
-        "start_hour":1,
-        "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-05-0108",
-        "duration":1.9,
-        "priority":46.3,
+        "asset_id":"TRK-SEC-05-0060",
+        "duration":2.6,
+        "priority":46.6,
         "is_bundled":false
     },
     {
         "section_id":"SEC-06",
-        "date":"2026-09-18",
-        "start_hour":1,
-        "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-06-0034",
-        "duration":3.2,
-        "priority":46.0,
+        "date":"2026-09-14",
+        "start_hour":0,
+        "department":"Engineering",
+        "asset_id":"TRK-SEC-06-0138",
+        "duration":2.8,
+        "priority":46.5,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-02",
+        "date":"2026-09-17",
+        "start_hour":22,
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-02-0005",
+        "duration":1.3,
+        "priority":46.3,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-01",
+        "date":"2026-09-06",
+        "start_hour":0,
+        "department":"Engineering",
+        "asset_id":"TRK-SEC-01-0109",
+        "duration":3.3,
+        "priority":46.3,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-04",
+        "date":"2026-09-19",
+        "start_hour":21,
+        "department":"Engineering",
+        "asset_id":"TRK-SEC-04-0074",
+        "duration":4.2,
+        "priority":46.2,
         "is_bundled":false
     },
     {
@@ -1296,37 +1256,27 @@
         "department":"Signal & Telecom",
         "asset_id":"SIG-SEC-02-0034",
         "duration":1.4,
-        "priority":45.8,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-04",
-        "date":"2026-09-18",
-        "start_hour":21,
-        "department":"Engineering",
-        "asset_id":"TRK-SEC-04-0008",
-        "duration":3.1,
-        "priority":44.7,
+        "priority":46.0,
         "is_bundled":false
     },
     {
         "section_id":"SEC-02",
-        "date":"2026-09-27",
-        "start_hour":0,
-        "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-02-0097",
-        "duration":2.4,
-        "priority":44.7,
+        "date":"2026-08-31",
+        "start_hour":22,
+        "department":"Engineering",
+        "asset_id":"TRK-SEC-02-0034",
+        "duration":2.7,
+        "priority":45.8,
         "is_bundled":false
     },
     {
         "section_id":"SEC-06",
-        "date":"2026-09-10",
-        "start_hour":22,
-        "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-06-0091",
-        "duration":1.2,
-        "priority":44.0,
+        "date":"2026-09-18",
+        "start_hour":1,
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-06-0034",
+        "duration":3.2,
+        "priority":45.6,
         "is_bundled":false
     },
     {
@@ -1336,6 +1286,56 @@
         "department":"Engineering",
         "asset_id":"TRK-SEC-07-0056",
         "duration":2.2,
+        "priority":44.9,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-01",
+        "date":"2026-09-17",
+        "start_hour":0,
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-01-0036",
+        "duration":3.3,
+        "priority":44.7,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-07",
+        "date":"2026-09-13",
+        "start_hour":0,
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-07-0136",
+        "duration":1.3,
+        "priority":44.7,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-04",
+        "date":"2026-09-18",
+        "start_hour":21,
+        "department":"Engineering",
+        "asset_id":"TRK-SEC-04-0008",
+        "duration":3.1,
+        "priority":44.6,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-06",
+        "date":"2026-09-10",
+        "start_hour":22,
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-06-0091",
+        "duration":1.2,
+        "priority":44.3,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-01",
+        "date":"2026-08-30",
+        "start_hour":22,
+        "department":"Engineering",
+        "asset_id":"TRK-SEC-01-0156",
+        "duration":2.5,
         "priority":43.8,
         "is_bundled":false
     },
@@ -1346,17 +1346,17 @@
         "department":"Traction Distribution",
         "asset_id":"OHE-SEC-01-0120",
         "duration":3.0,
-        "priority":43.7,
+        "priority":43.8,
         "is_bundled":false
     },
     {
-        "section_id":"SEC-01",
-        "date":"2026-08-30",
-        "start_hour":22,
-        "department":"Engineering",
-        "asset_id":"TRK-SEC-01-0156",
-        "duration":2.5,
-        "priority":43.7,
+        "section_id":"SEC-07",
+        "date":"2026-09-19",
+        "start_hour":0,
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-07-0104",
+        "duration":1.2,
+        "priority":43.6,
         "is_bundled":false
     },
     {
@@ -1366,57 +1366,37 @@
         "department":"Traction Distribution",
         "asset_id":"OHE-SEC-06-0022",
         "duration":3.3,
-        "priority":43.0,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-07",
-        "date":"2026-09-13",
-        "start_hour":0,
-        "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-07-0104",
-        "duration":1.2,
-        "priority":43.0,
+        "priority":43.6,
         "is_bundled":false
     },
     {
         "section_id":"SEC-04",
         "date":"2026-08-31",
         "start_hour":21,
-        "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-04-0113",
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-04-0161",
         "duration":1.4,
-        "priority":43.0,
+        "priority":43.4,
         "is_bundled":false
     },
     {
         "section_id":"SEC-04",
         "date":"2026-09-10",
         "start_hour":1,
-        "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-04-0161",
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-04-0113",
         "duration":1.4,
-        "priority":43.0,
+        "priority":43.4,
         "is_bundled":false
     },
     {
-        "section_id":"SEC-02",
-        "date":"2026-09-06",
-        "start_hour":23,
+        "section_id":"SEC-05",
+        "date":"2026-09-08",
+        "start_hour":1,
         "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-02-0083",
-        "duration":1.1,
-        "priority":42.7,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-07",
-        "date":"2026-09-04",
-        "start_hour":23,
-        "department":"Engineering",
-        "asset_id":"TRK-SEC-07-0158",
-        "duration":2.5,
-        "priority":42.7,
+        "asset_id":"SIG-SEC-05-0074",
+        "duration":1.2,
+        "priority":43.4,
         "is_bundled":false
     },
     {
@@ -1426,17 +1406,17 @@
         "department":"Traction Distribution",
         "asset_id":"OHE-SEC-03-0087",
         "duration":1.4,
-        "priority":42.5,
+        "priority":43.2,
         "is_bundled":false
     },
     {
         "section_id":"SEC-05",
-        "date":"2026-09-21",
+        "date":"2026-09-08",
         "start_hour":1,
         "department":"Traction Distribution",
         "asset_id":"OHE-SEC-05-0011",
         "duration":0.6,
-        "priority":42.5,
+        "priority":43.1,
         "is_bundled":true
     },
     {
@@ -1446,36 +1426,16 @@
         "department":"Engineering",
         "asset_id":"TRK-SEC-08-0069",
         "duration":3.4,
-        "priority":42.3,
+        "priority":42.6,
         "is_bundled":false
     },
     {
-        "section_id":"SEC-06",
-        "date":"2026-09-12",
-        "start_hour":22,
-        "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-06-0079",
-        "duration":2.0,
-        "priority":42.0,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-07",
-        "date":"2026-09-19",
+        "section_id":"SEC-02",
+        "date":"2026-09-27",
         "start_hour":0,
-        "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-07-0136",
-        "duration":1.3,
-        "priority":41.5,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-04",
-        "date":"2026-09-20",
-        "start_hour":23,
-        "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-04-0081",
-        "duration":1.1,
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-02-0097",
+        "duration":2.4,
         "priority":41.3,
         "is_bundled":false
     },
@@ -1486,17 +1446,47 @@
         "department":"Traction Distribution",
         "asset_id":"OHE-SEC-06-0016",
         "duration":2.8,
-        "priority":41.0,
+        "priority":41.1,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-02",
+        "date":"2026-09-06",
+        "start_hour":23,
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-02-0083",
+        "duration":1.1,
+        "priority":40.9,
         "is_bundled":false
     },
     {
         "section_id":"SEC-07",
-        "date":"2026-09-17",
-        "start_hour":1,
-        "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-07-0132",
-        "duration":2.6,
-        "priority":40.0,
+        "date":"2026-09-04",
+        "start_hour":23,
+        "department":"Engineering",
+        "asset_id":"TRK-SEC-07-0158",
+        "duration":2.5,
+        "priority":40.6,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-04",
+        "date":"2026-09-20",
+        "start_hour":23,
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-04-0081",
+        "duration":1.1,
+        "priority":40.5,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-01",
+        "date":"2026-09-26",
+        "start_hour":23,
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-01-0039",
+        "duration":1.2,
+        "priority":40.3,
         "is_bundled":false
     },
     {
@@ -1506,17 +1496,67 @@
         "department":"Engineering",
         "asset_id":"TRK-SEC-01-0123",
         "duration":2.2,
-        "priority":40.0,
+        "priority":39.4,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-07",
+        "date":"2026-09-17",
+        "start_hour":1,
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-07-0132",
+        "duration":2.6,
+        "priority":39.4,
         "is_bundled":false
     },
     {
         "section_id":"SEC-08",
-        "date":"2026-09-03",
-        "start_hour":0,
+        "date":"2026-09-22",
+        "start_hour":21,
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-08-0019",
+        "duration":0.7,
+        "priority":39.3,
+        "is_bundled":true
+    },
+    {
+        "section_id":"SEC-05",
+        "date":"2026-09-07",
+        "start_hour":1,
         "department":"Engineering",
-        "asset_id":"TRK-SEC-08-0213",
-        "duration":4.8,
-        "priority":39.7,
+        "asset_id":"TRK-SEC-05-0040",
+        "duration":2.7,
+        "priority":39.3,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-08",
+        "date":"2026-09-28",
+        "start_hour":2,
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-08-0030",
+        "duration":1.3,
+        "priority":39.1,
+        "is_bundled":true
+    },
+    {
+        "section_id":"SEC-03",
+        "date":"2026-09-06",
+        "start_hour":22,
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-03-0180",
+        "duration":1.0,
+        "priority":38.8,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-06",
+        "date":"2026-09-12",
+        "start_hour":22,
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-06-0079",
+        "duration":2.0,
+        "priority":38.7,
         "is_bundled":false
     },
     {
@@ -1526,26 +1566,46 @@
         "department":"Engineering",
         "asset_id":"TRK-SEC-03-0103",
         "duration":3.2,
-        "priority":38.7,
+        "priority":38.6,
         "is_bundled":false
     },
     {
-        "section_id":"SEC-03",
-        "date":"2026-09-12",
-        "start_hour":1,
-        "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-03-0050",
-        "duration":2.5,
-        "priority":38.3,
+        "section_id":"SEC-02",
+        "date":"2026-09-10",
+        "start_hour":0,
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-02-0155",
+        "duration":1.7,
+        "priority":38.6,
         "is_bundled":false
+    },
+    {
+        "section_id":"SEC-08",
+        "date":"2026-09-03",
+        "start_hour":0,
+        "department":"Engineering",
+        "asset_id":"TRK-SEC-08-0213",
+        "duration":4.8,
+        "priority":38.4,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-08",
+        "date":"2026-09-23",
+        "start_hour":2,
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-08-0119",
+        "duration":1.8,
+        "priority":38.2,
+        "is_bundled":true
     },
     {
         "section_id":"SEC-06",
         "date":"2026-08-31",
         "start_hour":21,
         "department":"Engineering",
-        "asset_id":"TRK-SEC-06-0044",
-        "duration":4.8,
+        "asset_id":"TRK-SEC-06-0145",
+        "duration":4.9,
         "priority":38.0,
         "is_bundled":false
     },
@@ -1560,13 +1620,33 @@
         "is_bundled":false
     },
     {
+        "section_id":"SEC-03",
+        "date":"2026-09-12",
+        "start_hour":1,
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-03-0050",
+        "duration":2.5,
+        "priority":37.6,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-04",
+        "date":"2026-09-20",
+        "start_hour":21,
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-04-0063",
+        "duration":3.7,
+        "priority":37.4,
+        "is_bundled":false
+    },
+    {
         "section_id":"SEC-06",
         "date":"2026-09-03",
         "start_hour":0,
         "department":"Engineering",
-        "asset_id":"TRK-SEC-06-0145",
-        "duration":4.9,
-        "priority":38.0,
+        "asset_id":"TRK-SEC-06-0044",
+        "duration":4.8,
+        "priority":37.3,
         "is_bundled":false
     },
     {
@@ -1576,47 +1656,7 @@
         "department":"Engineering",
         "asset_id":"TRK-SEC-03-0023",
         "duration":2.7,
-        "priority":38.0,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-01",
-        "date":"2026-09-26",
-        "start_hour":23,
-        "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-01-0039",
-        "duration":1.2,
-        "priority":37.5,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-08",
-        "date":"2026-09-22",
-        "start_hour":21,
-        "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-08-0019",
-        "duration":0.7,
-        "priority":37.5,
-        "is_bundled":true
-    },
-    {
-        "section_id":"SEC-08",
-        "date":"2026-09-23",
-        "start_hour":2,
-        "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-08-0119",
-        "duration":1.8,
-        "priority":37.5,
-        "is_bundled":true
-    },
-    {
-        "section_id":"SEC-05",
-        "date":"2026-09-07",
-        "start_hour":1,
-        "department":"Engineering",
-        "asset_id":"TRK-SEC-05-0040",
-        "duration":2.7,
-        "priority":37.5,
+        "priority":37.1,
         "is_bundled":false
     },
     {
@@ -1626,7 +1666,7 @@
         "department":"Signal & Telecom",
         "asset_id":"SIG-SEC-06-0134",
         "duration":1.3,
-        "priority":36.7,
+        "priority":36.9,
         "is_bundled":true
     },
     {
@@ -1641,62 +1681,12 @@
     },
     {
         "section_id":"SEC-04",
-        "date":"2026-09-20",
-        "start_hour":21,
-        "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-04-0063",
-        "duration":3.7,
-        "priority":36.3,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-03",
-        "date":"2026-09-06",
-        "start_hour":22,
-        "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-03-0180",
-        "duration":1.0,
-        "priority":35.8,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-02",
-        "date":"2026-09-10",
-        "start_hour":0,
-        "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-02-0155",
-        "duration":1.7,
-        "priority":35.8,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-04",
         "date":"2026-09-22",
         "start_hour":22,
         "department":"Signal & Telecom",
         "asset_id":"SIG-SEC-04-0078",
         "duration":3.5,
-        "priority":35.7,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-03",
-        "date":"2026-09-24",
-        "start_hour":1,
-        "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-03-0138",
-        "duration":0.7,
-        "priority":35.5,
-        "is_bundled":true
-    },
-    {
-        "section_id":"SEC-06",
-        "date":"2026-09-17",
-        "start_hour":0,
-        "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-06-0098",
-        "duration":2.5,
-        "priority":35.3,
+        "priority":35.6,
         "is_bundled":false
     },
     {
@@ -1706,7 +1696,7 @@
         "department":"Engineering",
         "asset_id":"TRK-SEC-08-0047",
         "duration":4.0,
-        "priority":35.3,
+        "priority":35.4,
         "is_bundled":false
     },
     {
@@ -1716,7 +1706,7 @@
         "department":"Signal & Telecom",
         "asset_id":"SIG-SEC-02-0003",
         "duration":1.3,
-        "priority":35.3,
+        "priority":35.4,
         "is_bundled":false
     },
     {
@@ -1726,17 +1716,7 @@
         "department":"Engineering",
         "asset_id":"TRK-SEC-06-0011",
         "duration":5.0,
-        "priority":35.3,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-03",
-        "date":"2026-09-07",
-        "start_hour":22,
-        "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-03-0128",
-        "duration":1.7,
-        "priority":35.0,
+        "priority":35.4,
         "is_bundled":false
     },
     {
@@ -1750,53 +1730,63 @@
         "is_bundled":false
     },
     {
+        "section_id":"SEC-06",
+        "date":"2026-09-17",
+        "start_hour":0,
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-06-0098",
+        "duration":2.5,
+        "priority":34.7,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-03",
+        "date":"2026-09-07",
+        "start_hour":22,
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-03-0128",
+        "duration":1.7,
+        "priority":34.7,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-05",
+        "date":"2026-09-13",
+        "start_hour":22,
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-05-0084",
+        "duration":0.9,
+        "priority":34.6,
+        "is_bundled":false
+    },
+    {
         "section_id":"SEC-07",
         "date":"2026-09-05",
         "start_hour":23,
         "department":"Traction Distribution",
         "asset_id":"OHE-SEC-07-0149",
         "duration":1.4,
-        "priority":34.7,
+        "priority":34.4,
         "is_bundled":false
-    },
-    {
-        "section_id":"SEC-08",
-        "date":"2026-09-10",
-        "start_hour":2,
-        "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-08-0112",
-        "duration":0.9,
-        "priority":34.5,
-        "is_bundled":true
-    },
-    {
-        "section_id":"SEC-08",
-        "date":"2026-09-28",
-        "start_hour":2,
-        "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-08-0082",
-        "duration":1.6,
-        "priority":34.2,
-        "is_bundled":true
     },
     {
         "section_id":"SEC-03",
-        "date":"2026-09-20",
+        "date":"2026-09-24",
         "start_hour":1,
-        "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-03-0090",
-        "duration":1.5,
-        "priority":34.0,
-        "is_bundled":false
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-03-0138",
+        "duration":0.7,
+        "priority":34.1,
+        "is_bundled":true
     },
     {
-        "section_id":"SEC-01",
-        "date":"2026-09-19",
+        "section_id":"SEC-07",
+        "date":"2026-09-16",
         "start_hour":23,
         "department":"Engineering",
-        "asset_id":"TRK-SEC-01-0148",
-        "duration":2.2,
-        "priority":34.0,
+        "asset_id":"TRK-SEC-07-0129",
+        "duration":2.8,
+        "priority":34.1,
         "is_bundled":false
     },
     {
@@ -1806,17 +1796,27 @@
         "department":"Traction Distribution",
         "asset_id":"OHE-SEC-06-0003",
         "duration":1.8,
-        "priority":34.0,
+        "priority":33.9,
         "is_bundled":false
     },
     {
-        "section_id":"SEC-07",
-        "date":"2026-09-07",
-        "start_hour":0,
-        "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-07-0173",
-        "duration":0.9,
-        "priority":33.5,
+        "section_id":"SEC-01",
+        "date":"2026-09-19",
+        "start_hour":23,
+        "department":"Engineering",
+        "asset_id":"TRK-SEC-01-0148",
+        "duration":2.2,
+        "priority":33.9,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-03",
+        "date":"2026-09-20",
+        "start_hour":1,
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-03-0090",
+        "duration":1.5,
+        "priority":33.9,
         "is_bundled":false
     },
     {
@@ -1831,7 +1831,7 @@
     },
     {
         "section_id":"SEC-05",
-        "date":"2026-09-13",
+        "date":"2026-09-20",
         "start_hour":22,
         "department":"Traction Distribution",
         "asset_id":"OHE-SEC-05-0083",
@@ -1840,13 +1840,63 @@
         "is_bundled":false
     },
     {
+        "section_id":"SEC-08",
+        "date":"2026-09-10",
+        "start_hour":2,
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-08-0112",
+        "duration":0.9,
+        "priority":33.2,
+        "is_bundled":true
+    },
+    {
         "section_id":"SEC-02",
         "date":"2026-09-03",
         "start_hour":1,
         "department":"Traction Distribution",
         "asset_id":"OHE-SEC-02-0100",
         "duration":2.4,
-        "priority":33.0,
+        "priority":32.9,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-06",
+        "date":"2026-09-26",
+        "start_hour":1,
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-06-0121",
+        "duration":3.1,
+        "priority":32.7,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-08",
+        "date":"2026-09-19",
+        "start_hour":0,
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-08-0082",
+        "duration":1.6,
+        "priority":32.6,
+        "is_bundled":true
+    },
+    {
+        "section_id":"SEC-04",
+        "date":"2026-09-25",
+        "start_hour":1,
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-04-0145",
+        "duration":3.3,
+        "priority":32.6,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-07",
+        "date":"2026-09-07",
+        "start_hour":0,
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-07-0173",
+        "duration":0.9,
+        "priority":32.6,
         "is_bundled":false
     },
     {
@@ -1856,66 +1906,6 @@
         "department":"Engineering",
         "asset_id":"TRK-SEC-07-0128",
         "duration":2.7,
-        "priority":33.0,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-07",
-        "date":"2026-09-16",
-        "start_hour":23,
-        "department":"Engineering",
-        "asset_id":"TRK-SEC-07-0129",
-        "duration":2.8,
-        "priority":33.0,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-05",
-        "date":"2026-09-20",
-        "start_hour":22,
-        "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-05-0051",
-        "duration":1.6,
-        "priority":32.8,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-03",
-        "date":"2026-09-21",
-        "start_hour":1,
-        "department":"Engineering",
-        "asset_id":"TRK-SEC-03-0155",
-        "duration":2.7,
-        "priority":32.8,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-04",
-        "date":"2026-09-25",
-        "start_hour":1,
-        "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-04-0145",
-        "duration":3.3,
-        "priority":32.7,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-08",
-        "date":"2026-09-19",
-        "start_hour":0,
-        "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-08-0030",
-        "duration":1.3,
-        "priority":32.5,
-        "is_bundled":true
-    },
-    {
-        "section_id":"SEC-05",
-        "date":"2026-09-11",
-        "start_hour":1,
-        "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-05-0084",
-        "duration":0.9,
         "priority":32.5,
         "is_bundled":false
     },
@@ -1926,7 +1916,7 @@
         "department":"Engineering",
         "asset_id":"TRK-SEC-02-0177",
         "duration":2.9,
-        "priority":32.3,
+        "priority":32.4,
         "is_bundled":false
     },
     {
@@ -1936,27 +1926,17 @@
         "department":"Traction Distribution",
         "asset_id":"OHE-SEC-01-0153",
         "duration":1.6,
-        "priority":32.3,
+        "priority":32.4,
         "is_bundled":false
     },
     {
-        "section_id":"SEC-06",
-        "date":"2026-09-26",
+        "section_id":"SEC-03",
+        "date":"2026-09-21",
         "start_hour":1,
-        "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-06-0121",
-        "duration":3.1,
-        "priority":32.3,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-06",
-        "date":"2026-09-07",
-        "start_hour":2,
-        "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-06-0137",
-        "duration":2.8,
-        "priority":32.0,
+        "department":"Engineering",
+        "asset_id":"TRK-SEC-03-0155",
+        "duration":2.7,
+        "priority":32.1,
         "is_bundled":false
     },
     {
@@ -1966,6 +1946,46 @@
         "department":"Traction Distribution",
         "asset_id":"OHE-SEC-08-0053",
         "duration":2.0,
+        "priority":32.1,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-06",
+        "date":"2026-09-07",
+        "start_hour":2,
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-06-0137",
+        "duration":2.8,
+        "priority":31.9,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-08",
+        "date":"2026-09-13",
+        "start_hour":21,
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-08-0019",
+        "duration":1.4,
+        "priority":31.7,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-03",
+        "date":"2026-09-25",
+        "start_hour":0,
+        "department":"Engineering",
+        "asset_id":"TRK-SEC-03-0026",
+        "duration":2.7,
+        "priority":31.7,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-05",
+        "date":"2026-09-11",
+        "start_hour":1,
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-05-0051",
+        "duration":1.6,
         "priority":31.7,
         "is_bundled":false
     },
@@ -1976,27 +1996,7 @@
         "department":"Traction Distribution",
         "asset_id":"OHE-SEC-05-0066",
         "duration":2.8,
-        "priority":31.3,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-08",
-        "date":"2026-09-13",
-        "start_hour":21,
-        "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-08-0019",
-        "duration":1.4,
-        "priority":31.3,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-03",
-        "date":"2026-09-25",
-        "start_hour":0,
-        "department":"Engineering",
-        "asset_id":"TRK-SEC-03-0026",
-        "duration":2.7,
-        "priority":31.3,
+        "priority":31.5,
         "is_bundled":false
     },
     {
@@ -2006,7 +2006,7 @@
         "department":"Engineering",
         "asset_id":"TRK-SEC-07-0110",
         "duration":2.4,
-        "priority":31.0,
+        "priority":31.3,
         "is_bundled":false
     },
     {
@@ -2020,33 +2020,13 @@
         "is_bundled":false
     },
     {
-        "section_id":"SEC-05",
-        "date":"2026-09-11",
-        "start_hour":1,
-        "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-05-0148",
-        "duration":1.6,
-        "priority":30.8,
-        "is_bundled":true
-    },
-    {
-        "section_id":"SEC-03",
-        "date":"2026-09-06",
+        "section_id":"SEC-06",
+        "date":"2026-09-19",
         "start_hour":22,
-        "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-03-0077",
-        "duration":1.0,
-        "priority":30.8,
-        "is_bundled":true
-    },
-    {
-        "section_id":"SEC-01",
-        "date":"2026-09-15",
-        "start_hour":23,
         "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-01-0071",
-        "duration":0.7,
-        "priority":30.8,
+        "asset_id":"SIG-SEC-06-0037",
+        "duration":2.8,
+        "priority":30.9,
         "is_bundled":false
     },
     {
@@ -2070,13 +2050,23 @@
         "is_bundled":false
     },
     {
+        "section_id":"SEC-02",
+        "date":"2026-09-12",
+        "start_hour":0,
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-02-0141",
+        "duration":2.3,
+        "priority":30.6,
+        "is_bundled":false
+    },
+    {
         "section_id":"SEC-03",
         "date":"2026-09-27",
         "start_hour":23,
         "department":"Engineering",
         "asset_id":"TRK-SEC-03-0098",
         "duration":2.1,
-        "priority":30.3,
+        "priority":30.6,
         "is_bundled":false
     },
     {
@@ -2090,53 +2080,13 @@
         "is_bundled":false
     },
     {
-        "section_id":"SEC-06",
-        "date":"2026-09-19",
-        "start_hour":22,
-        "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-06-0037",
-        "duration":2.8,
-        "priority":30.3,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-02",
-        "date":"2026-09-12",
-        "start_hour":0,
-        "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-02-0141",
-        "duration":2.3,
-        "priority":30.3,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-04",
-        "date":"2026-09-02",
-        "start_hour":23,
-        "department":"Engineering",
-        "asset_id":"TRK-SEC-04-0121",
-        "duration":1.5,
-        "priority":30.2,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-03",
-        "date":"2026-09-28",
-        "start_hour":0,
-        "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-03-0119",
-        "duration":1.1,
-        "priority":29.8,
-        "is_bundled":false
-    },
-    {
         "section_id":"SEC-08",
         "date":"2026-09-09",
         "start_hour":1,
         "department":"Engineering",
         "asset_id":"TRK-SEC-08-0184",
         "duration":4.1,
-        "priority":29.7,
+        "priority":30.2,
         "is_bundled":false
     },
     {
@@ -2146,36 +2096,56 @@
         "department":"Signal & Telecom",
         "asset_id":"SIG-SEC-06-0109",
         "duration":1.4,
-        "priority":29.7,
+        "priority":30.1,
         "is_bundled":true
     },
     {
         "section_id":"SEC-03",
-        "date":"2026-08-31",
+        "date":"2026-09-06",
         "start_hour":22,
-        "department":"Engineering",
-        "asset_id":"TRK-SEC-03-0198",
-        "duration":2.9,
-        "priority":29.5,
-        "is_bundled":false
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-03-0077",
+        "duration":1.0,
+        "priority":29.8,
+        "is_bundled":true
     },
     {
-        "section_id":"SEC-06",
-        "date":"2026-09-20",
-        "start_hour":0,
+        "section_id":"SEC-01",
+        "date":"2026-09-15",
+        "start_hour":23,
         "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-06-0025",
-        "duration":3.4,
-        "priority":29.3,
+        "asset_id":"SIG-SEC-01-0071",
+        "duration":0.7,
+        "priority":29.7,
         "is_bundled":false
     },
     {
         "section_id":"SEC-03",
-        "date":"2026-09-02",
+        "date":"2026-09-28",
+        "start_hour":0,
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-03-0119",
+        "duration":1.1,
+        "priority":29.6,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-05",
+        "date":"2026-09-06",
         "start_hour":1,
-        "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-03-0028",
-        "duration":1.7,
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-05-0148",
+        "duration":1.6,
+        "priority":29.4,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-07",
+        "date":"2026-09-21",
+        "start_hour":0,
+        "department":"Engineering",
+        "asset_id":"TRK-SEC-07-0161",
+        "duration":2.6,
         "priority":29.2,
         "is_bundled":false
     },
@@ -2190,19 +2160,9 @@
         "is_bundled":false
     },
     {
-        "section_id":"SEC-07",
-        "date":"2026-09-21",
-        "start_hour":0,
-        "department":"Engineering",
-        "asset_id":"TRK-SEC-07-0161",
-        "duration":2.6,
-        "priority":29.2,
-        "is_bundled":false
-    },
-    {
         "section_id":"SEC-03",
-        "date":"2026-09-03",
-        "start_hour":22,
+        "date":"2026-09-02",
+        "start_hour":1,
         "department":"Engineering",
         "asset_id":"TRK-SEC-03-0117",
         "duration":2.3,
@@ -2210,13 +2170,33 @@
         "is_bundled":false
     },
     {
+        "section_id":"SEC-03",
+        "date":"2026-08-31",
+        "start_hour":22,
+        "department":"Engineering",
+        "asset_id":"TRK-SEC-03-0198",
+        "duration":2.9,
+        "priority":29.2,
+        "is_bundled":false
+    },
+    {
         "section_id":"SEC-05",
-        "date":"2026-09-06",
-        "start_hour":1,
+        "date":"2026-09-19",
+        "start_hour":22,
         "department":"Engineering",
         "asset_id":"TRK-SEC-05-0013",
         "duration":1.7,
         "priority":29.2,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-06",
+        "date":"2026-09-20",
+        "start_hour":0,
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-06-0025",
+        "duration":3.4,
+        "priority":29.1,
         "is_bundled":false
     },
     {
@@ -2226,7 +2206,37 @@
         "department":"Signal & Telecom",
         "asset_id":"SIG-SEC-01-0043",
         "duration":0.6,
-        "priority":29.2,
+        "priority":29.1,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-04",
+        "date":"2026-09-02",
+        "start_hour":23,
+        "department":"Engineering",
+        "asset_id":"TRK-SEC-04-0121",
+        "duration":1.5,
+        "priority":29.1,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-01",
+        "date":"2026-09-16",
+        "start_hour":22,
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-01-0157",
+        "duration":2.8,
+        "priority":28.7,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-03",
+        "date":"2026-09-03",
+        "start_hour":22,
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-03-0028",
+        "duration":1.7,
+        "priority":28.6,
         "is_bundled":false
     },
     {
@@ -2236,33 +2246,33 @@
         "department":"Signal & Telecom",
         "asset_id":"SIG-SEC-06-0131",
         "duration":2.2,
-        "priority":28.7,
+        "priority":28.6,
         "is_bundled":true
     },
     {
-        "section_id":"SEC-01",
-        "date":"2026-09-16",
+        "section_id":"SEC-06",
+        "date":"2026-09-24",
+        "start_hour":1,
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-06-0069",
+        "duration":3.6,
+        "priority":28.1,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-06",
+        "date":"2026-09-15",
         "start_hour":22,
         "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-01-0157",
-        "duration":2.8,
-        "priority":28.3,
-        "is_bundled":false
+        "asset_id":"OHE-SEC-06-0102",
+        "duration":1.0,
+        "priority":28.0,
+        "is_bundled":true
     },
     {
         "section_id":"SEC-02",
         "date":"2026-09-18",
         "start_hour":22,
-        "department":"Engineering",
-        "asset_id":"TRK-SEC-02-0179",
-        "duration":1.8,
-        "priority":28.2,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-02",
-        "date":"2026-09-05",
-        "start_hour":1,
         "department":"Traction Distribution",
         "asset_id":"OHE-SEC-02-0117",
         "duration":1.2,
@@ -2270,18 +2280,8 @@
         "is_bundled":false
     },
     {
-        "section_id":"SEC-05",
-        "date":"2026-09-06",
-        "start_hour":1,
-        "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-05-0115",
-        "duration":1.3,
-        "priority":28.0,
-        "is_bundled":true
-    },
-    {
         "section_id":"SEC-02",
-        "date":"2026-09-21",
+        "date":"2026-09-05",
         "start_hour":1,
         "department":"Traction Distribution",
         "asset_id":"OHE-SEC-02-0014",
@@ -2290,12 +2290,12 @@
         "is_bundled":false
     },
     {
-        "section_id":"SEC-06",
-        "date":"2026-09-24",
+        "section_id":"SEC-05",
+        "date":"2026-09-11",
         "start_hour":1,
         "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-06-0126",
-        "duration":3.7,
+        "asset_id":"SIG-SEC-05-0115",
+        "duration":1.3,
         "priority":28.0,
         "is_bundled":false
     },
@@ -2314,15 +2314,25 @@
         "date":"2026-09-01",
         "start_hour":1,
         "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-06-0069",
-        "duration":3.6,
-        "priority":27.7,
+        "asset_id":"SIG-SEC-06-0126",
+        "duration":3.7,
+        "priority":28.0,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-03",
+        "date":"2026-09-04",
+        "start_hour":1,
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-03-0080",
+        "duration":1.4,
+        "priority":27.8,
         "is_bundled":false
     },
     {
         "section_id":"SEC-06",
-        "date":"2026-09-22",
-        "start_hour":2,
+        "date":"2026-09-08",
+        "start_hour":21,
         "department":"Signal & Telecom",
         "asset_id":"SIG-SEC-06-0170",
         "duration":0.6,
@@ -2330,42 +2340,12 @@
         "is_bundled":true
     },
     {
-        "section_id":"SEC-05",
-        "date":"2026-09-19",
+        "section_id":"SEC-04",
+        "date":"2026-09-22",
         "start_hour":22,
-        "department":"Engineering",
-        "asset_id":"TRK-SEC-05-0108",
-        "duration":1.5,
-        "priority":27.5,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-08",
-        "date":"2026-09-05",
-        "start_hour":0,
-        "department":"Engineering",
-        "asset_id":"TRK-SEC-08-0035",
-        "duration":1.9,
-        "priority":27.5,
-        "is_bundled":true
-    },
-    {
-        "section_id":"SEC-07",
-        "date":"2026-09-15",
-        "start_hour":0,
-        "department":"Engineering",
-        "asset_id":"TRK-SEC-07-0141",
-        "duration":1.1,
-        "priority":27.5,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-05",
-        "date":"2026-09-19",
-        "start_hour":22,
-        "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-05-0107",
-        "duration":0.6,
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-04-0112",
+        "duration":0.9,
         "priority":27.5,
         "is_bundled":true
     },
@@ -2373,9 +2353,39 @@
         "section_id":"SEC-08",
         "date":"2026-09-09",
         "start_hour":1,
-        "department":"Engineering",
-        "asset_id":"TRK-SEC-08-0140",
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-08-0070",
         "duration":1.4,
+        "priority":27.5,
+        "is_bundled":true
+    },
+    {
+        "section_id":"SEC-02",
+        "date":"2026-09-01",
+        "start_hour":23,
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-02-0041",
+        "duration":0.6,
+        "priority":27.5,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-02",
+        "date":"2026-09-21",
+        "start_hour":1,
+        "department":"Engineering",
+        "asset_id":"TRK-SEC-02-0179",
+        "duration":1.8,
+        "priority":27.5,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-05",
+        "date":"2026-09-13",
+        "start_hour":22,
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-05-0107",
+        "duration":0.6,
         "priority":27.5,
         "is_bundled":false
     },
@@ -2393,49 +2403,29 @@
         "section_id":"SEC-08",
         "date":"2026-09-13",
         "start_hour":21,
-        "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-08-0070",
+        "department":"Engineering",
+        "asset_id":"TRK-SEC-08-0140",
         "duration":1.4,
-        "priority":27.5,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-04",
-        "date":"2026-09-22",
-        "start_hour":22,
-        "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-04-0112",
-        "duration":0.9,
         "priority":27.5,
         "is_bundled":true
     },
     {
-        "section_id":"SEC-06",
-        "date":"2026-09-22",
-        "start_hour":2,
-        "department":"Engineering",
-        "asset_id":"TRK-SEC-06-0030",
-        "duration":2.9,
-        "priority":27.5,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-01",
-        "date":"2026-09-22",
-        "start_hour":22,
-        "department":"Engineering",
-        "asset_id":"TRK-SEC-01-0120",
-        "duration":1.5,
-        "priority":27.5,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-06",
+        "section_id":"SEC-07",
         "date":"2026-09-15",
-        "start_hour":22,
-        "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-06-0102",
-        "duration":1.0,
+        "start_hour":0,
+        "department":"Engineering",
+        "asset_id":"TRK-SEC-07-0141",
+        "duration":1.1,
+        "priority":27.5,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-08",
+        "date":"2026-09-05",
+        "start_hour":0,
+        "department":"Engineering",
+        "asset_id":"TRK-SEC-08-0035",
+        "duration":1.9,
         "priority":27.5,
         "is_bundled":true
     },
@@ -2450,12 +2440,12 @@
         "is_bundled":false
     },
     {
-        "section_id":"SEC-02",
-        "date":"2026-09-01",
-        "start_hour":23,
-        "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-02-0041",
-        "duration":0.6,
+        "section_id":"SEC-01",
+        "date":"2026-09-22",
+        "start_hour":22,
+        "department":"Engineering",
+        "asset_id":"TRK-SEC-01-0120",
+        "duration":1.5,
         "priority":27.5,
         "is_bundled":false
     },
@@ -2470,14 +2460,14 @@
         "is_bundled":true
     },
     {
-        "section_id":"SEC-06",
+        "section_id":"SEC-05",
         "date":"2026-09-19",
         "start_hour":22,
         "department":"Engineering",
-        "asset_id":"TRK-SEC-06-0015",
-        "duration":2.3,
-        "priority":27.0,
-        "is_bundled":true
+        "asset_id":"TRK-SEC-05-0108",
+        "duration":1.5,
+        "priority":27.3,
+        "is_bundled":false
     },
     {
         "section_id":"SEC-08",
@@ -2486,47 +2476,17 @@
         "department":"Engineering",
         "asset_id":"TRK-SEC-08-0090",
         "duration":2.6,
-        "priority":27.0,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-03",
-        "date":"2026-09-04",
-        "start_hour":1,
-        "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-03-0080",
-        "duration":1.4,
-        "priority":27.0,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-07",
-        "date":"2026-09-28",
-        "start_hour":0,
-        "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-07-0044",
-        "duration":1.3,
-        "priority":26.8,
+        "priority":27.1,
         "is_bundled":false
     },
     {
         "section_id":"SEC-06",
-        "date":"2026-09-14",
-        "start_hour":0,
-        "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-06-0099",
-        "duration":0.6,
-        "priority":26.8,
-        "is_bundled":true
-    },
-    {
-        "section_id":"SEC-08",
-        "date":"2026-09-05",
-        "start_hour":0,
-        "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-08-0136",
-        "duration":0.9,
-        "priority":26.8,
+        "date":"2026-09-19",
+        "start_hour":22,
+        "department":"Engineering",
+        "asset_id":"TRK-SEC-06-0015",
+        "duration":2.3,
+        "priority":27.1,
         "is_bundled":true
     },
     {
@@ -2536,7 +2496,57 @@
         "department":"Signal & Telecom",
         "asset_id":"SIG-SEC-03-0111",
         "duration":1.8,
-        "priority":26.5,
+        "priority":27.1,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-06",
+        "date":"2026-09-22",
+        "start_hour":2,
+        "department":"Engineering",
+        "asset_id":"TRK-SEC-06-0030",
+        "duration":2.9,
+        "priority":27.0,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-05",
+        "date":"2026-09-06",
+        "start_hour":1,
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-05-0004",
+        "duration":0.7,
+        "priority":26.8,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-08",
+        "date":"2026-09-05",
+        "start_hour":0,
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-08-0136",
+        "duration":0.9,
+        "priority":26.7,
+        "is_bundled":true
+    },
+    {
+        "section_id":"SEC-06",
+        "date":"2026-09-22",
+        "start_hour":2,
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-06-0099",
+        "duration":0.6,
+        "priority":26.7,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-07",
+        "date":"2026-09-28",
+        "start_hour":0,
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-07-0044",
+        "duration":1.3,
+        "priority":26.7,
         "is_bundled":false
     },
     {
@@ -2546,7 +2556,7 @@
         "department":"Traction Distribution",
         "asset_id":"OHE-SEC-06-0040",
         "duration":2.1,
-        "priority":26.3,
+        "priority":26.4,
         "is_bundled":true
     },
     {
@@ -2556,7 +2566,7 @@
         "department":"Engineering",
         "asset_id":"TRK-SEC-05-0206",
         "duration":2.0,
-        "priority":26.3,
+        "priority":26.4,
         "is_bundled":false
     },
     {
@@ -2566,17 +2576,7 @@
         "department":"Signal & Telecom",
         "asset_id":"SIG-SEC-07-0021",
         "duration":1.3,
-        "priority":26.2,
-        "is_bundled":true
-    },
-    {
-        "section_id":"SEC-05",
-        "date":"2026-09-19",
-        "start_hour":22,
-        "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-05-0004",
-        "duration":0.7,
-        "priority":25.8,
+        "priority":26.1,
         "is_bundled":true
     },
     {
@@ -2586,7 +2586,7 @@
         "department":"Traction Distribution",
         "asset_id":"OHE-SEC-06-0013",
         "duration":2.2,
-        "priority":25.7,
+        "priority":25.8,
         "is_bundled":false
     },
     {
@@ -2596,7 +2596,17 @@
         "department":"Engineering",
         "asset_id":"TRK-SEC-04-0190",
         "duration":4.8,
-        "priority":25.7,
+        "priority":25.8,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-08",
+        "date":"2026-09-11",
+        "start_hour":0,
+        "department":"Engineering",
+        "asset_id":"TRK-SEC-08-0018",
+        "duration":1.9,
+        "priority":24.9,
         "is_bundled":false
     },
     {
@@ -2606,17 +2616,17 @@
         "department":"Traction Distribution",
         "asset_id":"OHE-SEC-04-0069",
         "duration":1.0,
-        "priority":25.2,
+        "priority":24.7,
         "is_bundled":false
     },
     {
-        "section_id":"SEC-07",
-        "date":"2026-09-06",
-        "start_hour":22,
+        "section_id":"SEC-04",
+        "date":"2026-09-01",
+        "start_hour":0,
         "department":"Engineering",
-        "asset_id":"TRK-SEC-07-0012",
-        "duration":1.8,
-        "priority":25.2,
+        "asset_id":"TRK-SEC-04-0104",
+        "duration":3.7,
+        "priority":24.7,
         "is_bundled":false
     },
     {
@@ -2626,18 +2636,8 @@
         "department":"Signal & Telecom",
         "asset_id":"SIG-SEC-05-0020",
         "duration":1.2,
-        "priority":24.5,
-        "is_bundled":true
-    },
-    {
-        "section_id":"SEC-04",
-        "date":"2026-09-01",
-        "start_hour":0,
-        "department":"Engineering",
-        "asset_id":"TRK-SEC-04-0104",
-        "duration":3.7,
         "priority":24.3,
-        "is_bundled":false
+        "is_bundled":true
     },
     {
         "section_id":"SEC-01",
@@ -2661,8 +2661,8 @@
     },
     {
         "section_id":"SEC-07",
-        "date":"2026-09-14",
-        "start_hour":0,
+        "date":"2026-09-06",
+        "start_hour":22,
         "department":"Engineering",
         "asset_id":"TRK-SEC-07-0214",
         "duration":2.9,
@@ -2670,12 +2670,22 @@
         "is_bundled":false
     },
     {
-        "section_id":"SEC-02",
-        "date":"2026-09-13",
+        "section_id":"SEC-04",
+        "date":"2026-09-10",
         "start_hour":1,
         "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-02-0079",
-        "duration":0.7,
+        "asset_id":"SIG-SEC-04-0130",
+        "duration":0.8,
+        "priority":24.2,
+        "is_bundled":true
+    },
+    {
+        "section_id":"SEC-08",
+        "date":"2026-09-26",
+        "start_hour":1,
+        "department":"Engineering",
+        "asset_id":"TRK-SEC-08-0063",
+        "duration":2.5,
         "priority":24.2,
         "is_bundled":false
     },
@@ -2700,23 +2710,33 @@
         "is_bundled":false
     },
     {
-        "section_id":"SEC-08",
-        "date":"2026-09-11",
-        "start_hour":0,
-        "department":"Engineering",
-        "asset_id":"TRK-SEC-08-0063",
-        "duration":2.5,
+        "section_id":"SEC-02",
+        "date":"2026-09-13",
+        "start_hour":1,
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-02-0079",
+        "duration":0.7,
         "priority":24.2,
         "is_bundled":false
     },
     {
+        "section_id":"SEC-07",
+        "date":"2026-09-14",
+        "start_hour":0,
+        "department":"Engineering",
+        "asset_id":"TRK-SEC-07-0012",
+        "duration":1.8,
+        "priority":24.1,
+        "is_bundled":false
+    },
+    {
         "section_id":"SEC-04",
-        "date":"2026-09-10",
-        "start_hour":1,
+        "date":"2026-09-28",
+        "start_hour":0,
         "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-04-0130",
-        "duration":0.8,
-        "priority":24.2,
+        "asset_id":"SIG-SEC-04-0155",
+        "duration":1.9,
+        "priority":23.7,
         "is_bundled":false
     },
     {
@@ -2730,34 +2750,24 @@
         "is_bundled":false
     },
     {
-        "section_id":"SEC-08",
-        "date":"2026-09-26",
+        "section_id":"SEC-07",
+        "date":"2026-09-22",
         "start_hour":1,
-        "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-08-0046",
-        "duration":3.9,
-        "priority":23.0,
-        "is_bundled":true
-    },
-    {
-        "section_id":"SEC-04",
-        "date":"2026-09-28",
-        "start_hour":0,
-        "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-04-0155",
-        "duration":1.9,
-        "priority":23.0,
+        "department":"Engineering",
+        "asset_id":"TRK-SEC-07-0152",
+        "duration":2.4,
+        "priority":23.2,
         "is_bundled":false
     },
     {
-        "section_id":"SEC-07",
-        "date":"2026-09-06",
-        "start_hour":22,
-        "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-07-0067",
-        "duration":1.1,
-        "priority":22.8,
-        "is_bundled":true
+        "section_id":"SEC-08",
+        "date":"2026-09-27",
+        "start_hour":23,
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-08-0046",
+        "duration":3.9,
+        "priority":23.2,
+        "is_bundled":false
     },
     {
         "section_id":"SEC-04",
@@ -2766,57 +2776,17 @@
         "department":"Traction Distribution",
         "asset_id":"OHE-SEC-04-0063",
         "duration":0.6,
-        "priority":22.8,
+        "priority":22.7,
         "is_bundled":true
     },
     {
         "section_id":"SEC-07",
-        "date":"2026-09-22",
-        "start_hour":1,
-        "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-07-0036",
-        "duration":1.7,
-        "priority":22.5,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-08",
-        "date":"2026-09-27",
-        "start_hour":23,
-        "department":"Engineering",
-        "asset_id":"TRK-SEC-08-0018",
-        "duration":1.9,
-        "priority":22.5,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-07",
-        "date":"2026-08-31",
-        "start_hour":23,
-        "department":"Engineering",
-        "asset_id":"TRK-SEC-07-0152",
-        "duration":2.4,
-        "priority":22.5,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-08",
-        "date":"2026-09-27",
-        "start_hour":23,
-        "department":"Engineering",
-        "asset_id":"TRK-SEC-08-0172",
-        "duration":2.6,
-        "priority":22.5,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-06",
-        "date":"2026-08-29",
-        "start_hour":23,
-        "department":"Engineering",
-        "asset_id":"TRK-SEC-06-0067",
-        "duration":2.7,
-        "priority":22.2,
+        "date":"2026-09-14",
+        "start_hour":0,
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-07-0067",
+        "duration":1.1,
+        "priority":22.7,
         "is_bundled":true
     },
     {
@@ -2826,8 +2796,28 @@
         "department":"Traction Distribution",
         "asset_id":"OHE-SEC-03-0096",
         "duration":1.4,
-        "priority":22.2,
+        "priority":22.4,
         "is_bundled":false
+    },
+    {
+        "section_id":"SEC-07",
+        "date":"2026-08-31",
+        "start_hour":23,
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-07-0036",
+        "duration":1.7,
+        "priority":22.3,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-06",
+        "date":"2026-08-29",
+        "start_hour":23,
+        "department":"Engineering",
+        "asset_id":"TRK-SEC-06-0067",
+        "duration":2.7,
+        "priority":22.1,
+        "is_bundled":true
     },
     {
         "section_id":"SEC-04",
@@ -2836,7 +2826,27 @@
         "department":"Traction Distribution",
         "asset_id":"OHE-SEC-04-0108",
         "duration":1.7,
-        "priority":21.5,
+        "priority":21.4,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-06",
+        "date":"2026-08-29",
+        "start_hour":23,
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-06-0127",
+        "duration":1.0,
+        "priority":20.9,
+        "is_bundled":true
+    },
+    {
+        "section_id":"SEC-04",
+        "date":"2026-08-29",
+        "start_hour":2,
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-04-0141",
+        "duration":1.7,
+        "priority":20.8,
         "is_bundled":false
     },
     {
@@ -2860,34 +2870,24 @@
         "is_bundled":false
     },
     {
-        "section_id":"SEC-04",
-        "date":"2026-08-29",
-        "start_hour":2,
-        "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-04-0141",
-        "duration":1.7,
-        "priority":20.8,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-06",
-        "date":"2026-08-29",
+        "section_id":"SEC-08",
+        "date":"2026-09-27",
         "start_hour":23,
-        "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-06-0127",
-        "duration":1.0,
-        "priority":20.8,
-        "is_bundled":true
-    },
-    {
-        "section_id":"SEC-02",
-        "date":"2026-09-05",
-        "start_hour":1,
         "department":"Engineering",
-        "asset_id":"TRK-SEC-02-0113",
-        "duration":1.0,
+        "asset_id":"TRK-SEC-08-0093",
+        "duration":1.6,
         "priority":20.5,
         "is_bundled":true
+    },
+    {
+        "section_id":"SEC-08",
+        "date":"2026-09-26",
+        "start_hour":1,
+        "department":"Engineering",
+        "asset_id":"TRK-SEC-08-0160",
+        "duration":1.4,
+        "priority":19.6,
+        "is_bundled":false
     },
     {
         "section_id":"SEC-06",
@@ -2896,7 +2896,7 @@
         "department":"Signal & Telecom",
         "asset_id":"SIG-SEC-06-0159",
         "duration":1.5,
-        "priority":19.5,
+        "priority":19.4,
         "is_bundled":false
     },
     {
@@ -2911,8 +2911,8 @@
     },
     {
         "section_id":"SEC-08",
-        "date":"2026-09-27",
-        "start_hour":23,
+        "date":"2026-09-11",
+        "start_hour":0,
         "department":"Traction Distribution",
         "asset_id":"OHE-SEC-08-0045",
         "duration":1.0,
@@ -2926,7 +2926,7 @@
         "department":"Traction Distribution",
         "asset_id":"OHE-SEC-02-0051",
         "duration":0.5,
-        "priority":18.5,
+        "priority":18.4,
         "is_bundled":true
     },
     {
@@ -2936,13 +2936,13 @@
         "department":"Engineering",
         "asset_id":"TRK-SEC-04-0097",
         "duration":1.5,
-        "priority":18.5,
+        "priority":18.4,
         "is_bundled":true
     },
     {
         "section_id":"SEC-07",
-        "date":"2026-09-22",
-        "start_hour":1,
+        "date":"2026-08-31",
+        "start_hour":23,
         "department":"Signal & Telecom",
         "asset_id":"SIG-SEC-07-0080",
         "duration":1.4,
@@ -2950,9 +2950,19 @@
         "is_bundled":false
     },
     {
+        "section_id":"SEC-04",
+        "date":"2026-09-14",
+        "start_hour":21,
+        "department":"Signal & Telecom",
+        "asset_id":"SIG-SEC-04-0175",
+        "duration":0.5,
+        "priority":17.5,
+        "is_bundled":true
+    },
+    {
         "section_id":"SEC-03",
-        "date":"2026-09-19",
-        "start_hour":22,
+        "date":"2026-09-17",
+        "start_hour":1,
         "department":"Signal & Telecom",
         "asset_id":"SIG-SEC-03-0120",
         "duration":0.7,
@@ -2971,8 +2981,8 @@
     },
     {
         "section_id":"SEC-06",
-        "date":"2026-09-26",
-        "start_hour":1,
+        "date":"2026-09-14",
+        "start_hour":0,
         "department":"Signal & Telecom",
         "asset_id":"SIG-SEC-06-0066",
         "duration":0.7,
@@ -3030,33 +3040,33 @@
         "is_bundled":true
     },
     {
-        "section_id":"SEC-04",
-        "date":"2026-09-11",
-        "start_hour":1,
+        "section_id":"SEC-02",
+        "date":"2026-09-18",
+        "start_hour":22,
         "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-04-0175",
-        "duration":0.5,
-        "priority":17.5,
+        "asset_id":"SIG-SEC-02-0031",
+        "duration":0.8,
+        "priority":17.0,
         "is_bundled":true
+    },
+    {
+        "section_id":"SEC-02",
+        "date":"2026-09-05",
+        "start_hour":1,
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-02-0085",
+        "duration":0.9,
+        "priority":16.5,
+        "is_bundled":false
     },
     {
         "section_id":"SEC-02",
         "date":"2026-09-06",
         "start_hour":23,
         "department":"Signal & Telecom",
-        "asset_id":"SIG-SEC-02-0031",
-        "duration":0.8,
-        "priority":17.2,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-02",
-        "date":"2026-09-21",
-        "start_hour":1,
-        "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-02-0085",
-        "duration":0.9,
-        "priority":16.5,
+        "asset_id":"SIG-SEC-02-0055",
+        "duration":0.7,
+        "priority":15.9,
         "is_bundled":false
     },
     {
@@ -3070,24 +3080,34 @@
         "is_bundled":true
     },
     {
+        "section_id":"SEC-05",
+        "date":"2026-09-06",
+        "start_hour":1,
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-05-0041",
+        "duration":0.7,
+        "priority":15.8,
+        "is_bundled":false
+    },
+    {
         "section_id":"SEC-06",
-        "date":"2026-09-27",
-        "start_hour":23,
+        "date":"2026-09-26",
+        "start_hour":1,
         "department":"Signal & Telecom",
         "asset_id":"SIG-SEC-06-0054",
         "duration":0.6,
-        "priority":15.2,
+        "priority":14.7,
         "is_bundled":true
     },
     {
         "section_id":"SEC-06",
-        "date":"2026-09-22",
-        "start_hour":2,
+        "date":"2026-09-27",
+        "start_hour":23,
         "department":"Traction Distribution",
         "asset_id":"OHE-SEC-06-0015",
         "duration":0.6,
         "priority":14.5,
-        "is_bundled":true
+        "is_bundled":false
     },
     {
         "section_id":"SEC-04",
@@ -3111,12 +3131,52 @@
     },
     {
         "section_id":"SEC-07",
-        "date":"2026-08-31",
-        "start_hour":23,
+        "date":"2026-09-22",
+        "start_hour":1,
         "department":"Signal & Telecom",
         "asset_id":"SIG-SEC-07-0145",
         "duration":0.7,
         "priority":13.2,
+        "is_bundled":true
+    },
+    {
+        "section_id":"SEC-03",
+        "date":"2026-09-14",
+        "start_hour":23,
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-03-0025",
+        "duration":0.8,
+        "priority":12.5,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-04",
+        "date":"2026-09-09",
+        "start_hour":23,
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-04-0012",
+        "duration":2.0,
+        "priority":12.5,
+        "is_bundled":false
+    },
+    {
+        "section_id":"SEC-08",
+        "date":"2026-09-23",
+        "start_hour":2,
+        "department":"Traction Distribution",
+        "asset_id":"OHE-SEC-08-0160",
+        "duration":0.7,
+        "priority":12.5,
+        "is_bundled":true
+    },
+    {
+        "section_id":"SEC-04",
+        "date":"2026-09-09",
+        "start_hour":23,
+        "department":"Engineering",
+        "asset_id":"TRK-SEC-04-0173",
+        "duration":1.6,
+        "priority":12.5,
         "is_bundled":true
     },
     {
@@ -3161,8 +3221,8 @@
     },
     {
         "section_id":"SEC-08",
-        "date":"2026-09-23",
-        "start_hour":2,
+        "date":"2026-09-24",
+        "start_hour":21,
         "department":"Signal & Telecom",
         "asset_id":"SIG-SEC-08-0150",
         "duration":0.7,
@@ -3171,13 +3231,13 @@
     },
     {
         "section_id":"SEC-06",
-        "date":"2026-09-20",
-        "start_hour":0,
+        "date":"2026-09-24",
+        "start_hour":22,
         "department":"Signal & Telecom",
         "asset_id":"SIG-SEC-06-0122",
         "duration":0.5,
         "priority":12.5,
-        "is_bundled":false
+        "is_bundled":true
     },
     {
         "section_id":"SEC-07",
@@ -3185,46 +3245,6 @@
         "start_hour":23,
         "department":"Signal & Telecom",
         "asset_id":"SIG-SEC-07-0146",
-        "duration":0.7,
-        "priority":12.5,
-        "is_bundled":true
-    },
-    {
-        "section_id":"SEC-04",
-        "date":"2026-09-09",
-        "start_hour":23,
-        "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-04-0012",
-        "duration":2.0,
-        "priority":12.5,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-03",
-        "date":"2026-09-14",
-        "start_hour":23,
-        "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-03-0025",
-        "duration":0.8,
-        "priority":12.5,
-        "is_bundled":false
-    },
-    {
-        "section_id":"SEC-04",
-        "date":"2026-09-09",
-        "start_hour":23,
-        "department":"Engineering",
-        "asset_id":"TRK-SEC-04-0173",
-        "duration":1.6,
-        "priority":12.5,
-        "is_bundled":true
-    },
-    {
-        "section_id":"SEC-08",
-        "date":"2026-09-24",
-        "start_hour":21,
-        "department":"Traction Distribution",
-        "asset_id":"OHE-SEC-08-0160",
         "duration":0.7,
         "priority":12.5,
         "is_bundled":true
