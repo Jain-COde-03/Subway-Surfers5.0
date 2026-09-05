@@ -1,0 +1,20 @@
+metric,value
+total_maintenance_tasks,560
+scheduled_tasks,186
+unscheduled_tasks,374
+total_blocks_used,123
+total_maintenance_duration_hours,338.6
+average_block_utilization_pct,85.88
+capacity_weighted_block_utilization_pct,86.27
+high_priority_threshold,80.0
+high_priority_tasks_total,48
+high_priority_tasks_scheduled,10
+high_priority_tasks_scheduled_pct,20.83
+multi_department_bundled_blocks,25
+block_openings_saved_vs_one_task_per_block,63
+estimated_block_hours_saved,15.75
+estimated_block_hours_saved_assumption,0.25 h coordination/setup overhead per avoided independent block opening
+solver_status,FEASIBLE
+solver_objective_value,675431.0
+solver_best_objective_bound,1638657.0
+solver_wall_time_seconds,31.373

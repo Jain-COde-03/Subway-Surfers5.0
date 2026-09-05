@@ -2,60 +2,31 @@ import pandas as pd
 import os
 import joblib
 
-# Setup Paths
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-MODEL_PATH = os.path.join(BASE_DIR, "models", "rf_priority_model.pkl")
+MODEL_PATH = os.path.join(BASE_DIR, "models", "priority_classifier_model.joblib") 
 
-# Load the ML model into memory when the API starts
+# Load the brain into memory when the server starts
 try:
-    rf_model = joblib.load(MODEL_PATH)
+    bundle = joblib.load(MODEL_PATH)
+    pipeline = bundle["pipeline"]
+    feature_cols = bundle["feature_cols"]
 except FileNotFoundError:
-    rf_model = None
-    print(f"Warning: ML model not found at {MODEL_PATH}. Run train_model.py first.")
+    pipeline, feature_cols = None, None
 
-def preprocess_for_prediction(df):
-    """Formats incoming API data to match the ML model's expected inputs."""
-    df_ml = pd.DataFrame()
-    severity_map = {'Critical': 3, 'Major': 2, 'Minor': 1}
-    
-    df_ml['severity_num'] = df.get('defect_severity', 'Minor').map(severity_map).fillna(1)
-    df_ml['days_overdue'] = df.get('days_overdue', 0)
-    df_ml['safety_num'] = df.get('safety_risk_flag', False).astype(int)
-    df_ml['sla_num'] = df.get('sla_flag', False).astype(int)
-    df_ml['repeat_defect_count'] = df.get('repeat_defect_count', 0)
-    
-    # Handle criticality mapping safely
-    if 'asset_criticality_class' in df.columns:
-        df_ml['criticality_num'] = df['asset_criticality_class'].apply(lambda x: 1 if x == 'Trunk Route' else 0)
-    else:
-        df_ml['criticality_num'] = 0
-        
-    return df_ml[['severity_num', 'days_overdue', 'safety_num', 'sla_num', 'repeat_defect_count', 'criticality_num']]
+def score_tasks(tasks_df: pd.DataFrame) -> pd.DataFrame:
+    """Passes tasks through the XGBoost Regressor to predict 0-100 scores."""
+    if pipeline is None:
+        raise Exception("ML Model not loaded! Missing .joblib file.")
 
-def score_tasks(tasks_df):
-    """Passes tasks to the Random Forest ML Model to predict priority."""
-    if rf_model is None:
-        raise Exception("ML Model not loaded! Please run train_model.py to generate the .pkl file.")
-        
-    # Format the data for the AI
-    X_predict = preprocess_for_prediction(tasks_df)
+    predict_df = tasks_df.copy()
     
-    # 🔮 The AI Prediction!
-    tasks_df['priority_score'] = rf_model.predict(X_predict).round(1)
+    # Safely handle missing columns to prevent API crashes
+    for col in feature_cols:
+        if col not in predict_df.columns:
+            predict_df[col] = 0 if col in ['sla_flag', 'safety_risk_flag', 'days_overdue', 'repeat_defect_count', 'estimated_block_duration_hours'] else "UNKNOWN"
+                
+    # 🔮 The actual AI prediction
+    predict_df['priority_score'] = pipeline.predict(predict_df[feature_cols])
+    predict_df['priority_score'] = predict_df['priority_score'].clip(lower=0, upper=100).round(2)
     
-    return tasks_df.sort_values(by='priority_score', ascending=False)
-
-# CLI Testing Block
-if __name__ == "__main__":
-    print("Testing ML Priority Model...")
-    UNI_CSV = os.path.join(BASE_DIR, "data", "input", "uni.csv")
-    
-    try:
-        df = pd.read_csv(UNI_CSV) 
-        df = score_tasks(df)
-        df.to_csv(UNI_CSV, index=False)
-        print(f"✅ Success: ML Model predicted scores and updated {UNI_CSV}!\n")
-        print("=== 🔥 TOP 5 PREDICTIONS 🔥 ===")
-        print(df[['asset_id', 'department', 'defect_severity', 'priority_score']].head(5))
-    except Exception as e:
-        print(f"Error: {e}")
+    return predict_df.sort_values(by='priority_score', ascending=False)
