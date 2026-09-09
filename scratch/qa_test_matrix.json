@@ -1,0 +1,422 @@
+[
+  {
+    "module": "RBAC",
+    "test_name": "Unauthenticated /api/v1/tasks blocked",
+    "expected": 401,
+    "actual": 401,
+    "status": "PASSED"
+  },
+  {
+    "module": "RBAC",
+    "test_name": "Unauthenticated /api/v1/admin/tasks blocked",
+    "expected": 401,
+    "actual": 401,
+    "status": "PASSED"
+  },
+  {
+    "module": "Auth",
+    "test_name": "Invalid login returns 401",
+    "expected": 401,
+    "actual": 401,
+    "status": "PASSED"
+  },
+  {
+    "module": "Auth",
+    "test_name": "Admin login successful",
+    "expected": 200,
+    "actual": 200,
+    "status": "PASSED"
+  },
+  {
+    "module": "Auth",
+    "test_name": "TMS (Civil) login successful",
+    "expected": 200,
+    "actual": 200,
+    "status": "PASSED"
+  },
+  {
+    "module": "Auth",
+    "test_name": "SMMS (Signal) login successful",
+    "expected": 200,
+    "actual": 200,
+    "status": "PASSED"
+  },
+  {
+    "module": "Auth",
+    "test_name": "TDMS (Electrical) login successful",
+    "expected": 200,
+    "actual": 200,
+    "status": "PASSED"
+  },
+  {
+    "module": "RBAC",
+    "test_name": "TMS blocked from /api/v1/admin/tasks",
+    "expected": 403,
+    "actual": 403,
+    "status": "PASSED"
+  },
+  {
+    "module": "RBAC",
+    "test_name": "SMMS blocked from /api/v1/optimize",
+    "expected": 403,
+    "actual": 403,
+    "status": "PASSED"
+  },
+  {
+    "module": "RBAC",
+    "test_name": "TDMS blocked from /api/v1/clear-data",
+    "expected": 403,
+    "actual": 403,
+    "status": "PASSED"
+  },
+  {
+    "module": "RBAC",
+    "test_name": "TMS blocked from approving blocks",
+    "expected": 403,
+    "actual": 403,
+    "status": "PASSED"
+  },
+  {
+    "module": "System",
+    "test_name": "Clear data returns success",
+    "expected": 200,
+    "actual": 200,
+    "status": "PASSED"
+  },
+  {
+    "module": "Database",
+    "test_name": "Database wiped completely (0 tasks, 0 blocks, 0 notifs)",
+    "expected": true,
+    "actual": true,
+    "status": "PASSED"
+  },
+  {
+    "module": "Submission",
+    "test_name": "Civil defect submission status 200",
+    "expected": 200,
+    "actual": 200,
+    "status": "PASSED"
+  },
+  {
+    "module": "Submission",
+    "test_name": "Civil task ID generated with TSK-LIVE prefix",
+    "expected": true,
+    "actual": true,
+    "status": "PASSED"
+  },
+  {
+    "module": "ML Scoring",
+    "test_name": "Civil defect AI priority score in range [0, 100]",
+    "expected": true,
+    "actual": true,
+    "status": "PASSED"
+  },
+  {
+    "module": "Submission",
+    "test_name": "Signal defect submission status 200",
+    "expected": 200,
+    "actual": 200,
+    "status": "PASSED"
+  },
+  {
+    "module": "ML Scoring",
+    "test_name": "Signal defect AI priority score in range [0, 100]",
+    "expected": true,
+    "actual": true,
+    "status": "PASSED"
+  },
+  {
+    "module": "Submission",
+    "test_name": "Electrical defect submission status 200",
+    "expected": 200,
+    "actual": 200,
+    "status": "PASSED"
+  },
+  {
+    "module": "ML Scoring",
+    "test_name": "Electrical defect AI priority score in range [0, 100]",
+    "expected": true,
+    "actual": true,
+    "status": "PASSED"
+  },
+  {
+    "module": "ML Severity Ordering",
+    "test_name": "Critical defects (Civil/Electrical) scored higher than Major (Signal)",
+    "expected": true,
+    "actual": true,
+    "status": "PASSED"
+  },
+  {
+    "module": "Data Isolation",
+    "test_name": "TMS sees only Civil tasks",
+    "expected": true,
+    "actual": true,
+    "status": "PASSED"
+  },
+  {
+    "module": "Data Isolation",
+    "test_name": "SMMS sees only Signal tasks",
+    "expected": true,
+    "actual": true,
+    "status": "PASSED"
+  },
+  {
+    "module": "Data Isolation",
+    "test_name": "TDMS sees only Electrical tasks",
+    "expected": true,
+    "actual": true,
+    "status": "PASSED"
+  },
+  {
+    "module": "Admin View",
+    "test_name": "Admin sees all 3 departmental tasks",
+    "expected": true,
+    "actual": true,
+    "status": "PASSED"
+  },
+  {
+    "module": "Optimizer",
+    "test_name": "Optimizer solver runs successfully (200 OK)",
+    "expected": 200,
+    "actual": 200,
+    "status": "PASSED"
+  },
+  {
+    "module": "Optimizer",
+    "test_name": "Optimizer synthesized corridor proposals (>= 2 corridors)",
+    "expected": true,
+    "actual": true,
+    "status": "PASSED"
+  },
+  {
+    "module": "Optimizer",
+    "test_name": "GZB corridor bundled Civil & Signal defects",
+    "expected": true,
+    "actual": true,
+    "status": "PASSED"
+  },
+  {
+    "module": "Bundling",
+    "test_name": "GZB proposal bundles both Civil and Signal departments",
+    "expected": true,
+    "actual": true,
+    "status": "PASSED"
+  },
+  {
+    "module": "Bundling",
+    "test_name": "GZB proposal reports 2 constituent tasks",
+    "expected": 2,
+    "actual": 2,
+    "status": "PASSED"
+  },
+  {
+    "module": "Telemetry",
+    "test_name": "Proposal constituentTasks contains real live task IDs (civ_id, sig_id)",
+    "expected": true,
+    "actual": true,
+    "status": "PASSED"
+  },
+  {
+    "module": "Synergy",
+    "test_name": "Possession hours saved computed correctly (> 0)",
+    "expected": true,
+    "actual": true,
+    "status": "PASSED"
+  },
+  {
+    "module": "Approval",
+    "test_name": "Admin approves block BLK-OPT-GZB-101",
+    "expected": 200,
+    "actual": 200,
+    "status": "PASSED"
+  },
+  {
+    "module": "Database",
+    "test_name": "Block status updated to 'Confirmed' in SQLite",
+    "expected": true,
+    "actual": true,
+    "status": "PASSED"
+  },
+  {
+    "module": "Calendar",
+    "test_name": "Confirmed block appears in Admin Master Schedule",
+    "expected": true,
+    "actual": true,
+    "status": "PASSED"
+  },
+  {
+    "module": "Calendar",
+    "test_name": "Confirmed block appears on Civil department calendar",
+    "expected": true,
+    "actual": true,
+    "status": "PASSED"
+  },
+  {
+    "module": "Calendar",
+    "test_name": "Confirmed block appears on Signal department calendar",
+    "expected": true,
+    "actual": true,
+    "status": "PASSED"
+  },
+  {
+    "module": "Calendar Isolation",
+    "test_name": "Confirmed GZB block does NOT appear on uninvolved Electrical calendar",
+    "expected": false,
+    "actual": false,
+    "status": "PASSED"
+  },
+  {
+    "module": "Rejection",
+    "test_name": "Admin rejects block BLK-OPT-CNB-102 with reason",
+    "expected": 200,
+    "actual": 200,
+    "status": "PASSED"
+  },
+  {
+    "module": "Database",
+    "test_name": "Block status updated to 'Rejected' in SQLite",
+    "expected": true,
+    "actual": true,
+    "status": "PASSED"
+  },
+  {
+    "module": "Calendar",
+    "test_name": "Rejected block is excluded from Confirmed Schedule",
+    "expected": false,
+    "actual": false,
+    "status": "PASSED"
+  },
+  {
+    "module": "Notifications",
+    "test_name": "Civil department received block approval notification",
+    "expected": true,
+    "actual": true,
+    "status": "PASSED"
+  },
+  {
+    "module": "Notifications",
+    "test_name": "Electrical department received block rejection notification",
+    "expected": true,
+    "actual": true,
+    "status": "PASSED"
+  },
+  {
+    "module": "Notifications",
+    "test_name": "Admin received defect logging and CP-SAT synthesis alerts",
+    "expected": true,
+    "actual": true,
+    "status": "PASSED"
+  },
+  {
+    "module": "Security",
+    "test_name": "SQL Injection payload safely handled (No Crash)",
+    "expected": 200,
+    "actual": 200,
+    "status": "PASSED"
+  },
+  {
+    "module": "Security",
+    "test_name": "Database tables intact after SQL injection attempt",
+    "expected": true,
+    "actual": true,
+    "status": "PASSED"
+  },
+  {
+    "module": "Security",
+    "test_name": "XSS payload processed without unhandled exception",
+    "expected": 200,
+    "actual": 200,
+    "status": "PASSED"
+  },
+  {
+    "module": "Task State Machine",
+    "test_name": "Admin updates task to 'Approved'",
+    "expected": 200,
+    "actual": 200,
+    "status": "PASSED"
+  },
+  {
+    "module": "Task State Machine",
+    "test_name": "Admin updates task to 'Rejected' with reason",
+    "expected": 200,
+    "actual": 200,
+    "status": "PASSED"
+  },
+  {
+    "module": "Notifications",
+    "test_name": "TMS received specific rejection notification with reason",
+    "expected": true,
+    "actual": true,
+    "status": "PASSED"
+  },
+  {
+    "module": "Cancellation",
+    "test_name": "Admin cancels confirmed block BLK-MST-101",
+    "expected": 200,
+    "actual": 200,
+    "status": "PASSED"
+  },
+  {
+    "module": "Cancellation",
+    "test_name": "Cancelled block removed from Confirmed Calendar",
+    "expected": true,
+    "actual": true,
+    "status": "PASSED"
+  },
+  {
+    "module": "Gazette Horizon",
+    "test_name": "Commit-all proposals endpoint returns 200 OK",
+    "expected": 200,
+    "actual": 200,
+    "status": "PASSED"
+  },
+  {
+    "module": "Analytics",
+    "test_name": "GET /api/v1/kpis?dept=Civil returns 200",
+    "expected": 200,
+    "actual": 200,
+    "status": "PASSED"
+  },
+  {
+    "module": "Analytics",
+    "test_name": "Department KPI payload contains operational metrics",
+    "expected": true,
+    "actual": true,
+    "status": "PASSED"
+  },
+  {
+    "module": "Resources",
+    "test_name": "GET /api/v1/resources?dept=Civil returns 200",
+    "expected": 200,
+    "actual": 200,
+    "status": "PASSED"
+  },
+  {
+    "module": "Resources",
+    "test_name": "Department machinery & crew utilization list populated",
+    "expected": true,
+    "actual": true,
+    "status": "PASSED"
+  },
+  {
+    "module": "Concurrency",
+    "test_name": "5 rapid consecutive defect submissions succeed",
+    "expected": 5,
+    "actual": 5,
+    "status": "PASSED"
+  },
+  {
+    "module": "Performance",
+    "test_name": "5 submissions processed under 3 seconds",
+    "expected": true,
+    "actual": true,
+    "status": "PASSED"
+  },
+  {
+    "module": "Database Consistency",
+    "test_name": "All 5 rapidly submitted tasks persisted without race conditions",
+    "expected": true,
+    "actual": true,
+    "status": "PASSED"
+  }
+]

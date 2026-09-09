@@ -28,6 +28,7 @@ ortools==9.15.6755
 packaging==25.0
 pandas==3.0.5
 passlib==1.7.4
+python-jose[cryptography]==3.5.0
 pillow==12.0.0
 protobuf==6.33.6
 pydantic==2.12.5

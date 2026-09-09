@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import { login as apiLogin } from '../../services/authApi';
+
 import {
   Train,
   Shield,
@@ -115,7 +117,7 @@ export default function LoginPage({ onLogin }) {
     setErrorMsg('');
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setErrorMsg('');
 
@@ -126,19 +128,17 @@ export default function LoginPage({ onLogin }) {
     }
 
     setIsLoading(true);
-
-    setTimeout(() => {
-      // Find matching role by username or fallback to selected role
-      const matched =
-        ROLES_CONFIG.find(
-          (r) => r.username.toLowerCase() === username.trim().toLowerCase()
-        ) || selectedRole;
-
-      setIsLoading(false);
+    try {
+      const user = await apiLogin(username.trim(), password, rememberMe);
       if (onLogin) {
-        onLogin(matched);
+        onLogin(user);
       }
-    }, 600);
+    } catch (err) {
+      setErrorMsg(err.message || 'Authentication failed. Check credentials.');
+      generateCaptcha();
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   const IconComponent = selectedRole.icon;

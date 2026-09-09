@@ -133,14 +133,27 @@ function DepartmentDashboardContent({ onLogout, onSelectDepartment }) {
     loadResources();
   }, [loadKpis, loadTasks, loadBlocks, loadNotifications, loadResources]);
 
-  // Real-Time Polling for Notifications (every 15 seconds as per spec)
+  // Real-Time Polling for Notifications, Blocks, and Tasks (every 8 seconds + live sync)
   useEffect(() => {
     const pollInterval = setInterval(() => {
       loadNotifications(true);
-    }, 15000);
+      loadBlocks();
+      loadTasks();
+    }, 8000);
 
-    return () => clearInterval(pollInterval);
-  }, [loadNotifications]);
+    const handleSync = () => {
+      loadNotifications(true);
+      loadBlocks();
+      loadTasks();
+      loadKpis();
+    };
+    window.addEventListener('samay_schedule_updated', handleSync);
+
+    return () => {
+      clearInterval(pollInterval);
+      window.removeEventListener('samay_schedule_updated', handleSync);
+    };
+  }, [loadNotifications, loadBlocks, loadTasks, loadKpis]);
 
   // Handler for Defect Submission (New or Resubmission)
   const handleDefectSubmit = async (defectPayload) => {
@@ -157,10 +170,13 @@ function DepartmentDashboardContent({ onLogout, onSelectDepartment }) {
       return [createdOrUpdatedTask, ...prev];
     });
 
-    // Refresh KPIs and activity feed
-    loadKpis();
-    loadNotifications(true);
+    // Refresh KPIs, tasks from database, and activity feed
+    await loadTasks();
+    await loadKpis();
+    await loadNotifications(true);
     setPrefillTask(null);
+    window.dispatchEvent(new Event('samay_schedule_updated'));
+    return createdOrUpdatedTask;
   };
 
   // Handler for "Edit & Resubmit" on Rejected Tasks
@@ -234,13 +250,10 @@ function DepartmentDashboardContent({ onLogout, onSelectDepartment }) {
             />
           </section>
 
-          {/* 2-Column Responsive Layout for Workflows */}
+          {/* Top Operational Grid: Defect Logging Form & Live Activity Feeds / Resource Tracking */}
           <div className="grid grid-cols-1 xl:grid-cols-12 gap-6 items-start">
-            
-            {/* Left / Center Main Operations Area (8 cols on xl) */}
+            {/* Left Operational Area: Log Department Defect Form (8 cols on xl) */}
             <div className="xl:col-span-8 space-y-6">
-              
-              {/* Component 2: Rebuilt LogDepartmentDefect Form */}
               <div id="defect-form" ref={formRef}>
                 <LogDepartmentDefect
                   onSubmit={handleDefectSubmit}
@@ -249,35 +262,10 @@ function DepartmentDashboardContent({ onLogout, onSelectDepartment }) {
                   department={departmentKey}
                 />
               </div>
-
-              {/* Component 3: Department Task Queue */}
-              <div id="task-queue">
-                <DepartmentTaskQueue
-                  tasks={tasks}
-                  isLoading={loadingTasks}
-                  error={tasksError}
-                  onRetry={loadTasks}
-                  onEditResubmit={handleEditResubmit}
-                  onOpenNewDefect={handleOpenNewDefect}
-                />
-              </div>
-
-              {/* Component 4: Confirmed Corridor Block Calendar */}
-              <div id="calendar">
-                <ConfirmedBlockCalendar
-                  blocks={blocks}
-                  tasks={tasks}
-                  isLoading={loadingBlocks}
-                  error={blocksError}
-                  onRetry={loadBlocks}
-                />
-              </div>
-
             </div>
 
             {/* Right Sidebar Area: Feeds & Capacity (4 cols on xl) */}
             <div className="xl:col-span-4 space-y-6">
-              
               {/* Component 5: Smart Activity Feed (Real-Time Polling) */}
               <div id="activity-feed" ref={feedRef}>
                 <SmartActivityFeed
@@ -298,10 +286,38 @@ function DepartmentDashboardContent({ onLogout, onSelectDepartment }) {
                   onRetry={loadResources}
                 />
               </div>
-
             </div>
-
           </div>
+
+          {/* Full-Width Section 1: Department Task Queue Table */}
+          <section id="task-queue" aria-label="Department Task Queue" className="w-full">
+            <DepartmentTaskQueue
+              tasks={tasks}
+              isLoading={loadingTasks}
+              error={tasksError}
+              onRetry={loadTasks}
+              onEditResubmit={handleEditResubmit}
+              onOpenNewDefect={handleOpenNewDefect}
+            />
+          </section>
+
+          {/* Full-Width Section 2: Confirmed Corridor Block Calendar (Full Google Calendar) */}
+          <section id="calendar" aria-label="Confirmed Corridor Block Calendar" className="w-full">
+            <ConfirmedBlockCalendar
+              blocks={blocks}
+              tasks={tasks}
+              departmentKey={departmentKey}
+              isLoading={loadingBlocks}
+              error={blocksError}
+              onRetry={loadBlocks}
+              onBlockCancelled={() => {
+                loadBlocks();
+                loadKpis();
+                loadTasks();
+                loadNotifications(true);
+              }}
+            />
+          </section>
         </main>
       </div>
     </div>

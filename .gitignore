@@ -1,6 +1,7 @@
 # Python
 __pycache__/
 *.pyc
+*.pyo
 .venv/
 venv/
 
@@ -11,10 +12,23 @@ venv/
 
 # Local database
 backend/railway.db
+*.db
+*.sqlite3
 
 # Antigravity / AI-generated project memory
 .codebase-memory/
 
-# Node
+# Node / Frontend
 node_modules/
 dist/
+frontend/.vite/
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+
+# Docker overrides
+docker-compose.override.yml

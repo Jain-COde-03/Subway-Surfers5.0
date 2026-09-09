@@ -8,10 +8,25 @@ export default defineConfig({
   server: {
     host: '0.0.0.0',
     port: 5173,
-    allowedHosts:[ "trinity-reformed-sagging.ngrok-free.dev"]
+    allowedHosts: ["trinity-reformed-sagging.ngrok-free.dev"],
+    proxy: {
+      // Forwards /api/* and /generate-plan to FastAPI on port 8000.
+      // changeOrigin rewrites the Host header so cookies set by FastAPI
+      // are accepted by the browser during local development.
+      '/api': {
+        target: 'http://127.0.0.1:8000',
+        changeOrigin: true,
+        cookieDomainRewrite: 'localhost',
+      },
+      '/generate-plan': {
+        target: 'http://127.0.0.1:8000',
+        changeOrigin: true,
+      },
+    },
   },
   preview: {
     host: '0.0.0.0',
     port: 4173,
   },
 })
+
