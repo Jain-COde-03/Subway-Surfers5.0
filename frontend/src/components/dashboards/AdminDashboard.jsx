@@ -37,6 +37,15 @@ import {
   Trash2,
 } from 'lucide-react';
 import GoogleCalendarView from '../calendar/GoogleCalendarView';
+import ThemeToggleSwitch from '../common/ThemeToggleSwitch';
+import adminUnifiedIllustration from '../../assets/admin_unified_illustration.png';
+import {
+  GlobalNetworkStatusView,
+  OptimizerAuditLogsView,
+  CorridorMapView,
+  DisruptionAnalyticsView,
+} from './AdminSupplementalViews';
+import VipAutoClearanceModal from './VipAutoClearanceModal';
 
 /* ========================================================================= */
 /* DATA CONTRACTS & SIMULATED FASTAPI ENDPOINT RESPONSES                     */
@@ -103,48 +112,34 @@ function AdminSidebar({ onLogout, activeNav, onSelectNav, isDarkMode, onToggleTh
   return (
     <aside className="relative z-40 w-64 bg-slate-900 shadow-[4px_0_24px_rgba(0,0,0,0.4)] border-r border-slate-800 text-slate-100 flex flex-col justify-between flex-shrink-0 h-full select-none">
       <div className="flex flex-col">
-        {/* Top Logo Area: Physical Terminal Bar */}
-        <div className="px-4 py-3.5 border-b-4 border-amber-700 flex items-center space-x-3 bg-slate-950">
-          <div className="w-8 h-8 rounded-sm bg-slate-900 border border-amber-600/60 flex items-center justify-center shadow-xs flex-shrink-0">
-            <Train className="w-4 h-4 text-amber-500" />
+        {/* Modern & Soothing Top Brand Header */}
+        <div className="p-4 pb-3.5 flex items-center space-x-3 border-b border-slate-800/60 bg-gradient-to-b from-slate-950/80 to-transparent">
+          <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-amber-500/20 via-slate-800 to-slate-900 border border-amber-500/30 flex items-center justify-center shadow-lg shadow-amber-500/10 flex-shrink-0">
+            <Train className="w-5 h-5 text-amber-400" />
           </div>
-          <div className="min-w-0">
-            <div className="flex items-center space-x-1.5">
-              <span className="text-white font-black text-sm tracking-wider leading-none">
+          <div className="min-w-0 flex-1">
+            <div className="flex items-center justify-between">
+              <span className="text-white font-extrabold text-sm tracking-widest leading-none font-mono">
                 S.A.M.A.Y
               </span>
-              <span className="text-[9px] font-black px-1.5 py-0.5 rounded-sm bg-amber-700 text-white leading-none tracking-tight">
+              <span className="text-[9px] font-mono font-bold px-2 py-0.5 rounded-full bg-amber-500/15 text-amber-300 border border-amber-500/30 shadow-xs">
                 HQ
               </span>
             </div>
-            <p className="text-[10px] text-slate-400 font-mono tracking-tight mt-1 truncate">
-              Central Operations Planning
-            </p>
-          </div>
-        </div>
-
-        {/* Profile: Chief Controller / Master Admin */}
-        <div className="mx-3 my-3 p-2.5 rounded-lg bg-slate-950/80 border border-slate-800 shadow-inner flex items-center space-x-2.5">
-          <div className="w-8 h-8 rounded-sm bg-slate-900 border border-amber-600/60 flex items-center justify-center text-amber-500 font-bold text-xs shrink-0 shadow-xs">
-            <UserCheck className="w-4 h-4 text-amber-500" />
-          </div>
-          <div className="min-w-0 flex-1">
-            <div className="text-xs font-bold text-white truncate tracking-wide">
-              Chief Controller / Master Admin
-            </div>
-            <div className="text-[10px] text-amber-400 font-mono font-bold tracking-tight flex items-center space-x-1">
-              <span className="w-1.5 h-1.5 rounded-none bg-emerald-400 animate-pulse"></span>
-              <span>Root Clearance · Level 5</span>
+            <div className="flex items-center gap-1.5 mt-1.5 text-[11px] text-slate-400 font-medium truncate">
+              <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 shadow-[0_0_6px_rgba(52,211,153,0.8)] animate-pulse shrink-0"></span>
+              <span className="truncate">Central Operations Planning</span>
             </div>
           </div>
         </div>
 
-        {/* Navigation Section */}
-        <div className="mt-1">
-          <div className="px-4 mb-2 text-[10px] font-bold text-slate-400 font-mono tracking-wider uppercase">
-            CONTROL CENTER NAVIGATION
+        {/* Navigation Section with Modern Tactile Pill Buttons */}
+        <div className="mt-3">
+          <div className="px-4 mb-2 text-[10px] font-bold text-slate-400/90 font-mono tracking-widest uppercase flex items-center justify-between">
+            <span>NAVIGATION</span>
+            <span className="text-[9px] text-slate-500 font-normal">PORTAL</span>
           </div>
-          <nav className="space-y-1 px-3">
+          <nav className="space-y-1.5 px-3">
             {navLinks.map((item) => {
               const Icon = item.icon;
               const isActive = activeNav === item.id;
@@ -154,71 +149,79 @@ function AdminSidebar({ onLogout, activeNav, onSelectNav, isDarkMode, onToggleTh
                   key={item.id}
                   type="button"
                   onClick={() => onSelectNav(item.id)}
-                  className={`w-full flex items-center space-x-3 px-3 py-2.5 rounded-lg text-xs font-semibold transition-all cursor-pointer text-left ${
+                  className={`w-full group flex items-center justify-between px-3 py-2.5 rounded-xl text-xs font-medium transition-all duration-200 cursor-pointer border border-transparent ${
                     isActive
-                      ? 'bg-slate-800 border-l-4 border-amber-600 text-white shadow-xs font-bold'
-                      : 'border-l-4 border-transparent text-slate-300 hover:text-white hover:bg-slate-800/60'
+                      ? 'bg-gradient-to-r from-amber-500/20 via-slate-800/90 to-slate-800/50 text-white font-semibold shadow-md shadow-black/20'
+                      : 'text-slate-400 hover:text-slate-100 hover:bg-slate-800/60'
                   }`}
                 >
-                  <Icon
-                    className={`w-4 h-4 shrink-0 ${
-                      isActive ? 'text-amber-500' : 'text-slate-400'
-                    }`}
-                  />
-                  <span className="truncate">{item.label}</span>
+                  <div className="flex items-center space-x-2.5 min-w-0">
+                    <div
+                      className={`w-7 h-7 rounded-lg flex items-center justify-center transition-colors shrink-0 ${
+                        isActive
+                          ? 'bg-amber-500/20 text-amber-400'
+                          : 'bg-slate-800/60 text-slate-400 group-hover:text-amber-400 group-hover:bg-slate-800'
+                      }`}
+                    >
+                      <Icon className="w-3.5 h-3.5" />
+                    </div>
+                    <span className="truncate">{item.label}</span>
+                  </div>
+                  {isActive ? (
+                    <span className="w-1.5 h-1.5 rounded-full bg-amber-400 shadow-[0_0_8px_rgba(251,191,36,0.8)] shrink-0 mr-1 animate-pulse" />
+                  ) : (
+                    <ChevronRight className="w-3.5 h-3.5 text-slate-600 group-hover:text-slate-400 transition-colors shrink-0 opacity-0 group-hover:opacity-100" />
+                  )}
                 </button>
               );
             })}
           </nav>
         </div>
+
+        {/* Section: Live Integrations (Modernized Pill) */}
+        <div className="mt-3 mb-1">
+          <div className="px-4 mb-1.5 text-[10px] font-bold text-amber-500/90 font-mono tracking-widest uppercase flex items-center gap-1.5">
+            <span>LIVE FEEDS</span>
+          </div>
+          <div className="px-3">
+            {/* Train Control (TCS) Feed */}
+            <div className="flex items-center justify-between px-3 py-2 rounded-xl bg-slate-950/60 border border-slate-800/80 text-[11px] shadow-xs">
+              <span className="text-slate-300 font-medium truncate pr-2 text-[11px]">
+                Train Control (TCS) Feed
+              </span>
+              <div className="flex items-center space-x-1.5 shrink-0">
+                <span className="w-2 h-2 rounded-full bg-emerald-500 shadow-[0_0_6px_rgba(16,185,129,0.8)] animate-pulse"></span>
+                <span className="text-[9px] font-mono font-bold text-emerald-400 uppercase tracking-wider">
+                  Online
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
-      {/* Bottom Status, Theme Toggle & Sign Out */}
-      <div className="p-3 border-t-2 border-slate-950 bg-slate-950 space-y-2">
-        {/* CP-SAT Solver Status */}
-        <div className="flex items-center justify-between px-2.5 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-white/90 text-[11px] shadow-inner">
+      {/* Bottom Illustration for Admin Dashboard: Seamlessly blended unified multi-department artwork */}
+      <div className="w-full mt-auto mb-0 px-0 flex flex-col items-center justify-end pointer-events-none select-none relative overflow-hidden">
+        <img
+          src={adminUnifiedIllustration}
+          alt="Unified Corridor Infrastructure"
+          className="w-full max-w-full h-auto object-contain border-0 outline-none shadow-none -mb-1"
+          style={{
+            maskImage: 'linear-gradient(to bottom, transparent 0%, black 15%, black 100%)',
+            WebkitMaskImage: 'linear-gradient(to bottom, transparent 0%, black 15%, black 100%)',
+          }}
+        />
+      </div>
+
+      {/* Bottom Status: CRIS AI Live shifted to the very bottom */}
+      <div className="px-3 pb-3.5 pt-1 bg-slate-950/95">
+        <div className="flex items-center justify-between px-3 py-2 rounded-xl bg-slate-900/90 border border-slate-800/80 text-white/90 text-[11px] shadow-xs">
           <div className="flex items-center space-x-2">
-            <span className="w-2 h-2 rounded-none bg-emerald-500 animate-pulse"></span>
-            <span className="font-bold text-white text-[11px]">CRIS CP-SAT v9.8</span>
+            <span className="w-2 h-2 rounded-full bg-emerald-500 shadow-[0_0_6px_rgba(16,185,129,0.8)] animate-pulse"></span>
+            <span className="font-bold text-white text-[11px]">CRIS AI Live</span>
           </div>
-          <span className="text-[10px] text-amber-400 font-mono font-bold">ACTIVE</span>
+          <span className="text-[10px] text-amber-400 font-mono font-bold">CP-SAT v9.8</span>
         </div>
-
-        {/* Mechanical Light/Dark Theme Toggle Button */}
-        <button
-          type="button"
-          onClick={onToggleTheme}
-          className="flex items-center gap-3 w-full p-3 rounded-lg border border-slate-700 hover:bg-slate-800 transition-all cursor-pointer text-slate-300"
-          title={isDarkMode ? 'Switch to Light Command' : 'Switch to Dark Command'}
-        >
-          {isDarkMode ? (
-            <>
-              <Sun className="w-4 h-4 text-amber-500 shrink-0" />
-              <span className="text-xs font-bold uppercase tracking-wider text-slate-200">
-                Light Command
-              </span>
-            </>
-          ) : (
-            <>
-              <Moon className="w-4 h-4 text-amber-400 shrink-0" />
-              <span className="text-xs font-bold uppercase tracking-wider text-slate-200">
-                Dark Command
-              </span>
-            </>
-          )}
-        </button>
-
-        {/* Sign Out Button */}
-        {onLogout && (
-          <button
-            type="button"
-            onClick={onLogout}
-            className="w-full flex items-center justify-center space-x-2 py-2 px-3 rounded-lg bg-slate-900 hover:bg-rose-950 hover:border-rose-700/60 text-white font-bold uppercase tracking-wider text-xs transition-all cursor-pointer border border-slate-800 shadow-md"
-          >
-            <LogOut className="w-3.5 h-3.5 text-amber-500" />
-            <span>Sign Out</span>
-          </button>
-        )}
       </div>
     </aside>
   );
@@ -236,7 +239,12 @@ function AdminKpiRibbon({ metrics }) {
       value: `${metrics.uptimePct}`,
       unit: '%',
       sub: 'Network target 99.0% exceeded (+0.4%)',
-      accentColor: 'bg-slate-700', // Steel
+      accentGradient:
+        'bg-gradient-to-br from-slate-100 via-slate-100 to-slate-200/90 dark:from-slate-700 dark:to-slate-800 border-t border-x border-slate-300/80 dark:border-slate-600/70',
+      badgeBg:
+        'bg-white/90 dark:bg-black/30 text-slate-700 dark:text-white border border-slate-300/80 dark:border-white/15',
+      watermarkColor: 'text-slate-500/15 dark:text-white/15',
+      dotHover: 'group-hover:bg-slate-500 group-hover:shadow-[0_0_6px_rgba(100,116,139,0.8)]',
       badge: 'SYSTEM UPTIME',
       icon: Activity,
     },
@@ -246,7 +254,12 @@ function AdminKpiRibbon({ metrics }) {
       value: `${metrics.hoursSaved}`,
       unit: 'hrs',
       sub: `${metrics.totalBundled} joint corridors synchronized`,
-      accentColor: 'bg-amber-700', // Rust
+      accentGradient:
+        'bg-gradient-to-br from-amber-50 via-amber-100/70 to-amber-100 dark:from-amber-700 dark:to-amber-800 border-t border-x border-amber-200/80 dark:border-amber-600/70',
+      badgeBg:
+        'bg-white/90 dark:bg-black/30 text-amber-800 dark:text-white border border-amber-300/70 dark:border-white/15',
+      watermarkColor: 'text-amber-600/15 dark:text-white/15',
+      dotHover: 'group-hover:bg-amber-500 group-hover:shadow-[0_0_6px_rgba(245,158,11,0.8)]',
       badge: 'BUNDLING GAIN',
       icon: Flame,
     },
@@ -256,7 +269,12 @@ function AdminKpiRibbon({ metrics }) {
       value: `${metrics.criticalDefects}`,
       unit: 'Units',
       sub: 'Requires urgent block possession',
-      accentColor: 'bg-emerald-800', // Deep Pine
+      accentGradient:
+        'bg-gradient-to-br from-rose-50 via-rose-100/70 to-rose-100 dark:from-rose-800/80 dark:to-rose-900 border-t border-x border-rose-200/80 dark:border-rose-700/70',
+      badgeBg:
+        'bg-white/90 dark:bg-black/30 text-rose-800 dark:text-white border border-rose-300/70 dark:border-white/15',
+      watermarkColor: 'text-rose-600/15 dark:text-white/15',
+      dotHover: 'group-hover:bg-rose-500 group-hover:shadow-[0_0_6px_rgba(244,63,94,0.8)]',
       badge: 'CRITICAL BACKLOG',
       icon: AlertTriangle,
     },
@@ -266,7 +284,12 @@ function AdminKpiRibbon({ metrics }) {
       value: `${metrics.resourceStrain}`,
       unit: '%',
       sub: 'Equilibrium maintained across divisions',
-      accentColor: 'bg-slate-800', // Gunmetal
+      accentGradient:
+        'bg-gradient-to-br from-blue-50 via-indigo-50/70 to-blue-100 dark:from-blue-700 dark:to-indigo-800 border-t border-x border-blue-200/80 dark:border-blue-600/70',
+      badgeBg:
+        'bg-white/90 dark:bg-black/30 text-blue-800 dark:text-white border border-blue-300/70 dark:border-white/15',
+      watermarkColor: 'text-blue-600/15 dark:text-white/15',
+      dotHover: 'group-hover:bg-blue-500 group-hover:shadow-[0_0_6px_rgba(59,130,246,0.8)]',
       badge: 'LOAD FACTOR',
       icon: SlidersHorizontal,
     },
@@ -280,43 +303,48 @@ function AdminKpiRibbon({ metrics }) {
         return (
           <div
             key={card.id}
-            className="group cursor-pointer relative h-40 w-full rounded-lg overflow-hidden shadow-xl shadow-slate-900/10 dark:shadow-black/40"
+            className="group cursor-pointer relative h-40 w-full rounded-2xl transition-all duration-300"
           >
             {/* Top Accent Layer (Translates up on group hover) */}
             <div
-              className={`absolute top-0 left-0 w-full h-24 rounded-t-lg overflow-hidden transition-transform duration-300 ease-in-out group-hover:-translate-y-2 ${card.accentColor}`}
+              className={`absolute top-0 left-0 w-full h-24 rounded-t-2xl overflow-hidden transition-transform duration-300 ease-out group-hover:-translate-y-2.5 shadow-xs ${card.accentGradient}`}
             >
               {/* Top Accent Badge */}
-              <div className="px-3.5 py-2.5 flex items-center space-x-1.5 text-white/90">
-                <Icon className="w-3.5 h-3.5" />
-                <span className="text-[10px] font-extrabold uppercase tracking-wider font-mono">
-                  {card.badge}
-                </span>
+              <div className="px-3.5 py-2.5 flex items-center justify-between">
+                <div className={`px-2.5 py-0.5 rounded-full flex items-center space-x-1.5 shadow-xs ${card.badgeBg}`}>
+                  <Icon className="w-3 h-3 text-current opacity-90" />
+                  <span className="text-[9px] font-mono font-bold uppercase tracking-wider text-current">
+                    {card.badge}
+                  </span>
+                </div>
               </div>
 
-              {/* Large Watermark Icon Overflowing Right Edge */}
+              {/* Large Semi-Transparent Watermark Icon */}
               <Icon
-                className="absolute -right-3 -bottom-3 w-20 h-20 text-white/20 pointer-events-none transform -rotate-12 transition-transform duration-300 group-hover:scale-110 group-hover:-rotate-6"
+                className={`absolute -right-3 -bottom-3 w-20 h-20 pointer-events-none transform -rotate-12 transition-transform duration-300 group-hover:scale-110 group-hover:-rotate-6 ${card.watermarkColor}`}
                 aria-hidden="true"
               />
             </div>
 
-            {/* Bottom Data Layer (Overlaps top accent layer) */}
-            <div className="absolute bottom-0 left-0 w-full h-28 z-10 rounded-lg p-4 flex flex-col justify-between shadow-xl bg-slate-800 dark:bg-slate-900 text-white border border-slate-700/60 dark:border-slate-800 group-hover:shadow-2xl transition-all duration-300">
+            {/* Bottom Data Layer (Responsive to Light / Dark Mode) */}
+            <div className="absolute bottom-0 left-0 w-full h-28 z-10 rounded-2xl p-4 flex flex-col justify-between bg-white dark:bg-slate-900 border border-slate-200/90 dark:border-slate-800/80 shadow-lg shadow-slate-900/5 dark:shadow-black/40 group-hover:shadow-2xl transition-all duration-300">
               {/* Card Title */}
-              <span className="text-[11px] font-bold text-slate-300 uppercase tracking-wider font-mono">
-                {card.title}
-              </span>
+              <div className="flex items-center justify-between">
+                <span className="text-[10px] font-mono font-bold text-slate-500 dark:text-slate-400 uppercase tracking-wider">
+                  {card.title}
+                </span>
+                <span className={`w-1.5 h-1.5 rounded-full bg-slate-300 dark:bg-slate-700 ${card.dotHover} transition-all`}></span>
+              </div>
 
               {/* Metric Value */}
-              <div className="flex items-baseline">
-                <span className="text-2xl font-black text-white tracking-tight font-mono">
+              <div className="flex items-baseline space-x-1.5">
+                <span className="text-2xl sm:text-3xl font-black text-slate-900 dark:text-white tracking-tight leading-none font-sans">
                   {card.value}
                 </span>
                 {card.unit && (
                   <span
-                    className={`text-xs font-semibold text-slate-300 ${
-                      card.unit === '%' ? 'ml-0.5' : 'ml-1.5'
+                    className={`text-xs font-semibold text-slate-500 dark:text-slate-400 font-mono ${
+                      card.unit === '%' ? 'ml-0.5' : 'ml-1'
                     }`}
                   >
                     {card.unit}
@@ -325,7 +353,7 @@ function AdminKpiRibbon({ metrics }) {
               </div>
 
               {/* Subtitle */}
-              <p className="text-[11px] text-slate-300/90 font-medium truncate">
+              <p className="text-[11px] text-slate-500 dark:text-slate-400 font-medium truncate">
                 {card.sub}
               </p>
             </div>
@@ -340,23 +368,23 @@ function AdminKpiRibbon({ metrics }) {
 /* MODULE 3: THE TOP ACTION CENTER (CP-SAT ENGINE)                           */
 /* ========================================================================= */
 
-function CpSatActionCenter({ engineState, onRunOptimizer, onSeedDemoData, onClearData }) {
+function CpSatActionCenter({ engineState, onRunOptimizer, onSeedDemoData, onClearData, onOpenVipClearance }) {
   const isRunning = engineState === 'running';
 
   return (
-    <div className="w-full bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 shadow-xl shadow-slate-900/10 dark:shadow-black/40 overflow-hidden relative transition-colors duration-300">
-      {/* Minimalist Slate Header */}
-      <div className="px-5 py-4 rounded-t-lg bg-slate-100 dark:bg-slate-800/40 flex flex-wrap items-center justify-between gap-3">
-        <div className="flex items-center space-x-2.5">
-          <div className="w-8 h-8 rounded-sm bg-slate-100 dark:bg-slate-950 text-amber-600 dark:text-amber-500 flex items-center justify-center border border-slate-200 dark:border-slate-800 flex-shrink-0">
-            <Cpu className="w-4 h-4" />
+    <div className="w-full bg-white dark:bg-slate-900 rounded-2xl border border-slate-200/90 dark:border-slate-800 shadow-xl shadow-slate-900/5 dark:shadow-black/40 overflow-hidden relative transition-colors duration-300">
+      {/* S.A.M.A.Y Signature Header */}
+      <div className="px-5 py-4 bg-gradient-to-r from-amber-500/10 via-amber-50/40 to-slate-100/60 dark:from-amber-500/15 dark:via-slate-900/90 dark:to-slate-900 border-b border-slate-200/80 dark:border-slate-800 flex flex-wrap items-center justify-between gap-3">
+        <div className="flex items-center space-x-3">
+          <div className="w-10 h-10 rounded-2xl bg-amber-500/10 dark:bg-amber-500/20 border border-amber-500/30 flex items-center justify-center text-amber-600 dark:text-amber-400 shadow-xs flex-shrink-0">
+            <Cpu className="w-5 h-5" />
           </div>
           <div>
             <div className="flex items-center space-x-2">
               <h2 className="text-xs sm:text-sm font-black uppercase tracking-wider text-slate-900 dark:text-slate-100 leading-tight">
                 OR-TOOLS CP-SAT PLANNING ENGINE
               </h2>
-              <span className="text-[9px] font-bold px-1.5 py-0.5 rounded-sm bg-amber-700 text-white uppercase font-mono">
+              <span className="text-[9px] font-mono font-bold px-2.5 py-0.5 rounded-full bg-amber-500/15 text-amber-800 dark:text-amber-300 border border-amber-500/30 uppercase tracking-wider">
                 GLOBAL MIP SOLVER
               </span>
             </div>
@@ -367,7 +395,7 @@ function CpSatActionCenter({ engineState, onRunOptimizer, onSeedDemoData, onClea
         </div>
 
         {/* Solver Engine State Pill */}
-        <div className="flex items-center space-x-2 px-2.5 py-1 rounded-sm border border-slate-300 dark:border-slate-700 bg-slate-100 dark:bg-slate-950 text-slate-900 dark:text-white">
+        <div className="flex items-center space-x-2 px-3 py-1.5 rounded-xl border border-slate-200/90 dark:border-slate-800 bg-white/80 dark:bg-slate-950 text-slate-900 dark:text-white shadow-xs">
           <span
             className={`w-2 h-2 rounded-full ${
               isRunning
@@ -391,33 +419,30 @@ function CpSatActionCenter({ engineState, onRunOptimizer, onSeedDemoData, onClea
         </div>
       </div>
 
-      {/* Vanishing Dark Strip */}
-      <div className="h-1.5 w-full bg-gradient-to-r from-slate-800 via-slate-700 to-transparent dark:from-slate-600 dark:via-slate-700/50 dark:to-transparent opacity-90"></div>
-
       {/* Main Body */}
       <div className="p-4 sm:p-5 space-y-4">
         {/* 4 Modular Micro-Cards for Telemetry & Engine Config */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
           {/* Card 1: Engine State */}
-          <div className="bg-white dark:bg-slate-950 border border-slate-200/90 dark:border-slate-800 rounded-lg p-3.5 shadow-xs space-y-2 hover:border-slate-300 dark:hover:border-slate-700 transition-all">
+          <div className="bg-slate-50/80 dark:bg-slate-950/80 border border-slate-200/80 dark:border-slate-800/80 rounded-xl p-3.5 shadow-xs space-y-2 hover:border-amber-500/40 transition-all">
             <div className="flex items-center justify-between text-[11px] font-mono">
               <span className="font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">
                 ENGINE STATE
               </span>
-              <span className="text-[9px] font-mono font-bold px-1.5 py-0.5 rounded-md bg-slate-100 dark:bg-slate-900 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-800">
+              <span className="text-[9px] font-mono font-bold px-2 py-0.5 rounded-full bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-800 shadow-xs">
                 MIP Mode
               </span>
             </div>
             <div>
               <span
-                className={`inline-block font-mono text-xs font-bold px-2 py-0.5 rounded-md border ${
+                className={`inline-block font-mono text-xs font-bold px-2.5 py-0.5 rounded-lg border ${
                   engineState === 'running'
                     ? 'bg-amber-100 dark:bg-amber-950/60 text-amber-900 dark:text-amber-300 border-amber-300 dark:border-amber-700 animate-pulse'
                     : engineState === 'review'
                     ? 'bg-blue-100 dark:bg-blue-950/60 text-blue-900 dark:text-blue-300 border-blue-300 dark:border-blue-700'
                     : engineState === 'approved'
                     ? 'bg-emerald-100 dark:bg-emerald-950/60 text-emerald-900 dark:text-emerald-300 border-emerald-300 dark:border-emerald-700'
-                    : 'bg-slate-100 dark:bg-slate-900 text-slate-800 dark:text-slate-200 border-slate-300 dark:border-slate-700'
+                    : 'bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200 border-slate-200 dark:border-slate-700'
                 }`}
               >
                 {engineState === 'running'
@@ -435,12 +460,12 @@ function CpSatActionCenter({ engineState, onRunOptimizer, onSeedDemoData, onClea
           </div>
 
           {/* Card 2: Solver Core */}
-          <div className="bg-white dark:bg-slate-950 border border-slate-200/90 dark:border-slate-800 rounded-lg p-3.5 shadow-xs space-y-2 hover:border-slate-300 dark:hover:border-slate-700 transition-all">
+          <div className="bg-slate-50/80 dark:bg-slate-950/80 border border-slate-200/80 dark:border-slate-800/80 rounded-xl p-3.5 shadow-xs space-y-2 hover:border-amber-500/40 transition-all">
             <div className="flex items-center justify-between text-[11px] font-mono">
               <span className="font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">
                 SOLVER CORE
               </span>
-              <span className="text-[9px] font-mono font-bold px-1.5 py-0.5 rounded-md bg-amber-50 dark:bg-amber-950/60 text-amber-800 dark:text-amber-300 border border-amber-200 dark:border-amber-800/80">
+              <span className="text-[9px] font-mono font-bold px-2 py-0.5 rounded-full bg-amber-50 dark:bg-amber-950/60 text-amber-800 dark:text-amber-300 border border-amber-200 dark:border-amber-800/80 shadow-xs">
                 v9.8.3296
               </span>
             </div>
@@ -453,12 +478,12 @@ function CpSatActionCenter({ engineState, onRunOptimizer, onSeedDemoData, onClea
           </div>
 
           {/* Card 3: Feasible Slots */}
-          <div className="bg-white dark:bg-slate-950 border border-slate-200/90 dark:border-slate-800 rounded-lg p-3.5 shadow-xs space-y-2 hover:border-slate-300 dark:hover:border-slate-700 transition-all">
+          <div className="bg-slate-50/80 dark:bg-slate-950/80 border border-slate-200/80 dark:border-slate-800/80 rounded-xl p-3.5 shadow-xs space-y-2 hover:border-amber-500/40 transition-all">
             <div className="flex items-center justify-between text-[11px] font-mono">
               <span className="font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">
                 FEASIBLE SLOTS
               </span>
-              <span className="text-[9px] font-mono font-bold px-1.5 py-0.5 rounded-md bg-slate-100 dark:bg-slate-900 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-800">
+              <span className="text-[9px] font-mono font-bold px-2 py-0.5 rounded-full bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-800 shadow-xs">
                 COA Matrix
               </span>
             </div>
@@ -471,12 +496,12 @@ function CpSatActionCenter({ engineState, onRunOptimizer, onSeedDemoData, onClea
           </div>
 
           {/* Card 4: Avg Solve Time */}
-          <div className="bg-white dark:bg-slate-950 border border-slate-200/90 dark:border-slate-800 rounded-lg p-3.5 shadow-xs space-y-2 hover:border-slate-300 dark:hover:border-slate-700 transition-all">
+          <div className="bg-slate-50/80 dark:bg-slate-950/80 border border-slate-200/80 dark:border-slate-800/80 rounded-xl p-3.5 shadow-xs space-y-2 hover:border-amber-500/40 transition-all">
             <div className="flex items-center justify-between text-[11px] font-mono">
               <span className="font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">
                 AVG SOLVE TIME
               </span>
-              <span className="text-[9px] font-mono font-bold px-1.5 py-0.5 rounded-md bg-emerald-50 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800/80">
+              <span className="text-[9px] font-mono font-bold px-2 py-0.5 rounded-full bg-emerald-50 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800/80 shadow-xs">
                 Latency
               </span>
             </div>
@@ -490,7 +515,7 @@ function CpSatActionCenter({ engineState, onRunOptimizer, onSeedDemoData, onClea
         </div>
 
         {/* Action Bar with Unified Responsive Toolbar */}
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-4 pt-3.5 border-t border-slate-200 dark:border-slate-800">
+        <div className="flex flex-col lg:flex-row items-center justify-between gap-4 pt-3.5 border-t border-slate-200/80 dark:border-slate-800">
           <div className="flex items-center space-x-2 text-[11px] font-mono text-slate-500 dark:text-slate-400">
             <span className="w-2 h-2 rounded-full bg-amber-500 animate-pulse"></span>
             <span>Cross-department possession synthesis · Indian Railways Central Operations</span>
@@ -502,7 +527,7 @@ function CpSatActionCenter({ engineState, onRunOptimizer, onSeedDemoData, onClea
                 type="button"
                 onClick={onClearData}
                 title="Wipe all tasks, blocks, and start from a clean blank slate"
-                className="inline-flex items-center justify-center space-x-1.5 px-3 py-2 rounded-lg font-bold text-[11px] uppercase tracking-wider bg-rose-50 hover:bg-rose-100 dark:bg-rose-950/40 dark:hover:bg-rose-900/60 text-rose-700 dark:text-rose-300 border border-rose-300 dark:border-rose-800/80 shadow-xs transition-all cursor-pointer whitespace-nowrap"
+                className="inline-flex items-center justify-center space-x-1.5 px-3.5 py-2 rounded-xl font-bold text-[11px] uppercase tracking-wider bg-rose-50 hover:bg-rose-100 dark:bg-rose-950/40 dark:hover:bg-rose-900/60 text-rose-700 dark:text-rose-300 border border-rose-300/80 dark:border-rose-800/80 shadow-xs transition-all cursor-pointer whitespace-nowrap active:scale-[0.98]"
               >
                 <Trash2 className="w-3.5 h-3.5 text-rose-500" />
                 <span>CLEAR ALL</span>
@@ -514,10 +539,22 @@ function CpSatActionCenter({ engineState, onRunOptimizer, onSeedDemoData, onClea
                 type="button"
                 onClick={onSeedDemoData}
                 title="Populate test defect queue and schedule for live demonstration"
-                className="inline-flex items-center justify-center space-x-1.5 px-3.5 py-2 rounded-lg font-bold text-[11px] uppercase tracking-wider bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 border border-slate-300 dark:border-slate-700 shadow-xs transition-all cursor-pointer whitespace-nowrap"
+                className="inline-flex items-center justify-center space-x-1.5 px-3.5 py-2 rounded-xl font-bold text-[11px] uppercase tracking-wider bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 border border-slate-300/80 dark:border-slate-700 shadow-xs transition-all cursor-pointer whitespace-nowrap active:scale-[0.98]"
               >
                 <Database className="w-3.5 h-3.5 text-amber-500" />
                 <span>LOAD DEMO DATA</span>
+              </button>
+            )}
+
+            {onOpenVipClearance && (
+              <button
+                type="button"
+                onClick={onOpenVipClearance}
+                title="Dynamic Constraint Resolution Demonstration: Part the Red Sea"
+                className="inline-flex items-center justify-center space-x-1.5 px-3.5 py-2 rounded-xl font-bold text-[11px] uppercase tracking-wider bg-gradient-to-r from-amber-500/20 via-amber-400/25 to-amber-500/15 hover:from-amber-500/30 hover:to-amber-500/25 text-amber-900 dark:text-amber-200 border border-amber-500/40 shadow-xs transition-all cursor-pointer whitespace-nowrap active:scale-[0.98] group"
+              >
+                <Sparkles className="w-3.5 h-3.5 text-amber-500 group-hover:rotate-12 transition-transform animate-pulse" />
+                <span>VIP AUTO-CLEARANCE DEMO</span>
               </button>
             )}
 
@@ -525,10 +562,10 @@ function CpSatActionCenter({ engineState, onRunOptimizer, onSeedDemoData, onClea
               type="button"
               disabled={isRunning}
               onClick={onRunOptimizer}
-              className={`inline-flex items-center justify-center space-x-2 px-5 py-2 rounded-lg font-bold text-[11px] uppercase tracking-wider shadow-md transition-all cursor-pointer whitespace-nowrap ${
+              className={`inline-flex items-center justify-center space-x-2 px-5 py-2 rounded-xl font-bold text-[11px] uppercase tracking-wider shadow-lg transition-all cursor-pointer whitespace-nowrap ${
                 isRunning
                   ? 'bg-amber-700 text-white opacity-90 cursor-not-allowed animate-pulse'
-                  : 'bg-amber-600 hover:bg-amber-500 text-white active:scale-[0.99] shadow-amber-500/20'
+                  : 'bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white active:scale-[0.99] shadow-amber-500/20'
               }`}
             >
               {isRunning ? (
@@ -583,23 +620,23 @@ function OptimizerProposalReviewQueue({
       : proposals;
 
   return (
-    <div className="w-full bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 shadow-xl shadow-slate-900/10 dark:shadow-black/40 overflow-hidden transition-colors duration-300 animate-fadeIn">
-      {/* Minimalist Slate Header */}
-      <div className="px-5 py-4 rounded-t-lg bg-slate-100 dark:bg-slate-800/40 flex flex-wrap items-center justify-between gap-3">
-        <div className="flex items-center space-x-2.5">
-          <div className="w-8 h-8 rounded-sm bg-slate-100 dark:bg-slate-950 text-amber-600 dark:text-amber-500 flex items-center justify-center border border-slate-200 dark:border-slate-800 flex-shrink-0">
-            <Sparkles className="w-4 h-4" />
+    <div className="w-full bg-white dark:bg-slate-900 rounded-2xl border border-slate-200/90 dark:border-slate-800 shadow-xl shadow-slate-900/5 dark:shadow-black/40 overflow-hidden transition-colors duration-300 animate-fadeIn">
+      {/* S.A.M.A.Y Signature Header */}
+      <div className="px-5 py-4 bg-gradient-to-r from-amber-500/10 via-amber-50/40 to-slate-100/60 dark:from-amber-500/15 dark:via-slate-900/90 dark:to-slate-900 border-b border-slate-200/80 dark:border-slate-800 flex flex-wrap items-center justify-between gap-3">
+        <div className="flex items-center space-x-3">
+          <div className="w-10 h-10 rounded-2xl bg-amber-500/10 dark:bg-amber-500/20 border border-amber-500/30 flex items-center justify-center text-amber-600 dark:text-amber-400 shadow-xs flex-shrink-0">
+            <Sparkles className="w-5 h-5" />
           </div>
           <div>
             <div className="flex items-center space-x-2">
               <h3 className="text-xs sm:text-sm font-black uppercase tracking-wider text-slate-900 dark:text-slate-100 leading-tight">
                 OPTIMIZER PROPOSAL REVIEW QUEUE
               </h3>
-              <span className="text-[9px] font-mono font-bold px-1.5 py-0.5 rounded-sm bg-amber-700 text-white uppercase font-mono">
+              <span className="text-[9px] font-mono font-bold px-2.5 py-0.5 rounded-full bg-amber-500/15 text-amber-800 dark:text-amber-300 border border-amber-500/30 uppercase tracking-wider">
                 {pendingProposals.length} PENDING REVIEW
               </span>
               {approvedProposals.length > 0 && (
-                <span className="text-[9px] font-mono font-bold px-1.5 py-0.5 rounded-sm bg-emerald-700 text-white uppercase font-mono">
+                <span className="text-[9px] font-mono font-bold px-2.5 py-0.5 rounded-full bg-emerald-500/15 text-emerald-800 dark:text-emerald-300 border border-emerald-500/30 uppercase tracking-wider">
                   {approvedProposals.length} APPROVED
                 </span>
               )}
@@ -612,11 +649,11 @@ function OptimizerProposalReviewQueue({
 
         <div className="flex items-center space-x-2.5">
           {/* Filter Tabs */}
-          <div className="flex items-center bg-slate-200 dark:bg-slate-950 p-0.5 rounded-lg border border-slate-300 dark:border-slate-800 text-[10px] font-mono font-bold">
+          <div className="flex items-center bg-slate-100 dark:bg-slate-950 p-1 rounded-xl border border-slate-200/90 dark:border-slate-800 text-[10px] font-mono font-bold">
             <button
               type="button"
               onClick={() => setFilterTab('pending')}
-              className={`px-2.5 py-1 rounded-md transition-colors ${
+              className={`px-3 py-1.5 rounded-lg transition-colors ${
                 filterTab === 'pending'
                   ? 'bg-amber-600 text-white shadow-xs'
                   : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-200'
@@ -627,7 +664,7 @@ function OptimizerProposalReviewQueue({
             <button
               type="button"
               onClick={() => setFilterTab('approved')}
-              className={`px-2.5 py-1 rounded-md transition-colors ${
+              className={`px-3 py-1.5 rounded-lg transition-colors ${
                 filterTab === 'approved'
                   ? 'bg-emerald-600 text-white shadow-xs'
                   : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-200'
@@ -638,7 +675,7 @@ function OptimizerProposalReviewQueue({
             <button
               type="button"
               onClick={() => setFilterTab('all')}
-              className={`px-2.5 py-1 rounded-md transition-colors ${
+              className={`px-3 py-1.5 rounded-lg transition-colors ${
                 filterTab === 'all'
                   ? 'bg-slate-700 text-white shadow-xs'
                   : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-200'
@@ -651,17 +688,14 @@ function OptimizerProposalReviewQueue({
           <button
             type="button"
             onClick={onCommitAll}
-            className="inline-flex items-center space-x-2 px-3.5 py-2 rounded-lg bg-emerald-700 hover:bg-emerald-600 text-white font-bold uppercase text-[10px] tracking-wider shadow-xs transition-all cursor-pointer self-start sm:self-auto"
+            className="inline-flex items-center space-x-2 px-4 py-2 rounded-xl bg-gradient-to-r from-emerald-600 to-emerald-700 hover:from-emerald-700 hover:to-emerald-800 text-white font-bold uppercase text-[10px] tracking-wider shadow-md shadow-emerald-600/20 transition-all cursor-pointer self-start sm:self-auto active:scale-[0.99]"
           >
-            <CheckCircle2 className="w-3.5 h-3.5 text-emerald-300" />
+            <CheckCircle2 className="w-3.5 h-3.5 text-white" />
             <span>Commit All Approved to Master Schedule</span>
-            <ArrowRight className="w-3.5 h-3.5 text-emerald-300 ml-0.5" />
+            <ArrowRight className="w-3.5 h-3.5 text-white ml-0.5" />
           </button>
         </div>
       </div>
-
-      {/* Vanishing Dark Strip */}
-      <div className="h-1.5 w-full bg-gradient-to-r from-slate-800 via-slate-700 to-transparent dark:from-slate-600 dark:via-slate-700/50 dark:to-transparent opacity-90"></div>
 
       {/* Table Container */}
       <div className="p-4 sm:p-5">
@@ -892,19 +926,19 @@ function MasterMultiDeptCalendar({ schedule, onSelectBlock, onBlockCancelled, on
 
 function GlobalActivityFeed({ activities }) {
   return (
-    <div className="w-full bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 shadow-xl shadow-slate-900/10 dark:shadow-black/40 overflow-hidden flex flex-col h-full transition-colors duration-300">
-      {/* Minimalist Slate Header */}
-      <div className="px-5 py-4 rounded-t-lg bg-slate-100 dark:bg-slate-800/40 flex items-center justify-between gap-2">
-        <div className="flex items-center space-x-2.5">
-          <div className="w-8 h-8 rounded-sm bg-slate-100 dark:bg-slate-950 text-amber-600 dark:text-amber-500 flex items-center justify-center border border-slate-200 dark:border-slate-800 flex-shrink-0">
-            <Radio className="w-4 h-4" />
+    <div className="w-full bg-white dark:bg-slate-900 rounded-2xl border border-slate-200/90 dark:border-slate-800 shadow-xl shadow-slate-900/5 dark:shadow-black/40 overflow-hidden flex flex-col h-full transition-colors duration-300">
+      {/* S.A.M.A.Y Signature Header */}
+      <div className="px-5 py-4 bg-gradient-to-r from-amber-500/10 via-amber-50/40 to-slate-100/60 dark:from-amber-500/15 dark:via-slate-900/90 dark:to-slate-900 border-b border-slate-200/80 dark:border-slate-800 flex items-center justify-between gap-2">
+        <div className="flex items-center space-x-3">
+          <div className="w-10 h-10 rounded-2xl bg-amber-500/10 dark:bg-amber-500/20 border border-amber-500/30 flex items-center justify-center text-amber-600 dark:text-amber-400 shadow-xs flex-shrink-0">
+            <Radio className="w-5 h-5" />
           </div>
           <div>
             <div className="flex items-center space-x-2">
               <h3 className="text-xs sm:text-sm font-black uppercase tracking-wider text-slate-900 dark:text-slate-100 leading-tight">
                 LIVE SERVER ACTIVITY LOG
               </h3>
-              <span className="text-[9px] font-bold px-1.5 py-0.5 rounded-sm bg-amber-700 text-white uppercase font-mono">
+              <span className="text-[9px] font-mono font-bold px-2.5 py-0.5 rounded-full bg-amber-500/15 text-amber-800 dark:text-amber-300 border border-amber-500/30 uppercase tracking-wider">
                 TELEMETRY
               </span>
             </div>
@@ -915,24 +949,21 @@ function GlobalActivityFeed({ activities }) {
         </div>
 
         {/* Live Status Indicator */}
-        <div className="flex items-center space-x-2 px-2.5 py-1 rounded-sm border border-slate-300 dark:border-slate-700 bg-slate-100 dark:bg-slate-950 text-slate-900 dark:text-white">
-          <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+        <div className="flex items-center space-x-2 px-3 py-1.5 rounded-xl border border-slate-200/90 dark:border-slate-800 bg-white/80 dark:bg-slate-950 text-slate-900 dark:text-white shadow-xs">
+          <span className="w-2 h-2 rounded-full bg-emerald-500 shadow-[0_0_6px_rgba(16,185,129,0.8)] animate-pulse"></span>
           <span className="text-[10px] font-mono font-bold text-emerald-600 dark:text-emerald-400">
             ONLINE
           </span>
         </div>
       </div>
 
-      {/* Vanishing Dark Strip */}
-      <div className="h-1.5 w-full bg-gradient-to-r from-slate-800 via-slate-700 to-transparent dark:from-slate-600 dark:via-slate-700/50 dark:to-transparent opacity-90"></div>
-
       {/* Live Server Log Container */}
       <div className="p-4 sm:p-5 flex-1 flex flex-col justify-between space-y-3">
         <div className="space-y-2.5 overflow-y-auto max-h-[580px] flex-1">
           {activities.length === 0 ? (
             <div className="py-14 px-4 text-center space-y-2.5 flex flex-col items-center justify-center text-slate-400 dark:text-slate-500">
-              <div className="w-10 h-10 rounded-full bg-slate-100 dark:bg-slate-800/80 flex items-center justify-center text-slate-400 border border-slate-200 dark:border-slate-700/60">
-                <Radio className="w-5 h-5 animate-pulse text-amber-500" />
+              <div className="w-12 h-12 rounded-2xl bg-amber-500/10 dark:bg-amber-500/20 border border-amber-500/30 flex items-center justify-center text-amber-600 dark:text-amber-400 shadow-xs">
+                <Radio className="w-6 h-6 animate-pulse" />
               </div>
               <p className="text-xs font-bold text-slate-700 dark:text-slate-300 font-mono">
                 TELEMETRY STANDBY
@@ -945,7 +976,7 @@ function GlobalActivityFeed({ activities }) {
             activities.map((item) => (
               <div
                 key={item.id}
-                className="bg-white dark:bg-slate-950 border border-slate-200/90 dark:border-slate-800 rounded-lg p-3.5 shadow-xs space-y-1.5 hover:border-slate-300 dark:hover:border-slate-700 transition-all"
+                className="bg-slate-50/80 dark:bg-slate-950/80 border border-slate-200/80 dark:border-slate-800/80 rounded-xl p-3.5 shadow-xs space-y-1.5 hover:border-amber-500/40 transition-all"
               >
                 <div className="flex items-center justify-between text-xs">
                   <span
@@ -955,7 +986,7 @@ function GlobalActivityFeed({ activities }) {
                         : item.dept === 'Signal'
                         ? 'bg-amber-50 dark:bg-amber-950/60 text-amber-900 dark:text-amber-300 border-amber-300 dark:border-amber-700/80'
                         : item.dept === 'Electrical'
-                        ? 'bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-300 border-slate-300 dark:border-slate-700'
+                        ? 'bg-blue-50 dark:bg-blue-950/60 text-blue-900 dark:text-blue-300 border-blue-300 dark:border-blue-700/80'
                         : 'bg-purple-50 dark:bg-purple-950/60 text-purple-900 dark:text-purple-300 border-purple-300 dark:border-purple-700/80'
                     }`}
                   >
@@ -975,9 +1006,9 @@ function GlobalActivityFeed({ activities }) {
         </div>
 
         {/* Telemetry Sync Status Footer */}
-        <div className="pt-3 border-t border-slate-200 dark:border-slate-800 flex items-center justify-between text-[10px] font-mono text-slate-500 dark:text-slate-400">
+        <div className="pt-3 border-t border-slate-200/80 dark:border-slate-800 flex items-center justify-between text-[10px] font-mono text-slate-500 dark:text-slate-400">
           <span className="flex items-center space-x-1.5">
-            <span className="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+            <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 shadow-[0_0_6px_rgba(16,185,129,0.8)]"></span>
             <span>HQ Telemetry Stream Active</span>
           </span>
           <span>SYNC: REALTIME</span>
@@ -1156,11 +1187,11 @@ function CpSatPipelineModal({
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70 backdrop-blur-xs animate-fadeIn">
-      <div className="w-full max-w-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-xl shadow-2xl shadow-slate-900/40 dark:shadow-black/60 overflow-hidden flex flex-col max-h-[90vh]">
-        {/* Minimalist Slate Header */}
-        <div className="px-6 py-4 rounded-t-xl bg-slate-100 dark:bg-slate-800/40 flex items-center justify-between flex-shrink-0">
+      <div className="w-full max-w-2xl bg-white dark:bg-slate-900 border border-slate-200/90 dark:border-slate-800 rounded-2xl shadow-2xl shadow-slate-900/40 dark:shadow-black/60 overflow-hidden flex flex-col max-h-[90vh]">
+        {/* S.A.M.A.Y Signature Header */}
+        <div className="px-6 py-4 bg-gradient-to-r from-amber-500/10 via-amber-50/40 to-slate-100/60 dark:from-amber-500/15 dark:via-slate-900/90 dark:to-slate-900 border-b border-slate-200/80 dark:border-slate-800 flex items-center justify-between flex-shrink-0">
           <div className="flex items-center space-x-3">
-            <div className="w-9 h-9 rounded-sm bg-slate-100 dark:bg-slate-950 text-amber-600 dark:text-amber-500 flex items-center justify-center border border-slate-200 dark:border-slate-800 flex-shrink-0 shadow-xs">
+            <div className="w-10 h-10 rounded-2xl bg-amber-500/10 dark:bg-amber-500/20 border border-amber-500/30 text-amber-600 dark:text-amber-400 flex items-center justify-center flex-shrink-0 shadow-xs">
               <Cpu className={`w-5 h-5 ${!isComplete ? 'animate-pulse' : ''}`} />
             </div>
             <div>
@@ -1169,8 +1200,10 @@ function CpSatPipelineModal({
                   CRIS CP-SAT OPTIMIZATION PIPELINE
                 </h3>
                 <span
-                  className={`text-[9px] font-bold px-1.5 py-0.5 rounded-sm uppercase font-mono ${
-                    isComplete ? 'bg-emerald-600 text-white' : 'bg-amber-700 text-white animate-pulse'
+                  className={`text-[9px] font-mono font-bold px-2.5 py-0.5 rounded-full uppercase tracking-wider ${
+                    isComplete
+                      ? 'bg-emerald-500/15 text-emerald-800 dark:text-emerald-300 border border-emerald-500/30'
+                      : 'bg-amber-500/15 text-amber-800 dark:text-amber-300 border border-amber-500/30 animate-pulse'
                   }`}
                 >
                   {isComplete ? 'SOLVER CONVERGED' : 'SOLVER ACTIVE'}
@@ -1185,15 +1218,12 @@ function CpSatPipelineModal({
           <button
             type="button"
             onClick={onClose}
-            className="p-1.5 rounded-lg text-slate-400 hover:text-slate-900 dark:hover:text-white hover:bg-slate-200 dark:hover:bg-slate-800 transition-colors cursor-pointer"
+            className="p-2 rounded-xl text-slate-400 hover:text-slate-900 dark:hover:text-white hover:bg-slate-200/80 dark:hover:bg-slate-800 transition-colors cursor-pointer"
             title="Close Telemetry"
           >
             <X className="w-4 h-4" />
           </button>
         </div>
-
-        {/* Vanishing Dark Strip */}
-        <div className="h-1.5 w-full bg-gradient-to-r from-slate-800 via-slate-700 to-transparent dark:from-slate-600 dark:via-slate-700/50 dark:to-transparent opacity-90 flex-shrink-0"></div>
 
         {/* Modal Scrollable Body */}
         <div className="p-5 sm:p-6 space-y-4 overflow-y-auto">
@@ -1425,19 +1455,19 @@ function BlockDetailModal({ block, onClose, onCancelBlock }) {
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-xs animate-fadeIn">
-      <div className="w-full max-w-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-xl shadow-2xl overflow-hidden">
-        {/* Minimalist Slate Header */}
-        <div className="px-5 py-4 rounded-t-xl bg-slate-100 dark:bg-slate-800/40 flex items-center justify-between">
-          <div className="flex items-center space-x-2.5">
-            <div className="w-8 h-8 rounded-sm bg-slate-100 dark:bg-slate-950 text-amber-600 dark:text-amber-500 flex items-center justify-center border border-slate-200 dark:border-slate-800 flex-shrink-0">
-              <CalendarIcon className="w-4 h-4" />
+      <div className="w-full max-w-xl bg-white dark:bg-slate-900 border border-slate-200/90 dark:border-slate-800 rounded-2xl shadow-2xl overflow-hidden">
+        {/* S.A.M.A.Y Signature Header */}
+        <div className="px-5 py-4 bg-gradient-to-r from-amber-500/10 via-amber-50/40 to-slate-100/60 dark:from-amber-500/15 dark:via-slate-900/90 dark:to-slate-900 border-b border-slate-200/80 dark:border-slate-800 flex items-center justify-between">
+          <div className="flex items-center space-x-3">
+            <div className="w-10 h-10 rounded-2xl bg-amber-500/10 dark:bg-amber-500/20 border border-amber-500/30 text-amber-600 dark:text-amber-400 flex items-center justify-center flex-shrink-0 shadow-xs">
+              <CalendarIcon className="w-5 h-5" />
             </div>
             <div>
               <div className="flex items-center space-x-2">
                 <h3 className="text-xs sm:text-sm font-black uppercase tracking-wider text-slate-900 dark:text-slate-100">
                   CORRIDOR POSSESSION TELEMETRY · {block.id}
                 </h3>
-                <span className="text-[9px] font-bold px-1.5 py-0.5 rounded-sm bg-amber-700 text-white uppercase font-mono">
+                <span className="text-[9px] font-mono font-bold px-2.5 py-0.5 rounded-full bg-amber-500/15 text-amber-800 dark:text-amber-300 border border-amber-500/30 uppercase tracking-wider">
                   GAZETTED
                 </span>
               </div>
@@ -1450,14 +1480,11 @@ function BlockDetailModal({ block, onClose, onCancelBlock }) {
           <button
             type="button"
             onClick={onClose}
-            className="p-1.5 rounded-lg text-slate-400 hover:text-slate-900 dark:hover:text-white hover:bg-slate-200 dark:hover:bg-slate-800 transition-colors cursor-pointer"
+            className="p-2 rounded-xl text-slate-400 hover:text-slate-900 dark:hover:text-white hover:bg-slate-200/80 dark:hover:bg-slate-800 transition-colors cursor-pointer"
           >
             <X className="w-4 h-4" />
           </button>
         </div>
-
-        {/* Vanishing Dark Strip */}
-        <div className="h-1.5 w-full bg-gradient-to-r from-slate-800 via-slate-700 to-transparent dark:from-slate-600 dark:via-slate-700/50 dark:to-transparent opacity-90"></div>
 
         {/* Modal Body */}
         <div className="p-5 space-y-3.5 text-xs">
@@ -1770,12 +1797,12 @@ function ProposalDetailModal({ proposal, onClose, onApprove, onReject }) {
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70 backdrop-blur-xs animate-fadeIn">
-      <div className="w-full max-w-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-xl shadow-2xl shadow-slate-900/40 dark:shadow-black/60 overflow-hidden flex flex-col max-h-[92vh]">
-        {/* Minimalist Slate Header */}
-        <div className="px-6 py-4 rounded-t-xl bg-slate-100 dark:bg-slate-800/40 flex items-center justify-between flex-shrink-0">
+      <div className="w-full max-w-3xl bg-white dark:bg-slate-900 border border-slate-200/90 dark:border-slate-800 rounded-2xl shadow-2xl shadow-slate-900/40 dark:shadow-black/60 overflow-hidden flex flex-col max-h-[92vh]">
+        {/* S.A.M.A.Y Signature Header */}
+        <div className="px-6 py-4 bg-gradient-to-r from-amber-500/10 via-amber-50/40 to-slate-100/60 dark:from-amber-500/15 dark:via-slate-900/90 dark:to-slate-900 border-b border-slate-200/80 dark:border-slate-800 flex items-center justify-between flex-shrink-0">
           <div className="flex items-center space-x-3">
-            <div className="w-9 h-9 rounded-sm bg-slate-100 dark:bg-slate-950 text-amber-600 dark:text-amber-500 flex items-center justify-center border border-slate-200 dark:border-slate-800 flex-shrink-0 shadow-xs">
-              <Sparkles className="w-5 h-5 text-amber-500" />
+            <div className="w-10 h-10 rounded-2xl bg-amber-500/10 dark:bg-amber-500/20 border border-amber-500/30 text-amber-600 dark:text-amber-400 flex items-center justify-center border border-slate-200 dark:border-slate-800 flex-shrink-0 shadow-xs">
+              <Sparkles className="w-5 h-5" />
             </div>
             <div>
               <div className="flex items-center space-x-2">
@@ -1783,12 +1810,12 @@ function ProposalDetailModal({ proposal, onClose, onApprove, onReject }) {
                   OPTIMIZER TELEMETRY · BUNDLED PROPOSAL {id}
                 </h3>
                 <span
-                  className={`text-[9px] font-mono font-bold px-2 py-0.5 rounded-sm uppercase ${
+                  className={`text-[9px] font-mono font-bold px-2.5 py-0.5 rounded-full uppercase tracking-wider ${
                     isApproved
-                      ? 'bg-emerald-600 text-white'
+                      ? 'bg-emerald-500/15 text-emerald-800 dark:text-emerald-300 border border-emerald-500/30'
                       : isRejected
-                      ? 'bg-rose-600 text-white'
-                      : 'bg-amber-700 text-white'
+                      ? 'bg-rose-500/15 text-rose-800 dark:text-rose-300 border border-rose-500/30'
+                      : 'bg-amber-500/15 text-amber-800 dark:text-amber-300 border border-amber-500/30'
                   }`}
                 >
                   {isApproved ? 'APPROVED' : isRejected ? 'REJECTED' : 'PENDING REVIEW'}
@@ -1803,15 +1830,12 @@ function ProposalDetailModal({ proposal, onClose, onApprove, onReject }) {
           <button
             type="button"
             onClick={onClose}
-            className="p-1.5 rounded-lg text-slate-400 hover:text-slate-900 dark:hover:text-white hover:bg-slate-200 dark:hover:bg-slate-800 transition-colors cursor-pointer"
+            className="p-2 rounded-xl text-slate-400 hover:text-slate-900 dark:hover:text-white hover:bg-slate-200/80 dark:hover:bg-slate-800 transition-colors cursor-pointer"
             title="Close Telemetry"
           >
             <X className="w-4 h-4" />
           </button>
         </div>
-
-        {/* Vanishing Dark Strip */}
-        <div className="h-1.5 w-full bg-gradient-to-r from-slate-800 via-slate-700 to-transparent dark:from-slate-600 dark:via-slate-700/50 dark:to-transparent opacity-90 flex-shrink-0"></div>
 
         {/* Modal Scrollable Body */}
         <div className="p-5 sm:p-6 space-y-5 overflow-y-auto text-xs">
@@ -2094,8 +2118,8 @@ function ProposalDetailModal({ proposal, onClose, onApprove, onReject }) {
 /* ========================================================================= */
 
 export default function AdminDashboard({ user, onLogout }) {
-  // Theme state: defaults to dark mode (isDarkMode = true)
-  const [isDarkMode, setIsDarkMode] = useState(true);
+  // Theme state: defaults to light mode (isDarkMode = false)
+  const [isDarkMode, setIsDarkMode] = useState(false);
 
   // Engine state machine: 'standby' -> 'running' -> 'review' -> 'approved'
   const [engineState, setEngineState] = useState('standby');
@@ -2113,6 +2137,7 @@ export default function AdminDashboard({ user, onLogout }) {
   const [selectedBlockModal, setSelectedBlockModal] = useState(null);
   const [selectedProposalModal, setSelectedProposalModal] = useState(null);
   const [isPipelineModalOpen, setIsPipelineModalOpen] = useState(false);
+  const [isVipModalOpen, setIsVipModalOpen] = useState(false);
 
   // Fetch real data from backend
   const loadDashboardData = useCallback(async () => {
@@ -2422,17 +2447,17 @@ export default function AdminDashboard({ user, onLogout }) {
       {/* Main Workspace Column */}
       <div className="flex-1 flex flex-col h-full overflow-hidden min-w-0 bg-slate-50 dark:bg-slate-950 bg-[radial-gradient(rgba(30,58,138,0.1)_1.5px,transparent_1.5px)] dark:bg-[radial-gradient(rgba(255,255,255,0.06)_1.5px,transparent_1.5px)] bg-[size:24px_24px] text-slate-900 dark:text-slate-100 transition-colors duration-300">
         {/* Top Header Chrome */}
-        <header className="w-full bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 shadow-xs dark:shadow-md px-6 py-3 flex items-center justify-between flex-shrink-0 z-20 transition-colors duration-300">
+        <header className="w-full bg-gradient-to-r from-amber-500/10 via-amber-50/40 to-slate-50/80 dark:from-amber-500/15 dark:via-slate-900/90 dark:to-slate-900 backdrop-blur-md border-b border-slate-200/80 dark:border-slate-800 px-6 py-3.5 flex items-center justify-between flex-shrink-0 z-20 transition-colors duration-300">
           <div className="flex items-center space-x-3">
-            <div className="w-8 h-8 rounded-sm bg-slate-100 dark:bg-slate-950 text-amber-600 dark:text-amber-500 flex items-center justify-center border border-slate-200 dark:border-slate-800 shadow-xs flex-shrink-0">
-              <Shield className="w-4 h-4" />
+            <div className="w-10 h-10 rounded-2xl bg-amber-500/10 dark:bg-amber-500/20 border border-amber-500/30 text-amber-600 dark:text-amber-400 flex items-center justify-center shadow-xs flex-shrink-0">
+              <Shield className="w-5 h-5" />
             </div>
             <div>
               <div className="flex items-center space-x-2">
                 <h1 className="text-sm sm:text-base font-black text-slate-900 dark:text-slate-100 tracking-tight leading-none">
                   Central Traffic Control &amp; Corridor Planning
                 </h1>
-                <span className="text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-sm bg-amber-700 text-white font-mono">
+                <span className="text-[9px] font-mono font-bold uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-amber-500/15 text-amber-800 dark:text-amber-300 border border-amber-500/30 shadow-xs">
                   HQ CONTROL ROOM
                 </span>
               </div>
@@ -2443,60 +2468,119 @@ export default function AdminDashboard({ user, onLogout }) {
           </div>
 
           <div className="flex items-center space-x-3">
-            <div className="hidden sm:flex items-center space-x-2 text-xs font-semibold bg-emerald-50 dark:bg-emerald-950/60 border border-emerald-300 dark:border-emerald-700/80 text-emerald-900 dark:text-emerald-300 px-3 py-1.5 rounded-lg font-mono shadow-xs">
-              <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+            {/* VIP Clearance Quick Launcher */}
+            <button
+              type="button"
+              onClick={() => setIsVipModalOpen(true)}
+              className="hidden lg:flex items-center space-x-2 text-xs font-mono font-bold bg-amber-500/15 hover:bg-amber-500/25 text-amber-900 dark:text-amber-300 border border-amber-500/40 px-3.5 py-1.5 rounded-xl shadow-xs transition-all cursor-pointer group active:scale-[0.98]"
+              title="Live Dynamic Constraint Resolution Demonstration: Part the Red Sea"
+            >
+              <Sparkles className="w-3.5 h-3.5 text-amber-500 group-hover:rotate-12 transition-transform animate-pulse" />
+              <span>VIP CLEARANCE DEMO</span>
+            </button>
+
+            <div className="hidden sm:flex items-center space-x-2 text-xs font-semibold bg-emerald-50/90 dark:bg-emerald-950/60 border border-emerald-300/80 dark:border-emerald-700/80 text-emerald-800 dark:text-emerald-300 px-3.5 py-1.5 rounded-xl font-mono shadow-xs">
+              <span className="w-2 h-2 rounded-full bg-emerald-500 shadow-[0_0_6px_rgba(16,185,129,0.8)] animate-pulse"></span>
               <span>All 3 Departments Connected</span>
             </div>
+
+            {/* Uiverse Sun/Moon Theme Toggle Switch */}
+            <ThemeToggleSwitch
+              isDarkMode={isDarkMode}
+              onToggle={() => setIsDarkMode((prev) => !prev)}
+            />
+
+            {/* Top-Right Sign Out Button */}
+            {onLogout && (
+              <button
+                type="button"
+                onClick={onLogout}
+                className="flex items-center space-x-2 py-1.5 px-3 rounded-xl bg-rose-50 dark:bg-rose-950/40 hover:bg-rose-100 dark:hover:bg-rose-900/60 text-rose-700 dark:text-rose-300 border border-rose-300 dark:border-rose-800/80 text-xs font-bold transition-all duration-200 cursor-pointer shadow-xs hover:shadow group ml-1"
+                title="Sign out of Central Traffic Control"
+              >
+                <LogOut className="w-3.5 h-3.5 text-rose-500 group-hover:scale-110 transition-transform" />
+                <span className="font-sans hidden sm:inline">Sign Out</span>
+              </button>
+            )}
           </div>
         </header>
 
         {/* Scrollable Center Workspace */}
         <main className="flex-1 w-full max-w-[1720px] mx-auto p-6 space-y-6 overflow-y-auto min-h-0 scroll-smooth">
-          {/* Module 3: Top Action Center (CP-SAT Engine) */}
-          <section id="action-center" aria-label="CP-SAT Action Center">
-            <CpSatActionCenter
-              engineState={engineState}
-              onRunOptimizer={handleRunOptimizer}
-              onSeedDemoData={handleSeedDemoData}
-              onClearData={handleClearAllData}
-            />
-          </section>
+          {activeNav === 'schedule' && (
+            <>
+              {/* Module 3: Top Action Center (CP-SAT Engine) */}
+              <section id="action-center" aria-label="CP-SAT Action Center">
+                <CpSatActionCenter
+                  engineState={engineState}
+                  onRunOptimizer={handleRunOptimizer}
+                  onSeedDemoData={handleSeedDemoData}
+                  onClearData={handleClearAllData}
+                  onOpenVipClearance={() => setIsVipModalOpen(true)}
+                />
+              </section>
 
-          {/* Module 2: The Global KPI Ribbon (4 Strict Sliding Cards) */}
-          <section id="kpis" aria-label="Global Admin KPIs">
-            <AdminKpiRibbon metrics={globalMetrics} />
-          </section>
+              {/* Module 2: The Global KPI Ribbon (4 Strict Sliding Cards) */}
+              <section id="kpis" aria-label="Global Admin KPIs">
+                <AdminKpiRibbon metrics={globalMetrics} />
+              </section>
 
-          {/* Module 4: Optimizer Proposal Review Queue (Shows when engineState === 'review') */}
-          {engineState === 'review' && (
-            <section id="review-queue" aria-label="Optimizer Proposal Review Queue">
-              <OptimizerProposalReviewQueue
-                proposals={optimizedTasks.length > 0 ? optimizedTasks : proposedBlocks}
-                onApprove={handleApproveProposal}
-                onReject={handleRejectProposal}
-                onCommitAll={handleCommitAll}
-                onSelectProposal={(prop) => setSelectedProposalModal(prop)}
-              />
+              {/* Module 4: Optimizer Proposal Review Queue (Shows when engineState === 'review') */}
+              {engineState === 'review' && (
+                <section id="review-queue" aria-label="Optimizer Proposal Review Queue">
+                  <OptimizerProposalReviewQueue
+                    proposals={optimizedTasks.length > 0 ? optimizedTasks : proposedBlocks}
+                    onApprove={handleApproveProposal}
+                    onReject={handleRejectProposal}
+                    onCommitAll={handleCommitAll}
+                    onSelectProposal={(prop) => setSelectedProposalModal(prop)}
+                  />
+                </section>
+              )}
+
+              {/* 2-Column Section: Master Calendar (Left 8 cols) + Activity Feed (Right 4 cols) */}
+              <div className="grid grid-cols-1 xl:grid-cols-12 gap-6 items-start">
+                {/* Module 5: Master Multi-Department Calendar (Left 8 Columns) */}
+                <div className="xl:col-span-8 space-y-6">
+                  <MasterMultiDeptCalendar
+                    schedule={masterSchedule}
+                    onSelectBlock={(block) => setSelectedBlockModal(block)}
+                    onBlockCancelled={handleCancelBlock}
+                    onRefresh={loadDashboardData}
+                  />
+                </div>
+
+                {/* Module 6: Global Activity Feed (Right 4 Columns) */}
+                <div className="xl:col-span-4 space-y-6">
+                  <GlobalActivityFeed activities={activityFeed} />
+                </div>
+              </div>
+            </>
+          )}
+
+          {activeNav === 'network' && (
+            <section id="global-network" aria-label="Global Network Status">
+              <GlobalNetworkStatusView />
             </section>
           )}
 
-          {/* 2-Column Section: Master Calendar (Left 8 cols) + Activity Feed (Right 4 cols) */}
-          <div className="grid grid-cols-1 xl:grid-cols-12 gap-6 items-start">
-            {/* Module 5: Master Multi-Department Calendar (Left 8 Columns) */}
-            <div className="xl:col-span-8 space-y-6">
-              <MasterMultiDeptCalendar
-                schedule={masterSchedule}
-                onSelectBlock={(block) => setSelectedBlockModal(block)}
-                onBlockCancelled={handleCancelBlock}
-                onRefresh={loadDashboardData}
-              />
-            </div>
+          {activeNav === 'audit' && (
+            <section id="optimizer-audit" aria-label="Optimizer Audit Logs">
+              <OptimizerAuditLogsView />
+            </section>
+          )}
 
-            {/* Module 6: Global Activity Feed (Right 4 Columns) */}
-            <div className="xl:col-span-4 space-y-6">
-              <GlobalActivityFeed activities={activityFeed} />
-            </div>
-          </div>
+          {activeNav === 'map' && (
+            <section id="corridor-map" aria-label="Corridor Map">
+              <CorridorMapView />
+            </section>
+          )}
+
+          {activeNav === 'analytics' && (
+            <section id="disruption-analytics" aria-label="Disruption Analytics">
+              <DisruptionAnalyticsView />
+            </section>
+          )}
         </main>
       </div>
 
@@ -2520,6 +2604,12 @@ export default function AdminDashboard({ user, onLogout }) {
         onClose={() => setSelectedProposalModal(null)}
         onApprove={handleApproveProposal}
         onReject={handleRejectProposal}
+      />
+
+      {/* Theatrical VIP Train Auto-Clearance Demonstration Modal (Parting the Red Sea) */}
+      <VipAutoClearanceModal
+        isOpen={isVipModalOpen}
+        onClose={() => setIsVipModalOpen(false)}
       />
     </div>
   );

@@ -159,14 +159,12 @@ export default function LoginPage({ onLogin }) {
 
       {/* ---------------------------------------------------------------- */}
       {/* LAYER 1: FLOATING GLOBAL TOP HEADER                              */}
-      {/* absolute top-0 left-0 w-full z-50 px-8 py-4 bg-slate-900/95      */}
-      {/* border-b border-slate-700 backdrop-blur-sm                      */}
       {/* ---------------------------------------------------------------- */}
-      <header className="absolute top-0 left-0 w-full z-50 flex justify-between items-center px-6 sm:px-8 py-4 bg-slate-900/95 border-b border-slate-700 backdrop-blur-sm shadow-md">
+      <header className="absolute top-0 left-0 w-full z-50 flex justify-between items-center px-6 sm:px-8 py-3.5 bg-slate-900/95 border-b border-slate-700/80 backdrop-blur-md shadow-md">
         
         {/* Left Side: Ministry Details + Emblem */}
         <div className="flex items-center space-x-3.5">
-          <div className="w-10 h-10 rounded-sm bg-slate-950 border border-slate-700 p-1 flex items-center justify-center flex-shrink-0 shadow-sm">
+          <div className="w-10 h-10 rounded-xl bg-slate-950 border border-slate-700 p-1.5 flex items-center justify-center flex-shrink-0 shadow-sm">
             <img
               src={samayLogoSymbol}
               alt="S.A.M.A.Y Seal"
@@ -178,11 +176,11 @@ export default function LoginPage({ onLogin }) {
               <span className="text-sm sm:text-base font-black text-white tracking-wider uppercase leading-none">
                 Ministry of Railways
               </span>
-              <span className="text-[9px] font-black uppercase px-2 py-0.5 rounded-sm bg-amber-600 text-white tracking-wider shadow-xs">
+              <span className="text-[9px] font-mono font-bold uppercase px-2.5 py-0.5 rounded-full bg-amber-600 text-white tracking-wider shadow-xs">
                 Govt. of India
               </span>
             </div>
-            <span className="text-[11px] text-slate-300 font-mono tracking-tight mt-0.5 truncate">
+            <span className="text-[11px] text-slate-300 font-mono tracking-tight mt-1 truncate">
               Center for Railway Information Systems (CRIS) • S.A.M.A.Y Smart Automation
             </span>
           </div>
@@ -190,39 +188,38 @@ export default function LoginPage({ onLogin }) {
 
         {/* Right Side: Network Telemetry & Security Shield */}
         <div className="flex items-center space-x-3">
-          <div className="hidden md:flex items-center space-x-2 text-xs font-mono text-slate-300 border-r border-slate-700 pr-4">
+          <div className="hidden md:flex items-center space-x-2 text-xs font-mono text-slate-300 border-r border-slate-700/80 pr-4">
             <span className="text-amber-500 font-bold">NR-DLI</span>
             <span>•</span>
             <span>Northern Railway Zone</span>
           </div>
-          <div className="flex items-center space-x-2 bg-slate-950/90 border border-slate-700 px-3.5 py-1.5 rounded-sm shadow-inner text-xs font-semibold text-white">
+          <div className="flex items-center space-x-2 bg-slate-950/90 border border-slate-700/80 px-3.5 py-1.5 rounded-xl shadow-inner text-xs font-semibold text-white font-mono">
             <ShieldCheck className="w-4 h-4 text-amber-500" />
             <span className="hidden sm:inline">RailNet SSO Encrypted</span>
             <span className="sm:hidden">SSO Active</span>
-            <span className="w-2 h-2 rounded-xs bg-emerald-400 animate-pulse ml-1"></span>
+            <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse shadow-[0_0_6px_rgba(52,211,153,0.8)] ml-1"></span>
           </div>
         </div>
       </header>
 
       {/* ---------------------------------------------------------------- */}
-      {/* LAYER 2: LEFT CONTENT (Hero Text & 3 Frosted Glass Cards)        */}
-      {/* absolute top-[25%] left-12 z-20 max-w-xl                         */}
+      {/* LAYER 2: LEFT CONTENT (Hero Text)                                */}
       {/* ---------------------------------------------------------------- */}
-      <div className="hidden lg:flex absolute top-[38%] left-8 lg:left-12 z-20 max-w-xl xl:max-w-2xl flex-col space-y-6">
+      <div className="hidden lg:flex absolute top-[38%] left-8 lg:left-12 z-20 max-w-xl xl:max-w-2xl flex-col space-y-4">
         <div>
           <div className="flex flex-wrap items-baseline gap-x-3">
-            <span className="text-3xl sm:text-4xl lg:text-5xl font-light tracking-tight drop-shadow-md">
+            <span className="text-3xl sm:text-4xl lg:text-5xl font-light tracking-tight text-slate-900 drop-shadow-sm">
               Welcome to
             </span>
-            <span className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-wider drop-shadow-lg">
+            <span className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-wider text-slate-900 drop-shadow-md font-mono">
               S.A.M.A.Y
             </span>
           </div>
-          <p className="text-xs sm:text-sm font-mono font-bold uppercase tracking-widest mt-2 drop-shadow-md">
+          <p className="text-xs sm:text-sm font-mono font-bold uppercase tracking-widest mt-2 text-slate-800 drop-shadow-sm">
             Smart Automation for Maintenance Activity Yield
           </p>
           {/* Subtle amber accent bar */}
-          <div className="h-1.5 w-24 bg-amber-600 rounded-sm mt-3 shadow-xs"></div>
+          <div className="h-1.5 w-24 bg-amber-600 rounded-full mt-3 shadow-xs"></div>
         </div>
       </div>
 
@@ -232,8 +229,8 @@ export default function LoginPage({ onLogin }) {
       {/* ---------------------------------------------------------------- */}
       <div className="absolute top-1/2 right-6 lg:right-12 -translate-y-1/2 z-20 w-[92%] sm:w-[420px] max-w-[420px]">
         
-        {/* The Sharp Industrial Login Card (bg-white shadow-2xl rounded-md border border-slate-200 p-8) */}
-        <div className="w-full bg-white shadow-2xl shadow-black/30 rounded-md border border-slate-200 p-7 sm:p-8 flex flex-col space-y-4">
+        {/* S.A.M.A.Y Industrial Design Scheme Login Card */}
+        <div className="w-full bg-white/95 backdrop-blur-md shadow-2xl shadow-slate-950/30 rounded-2xl border border-slate-200/90 p-7 sm:p-8 flex flex-col space-y-4">
           
           {/* Card Top Title & Emblem */}
           <div className="flex items-start justify-between">
@@ -242,7 +239,7 @@ export default function LoginPage({ onLogin }) {
                 <h2 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
                   Sign In to Portal
                 </h2>
-                <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-sm bg-amber-50 text-amber-700 border border-amber-300 shadow-xs">
+                <span className="text-[10px] font-mono font-bold uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-amber-50 text-amber-700 border border-amber-300 shadow-xs">
                   SSO
                 </span>
               </div>
@@ -251,22 +248,22 @@ export default function LoginPage({ onLogin }) {
               </p>
             </div>
 
-            <div className="w-10 h-10 rounded-sm bg-slate-50 border border-slate-200 flex items-center justify-center text-slate-700 shadow-xs flex-shrink-0">
+            <div className="w-10 h-10 rounded-xl bg-slate-50 border border-slate-200/90 flex items-center justify-center text-slate-700 shadow-xs flex-shrink-0">
               <Train className="w-5 h-5 text-amber-600" />
             </div>
           </div>
 
-          {/* Department Persona Selector: Strict Bordered Tabs */}
+          {/* Department Persona Selector: S.A.M.A.Y Segmented Pill Bar */}
           <div className="space-y-1.5">
             <div className="flex items-center justify-between text-xs">
-              <span className="font-bold text-slate-700 uppercase tracking-wider text-[11px]">
+              <span className="font-mono font-bold text-slate-700 uppercase tracking-wider text-[10px]">
                 Select Department Persona:
               </span>
               <span className="font-mono font-bold text-amber-600 text-[11px]">
                 {selectedRole.deptShort}
               </span>
             </div>
-            <div className="grid grid-cols-4 gap-1.5 p-1 bg-slate-100 border border-slate-200 rounded-sm">
+            <div className="grid grid-cols-4 gap-1 p-1 bg-slate-100 border border-slate-200/90 rounded-xl shadow-inner">
               {ROLES_CONFIG.map((role) => {
                 const isSelected = selectedRole.id === role.id;
                 return (
@@ -274,10 +271,10 @@ export default function LoginPage({ onLogin }) {
                     key={role.id}
                     type="button"
                     onClick={() => handleRoleSelect(role)}
-                    className={`py-1.5 px-1 rounded-sm text-center text-xs font-bold uppercase tracking-wider transition-all cursor-pointer ${
+                    className={`py-1.5 px-1 rounded-lg text-center text-xs font-mono font-bold uppercase tracking-wider transition-all cursor-pointer ${
                       isSelected
                         ? 'bg-slate-900 text-white border border-slate-900 shadow-xs'
-                        : 'text-slate-600 hover:text-slate-900 hover:bg-white'
+                        : 'text-slate-600 hover:text-slate-900 hover:bg-white/80'
                     }`}
                   >
                     {role.id.toUpperCase()}
@@ -287,9 +284,9 @@ export default function LoginPage({ onLogin }) {
             </div>
           </div>
 
-          {/* Active Persona Officer Snippet: Almost Sharp Box */}
-          <div className="p-2.5 rounded-sm bg-slate-50 border border-slate-200 shadow-inner flex items-center space-x-2.5 text-xs">
-            <div className="w-8 h-8 rounded-sm bg-slate-900 text-amber-500 flex items-center justify-center flex-shrink-0 shadow-xs">
+          {/* Active Persona Officer Snippet: S.A.M.A.Y Micro-card */}
+          <div className="p-3 rounded-xl bg-slate-50/90 border border-slate-200/80 shadow-xs flex items-center space-x-3 text-xs">
+            <div className="w-9 h-9 rounded-xl bg-slate-900 text-amber-500 flex items-center justify-center flex-shrink-0 shadow-xs">
               <IconComponent className="w-4 h-4" />
             </div>
             <div className="min-w-0 flex-1">
@@ -304,18 +301,18 @@ export default function LoginPage({ onLogin }) {
 
           {/* Error Alert */}
           {errorMsg && (
-            <div className="p-2.5 rounded-sm bg-rose-50 border border-rose-300 text-rose-900 text-xs flex items-center space-x-2 font-medium">
+            <div className="p-2.5 rounded-xl bg-rose-50 border border-rose-300 text-rose-900 text-xs flex items-center space-x-2 font-medium shadow-xs">
               <AlertCircle className="w-4 h-4 flex-shrink-0 text-rose-700" />
               <span>{errorMsg}</span>
             </div>
           )}
 
-          {/* Form Fields: Indented Sharp Physical Inputs */}
+          {/* Form Fields: S.A.M.A.Y Industrial Physical Inputs */}
           <form onSubmit={handleSubmit} className="space-y-3.5 text-xs">
             
             {/* Username / RailNet ID */}
             <div>
-              <label className="block font-bold text-slate-800 mb-1 uppercase tracking-wider text-[10px]">
+              <label className="block font-mono font-bold text-slate-800 mb-1 uppercase tracking-wider text-[10px]">
                 Username / RailNet ID
               </label>
               <div className="relative">
@@ -326,14 +323,14 @@ export default function LoginPage({ onLogin }) {
                   value={username}
                   onChange={(e) => setUsername(e.target.value)}
                   placeholder="Enter RailNet ID"
-                  className="w-full pl-9 pr-3 py-2.5 rounded-sm bg-slate-50 border border-slate-300 shadow-inner font-medium text-slate-900 placeholder-slate-400 text-xs transition-all focus:outline-none focus:ring-1 focus:ring-slate-900 focus:border-slate-900 focus:bg-white"
+                  className="w-full pl-9.5 pr-3 py-2.5 rounded-xl bg-slate-50 border border-slate-300 font-medium text-slate-900 placeholder-slate-400 text-xs transition-all focus:outline-none focus:ring-2 focus:ring-slate-900 focus:border-slate-900 focus:bg-white shadow-xs"
                 />
               </div>
             </div>
 
             {/* Password Field with Eye Toggle */}
             <div>
-              <label className="block font-bold text-slate-800 mb-1 uppercase tracking-wider text-[10px]">
+              <label className="block font-mono font-bold text-slate-800 mb-1 uppercase tracking-wider text-[10px]">
                 Security Password / PIN
               </label>
               <div className="relative">
@@ -344,12 +341,12 @@ export default function LoginPage({ onLogin }) {
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   placeholder="Enter security password"
-                  className="w-full pl-9 pr-10 py-2.5 rounded-sm bg-slate-50 border border-slate-300 shadow-inner font-medium text-slate-900 placeholder-slate-400 text-xs transition-all focus:outline-none focus:ring-1 focus:ring-slate-900 focus:border-slate-900 focus:bg-white"
+                  className="w-full pl-9.5 pr-10 py-2.5 rounded-xl bg-slate-50 border border-slate-300 font-medium text-slate-900 placeholder-slate-400 text-xs transition-all focus:outline-none focus:ring-2 focus:ring-slate-900 focus:border-slate-900 focus:bg-white shadow-xs"
                 />
                 <button
                   type="button"
                   onClick={() => setShowPassword(!showPassword)}
-                  className="absolute right-2.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-700 cursor-pointer p-1"
+                  className="absolute right-2.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-700 cursor-pointer p-1 rounded-lg"
                   title={showPassword ? 'Hide password' : 'Show password'}
                 >
                   {showPassword ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
@@ -359,7 +356,7 @@ export default function LoginPage({ onLogin }) {
 
             {/* CAPTCHA: Indented Input & Code Box */}
             <div>
-              <label className="block font-bold text-slate-800 mb-1 uppercase tracking-wider text-[10px]">
+              <label className="block font-mono font-bold text-slate-800 mb-1 uppercase tracking-wider text-[10px]">
                 Security Verification (CAPTCHA)
               </label>
               <div className="grid grid-cols-2 gap-2.5 items-center">
@@ -370,10 +367,10 @@ export default function LoginPage({ onLogin }) {
                   value={captchaInput}
                   onChange={(e) => setCaptchaInput(e.target.value.toUpperCase())}
                   placeholder="Enter Code"
-                  className="w-full py-2.5 px-3 rounded-sm bg-slate-50 border border-slate-300 shadow-inner font-mono font-bold text-center tracking-widest text-slate-900 transition-all focus:outline-none focus:ring-1 focus:ring-slate-900 focus:border-slate-900 focus:bg-white uppercase text-xs"
+                  className="w-full py-2.5 px-3 rounded-xl bg-slate-50 border border-slate-300 font-mono font-bold text-center tracking-widest text-slate-900 transition-all focus:outline-none focus:ring-2 focus:ring-slate-900 focus:border-slate-900 focus:bg-white uppercase text-xs shadow-xs"
                 />
 
-                <div className="flex items-center justify-between bg-slate-100 border border-slate-200 rounded-sm px-3 py-2 select-none">
+                <div className="flex items-center justify-between bg-slate-100 border border-slate-200 rounded-xl px-3.5 py-2 select-none shadow-xs">
                   <div className="font-mono font-black text-slate-900 tracking-widest text-sm italic line-through decoration-amber-600 decoration-2 pl-1">
                     {captchaCode}
                   </div>
@@ -381,7 +378,7 @@ export default function LoginPage({ onLogin }) {
                     type="button"
                     onClick={generateCaptcha}
                     title="Regenerate CAPTCHA"
-                    className="p-1 text-slate-500 hover:text-slate-900 hover:bg-slate-200 rounded-sm transition-colors cursor-pointer"
+                    className="p-1 text-slate-500 hover:text-slate-900 hover:bg-slate-200 rounded-lg transition-colors cursor-pointer"
                   >
                     <RotateCw className="w-3.5 h-3.5" />
                   </button>
@@ -396,20 +393,20 @@ export default function LoginPage({ onLogin }) {
                   type="checkbox"
                   checked={rememberMe}
                   onChange={(e) => setRememberMe(e.target.checked)}
-                  className="rounded-xs border-slate-300 text-slate-900 focus:ring-slate-900 cursor-pointer"
+                  className="rounded border-slate-300 text-slate-900 focus:ring-slate-900 cursor-pointer"
                 />
                 <span className="font-medium text-[11px] text-slate-600">Remember terminal</span>
               </label>
-              <span className="text-amber-600 hover:underline font-bold text-[11px] cursor-pointer">
+              <span className="text-amber-600 hover:underline font-mono font-bold text-[11px] cursor-pointer">
                 Forgot PIN?
               </span>
             </div>
 
-            {/* Rigid Mechanical "Sign In" Button */}
+            {/* S.A.M.A.Y Tactile "Sign In" Button */}
             <button
               type="submit"
               disabled={isLoading}
-              className="w-full bg-slate-900 hover:bg-slate-800 active:bg-slate-950 text-white font-bold tracking-wider uppercase rounded-sm py-3 transition-all text-xs flex items-center justify-center space-x-2 cursor-pointer shadow-md shadow-slate-900/20 mt-3 disabled:opacity-75"
+              className="w-full bg-slate-900 hover:bg-slate-800 active:bg-slate-950 text-white font-mono font-bold tracking-wider uppercase rounded-xl py-3 transition-all text-xs flex items-center justify-center space-x-2 cursor-pointer shadow-md shadow-slate-900/20 hover:shadow-lg mt-3 disabled:opacity-75 group border border-slate-800"
             >
               {isLoading ? (
                 <>
@@ -419,7 +416,7 @@ export default function LoginPage({ onLogin }) {
               ) : (
                 <>
                   <span>Sign In to Terminal</span>
-                  <ArrowRight className="w-4 h-4 text-amber-400" />
+                  <ArrowRight className="w-4 h-4 text-amber-400 group-hover:translate-x-0.5 transition-transform" />
                 </>
               )}
             </button>
@@ -427,7 +424,7 @@ export default function LoginPage({ onLogin }) {
         </div>
 
         {/* Small Bottom Disclaimer Under Card */}
-        <div className="text-center text-[10px] text-slate-300 font-mono mt-3 drop-shadow-sm">
+        <div className="text-center text-[10px] text-slate-400 font-mono mt-3 drop-shadow-md">
           Ministry of Railways • Center for Railway Information Systems (CRIS) • RailNet SSO 2026
         </div>
       </div>

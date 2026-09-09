@@ -71,8 +71,8 @@ export default function ConfirmedBlockCalendar({
 
   if (error) {
     return (
-      <div className="w-full bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 shadow-xl p-5">
-        <div className="flex items-center justify-between p-4 bg-rose-50 dark:bg-rose-950/40 border border-rose-200 dark:border-rose-800/60 rounded-sm text-rose-900 dark:text-rose-300 text-xs font-mono">
+      <div className="w-full bg-white dark:bg-slate-900 rounded-2xl border border-slate-200/90 dark:border-slate-800 shadow-xl p-5">
+        <div className="flex items-center justify-between p-4 bg-rose-500/10 dark:bg-rose-950/40 border border-rose-500/30 dark:border-rose-800/60 rounded-xl text-rose-900 dark:text-rose-300 text-xs font-mono">
           <div className="flex items-center space-x-2.5">
             <AlertCircle className="w-4 h-4 text-rose-600 dark:text-rose-400 flex-shrink-0" />
             <span>Failed to load corridor schedule: {error}</span>
@@ -81,7 +81,7 @@ export default function ConfirmedBlockCalendar({
             <button
               type="button"
               onClick={onRetry}
-              className="flex items-center space-x-1.5 px-3 py-1.5 bg-slate-900 hover:bg-slate-800 dark:bg-slate-800 dark:hover:bg-slate-700 text-white rounded-md text-xs font-bold uppercase tracking-wider cursor-pointer shadow-xs transition-colors"
+              className="flex items-center space-x-1.5 px-3.5 py-1.5 bg-slate-900 hover:bg-slate-800 dark:bg-slate-800 dark:hover:bg-slate-700 text-white rounded-xl text-xs font-bold font-mono uppercase tracking-wider cursor-pointer shadow-xs transition-colors"
             >
               <RotateCw className="w-3.5 h-3.5" />
               <span>Retry</span>

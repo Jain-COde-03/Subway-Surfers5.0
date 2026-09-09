@@ -34,10 +34,10 @@ const DEPT_THEMES = {
     label: 'Civil (TMS)',
     short: 'Civil',
     icon: Layers,
-    border: 'border-l-4 border-l-emerald-600 dark:border-l-emerald-500',
-    bg: 'bg-emerald-50/90 dark:bg-emerald-950/70',
-    text: 'text-emerald-950 dark:text-emerald-100',
-    chip: 'bg-emerald-100 text-emerald-900 dark:bg-emerald-900/80 dark:text-emerald-200 border border-emerald-300 dark:border-emerald-700',
+    border: 'border-l-4 border-l-emerald-600 border-emerald-300/80 dark:border-emerald-600/80',
+    bg: 'bg-gradient-to-br from-emerald-50/95 via-white to-emerald-100/40 dark:from-slate-800/95 dark:via-slate-900 dark:to-emerald-950/40',
+    text: 'text-slate-900 dark:text-slate-100',
+    chip: 'bg-emerald-600 text-white font-bold',
     dot: 'bg-emerald-500',
     color: '#059669',
   },
@@ -45,10 +45,10 @@ const DEPT_THEMES = {
     label: 'Signal (SMMS)',
     short: 'Signal',
     icon: Activity,
-    border: 'border-l-4 border-l-amber-600 dark:border-l-amber-500',
-    bg: 'bg-amber-50/90 dark:bg-amber-950/70',
-    text: 'text-amber-950 dark:text-amber-100',
-    chip: 'bg-amber-100 text-amber-900 dark:bg-amber-900/80 dark:text-amber-200 border border-amber-300 dark:border-amber-700',
+    border: 'border-l-4 border-l-amber-600 border-amber-300/80 dark:border-amber-600/80',
+    bg: 'bg-gradient-to-br from-amber-50/95 via-white to-amber-100/40 dark:from-slate-800/95 dark:via-slate-900 dark:to-amber-950/40',
+    text: 'text-slate-900 dark:text-slate-100',
+    chip: 'bg-amber-600 text-white font-bold',
     dot: 'bg-amber-500',
     color: '#d97706',
   },
@@ -56,10 +56,10 @@ const DEPT_THEMES = {
     label: 'Electrical (TDMS)',
     short: 'Electrical',
     icon: Zap,
-    border: 'border-l-4 border-l-indigo-600 dark:border-l-indigo-500',
-    bg: 'bg-indigo-50/90 dark:bg-indigo-950/70',
-    text: 'text-indigo-950 dark:text-indigo-100',
-    chip: 'bg-indigo-100 text-indigo-900 dark:bg-indigo-900/80 dark:text-indigo-200 border border-indigo-300 dark:border-indigo-700',
+    border: 'border-l-4 border-l-indigo-600 border-indigo-300/80 dark:border-indigo-600/80',
+    bg: 'bg-gradient-to-br from-indigo-50/95 via-white to-indigo-100/40 dark:from-slate-800/95 dark:via-slate-900 dark:to-indigo-950/40',
+    text: 'text-slate-900 dark:text-slate-100',
+    chip: 'bg-indigo-600 text-white font-bold',
     dot: 'bg-indigo-500',
     color: '#4f46e5',
   },
@@ -67,12 +67,12 @@ const DEPT_THEMES = {
     label: 'Joint Bundled Block',
     short: 'Bundled',
     icon: Link2,
-    border: 'border-l-4 border-l-amber-500 dark:border-l-amber-400',
-    bg: 'bg-gradient-to-r from-amber-50 via-emerald-50 to-indigo-50 dark:from-amber-950/70 dark:via-emerald-950/70 dark:to-indigo-950/70',
+    border: 'border-l-4 border-l-amber-500 border-amber-300/80 dark:border-amber-600/80',
+    bg: 'bg-gradient-to-br from-amber-50/95 via-white to-amber-100/40 dark:from-slate-800/95 dark:via-slate-900 dark:to-amber-950/40',
     text: 'text-slate-900 dark:text-slate-100',
-    chip: 'bg-amber-500 text-white font-bold',
+    chip: 'bg-amber-600 text-white font-bold',
     dot: 'bg-amber-500',
-    color: '#f59e0b',
+    color: '#d97706',
   },
 };
 
@@ -484,13 +484,13 @@ export default function GoogleCalendarView({
   };
 
   return (
-    <div className="w-full bg-white dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800 shadow-xl overflow-hidden flex flex-col transition-colors duration-300">
+    <div className="w-full bg-white dark:bg-slate-900 rounded-2xl border border-slate-200/90 dark:border-slate-800 shadow-xl shadow-slate-900/5 dark:shadow-black/40 overflow-hidden flex flex-col transition-colors duration-300">
       {/* ── GOOGLE CALENDAR TOP APP BAR ────────────────────────────────────── */}
-      <div className="p-4 sm:px-6 bg-slate-50 dark:bg-slate-950/80 border-b border-slate-200 dark:border-slate-800 flex flex-wrap items-center justify-between gap-4">
+      <div className="p-4 sm:p-5 bg-gradient-to-r from-amber-500/10 via-amber-50/50 to-slate-100/60 dark:from-amber-500/15 dark:via-slate-900/90 dark:to-slate-900 border-b border-slate-200/80 dark:border-slate-800 flex flex-wrap items-center justify-between gap-4">
         {/* Left Side: Logo & Navigation */}
         <div className="flex items-center space-x-3 sm:space-x-4">
-          <div className="w-9 h-9 rounded-lg bg-amber-500/10 text-amber-600 dark:text-amber-400 flex items-center justify-center border border-amber-500/20 shadow-xs">
-            <CalendarIcon className="w-5 h-5" />
+          <div className="w-10 h-10 rounded-2xl bg-amber-500/10 dark:bg-amber-500/20 text-amber-600 dark:text-amber-400 flex items-center justify-center border border-amber-500/20 shadow-xs shrink-0">
+            <CalendarIcon className="w-5 h-5 text-amber-600 dark:text-amber-400" />
           </div>
 
           <div>
@@ -498,7 +498,7 @@ export default function GoogleCalendarView({
               <h2 className="text-base sm:text-lg font-black tracking-tight text-slate-900 dark:text-slate-100 font-sans">
                 {headerDateTitle}
               </h2>
-              <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800 dark:bg-emerald-950/80 dark:text-emerald-300 border border-emerald-300 dark:border-emerald-800 uppercase font-mono">
+              <span className="text-[9px] font-mono font-bold px-2 py-0.5 rounded-full bg-emerald-500/15 text-emerald-700 dark:text-emerald-300 border border-emerald-500/30 uppercase tracking-wider">
                 {filteredEvents.length} Active
               </span>
             </div>
@@ -507,11 +507,11 @@ export default function GoogleCalendarView({
             </p>
           </div>
 
-          <div className="flex items-center space-x-1 pl-2 border-l border-slate-200 dark:border-slate-800">
+          <div className="flex items-center space-x-1 pl-2 border-l border-slate-200/80 dark:border-slate-800">
             <button
               type="button"
               onClick={handleToday}
-              className="px-3 py-1.5 rounded-lg text-xs font-bold text-slate-700 dark:text-slate-200 bg-white dark:bg-slate-800 border border-slate-300 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-700 shadow-xs transition-all cursor-pointer"
+              className="px-3 py-1.5 rounded-xl text-xs font-mono font-bold text-slate-700 dark:text-slate-200 bg-white/90 dark:bg-slate-800/90 border border-slate-300/80 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-750 shadow-xs transition-all cursor-pointer"
             >
               Today
             </button>
@@ -519,7 +519,7 @@ export default function GoogleCalendarView({
               type="button"
               onClick={handlePrev}
               title="Previous"
-              className="p-1.5 rounded-lg text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-800 transition-all cursor-pointer"
+              className="p-1.5 rounded-xl text-slate-600 dark:text-slate-300 hover:bg-slate-200/70 dark:hover:bg-slate-800 border border-transparent hover:border-slate-300/60 dark:hover:border-slate-700 transition-all cursor-pointer"
             >
               <ChevronLeft className="w-4 h-4" />
             </button>
@@ -527,7 +527,7 @@ export default function GoogleCalendarView({
               type="button"
               onClick={handleNext}
               title="Next"
-              className="p-1.5 rounded-lg text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-800 transition-all cursor-pointer"
+              className="p-1.5 rounded-xl text-slate-600 dark:text-slate-300 hover:bg-slate-200/70 dark:hover:bg-slate-800 border border-transparent hover:border-slate-300/60 dark:hover:border-slate-700 transition-all cursor-pointer"
             >
               <ChevronRight className="w-4 h-4" />
             </button>
@@ -543,7 +543,7 @@ export default function GoogleCalendarView({
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder="Search corridor, section, defect..."
-              className="w-full pl-8 pr-3 py-1.5 text-xs rounded-lg bg-white dark:bg-slate-900 border border-slate-300 dark:border-slate-700 text-slate-900 dark:text-slate-100 placeholder-slate-400 focus:outline-none focus:ring-1 focus:ring-amber-500 font-sans shadow-xs"
+              className="w-full pl-8 pr-7 py-1.5 text-xs rounded-xl bg-white/90 dark:bg-slate-900/90 border border-slate-300/80 dark:border-slate-700 text-slate-900 dark:text-slate-100 placeholder-slate-400 focus:outline-none focus:ring-1.5 focus:ring-amber-500 font-sans shadow-xs"
             />
             {searchQuery && (
               <button
@@ -560,15 +560,15 @@ export default function GoogleCalendarView({
         {/* Right Side: View Mode Segmented Controls */}
         <div className="flex items-center space-x-2">
           {/* Department Filter Dropdown / Pills */}
-          <div className="flex items-center bg-white dark:bg-slate-900 rounded-lg p-0.5 border border-slate-300 dark:border-slate-700 shadow-xs">
+          <div className="flex items-center bg-white/90 dark:bg-slate-900/90 rounded-xl p-1 border border-slate-300/80 dark:border-slate-700 shadow-xs">
             {['all', 'civil', 'signal', 'elect'].map((dept) => (
               <button
                 key={dept}
                 type="button"
                 onClick={() => setSelectedDept(dept)}
-                className={`px-2.5 py-1 text-xs font-bold rounded-md capitalize transition-all cursor-pointer ${
+                className={`px-2.5 py-1 text-[11px] font-mono font-bold rounded-lg capitalize transition-all cursor-pointer ${
                   selectedDept === dept
-                    ? 'bg-amber-500 text-white shadow-xs'
+                    ? 'bg-gradient-to-r from-amber-500 to-amber-600 text-white shadow-xs'
                     : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-200'
                 }`}
               >
@@ -578,7 +578,7 @@ export default function GoogleCalendarView({
           </div>
 
           {/* View Selector (Week, Month, Day, Agenda) */}
-          <div className="flex items-center bg-slate-200/80 dark:bg-slate-800 rounded-lg p-0.5 border border-slate-300 dark:border-slate-700 shadow-xs">
+          <div className="flex items-center bg-slate-200/70 dark:bg-slate-800/80 rounded-xl p-1 border border-slate-300/80 dark:border-slate-700 shadow-xs">
             {[
               { id: 'week', label: 'Week' },
               { id: 'month', label: 'Month' },
@@ -589,7 +589,7 @@ export default function GoogleCalendarView({
                 key={v.id}
                 type="button"
                 onClick={() => setViewMode(v.id)}
-                className={`px-3 py-1 text-xs font-bold rounded-md transition-all cursor-pointer ${
+                className={`px-3 py-1 text-[11px] font-mono font-bold rounded-lg transition-all cursor-pointer ${
                   viewMode === v.id
                     ? 'bg-white dark:bg-slate-950 text-slate-900 dark:text-slate-100 shadow-xs'
                     : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-100'
@@ -605,7 +605,7 @@ export default function GoogleCalendarView({
               type="button"
               onClick={onRefresh}
               title="Refresh Schedule"
-              className="p-2 rounded-lg bg-white dark:bg-slate-800 border border-slate-300 dark:border-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 shadow-xs transition-all cursor-pointer"
+              className="p-2 rounded-xl bg-white/90 dark:bg-slate-800/90 border border-slate-300/80 dark:border-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 shadow-xs transition-all cursor-pointer"
             >
               <RefreshCw className="w-3.5 h-3.5" />
             </button>
@@ -635,9 +635,9 @@ export default function GoogleCalendarView({
             <div className="flex-1 flex flex-col overflow-x-auto min-w-0">
               <div className="min-w-[700px] flex-1 flex flex-col">
                 {/* Week Header Row (7 Days + Time Axis Space) */}
-                <div className="flex border-b border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-950 font-sans sticky top-0 z-20">
+                <div className="flex border-b border-slate-200 dark:border-slate-800 bg-slate-100/70 dark:bg-slate-950 font-sans sticky top-0 z-20">
                   {/* Time Column Placeholder */}
-                  <div className="w-16 flex-shrink-0 border-r border-slate-200 dark:border-slate-800 p-2 text-[10px] font-mono font-bold text-slate-400 text-center uppercase">
+                  <div className="w-16 flex-shrink-0 border-r border-slate-200 dark:border-slate-800 p-2 text-[10px] font-mono font-bold text-slate-400 dark:text-slate-500 text-center uppercase tracking-wider">
                     GMT+5:30
                   </div>
 
@@ -647,17 +647,17 @@ export default function GoogleCalendarView({
                       <div
                         key={day.dateStr}
                         className={`py-2.5 px-1.5 text-center transition-colors ${
-                          day.isToday ? 'bg-amber-500/10 dark:bg-amber-500/15' : ''
+                          day.isToday ? 'bg-amber-500/10 dark:bg-amber-500/15 ring-1 ring-inset ring-amber-500/20' : ''
                         }`}
                       >
-                        <div className="text-[11px] font-bold text-slate-500 dark:text-slate-400 uppercase tracking-wider font-mono">
+                        <div className="text-[11px] font-mono font-bold text-slate-500 dark:text-slate-400 uppercase tracking-wider">
                           {day.shortName}
                         </div>
                         <div className="mt-0.5 inline-flex items-center justify-center">
                           <span
-                            className={`w-7 h-7 rounded-full text-xs font-extrabold flex items-center justify-center ${
+                            className={`w-7 h-7 rounded-full text-xs font-mono font-black flex items-center justify-center ${
                               day.isToday
-                                ? 'bg-amber-500 text-white shadow-sm'
+                                ? 'bg-amber-500 text-white shadow-md shadow-amber-500/30'
                                 : 'text-slate-900 dark:text-slate-100'
                             }`}
                           >
@@ -746,7 +746,7 @@ export default function GoogleCalendarView({
                                 left: `calc(${leftPercent}% + 2px)`,
                                 width: `calc(${widthPercent}% - 4px)`,
                               }}
-                              className={`absolute rounded-md p-1.5 text-xs shadow-sm hover:shadow-lg transition-all cursor-pointer z-20 overflow-hidden flex flex-col justify-between border ${theme.border} ${theme.bg} ${theme.text} hover:scale-[1.01] hover:z-30`}
+                              className={`absolute rounded-xl p-2 text-xs shadow-sm hover:shadow-xl transition-all cursor-pointer z-20 overflow-hidden flex flex-col justify-between border ${theme.border} ${theme.bg} ${theme.text} hover:scale-[1.015] hover:z-30 backdrop-blur-xs`}
                             >
                               <div className="space-y-0.5">
                                 <div className="flex items-center justify-between gap-1">
@@ -756,20 +756,21 @@ export default function GoogleCalendarView({
                                   </span>
 
                                   {isBundled && (
-                                    <span className="px-1 py-0.2 rounded text-[8px] font-extrabold uppercase bg-amber-600 text-white font-mono shrink-0">
+                                    <span className="px-1.5 py-0.2 rounded-full text-[8px] font-mono font-black uppercase tracking-wider bg-amber-500 text-white shadow-xs shrink-0 flex items-center gap-0.5">
+                                      <Link2 className="w-2 h-2" />
                                       BUNDLED
                                     </span>
                                   )}
                                 </div>
 
-                                <div className="font-bold text-[11px] leading-tight line-clamp-2">
+                                <div className="font-bold text-[11px] leading-tight line-clamp-2 tracking-tight">
                                   {block.track || block.location || 'Corridor Maintenance'}
                                 </div>
                               </div>
 
-                              <div className="flex items-center justify-between pt-1 border-t border-black/5 dark:border-white/5 text-[9px] font-mono">
-                                <span className="font-bold truncate">{block.id}</span>
-                                <span className="opacity-80 shrink-0 font-bold">{duration}h</span>
+                              <div className="flex items-center justify-between pt-1 border-t border-current/10 text-[9px] font-mono">
+                                <span className="font-extrabold truncate opacity-90">{block.id}</span>
+                                <span className="opacity-90 shrink-0 font-extrabold px-1 py-0.2 rounded bg-black/5 dark:bg-white/10">{duration}h</span>
                               </div>
                             </div>
                           );
@@ -791,7 +792,7 @@ export default function GoogleCalendarView({
         {viewMode === 'month' && (
           <div className="flex-1 flex flex-col overflow-hidden">
             {/* Weekday Names Header */}
-            <div className="grid grid-cols-7 border-b border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-950 text-center font-mono font-bold text-xs py-2 text-slate-600 dark:text-slate-400">
+            <div className="grid grid-cols-7 border-b border-slate-200 dark:border-slate-800 bg-slate-100/70 dark:bg-slate-950 text-center font-mono font-bold text-xs py-2.5 text-slate-600 dark:text-slate-400 uppercase tracking-wider">
               {['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT', 'SUN'].map((d) => (
                 <div key={d}>{d}</div>
               ))}
@@ -816,7 +817,7 @@ export default function GoogleCalendarView({
                       setCurrentDate(cell.date);
                       setViewMode('day');
                     }}
-                    className={`min-h-[105px] p-1.5 flex flex-col justify-between transition-colors hover:bg-slate-50 dark:hover:bg-slate-800/50 cursor-pointer ${
+                    className={`min-h-[110px] p-2 flex flex-col justify-between transition-colors hover:bg-slate-100/50 dark:hover:bg-slate-800/40 cursor-pointer ${
                       !cell.isCurrentMonth
                         ? 'bg-slate-50/50 dark:bg-slate-950/60 opacity-40'
                         : cell.isToday
@@ -826,9 +827,9 @@ export default function GoogleCalendarView({
                   >
                     <div className="flex items-center justify-between">
                       <span
-                        className={`w-6 h-6 rounded-full text-xs font-bold flex items-center justify-center ${
+                        className={`w-6 h-6 rounded-full text-xs font-mono font-extrabold flex items-center justify-center ${
                           cell.isToday
-                            ? 'bg-amber-500 text-white'
+                            ? 'bg-amber-500 text-white shadow-md shadow-amber-500/30'
                             : 'text-slate-700 dark:text-slate-300'
                         }`}
                       >
@@ -850,7 +851,7 @@ export default function GoogleCalendarView({
                           <div
                             key={block.id}
                             onClick={(e) => handleEventClick(block, e)}
-                            className={`px-1.5 py-0.5 rounded text-[10px] font-medium truncate border ${theme.border} ${theme.bg} ${theme.text} hover:opacity-90 flex items-center space-x-1 shadow-2xs`}
+                            className={`px-2 py-0.5 rounded-lg text-[10px] font-semibold truncate border ${theme.border} ${theme.bg} ${theme.text} hover:opacity-95 flex items-center space-x-1.5 shadow-2xs transition-transform hover:scale-[1.01]`}
                           >
                             <span className={`w-1.5 h-1.5 rounded-full ${theme.dot} shrink-0`} />
                             <span className="font-mono font-bold">{block.time?.split('-')[0]?.trim() || '02:00'}</span>
@@ -876,13 +877,13 @@ export default function GoogleCalendarView({
         {/* =================================================================== */}
         {viewMode === 'day' && (
           <div className="flex-1 flex flex-col overflow-hidden">
-            <div className="p-3 bg-slate-50 dark:bg-slate-950 border-b border-slate-200 dark:border-slate-800 flex items-center justify-between">
+            <div className="p-3.5 sm:p-4 bg-gradient-to-r from-slate-100/80 via-slate-50 to-amber-500/5 dark:from-slate-950 dark:via-slate-900 dark:to-slate-950 border-b border-slate-200 dark:border-slate-800 flex items-center justify-between">
               <div className="flex items-center space-x-2">
                 <span className="text-sm font-bold text-slate-900 dark:text-slate-100 font-sans">
                   Timeline for {headerDateTitle}
                 </span>
               </div>
-              <span className="text-xs font-mono text-slate-500">
+              <span className="text-xs font-mono font-bold text-slate-500 dark:text-slate-400">
                 Hourly Possession Grid
               </span>
             </div>
@@ -964,11 +965,11 @@ export default function GoogleCalendarView({
                             left: `calc(${leftPercent}% + 8px)`,
                             width: `calc(${widthPercent}% - 16px)`,
                           }}
-                          className={`absolute rounded-lg p-3 text-xs shadow-md hover:shadow-xl transition-all cursor-pointer z-20 border ${theme.border} ${theme.bg} ${theme.text} flex flex-col justify-between hover:z-30`}
+                          className={`absolute rounded-2xl p-3.5 text-xs shadow-md hover:shadow-2xl transition-all cursor-pointer z-20 border ${theme.border} ${theme.bg} ${theme.text} flex flex-col justify-between hover:z-30 backdrop-blur-xs`}
                         >
-                          <div className="flex items-start justify-between">
+                          <div className="flex items-start justify-between gap-2">
                             <div className="space-y-1">
-                              <div className="flex items-center space-x-2">
+                              <div className="flex flex-wrap items-center gap-2">
                                 <span className="font-mono text-xs font-black">
                                   {block.time || `${formatHour(startHour)}`}
                                 </span>
@@ -976,12 +977,13 @@ export default function GoogleCalendarView({
                                   {block.id}
                                 </span>
                                 {block.isBundled && (
-                                  <span className="px-1.5 py-0.5 rounded bg-amber-600 text-white font-mono text-[9px] font-bold">
+                                  <span className="px-2 py-0.5 rounded-full bg-amber-500 text-white font-mono text-[9px] font-black uppercase tracking-wider flex items-center gap-1 shadow-xs">
+                                    <Link2 className="w-2.5 h-2.5" />
                                     BUNDLED POSSESSION
                                   </span>
                                 )}
                               </div>
-                              <h4 className="text-sm font-black text-slate-900 dark:text-slate-100">
+                              <h4 className="text-sm font-black text-slate-900 dark:text-slate-100 tracking-tight">
                                 {block.track || block.location}
                               </h4>
                               <p className="text-xs opacity-90 line-clamp-2">
@@ -989,22 +991,22 @@ export default function GoogleCalendarView({
                               </p>
                             </div>
 
-                            <div className="text-right font-mono">
-                              <div className="text-xs font-bold">Duration: {duration} hrs</div>
-                              <div className="text-[11px] opacity-80">Score: {block.priorityScore || 95}</div>
+                            <div className="text-right font-mono shrink-0">
+                              <div className="text-xs font-extrabold text-slate-900 dark:text-slate-100">Duration: {duration} hrs</div>
+                              <div className="text-[11px] opacity-80 font-bold">Score: {block.priorityScore || 95}</div>
                             </div>
                           </div>
 
                           <div className="flex items-center justify-between pt-2 border-t border-black/10 dark:border-white/10 text-xs font-mono">
-                            <div className="flex items-center space-x-2">
-                              <span>Departments:</span>
+                            <div className="flex items-center space-x-1.5">
+                              <span className="opacity-80">Depts:</span>
                               {(block.departments || block.depts || ['Civil']).map((d) => (
-                                <span key={d} className="px-1.5 py-0.5 rounded bg-black/5 dark:bg-white/10 font-bold">
+                                <span key={d} className="px-2 py-0.5 rounded-md bg-black/5 dark:bg-white/10 font-bold">
                                   {d}
                                 </span>
                               ))}
                             </div>
-                            <span className="text-amber-600 dark:text-amber-400 font-bold">Click to inspect →</span>
+                            <span className="text-amber-600 dark:text-amber-400 font-bold hover:underline">Click to inspect →</span>
                           </div>
                         </div>
                       );
@@ -1033,7 +1035,7 @@ export default function GoogleCalendarView({
                   <div
                     key={block.id}
                     onClick={() => handleEventClick(block)}
-                    className={`p-4 rounded-xl border ${theme.border} ${theme.bg} ${theme.text} shadow-xs hover:shadow-md transition-all cursor-pointer flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4`}
+                    className={`p-4 rounded-2xl border ${theme.border} ${theme.bg} ${theme.text} shadow-xs hover:shadow-xl transition-all cursor-pointer flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 backdrop-blur-xs`}
                   >
                     <div className="space-y-1.5 flex-1">
                       <div className="flex flex-wrap items-center gap-2">
@@ -1045,7 +1047,8 @@ export default function GoogleCalendarView({
                           {block.day || 'Monday'} · {block.time || '02:00 - 05:00'}
                         </span>
                         {block.isBundled && (
-                          <span className="px-2 py-0.5 rounded-md bg-amber-600 text-white font-mono text-[10px] font-bold">
+                          <span className="px-2 py-0.5 rounded-full bg-amber-500 text-white font-mono text-[9px] font-black uppercase tracking-wider flex items-center gap-1 shadow-xs">
+                            <Link2 className="w-2.5 h-2.5" />
                             BUNDLED MULTI-DEPT
                           </span>
                         )}
@@ -1071,9 +1074,9 @@ export default function GoogleCalendarView({
 
                       <button
                         type="button"
-                        className="px-3 py-1.5 rounded-lg bg-white dark:bg-slate-800 border border-slate-300 dark:border-slate-700 text-xs font-bold hover:bg-slate-100 dark:hover:bg-slate-700 shadow-xs cursor-pointer flex items-center space-x-1"
+                        className="px-3.5 py-1.5 rounded-xl bg-white/90 dark:bg-slate-800/90 border border-slate-300/80 dark:border-slate-700 text-xs font-mono font-bold hover:bg-slate-100 dark:hover:bg-slate-700 shadow-xs cursor-pointer flex items-center space-x-1.5 transition-all"
                       >
-                        <Eye className="w-3.5 h-3.5" />
+                        <Eye className="w-3.5 h-3.5 text-amber-500" />
                         <span>Inspect</span>
                       </button>
                     </div>
@@ -1096,17 +1099,17 @@ export default function GoogleCalendarView({
             onClick={(e) => e.stopPropagation()}
           >
             {/* Modal Header */}
-            <div className="p-5 bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 text-white flex items-center justify-between">
+            <div className="p-5 bg-gradient-to-r from-slate-900 via-amber-950/40 to-slate-900 text-white flex items-center justify-between border-b border-amber-500/20">
               <div className="flex items-center space-x-3">
-                <div className="w-10 h-10 rounded-xl bg-amber-500/20 border border-amber-500/30 flex items-center justify-center text-amber-400">
-                  <CalendarCheck className="w-5 h-5" />
+                <div className="w-10 h-10 rounded-2xl bg-amber-500/20 border border-amber-500/30 flex items-center justify-center text-amber-400 shrink-0 shadow-xs">
+                  <CalendarCheck className="w-5 h-5 text-amber-400" />
                 </div>
                 <div>
                   <div className="flex items-center space-x-2">
                     <span className="font-mono text-xs font-bold text-amber-400">
                       {inspectModalBlock.id}
                     </span>
-                    <span className="px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 text-[10px] font-mono font-bold uppercase">
+                    <span className="px-2.5 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 text-[10px] font-mono font-bold uppercase tracking-wider">
                       CONFIRMED GAZETTE
                     </span>
                   </div>
@@ -1119,7 +1122,7 @@ export default function GoogleCalendarView({
               <button
                 type="button"
                 onClick={() => setInspectModalBlock(null)}
-                className="p-1.5 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800 transition-colors"
+                className="p-1.5 rounded-xl text-slate-400 hover:text-white hover:bg-white/10 transition-colors cursor-pointer"
               >
                 <X className="w-5 h-5" />
               </button>
@@ -1128,21 +1131,21 @@ export default function GoogleCalendarView({
             {/* Modal Body */}
             <div className="p-5 sm:p-6 space-y-4 max-h-[70vh] overflow-y-auto font-sans">
               {/* Timing & Duration Grid */}
-              <div className="grid grid-cols-3 gap-2.5 p-3 rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 text-center font-mono">
+              <div className="grid grid-cols-3 gap-2.5 p-3.5 rounded-xl bg-slate-50 dark:bg-slate-950/80 border border-slate-200/90 dark:border-slate-800 text-center font-mono">
                 <div>
-                  <div className="text-[10px] font-bold text-slate-400 uppercase">Day & Date</div>
+                  <div className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Day & Date</div>
                   <div className="text-xs font-bold text-slate-900 dark:text-slate-100 mt-0.5">
                     {inspectModalBlock.day || 'Monday'}
                   </div>
                 </div>
                 <div>
-                  <div className="text-[10px] font-bold text-slate-400 uppercase">Possession Window</div>
+                  <div className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Possession Window</div>
                   <div className="text-xs font-bold text-amber-600 dark:text-amber-400 mt-0.5">
                     {inspectModalBlock.time || '01:30 - 05:00'}
                   </div>
                 </div>
                 <div>
-                  <div className="text-[10px] font-bold text-slate-400 uppercase">Duration</div>
+                  <div className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Duration</div>
                   <div className="text-xs font-bold text-emerald-600 dark:text-emerald-400 mt-0.5">
                     {inspectModalBlock.duration_hours || 3.5} Hours
                   </div>
@@ -1198,14 +1201,14 @@ export default function GoogleCalendarView({
             </div>
 
             {/* Modal Footer with Actions */}
-            <div className="p-4 bg-slate-50 dark:bg-slate-950/80 border-t border-slate-200 dark:border-slate-800 flex flex-wrap items-center justify-between gap-3">
+            <div className="p-4 sm:p-5 bg-slate-50 dark:bg-slate-950/80 border-t border-slate-200 dark:border-slate-800 flex flex-wrap items-center justify-between gap-3 font-mono">
               <button
                 type="button"
                 onClick={() => downloadIcsFile(inspectModalBlock)}
-                className="px-3.5 py-2 rounded-lg bg-white dark:bg-slate-800 border border-slate-300 dark:border-slate-700 text-slate-800 dark:text-slate-200 text-xs font-bold hover:bg-slate-100 dark:hover:bg-slate-700 shadow-xs flex items-center space-x-1.5 cursor-pointer"
+                className="px-4 py-2 rounded-xl bg-white dark:bg-slate-800 border border-slate-300 dark:border-slate-700 text-slate-800 dark:text-slate-200 text-xs font-bold hover:bg-slate-100 dark:hover:bg-slate-700 shadow-xs flex items-center space-x-2 cursor-pointer transition-all"
               >
                 <Download className="w-3.5 h-3.5 text-amber-500" />
-                <span>Export to Google Calendar (.ics)</span>
+                <span>Export to Calendar (.ics)</span>
               </button>
 
               <div className="flex items-center space-x-2">
@@ -1213,7 +1216,7 @@ export default function GoogleCalendarView({
                   type="button"
                   disabled={isCancelling}
                   onClick={() => handleCancelBlock(inspectModalBlock.id)}
-                  className="px-4 py-2 rounded-lg bg-red-600 hover:bg-red-700 text-white text-xs font-bold shadow-xs flex items-center space-x-1.5 cursor-pointer disabled:opacity-50"
+                  className="px-4 py-2 rounded-xl bg-rose-600 hover:bg-rose-700 text-white text-xs font-bold shadow-xs flex items-center space-x-1.5 cursor-pointer disabled:opacity-50 transition-all"
                 >
                   <Trash2 className="w-3.5 h-3.5" />
                   <span>{isCancelling ? 'Cancelling...' : 'Cancel Block'}</span>
@@ -1222,7 +1225,7 @@ export default function GoogleCalendarView({
                 <button
                   type="button"
                   onClick={() => setInspectModalBlock(null)}
-                  className="px-4 py-2 rounded-lg bg-slate-200 dark:bg-slate-800 text-slate-800 dark:text-slate-200 text-xs font-bold hover:bg-slate-300 dark:hover:bg-slate-700 cursor-pointer"
+                  className="px-4 py-2 rounded-xl bg-slate-200 dark:bg-slate-800 text-slate-800 dark:text-slate-200 text-xs font-bold hover:bg-slate-300 dark:hover:bg-slate-700 cursor-pointer transition-all"
                 >
                   Close
                 </button>

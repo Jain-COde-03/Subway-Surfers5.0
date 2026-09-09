@@ -22,11 +22,11 @@ import {
  * Inner Department Dashboard view
  * Automatically consumes department context and manages data-fetching lifecycle.
  */
-function DepartmentDashboardContent({ onLogout, onSelectDepartment }) {
+function DepartmentDashboardContent({ user, onLogout, onSelectDepartment }) {
   const { department, division, departmentKey, departmentCode } = useDepartment();
 
-  // Dynamic Theme State (default to dark mode)
-  const [isDarkMode, setIsDarkMode] = useState(true);
+  // Dynamic Theme State (default to light mode)
+  const [isDarkMode, setIsDarkMode] = useState(false);
 
   // Component Data States
   const [kpis, setKpis] = useState(null);
@@ -225,17 +225,24 @@ function DepartmentDashboardContent({ onLogout, onSelectDepartment }) {
         isDarkMode={isDarkMode}
         onToggleTheme={() => setIsDarkMode((prev) => !prev)}
         onLogout={onLogout}
+        onSelectDashboard={() => {
+          const mainEl = document.querySelector('main');
+          if (mainEl) mainEl.scrollTo({ top: 0, behavior: 'smooth' });
+        }}
       />
 
       {/* Main Workspace Column: Dynamic Light / Dark Mode Canvas */}
       <div className="flex-1 flex flex-col h-full overflow-hidden min-w-0 bg-slate-50 dark:bg-slate-950 bg-[radial-gradient(rgba(30,58,138,0.1)_1.5px,transparent_1.5px)] dark:bg-[radial-gradient(rgba(255,255,255,0.06)_1.5px,transparent_1.5px)] bg-[size:24px_24px] text-slate-900 dark:text-slate-100 transition-colors duration-300">
         {/* Component 0: Minimal Dashboard Header */}
         <DashboardHeader
+          user={user}
           department={department}
           division={division}
           unreadCount={notifications.length}
           onBellClick={handleBellClick}
           onLogout={onLogout}
+          isDarkMode={isDarkMode}
+          onToggleTheme={() => setIsDarkMode((prev) => !prev)}
         />
 
         {/* Main Content Body: Bounded flex-1 with min-h-0 enables smooth scrolling */}
@@ -346,6 +353,7 @@ export default function DepartmentDashboard({
   return (
     <DepartmentProvider department={activeDept} division={division}>
       <DepartmentDashboardContent
+        user={user}
         onLogout={onLogout}
         onSelectDepartment={(dept) => setActiveDept(dept)}
       />

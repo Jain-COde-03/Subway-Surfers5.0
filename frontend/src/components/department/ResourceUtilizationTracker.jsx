@@ -103,11 +103,11 @@ function ResourceDetailOverlayModal({ resource, onClose }) {
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70 backdrop-blur-xs animate-fadeIn">
-      <div className="w-full max-w-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-xl shadow-2xl shadow-slate-900/40 dark:shadow-black/60 overflow-hidden flex flex-col max-h-[92vh]">
-        {/* Minimalist Slate Header */}
-        <div className="px-6 py-4 rounded-t-xl bg-slate-100 dark:bg-slate-800/40 flex items-center justify-between flex-shrink-0">
+      <div className="w-full max-w-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-2xl shadow-2xl shadow-slate-900/40 dark:shadow-black/60 overflow-hidden flex flex-col max-h-[92vh]">
+        {/* Top Bar with Blue Gradient */}
+        <div className="px-6 py-4 bg-gradient-to-r from-blue-500/10 via-slate-50 to-slate-100/60 dark:from-blue-500/15 dark:via-slate-900/90 dark:to-slate-900 border-b border-slate-200/80 dark:border-slate-800 flex items-center justify-between flex-shrink-0">
           <div className="flex items-center space-x-3">
-            <div className="w-9 h-9 rounded-sm bg-slate-100 dark:bg-slate-950 text-amber-600 dark:text-amber-500 flex items-center justify-center border border-slate-200 dark:border-slate-800 flex-shrink-0 shadow-xs">
+            <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-blue-500/20 via-slate-100 to-slate-200 dark:via-slate-800 dark:to-slate-900 border border-blue-500/30 text-blue-600 dark:text-blue-400 flex items-center justify-center flex-shrink-0 shadow-md shadow-blue-500/10">
               <Gauge className="w-4 h-4" />
             </div>
             <div>
@@ -116,7 +116,7 @@ function ResourceDetailOverlayModal({ resource, onClose }) {
                   RESOURCE TELEMETRY · {resource.label}
                 </h3>
                 <span
-                  className={`text-[9px] font-mono font-bold px-2 py-0.5 rounded-sm uppercase inline-flex items-center space-x-1 ${
+                  className={`text-[9px] font-mono font-bold px-2.5 py-0.5 rounded-full uppercase inline-flex items-center space-x-1 ${
                     isCritical
                       ? 'bg-rose-50 dark:bg-rose-950/60 text-rose-800 dark:text-rose-300 border border-rose-300/80 dark:border-rose-800/80'
                       : 'bg-emerald-50 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-300 border border-emerald-300/80 dark:border-emerald-700/80'
@@ -144,15 +144,15 @@ function ResourceDetailOverlayModal({ resource, onClose }) {
           <button
             type="button"
             onClick={onClose}
-            className="p-1.5 rounded-lg text-slate-400 hover:text-slate-900 dark:hover:text-white hover:bg-slate-200 dark:hover:bg-slate-800 transition-colors cursor-pointer"
+            className="p-1.5 rounded-xl text-slate-400 hover:text-slate-900 dark:hover:text-white hover:bg-slate-200 dark:hover:bg-slate-800 transition-colors cursor-pointer"
             title="Close Telemetry"
           >
             <X className="w-4 h-4" />
           </button>
         </div>
 
-        {/* Vanishing Dark Strip */}
-        <div className="h-1.5 w-full bg-gradient-to-r from-slate-800 via-slate-700 to-transparent dark:from-slate-600 dark:via-slate-700/50 dark:to-transparent opacity-90 flex-shrink-0"></div>
+        {/* Vanishing Blue Gradient Strip */}
+        <div className="h-1 w-full bg-gradient-to-r from-blue-500 via-indigo-400/60 to-transparent flex-shrink-0"></div>
 
         {/* Modal Scrollable Body */}
         <div className="p-5 sm:p-6 space-y-4 overflow-y-auto text-xs">
@@ -364,11 +364,11 @@ export default function ResourceUtilizationTracker({
   }
 
   return (
-    <div className="w-full bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 shadow-xl shadow-slate-900/10 dark:shadow-black/40 overflow-hidden flex flex-col justify-between transition-colors duration-300">
-      {/* Minimalist Slate Header */}
-      <div className="px-5 py-4 rounded-t-lg bg-slate-100 dark:bg-slate-800/40 flex flex-wrap items-center justify-between gap-2">
-        <div className="flex items-center space-x-2.5">
-          <div className="w-8 h-8 rounded-sm bg-slate-100 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 text-amber-600 dark:text-amber-500 flex items-center justify-center shadow-xs shrink-0">
+    <div className="w-full bg-white dark:bg-slate-900 rounded-xl border border-slate-200/90 dark:border-slate-800 shadow-xl shadow-slate-900/5 dark:shadow-black/40 overflow-hidden flex flex-col justify-between transition-colors duration-300">
+      {/* Top Bar with Soothing Theme Gradient */}
+      <div className="px-5 py-4 bg-gradient-to-r from-blue-500/10 via-slate-50 to-slate-100/60 dark:from-blue-500/15 dark:via-slate-900/90 dark:to-slate-900 border-b border-slate-200/80 dark:border-slate-800 flex flex-wrap items-center justify-between gap-2">
+        <div className="flex items-center space-x-3">
+          <div className="w-9 h-9 rounded-2xl bg-gradient-to-br from-blue-50 via-white to-blue-100/60 dark:from-blue-500/20 dark:via-slate-800 dark:to-slate-900 border border-blue-300/80 dark:border-blue-500/40 text-blue-600 dark:text-blue-400 flex items-center justify-center shadow-xs shrink-0">
             <Gauge className="w-4 h-4" />
           </div>
           <div>
@@ -376,7 +376,7 @@ export default function ResourceUtilizationTracker({
               <h3 className="text-xs sm:text-sm font-black uppercase tracking-wider text-slate-900 dark:text-slate-100 leading-tight">
                 Resource Utilization Tracker
               </h3>
-              <span className="text-[9px] font-bold px-1.5 py-0.5 rounded-sm bg-amber-700 text-white uppercase font-mono">
+              <span className="text-[9px] font-mono font-bold px-2 py-0.5 rounded-full bg-blue-500/15 text-blue-700 dark:text-blue-300 border border-blue-500/30 uppercase tracking-wider shadow-2xs">
                 CAPACITY
               </span>
             </div>
@@ -386,13 +386,13 @@ export default function ResourceUtilizationTracker({
           </div>
         </div>
 
-        <span className="text-[10px] font-bold uppercase tracking-wider text-amber-800 dark:text-amber-300 bg-amber-50 dark:bg-amber-950/60 px-2 py-0.5 rounded-md border border-amber-300/80 dark:border-amber-700/80 font-mono">
+        <span className="text-[9px] font-mono font-bold uppercase tracking-wider text-amber-800 dark:text-amber-300 bg-amber-500/10 px-2.5 py-0.5 rounded-full border border-amber-500/30 shadow-2xs">
           &lt;30% = Deficit
         </span>
       </div>
 
-      {/* Vanishing Dark Strip */}
-      <div className="h-1.5 w-full bg-gradient-to-r from-slate-800 via-slate-700 to-transparent dark:from-slate-600 dark:via-slate-700/50 dark:to-transparent opacity-90"></div>
+      {/* Vanishing Blue Gradient Strip */}
+      <div className="h-1 w-full bg-gradient-to-r from-blue-500 via-indigo-400/60 to-transparent"></div>
 
       {/* Main Body Content */}
       <div className="p-4 sm:p-5 flex-1 flex flex-col justify-between space-y-4">
@@ -400,7 +400,7 @@ export default function ResourceUtilizationTracker({
         {isLoading ? (
           <div className="space-y-3 animate-pulse">
             {[1, 2, 3, 4].map((i) => (
-              <div key={i} className="p-3 bg-slate-50 dark:bg-slate-950 rounded-lg border border-slate-200 dark:border-slate-800 space-y-2">
+              <div key={i} className="p-3.5 bg-slate-50 dark:bg-slate-950 rounded-xl border border-slate-200 dark:border-slate-800 space-y-2">
                 <div className="flex justify-between">
                   <div className="h-3 bg-slate-200 dark:bg-slate-800 rounded-md w-28"></div>
                   <div className="h-3 bg-slate-200 dark:bg-slate-800 rounded-md w-10"></div>
@@ -411,9 +411,9 @@ export default function ResourceUtilizationTracker({
           </div>
         ) : utilization.length === 0 ? (
           /* Empty State */
-          <div className="p-8 text-center flex flex-col items-center justify-center text-slate-500 dark:text-slate-400 bg-slate-50/70 dark:bg-slate-900/60 flex-1 border border-dashed border-slate-200 dark:border-slate-800 rounded-lg space-y-1.5">
-            <div className="w-8 h-8 rounded-md bg-slate-900 text-amber-500 flex items-center justify-center border border-slate-800 mb-1">
-              <Gauge className="w-4 h-4" />
+          <div className="p-8 text-center flex flex-col items-center justify-center text-slate-500 dark:text-slate-400 bg-slate-50/70 dark:bg-slate-900/60 flex-1 border border-dashed border-slate-200 dark:border-slate-800 rounded-xl space-y-1.5">
+            <div className="w-10 h-10 rounded-2xl bg-blue-50 dark:bg-slate-800 border border-blue-300/80 dark:border-blue-500/40 text-blue-500 flex items-center justify-center mb-1 shadow-xs">
+              <Gauge className="w-5 h-5" />
             </div>
             <span className="text-xs font-bold uppercase tracking-wider text-slate-800 dark:text-slate-200">
               No resource metrics registered
@@ -429,17 +429,17 @@ export default function ResourceUtilizationTracker({
                 <div
                   key={idx}
                   onClick={() => setSelectedResource(item)}
-                  className="group bg-white dark:bg-slate-950 border border-slate-200/90 dark:border-slate-800 rounded-lg p-3.5 shadow-xs space-y-2 hover:border-amber-400 dark:hover:border-amber-600/70 hover:shadow-md transition-all cursor-pointer"
+                  className="group bg-white dark:bg-slate-950 border border-slate-200/90 dark:border-slate-800 rounded-xl p-3.5 shadow-xs space-y-2.5 hover:border-blue-400 dark:hover:border-blue-500/70 hover:shadow-md transition-all cursor-pointer"
                   title="Click to view full resource telemetry & allocation"
                 >
                   {/* Metric Label & Percent Pill */}
                   <div className="flex items-center justify-between text-xs">
                     <div className="flex items-center space-x-1.5">
-                      <span className="font-bold text-slate-800 dark:text-slate-100 text-xs group-hover:text-amber-600 dark:group-hover:text-amber-400 transition-colors">
+                      <span className="font-bold text-slate-800 dark:text-slate-100 text-xs group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
                         {item.label}
                       </span>
                       {isCritical && (
-                        <span className="inline-flex items-center space-x-1 text-[9px] font-bold uppercase font-mono px-1.5 py-0.5 rounded-md bg-rose-50 dark:bg-rose-950/60 text-rose-800 dark:text-rose-300 border border-rose-200 dark:border-rose-800/80 tracking-wider animate-pulse">
+                        <span className="inline-flex items-center space-x-1 text-[9px] font-bold uppercase font-mono px-2 py-0.5 rounded-full bg-rose-50 dark:bg-rose-950/60 text-rose-800 dark:text-rose-300 border border-rose-200 dark:border-rose-800/80 tracking-wider animate-pulse">
                           <AlertTriangle className="w-2.5 h-2.5" />
                           <span>Deficit</span>
                         </span>
@@ -459,10 +459,12 @@ export default function ResourceUtilizationTracker({
                   </div>
 
                   {/* Progress Bar Track: Rounded and indented */}
-                  <div className="w-full bg-slate-100 dark:bg-slate-900 h-2 rounded-full overflow-hidden border border-slate-200 dark:border-slate-800 shadow-inner">
+                  <div className="w-full bg-slate-100 dark:bg-slate-900 h-2.5 rounded-full overflow-hidden border border-slate-200/80 dark:border-slate-800 shadow-inner p-0.5">
                     <div
                       className={`h-full rounded-full transition-all duration-500 ${
-                        isCritical ? 'bg-rose-600' : 'bg-amber-500'
+                        isCritical
+                          ? 'bg-gradient-to-r from-rose-500 to-rose-600 shadow-[0_0_8px_rgba(244,63,94,0.6)]'
+                          : 'bg-gradient-to-r from-blue-500 to-indigo-600 shadow-[0_0_8px_rgba(59,130,246,0.4)]'
                       }`}
                       style={{ width: `${Math.min(100, Math.max(0, item.percent))}%` }}
                     ></div>
@@ -474,7 +476,7 @@ export default function ResourceUtilizationTracker({
         )}
 
         {/* Capacity Note */}
-        <div className="pt-3 border-t border-slate-200 dark:border-slate-800 flex items-center justify-between text-[10px] text-slate-500 dark:text-slate-400 font-mono">
+        <div className="pt-3 border-t border-slate-200/80 dark:border-slate-800/80 flex items-center justify-between text-[10px] text-slate-500 dark:text-slate-400 font-mono">
           <span>CRIS Asset Allocation Rule 14.2</span>
           <span className="text-slate-700 dark:text-slate-300 font-bold uppercase tracking-wider">Division Quota Normal</span>
         </div>

@@ -84,11 +84,11 @@ export default function SmartActivityFeed({
   }
 
   return (
-    <div className="w-full bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 shadow-xl shadow-slate-900/10 dark:shadow-black/40 overflow-hidden flex flex-col h-full transition-colors duration-300">
-      {/* Minimalist Slate Header */}
-      <div className="px-5 py-4 rounded-t-lg bg-slate-100 dark:bg-slate-800/40 flex flex-wrap items-center justify-between gap-2">
-        <div className="flex items-center space-x-2.5">
-          <div className="w-8 h-8 rounded-sm bg-slate-100 dark:bg-slate-950 text-amber-600 dark:text-amber-500 flex items-center justify-center border border-slate-200 dark:border-slate-800 flex-shrink-0">
+    <div className="w-full bg-white dark:bg-slate-900 rounded-xl border border-slate-200/90 dark:border-slate-800 shadow-xl shadow-slate-900/5 dark:shadow-black/40 overflow-hidden flex flex-col h-full transition-colors duration-300">
+      {/* Top Bar with Soothing Theme Gradient */}
+      <div className="px-5 py-4 bg-gradient-to-r from-emerald-500/10 via-slate-50 to-slate-100/60 dark:from-emerald-500/15 dark:via-slate-900/90 dark:to-slate-900 border-b border-slate-200/80 dark:border-slate-800 flex flex-wrap items-center justify-between gap-2">
+        <div className="flex items-center space-x-3">
+          <div className="w-9 h-9 rounded-2xl bg-gradient-to-br from-emerald-50 via-white to-emerald-100/60 dark:from-emerald-500/20 dark:via-slate-800 dark:to-slate-900 border border-emerald-300/80 dark:border-emerald-500/40 text-emerald-600 dark:text-emerald-400 flex items-center justify-center flex-shrink-0 shadow-xs">
             <Radio className="w-4 h-4" />
           </div>
           <div>
@@ -96,7 +96,7 @@ export default function SmartActivityFeed({
               <h3 className="text-xs sm:text-sm font-black uppercase tracking-wider text-slate-900 dark:text-slate-100 leading-tight">
                 LIVE SERVER ACTIVITY LOG
               </h3>
-              <span className="text-[9px] font-bold px-1.5 py-0.5 rounded-sm bg-amber-700 text-white uppercase font-mono">
+              <span className="text-[9px] font-mono font-bold px-2 py-0.5 rounded-full bg-emerald-500/15 text-emerald-700 dark:text-emerald-300 border border-emerald-500/30 uppercase tracking-wider shadow-2xs">
                 TELEMETRY
               </span>
             </div>
@@ -107,16 +107,16 @@ export default function SmartActivityFeed({
         </div>
 
         {/* Live Status Indicator */}
-        <div className="flex items-center space-x-2 px-2.5 py-1 rounded-sm border border-slate-300 dark:border-slate-700 bg-slate-100 dark:bg-slate-950 text-slate-900 dark:text-white">
-          <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-          <span className="text-[10px] font-mono font-bold text-emerald-600 dark:text-emerald-400">
+        <div className="flex items-center space-x-1.5 px-3 py-1 rounded-full border border-emerald-500/30 bg-emerald-500/10 text-emerald-700 dark:text-emerald-400 shadow-2xs">
+          <span className="w-2 h-2 rounded-full bg-emerald-500 shadow-[0_0_6px_rgba(16,185,129,0.8)] animate-pulse"></span>
+          <span className="text-[10px] font-mono font-bold uppercase tracking-wider">
             ONLINE
           </span>
         </div>
       </div>
 
-      {/* Vanishing Dark Strip */}
-      <div className="h-1.5 w-full bg-gradient-to-r from-slate-800 via-slate-700 to-transparent dark:from-slate-600 dark:via-slate-700/50 dark:to-transparent opacity-90"></div>
+      {/* Vanishing Emerald Gradient Strip */}
+      <div className="h-1 w-full bg-gradient-to-r from-emerald-500 via-emerald-400/60 to-transparent"></div>
 
       {/* Main Body */}
       <div className="p-4 sm:p-5 flex-1 flex flex-col justify-between space-y-4">
@@ -124,7 +124,7 @@ export default function SmartActivityFeed({
         {isLoading ? (
           <div className="space-y-3 animate-pulse flex-1">
             {[1, 2, 3, 4].map((i) => (
-              <div key={i} className="p-3 bg-slate-50 dark:bg-slate-950 rounded-lg border border-slate-200 dark:border-slate-800 space-y-2">
+              <div key={i} className="p-3.5 bg-slate-50 dark:bg-slate-950 rounded-xl border border-slate-200 dark:border-slate-800 space-y-2">
                 <div className="flex justify-between">
                   <div className="h-3 bg-slate-200 dark:bg-slate-800 rounded-md w-20"></div>
                   <div className="h-2.5 bg-slate-200 dark:bg-slate-800 rounded-md w-16"></div>
@@ -135,9 +135,9 @@ export default function SmartActivityFeed({
           </div>
         ) : notifications.length === 0 ? (
           /* Empty State */
-          <div className="p-8 text-center flex flex-col items-center justify-center text-slate-500 dark:text-slate-400 bg-slate-50/70 dark:bg-slate-900/60 flex-1 border border-dashed border-slate-200 dark:border-slate-800 rounded-lg space-y-1.5">
-            <div className="w-8 h-8 rounded-md bg-slate-900 text-amber-500 flex items-center justify-center border border-slate-800 mb-1">
-              <Bell className="w-4 h-4" />
+          <div className="p-8 text-center flex flex-col items-center justify-center text-slate-500 dark:text-slate-400 bg-slate-50/70 dark:bg-slate-900/60 flex-1 border border-dashed border-slate-200 dark:border-slate-800 rounded-xl space-y-1.5">
+            <div className="w-10 h-10 rounded-2xl bg-emerald-50 dark:bg-slate-800 border border-emerald-300/80 dark:border-emerald-500/40 text-emerald-600 dark:text-emerald-400 flex items-center justify-center mb-1 shadow-xs">
+              <Bell className="w-5 h-5" />
             </div>
             <p className="text-xs font-bold uppercase tracking-wider text-slate-800 dark:text-slate-200">NO RECENT LOG ENTRIES</p>
             <p className="text-[11px] text-slate-500 dark:text-slate-400 font-mono">
@@ -154,11 +154,11 @@ export default function SmartActivityFeed({
               return (
                 <div
                   key={item.id}
-                  className="p-3 rounded-lg border border-slate-200/90 dark:border-slate-800 bg-white dark:bg-slate-950 shadow-xs hover:border-slate-300 dark:hover:border-slate-700 transition-all space-y-1.5"
+                  className="p-3.5 rounded-xl border border-slate-200/90 dark:border-slate-800 bg-white dark:bg-slate-950 shadow-xs hover:border-slate-300 dark:hover:border-slate-700 hover:shadow-md transition-all space-y-2"
                 >
                   <div className="flex items-center justify-between">
                     <span
-                      className={`inline-flex items-center space-x-1 px-2 py-0.5 rounded-md text-[10px] font-bold uppercase font-mono tracking-wider border ${meta.badge}`}
+                      className={`inline-flex items-center space-x-1.5 px-2.5 py-0.5 rounded-full text-[9px] font-bold uppercase font-mono tracking-wider border ${meta.badge}`}
                     >
                       <Icon className="w-3 h-3" />
                       <span>{meta.label}</span>
@@ -180,7 +180,7 @@ export default function SmartActivityFeed({
         )}
 
         {/* Telemetry Status Footer */}
-        <div className="pt-3 border-t border-slate-200 dark:border-slate-800 flex items-center justify-between text-[10px] text-slate-500 dark:text-slate-400 font-mono">
+        <div className="pt-3 border-t border-slate-200/80 dark:border-slate-800/80 flex items-center justify-between text-[10px] text-slate-500 dark:text-slate-400 font-mono">
           <span>CRIS Solvers · Stream Polling Active</span>
           <span className="text-slate-700 dark:text-slate-300 font-bold uppercase tracking-wider">Sync: 15s</span>
         </div>
