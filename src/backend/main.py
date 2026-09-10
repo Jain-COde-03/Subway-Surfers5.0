@@ -1,6 +1,13 @@
 import os
+import sys
 import json
 import datetime
+
+# Ensure 'src' is in sys.path so 'backend.*' imports resolve from any execution context
+_SRC_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+if _SRC_DIR not in sys.path:
+    sys.path.insert(0, _SRC_DIR)
+
 import pandas as pd
 from fastapi import FastAPI, Query, Response, Request, Depends, HTTPException, status, Body
 from fastapi.middleware.cors import CORSMiddleware

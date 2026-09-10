@@ -13,6 +13,12 @@
   - **Optimization**: OR-Tools CP-SAT Corridor Possession Solver (`backend/models/optimizer.py`)
   - **Python Environment**: `backend/.venv/bin/python`
 - **Frontend**: React 18 + Vite + Tailwind CSS (`frontend/src/`)
+- **Backend**: FastAPI (`src/backend/main.py`)
+  - **Database**: SQLite3 (`src/backend/database.py`, `src/backend/railway.db`)
+  - **AI / ML**: XGBoost Defect Priority Model (`src/backend/models/priority_model.py`)
+  - **Optimization**: OR-Tools CP-SAT Corridor Possession Solver (`src/backend/models/optimizer.py`)
+  - **Python Environment**: `src/backend/.venv/bin/python`
+- **Frontend**: React 18 + Vite + Tailwind CSS (`src/frontend/src/`)
   - **State Management**: Centralized React State + Polling / REST API synchronization
   - **Routing**: Tab/view-based navigation (`AdminDashboard.jsx`, `DepartmentDashboard.jsx`, `ControllerDashboard.jsx`)
 

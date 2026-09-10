@@ -5,6 +5,7 @@ services:
   backend:
     build:
       context: ./backend
+      context: ./src/backend
       dockerfile: Dockerfile
     container_name: samay_backend
     restart: unless-stopped
@@ -20,8 +21,10 @@ services:
       - samay_db:/data
       # Persist model files (the .joblib) without rebuilding
       - ./backend/models:/app/backend/models:ro
+      - ./src/backend/models:/app/backend/models:ro
       # Persist input CSVs
       - ./backend/data:/app/backend/data:ro
+      - ./src/backend/data:/app/backend/data:ro
     networks:
       - samay_network
     # No published ports — Nginx is the only public entry point
@@ -37,6 +40,7 @@ services:
   frontend:
     build:
       context: ./frontend
+      context: ./src/frontend
       dockerfile: Dockerfile
     container_name: samay_frontend
     restart: unless-stopped

@@ -14,9 +14,12 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the full backend source
 COPY . .
+COPY . /app/backend
 
 # The database file lives in a Docker volume mounted at /data
 # We tell database.py to use that path via the DB_PATH env var
+# Ensure Python looks in /app for the backend package
+ENV PYTHONPATH=/app
 ENV DB_PATH=/data/railway.db
 
 # Expose FastAPI port
