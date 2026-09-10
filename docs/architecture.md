@@ -115,9 +115,9 @@ SAMAY synchronizes maintenance possession blocks across railway departments (Civ
 
 ---
 
-## 4. Deployment Topology
+## 4. Deployment & Runtime Topology
 
-The system is fully containerized via `docker-compose.yml`:
-- **Backend Container**: FastAPI uvicorn server running Python 3.11 with SQLite volume mount at `/data/railway.db`.
-- **Frontend Container**: Multi-stage build producing production React assets served via an optimized Nginx alpine container on port 80.
+The system is structured as decoupled, highly portable services:
+- **Backend Service**: FastAPI uvicorn application server running Python 3.11 with SQLite persistence.
+- **Frontend Service**: React 18 SPA built with Vite and Tailwind CSS, communicating via REST API and proxy routing.
 

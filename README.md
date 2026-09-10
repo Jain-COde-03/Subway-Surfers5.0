@@ -104,7 +104,6 @@ SUBWAY-SURFERS-2.0/
 ├── README.md                      # Primary project overview & documentation
 ├── SUBMISSION_GUIDE.md            # SIH 2026 checklist & compliance guide
 ├── LICENSE                        # MIT License
-├── docker-compose.yml             # Docker multi-container orchestration
 ├── requirements.txt               # Backend Python dependencies
 ├── submission/
 │   ├── PRESENTATION.md            # Pitch deck details & links
@@ -121,13 +120,11 @@ SUBWAY-SURFERS-2.0/
     │   ├── database.py            # SQLite schema & queries
     │   ├── auth.py                # JWT authentication & RBAC
     │   ├── models/                # XGBoost model & CP-SAT optimizer
-    │   ├── data/                  # Input corridor CSVs and plan outputs
-    │   └── Dockerfile             # Backend container definition
+    │   └── data/                  # Input corridor CSVs and plan outputs
     └── frontend/                  # React 18 frontend application
         ├── src/                   # Dashboards, modals & state stores
         ├── package.json           # Frontend dependencies
-        ├── vite.config.js         # Vite configuration & dev proxy
-        └── Dockerfile             # Multi-stage Nginx container definition
+        └── vite.config.js         # Vite configuration & dev proxy
 ```
 
 ---
@@ -138,30 +135,10 @@ SUBWAY-SURFERS-2.0/
 - [Git](https://git-scm.com/)
 - [Python 3.11+](https://www.python.org/)
 - [Node.js 18+](https://nodejs.org/) & npm
-- [Docker](https://www.docker.com/) & Docker Compose *(optional for container deployment)*
 
 ---
 
-### Option A: Docker Deployment (Recommended)
-
-Run the entire application (Backend + Frontend + Database) with a single command:
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/NSUT-SIH-26/NSUT-SIH-DEMO.git
-cd SUBWAY-SURFERS-2.0
-
-# 2. Build and start services
-docker-compose up --build -d
-
-# 3. Open your browser
-# Frontend Client: http://localhost:80
-# Backend API Docs: http://localhost:8000/docs
-```
-
----
-
-### Option B: Local Development Setup
+### Quick Start Setup
 
 #### 1. Backend Setup
 

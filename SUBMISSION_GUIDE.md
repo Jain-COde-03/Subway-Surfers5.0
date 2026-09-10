@@ -26,7 +26,6 @@ SUBWAY-SURFERS-2.0/
 ├── README.md
 ├── SUBMISSION_GUIDE.md
 ├── LICENSE
-├── docker-compose.yml
 ├── requirements.txt
 ├── submission/
 │   ├── PRESENTATION.md
