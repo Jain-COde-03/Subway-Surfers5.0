@@ -31,7 +31,8 @@ src/frontend/.vite/
 Thumbs.db
 .idea/
 .vscode/
-*.log
+# Temporary & Scratch
+scratch/
 
 # Docker overrides
 docker-compose.override.yml
