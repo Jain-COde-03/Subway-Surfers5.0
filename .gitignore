@@ -18,6 +18,7 @@ src/backend/railway.db
 
 # Antigravity / AI-generated project memory
 .codebase-memory/
+GEMINI.md
 
 # Node / Frontend
 node_modules/
@@ -34,3 +35,4 @@ Thumbs.db
 
 # Docker overrides
 docker-compose.override.yml
+
