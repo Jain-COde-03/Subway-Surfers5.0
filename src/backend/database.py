@@ -1,12 +1,8 @@
 """
 database.py
 
-A minimal SQLite persistence layer, built to slot into your existing
-pandas-heavy backend with as little new code as possible. Uses raw
-sqlite3 + pandas.to_sql/read_sql_query rather than an ORM, since your
-priority_model.py and optimizer.py already operate on DataFrames.
-
-Import this in main.py and call init_db() once on startup.
+SQLite persistence layer for SAMAY backend.
+Interfaces with pandas DataFrames for tasks, blocks, and notifications.
 """
 
 import sqlite3

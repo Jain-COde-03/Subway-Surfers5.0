@@ -385,7 +385,7 @@ def api_score_defect(
             "asset_criticality_class": "Trunk Route",
             "safety_risk_flag": 1 if req.speed_drop > 0 else 0,
             "priority_score": score,
-            "status": "Awaiting Approval" # Setting this so it shows up in your pending queue
+            "status": "Awaiting Approval",
         }
 
         # 5. Persist to SQLite Database
@@ -1002,7 +1002,6 @@ def api_generate_plan(user: dict = Depends(require_admin_user)):
 
         # Persist results back to the DB, not just a JSON file
         database.update_task_scores(tasks_df)
-        database.save_blocks(schedule)  # adjust to match your schedule DataFrame's columns
         database.save_blocks(schedule)
 
         os.makedirs(output_dir, exist_ok=True)

@@ -9,7 +9,7 @@ from sklearn.pipeline import Pipeline
 from xgboost import XGBRegressor
 from sklearn.metrics import r2_score
 
-# Fix Paths for your local Windows machine
+# Data path configuration
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data" / "input"
 OUT_DIR = BASE_DIR / "models"
@@ -17,7 +17,7 @@ OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 RANDOM_STATE = 42
 
-print("🚀 Starting XGBoost Regressor Training...")
+print("Starting XGBoost Regressor Training...")
 
 # 1. LOAD & MERGE DATA
 sources = {
@@ -45,7 +45,7 @@ df["sla_score"] = df["sla_flag"].astype(float)
 df["recurrence_score"] = (df["repeat_defect_count"] / 3).clip(upper=1)
 df["criticality_score"] = df["asset_criticality_class"].map(CRITICALITY_MAP)
 
-# This is the 0-100 numerical target we want the AI to predict
+# Compute composite priority target score (0 - 100)
 df["priority_score_computed"] = 100 * (
     0.30 * df["severity_score"] + 0.20 * df["overdue_score"] +
     0.20 * df["safety_score"] + 0.10 * df["sla_score"] +
@@ -62,7 +62,7 @@ X = df[feature_cols].copy()
 for c in boolean_features:
     X[c] = X[c].astype(int)
 
-# TARGET is now the number, not the text bucket
+# Target continuous priority score
 y = df["priority_score_computed"]
 
 # 4. TRAIN / TEST SPLIT
@@ -77,7 +77,7 @@ preprocessor = ColumnTransformer(
 clf = XGBRegressor(n_estimators=300, max_depth=4, learning_rate=0.08, random_state=RANDOM_STATE)
 model_pipeline = Pipeline(steps=[("preprocessor", preprocessor), ("classifier", clf)])
 
-print("🧠 Training the AI...")
+print("Fitting XGBoost regressor pipeline...")
 model_pipeline.fit(X_train, y_train)
 
 # 6. EVALUATE

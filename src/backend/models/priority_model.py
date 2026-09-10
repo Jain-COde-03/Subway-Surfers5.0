@@ -5,7 +5,7 @@ import joblib
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MODEL_PATH = os.path.join(BASE_DIR, "models", "priority_classifier_model.joblib") 
 
-# Load the brain into memory when the server starts
+# Load model artifact when the module is imported
 try:
     bundle = joblib.load(MODEL_PATH)
     pipeline = bundle["pipeline"]
@@ -20,12 +20,12 @@ def score_tasks(tasks_df: pd.DataFrame) -> pd.DataFrame:
 
     predict_df = tasks_df.copy()
     
-    # Safely handle missing columns to prevent API crashes
+    # Safely handle missing columns to prevent runtime errors
     for col in feature_cols:
         if col not in predict_df.columns:
             predict_df[col] = 0 if col in ['sla_flag', 'safety_risk_flag', 'days_overdue', 'repeat_defect_count', 'estimated_block_duration_hours'] else "UNKNOWN"
                 
-    # 🔮 The actual AI prediction
+    # Generate priority prediction using trained pipeline
     predict_df['priority_score'] = pipeline.predict(predict_df[feature_cols])
     predict_df['priority_score'] = predict_df['priority_score'].clip(lower=0, upper=100).round(2)
     
