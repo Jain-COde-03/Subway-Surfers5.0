@@ -143,18 +143,16 @@ SUBWAY-SURFERS-2.0/
 #### 1. Backend Setup
 
 ```bash
-# Navigate to backend directory
-cd src/backend
-
-# Create and activate virtual environment
+# In the project root (where requirements.txt is located):
 python3 -m venv .venv
 source .venv/bin/activate    # On Windows: .venv\Scripts\activate
 
-# Install dependencies
+# Install Python dependencies
 pip install -r requirements.txt
 
-# Run the FastAPI server
-uvicorn main:app --reload --port 8000
+# Navigate to src and run FastAPI server
+cd src
+uvicorn backend.main:app --reload --port 8000
 ```
 *Backend runs on `http://127.0.0.1:8000` with Swagger UI at `http://127.0.0.1:8000/docs`.*
 
@@ -196,11 +194,16 @@ npm run dev
 ## 11. Team Members & Roles
 
 - **Team Name**: Subway Surfers
-- **Team Lead**: Dhairya Jain *(System Architecture, ML & Full-Stack Engineering)*
-- **Team Members**:
-  - Full-Stack & Algorithm Engineering: *Subway Surfers Core Team*
-  - Operations Research & CP-SAT Optimization: *Optimization Lead*
-  - Data Pipeline & Domain Modeling: *Railway Domain Lead*
+- **Team Leader**: **Ritvik Khurana** (`2025UCS1540`)
+
+| S.No. | Name | Roll Number | Role |
+| :---: | :--- | :---: | :--- |
+| **1** | **Ritvik Khurana** | `2025UCS1540` | **Team Leader** |
+| **2** | **Dhairya Jain** | `2025UCS1501` | Core Developer / System Architecture |
+| **3** | **Piyush Aggarwal** | `2025UCS1569` | Team Member |
+| **4** | **Abhishek Dhiman** | `2025UCS1553` | Team Member |
+| **5** | **Dyuthi Vasupal** | `2025UCS1511` | Team Member |
+| **6** | **Riya Khohal** | `2025UCS1556` | Team Member |
 
 ---
 
