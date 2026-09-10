@@ -196,14 +196,14 @@ npm run dev
 - **Team Name**: Subway Surfers
 - **Team Leader**: **Ritvik Khurana** (`2025UCS1540`)
 
-| S.No. | Name | Roll Number | Role |
+| S.No. | Name | Roll Number | Role & Responsibilities |
 | :---: | :--- | :---: | :--- |
-| **1** | **Ritvik Khurana** | `2025UCS1540` | **Team Leader** |
-| **2** | **Dhairya Jain** | `2025UCS1501` | Core Developer / System Architecture |
-| **3** | **Piyush Aggarwal** | `2025UCS1569` | Team Member |
-| **4** | **Abhishek Dhiman** | `2025UCS1553` | Team Member |
-| **5** | **Dyuthi Vasupal** | `2025UCS1511` | Team Member |
-| **6** | **Riya Khohal** | `2025UCS1556` | Team Member |
+| **1** | **Ritvik Khurana** | `2025UCS1540` | **Team Lead & Operations Research Lead** · CP-SAT Optimization Formulations & System Design |
+| **2** | **Dhairya Jain** | `2025UCS1501` | **Full-Stack System Architect & Backend Lead** · FastAPI Core, Database Architecture & API Integration |
+| **3** | **Piyush Aggarwal** | `2025UCS1569` | **Machine Learning Engineer** · XGBoost Defect Prioritization Pipeline & Model Training |
+| **4** | **Abhishek Dhiman** | `2025UCS1553` | **Lead UI/UX Designer & Frontend Engineer** · React 18 Dashboards, Telemetry Modals & Design System |
+| **5** | **Dyuthi Vasupal** | `2025UCS1511` | **AI Data Scientist & Optimization Analyst** · Feature Engineering, Model Evaluation & Data Preprocessing |
+| **6** | **Riya Khohal** | `2025UCS1556` | **Product Strategist & Technical Documentation Lead** · Domain Research, Pitch Deck & Solution Benchmarking |
 
 ---
 
